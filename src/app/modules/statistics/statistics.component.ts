@@ -19,7 +19,8 @@ export class StatisticsComponent implements OnInit {
     this.mediaSub = this.mediaObserver.media$.subscribe(
       (result: MediaChange) => {
         this.deviceSize = result.mqAlias;
-        this.deviceMd = result.mqAlias === 'sm' ? true : false;
+        this.deviceMd =
+          this.deviceSize === 'sm' || this.deviceSize === 'xs' ? true : false;
       }
     );
   }

@@ -12,7 +12,7 @@ import { Summary } from '../models/summary.interface';
   providedIn: 'root',
 })
 export class ApiService {
-  private SERVER_URL: string = 'https://api.covid19api.com/summary';
+  private SERVER_URL: string = 'https://api.covid19api.com/';
   private API_KEY = '';
 
   constructor(private _httpClient: HttpClient) {}
@@ -23,23 +23,9 @@ export class ApiService {
     }),
   };
 
-  public getDataRequest() {
-    // Add safe, URL encoded_page parameter
+  public sendGetRequest(url: string) {
     return this._httpClient
-      .get(this.SERVER_URL, {
-        params: new HttpParams({ fromString: '' }),
-        observe: 'body',
-      })
-      .pipe(
-        retry(1),
-        catchError(this.handleError),
-        tap((res) => {})
-      );
-  }
-
-  public sendGetRequest() {
-    return this._httpClient
-      .get<Summary>(this.SERVER_URL, {
+      .get<Summary>(this.SERVER_URL + url, {
         params: new HttpParams({ fromString: '' }),
         observe: 'response',
       })

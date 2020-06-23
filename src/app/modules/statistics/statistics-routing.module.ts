@@ -6,6 +6,7 @@ import { MyLineChartComponent } from './my-line-chart/my-line-chart.component';
 import { MyCircleComponent } from './my-circle/my-circle.component';
 import { MyPieComponent } from './my-pie/my-pie.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { HistoricalComponent } from './historical/historical.component';
 
 const routes: Routes = [
   {
@@ -13,9 +14,7 @@ const routes: Routes = [
     component: StatisticsComponent,
     children: [
       { path: 'current', component: DashboardComponent },
-      { path: 'line', component: MyLineChartComponent },
-      { path: 'circle', component: MyCircleComponent },
-      { path: 'pie', component: MyPieComponent },
+      { path: 'historical', component: HistoricalComponent },
     ],
   },
 ];

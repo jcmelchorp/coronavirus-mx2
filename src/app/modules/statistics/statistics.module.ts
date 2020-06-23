@@ -13,9 +13,10 @@ import { ChartsModule } from 'ng2-charts';
 import { MyLineChartComponent } from './my-line-chart/my-line-chart.component';
 import { MyCircleComponent } from './my-circle/my-circle.component';
 import { MyPieComponent } from './my-pie/my-pie.component';
+import { HistoricalComponent } from './historical/historical.component';
 
 @NgModule({
-  declarations: [StatisticsComponent, DashboardComponent, MyLineChartComponent, MyCircleComponent, MyPieComponent],
+  declarations: [StatisticsComponent, DashboardComponent, MyLineChartComponent, MyCircleComponent, MyPieComponent, HistoricalComponent],
   imports: [
     CommonModule,
     StatisticsRoutingModule,

@@ -4,7 +4,7 @@
     aria-label="Toggle sidenav"
     mat-icon-button
     (click)="sidenavtwo.toggle()"
-    [ngClass]="{ hidden: deviceMd }"
+    [ngClass]="{ hidden: !deviceMd }"
   >
     <fa-icon
       aria-label="Side nav toggle icon"
@@ -17,14 +17,13 @@
 <mat-sidenav-container>
   <mat-sidenav
     #sidenavtwo
-    [opened]="deviceMd"
+    [opened]="!deviceMd"
     role="navigation"
-    [mode]="deviceMd ? 'side' : 'over'"
+    [mode]="!deviceMd ? 'side' : 'over'"
   >
     <mat-nav-list>
       <a mat-list-item [routerLink]="['current']">Actual</a>
-      <a mat-list-item [routerLink]="['line']">Hist&oacute;rico</a>
-      <a mat-list-item [routerLink]="['circle']">Todos</a>
+      <a mat-list-item [routerLink]="['historical']">Hist&oacute;rico</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>

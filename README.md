@@ -1,1 +1,1 @@
-# AngularMaterialTemplate
+# Coronavirus-mx 2

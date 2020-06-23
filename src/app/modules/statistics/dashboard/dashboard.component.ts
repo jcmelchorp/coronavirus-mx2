@@ -51,7 +51,7 @@ export class DashboardComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     this._apiService
-      .sendGetRequest()
+      .sendGetRequest('summary')
       .pipe(takeUntil(this.destroy$))
       .subscribe((res: HttpResponse<any>) => {
         this.summary = res.body;
