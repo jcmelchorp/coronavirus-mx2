@@ -25,7 +25,7 @@ export class ApiService {
 
   public sendGetRequest(url: string) {
     return this._httpClient
-      .get<Summary>(this.SERVER_URL + url, {
+      .get(this.SERVER_URL + url, {
         params: new HttpParams({ fromString: '' }),
         observe: 'response',
       })

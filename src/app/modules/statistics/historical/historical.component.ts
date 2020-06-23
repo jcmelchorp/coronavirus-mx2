@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ChartDataSets, ChartOptions, ChartType } from 'chart.js';
 import { Label, Color } from 'ng2-charts';
+import { PlotService } from '../services/plot.service';
+import { Oneday } from '../models/oneday';
 
 @Component({
   selector: 'app-historical',
@@ -8,10 +10,10 @@ import { Label, Color } from 'ng2-charts';
   styleUrls: ['./historical.component.scss'],
 })
 export class HistoricalComponent implements OnInit {
+  public countryData: Oneday[];
   isLoading: boolean = true;
-  public lineChartData: ChartDataSets[] = [
-    { data: [65, 59, 80, 81, 56, 55, 40], label: 'Series A' },
-  ];
+  confirmed: ChartDataSets;
+  public lineChartData: ChartDataSets[] = [{ data: [], label: 'Confirmed' }];
   public lineChartLabels: Label[] = [
     'January',
     'February',
@@ -33,9 +35,13 @@ export class HistoricalComponent implements OnInit {
   public lineChartLegend = true;
   public lineChartType: ChartType = 'line';
   public lineChartPlugins = [];
-  constructor() {}
+  constructor(private _plotService: PlotService) {}
 
-  ngOnInit(): void {
+  ngOnInit(): any {
+    this.lineChartData = [
+      { data: this._plotService.getData('Confirmed'), label: 'Confirmed' },
+    ];
+    console.log(this._plotService.getData('Confirmed'));
     this.isLoading = !this.isLoading;
   }
 }
