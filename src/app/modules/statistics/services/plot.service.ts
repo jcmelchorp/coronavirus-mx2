@@ -12,18 +12,16 @@ export class PlotService {
   constructor(private _apiService: ApiService) {}
 
   getData(key: string): number[] {
-    this.getTimelineArray('mexico');
-    this.response.forEach((element) => {
-      this.timeline.push(element[key]);
-    });
-    return this.timeline;
-  }
-
-  getTimelineArray(country: string) {
+    this.timeline = [];
     this._apiService
-      .sendGetRequest('total/dayone/country/' + country)
+      .sendGetRequest('total/dayone/country/mexico')
       .subscribe((res: HttpResponse<any>) => {
         this.response = res.body;
+        this.response.forEach((element) => {
+          console.log(element.confirmed);
+          this.timeline.push(element.confirmed);
+        });
       });
+    return this.timeline;
   }
 }

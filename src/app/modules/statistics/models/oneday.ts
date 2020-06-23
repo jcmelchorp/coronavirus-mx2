@@ -1,14 +1,16 @@
-export interface Oneday {
-  Country: string;
-  CountryCode: string;
-  Province: string;
-  City: string;
-  CityCode: string;
-  Lat: number;
-  Lon: number;
-  Confirmed: number;
-  Deaths: number;
-  Recovered: number;
-  Active: number;
-  Date: string;
+export class Oneday {
+  constructor(
+    public country: string,
+    public countryCode: string,
+    public province: string,
+    public city: string,
+    public cityCode: string,
+    public lat: number,
+    public lon: number,
+    public confirmed: number,
+    public deaths: number,
+    public recovered: number,
+    public active: number,
+    public date: string
+  ) {}
 }

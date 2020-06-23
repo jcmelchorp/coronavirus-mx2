@@ -1,18 +1,23 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ChartDataSets, ChartOptions, ChartType } from 'chart.js';
 import { Label, Color } from 'ng2-charts';
 import { PlotService } from '../services/plot.service';
 import { Oneday } from '../models/oneday';
+import { ApiService } from '../services/api.service';
+import { takeUntil } from 'rxjs/operators';
+import { Subject } from 'rxjs';
+import { HttpResponse } from '@angular/common/http';
 
 @Component({
   selector: 'app-historical',
   templateUrl: './historical.component.html',
   styleUrls: ['./historical.component.scss'],
 })
-export class HistoricalComponent implements OnInit {
-  public countryData: Oneday[];
+export class HistoricalComponent implements OnInit, OnDestroy {
+  destroy$: Subject<boolean> = new Subject<boolean>();
   isLoading: boolean = true;
-  confirmed: ChartDataSets;
+  public countryData: Oneday[];
+  public dataline: number[];
   public lineChartData: ChartDataSets[] = [{ data: [], label: 'Confirmed' }];
   public lineChartLabels: Label[] = [
     'January',
@@ -35,13 +40,23 @@ export class HistoricalComponent implements OnInit {
   public lineChartLegend = true;
   public lineChartType: ChartType = 'line';
   public lineChartPlugins = [];
-  constructor(private _plotService: PlotService) {}
+  constructor(private _apiService: ApiService) {}
+  ngOnDestroy(): void {
+    this.destroy$.next(true);
+    // Unsubscribe from the subject
+    this.destroy$.unsubscribe();
+  }
 
-  ngOnInit(): any {
-    this.lineChartData = [
-      { data: this._plotService.getData('Confirmed'), label: 'Confirmed' },
-    ];
-    console.log(this._plotService.getData('Confirmed'));
-    this.isLoading = !this.isLoading;
+  ngOnInit() {
+    this._apiService
+      .sendGetRequest('summary')
+      .pipe(takeUntil(this.destroy$))
+      .subscribe((res: HttpResponse<any>) => {
+        this.countryData = res.body;
+        this.countryData.forEach((element) => {
+          console.log(element.confirmed.valueOf);
+          this.dataline.push(element.confirmed);
+        });
+      });
   }
 }
