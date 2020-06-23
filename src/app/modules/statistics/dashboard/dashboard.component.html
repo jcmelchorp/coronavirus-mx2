@@ -1,0 +1,100 @@
+<div class="pt-5 text-center">
+  <label class="display-4">
+    Statistical panel
+  </label>
+  <h1 class="mat-h1">Statistical panel for COVID-19 disease</h1>
+</div>
+<div fxLayoutAlign="center center">
+  <mat-spinner *ngIf="isLoading"></mat-spinner>
+</div>
+<div
+  *ngIf="!isLoading"
+  class="pl-3 pr-3 pb-5"
+  fxLayout="row wrap"
+  fxLayout.lt-sm="column"
+  fxLayoutGap="25px"
+  fxLayoutAlign="flex-start"
+>
+  <mat-card
+    [class.mat-elevation-z6]="true"
+    class="my-2"
+    fxFlex="0 1 calc(50% - 25px)"
+    fxFlex.lt-md="100%"
+  >
+    <mat-card-header>
+      <mat-icon
+        mat-card-avatar
+        svgIcon="es"
+        aria-hidden="false"
+        aria-label="mexico flag icon"
+      ></mat-icon>
+      <mat-card-title>{{ mexico.Country | titlecase }}</mat-card-title>
+      <mat-card-subtitle>{{ mexico.Date | date }}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <div fxLayout="row" fxLayoutAlign="space-between center">
+        <div fxLayout="column">
+          <h3 class="badge badge-success">
+            {{ mexico.TotalConfirmed | number }}
+          </h3>
+          <h3 class="badge badge-info">
+            {{ mexico.TotalRecovered | number }}
+          </h3>
+          <h3 class="badge badge-danger">{{ mexico.TotalDeaths | number }}</h3>
+        </div>
+        <div>
+          <canvas
+            baseChart
+            [data]="mexicoPieData"
+            [labels]="pieLabels"
+            [chartType]="pieType"
+            [options]="pieOptions"
+            [plugins]="piePlugins"
+            [legend]="pieLegend"
+            [colors]="pieColors"
+          >
+          </canvas>
+        </div>
+      </div>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card
+    [class.mat-elevation-z6]="true"
+    class="my-2"
+    fxFlex="0 1 calc(50% - 25px)"
+    fxFlex.lt-md="100%"
+  >
+    <mat-card-header>
+      <fa-icon mat-card-avatar [icon]="world" size="3x"></fa-icon>
+      <mat-card-title>Global</mat-card-title>
+      <mat-card-subtitle>{{ summary.Date | date }}</mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <div fxLayout="row" fxLayoutAlign="space-between center">
+        <div fxLayout="column">
+          <h3 class="badge badge-success">
+            {{ global.TotalConfirmed | number }}
+          </h3>
+          <h3 class="badge badge-info">
+            {{ global.TotalRecovered | number }}
+          </h3>
+          <h3 class="badge badge-danger">{{ global.TotalDeaths | number }}</h3>
+        </div>
+        <div>
+          <canvas
+            baseChart
+            [data]="globalPieData"
+            [labels]="pieLabels"
+            [chartType]="pieType"
+            [options]="pieOptions"
+            [plugins]="piePlugins"
+            [legend]="pieLegend"
+            [colors]="pieColors"
+          >
+          </canvas>
+        </div>
+      </div>
+    </mat-card-content>
+  </mat-card>
+</div>

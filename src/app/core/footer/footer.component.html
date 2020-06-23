@@ -1,0 +1,28 @@
+<footer class="bg-dark text-light">
+  <div
+    class="pl-5 pr-5 mt-3"
+    fxLayout="row"
+    fxLayoutAlign="space-between center"
+    *ngIf="!deviceXs"
+  >
+    <div>
+      <p>footer works!</p>
+    </div>
+    <div>
+      <p>Iconos de Social</p>
+    </div>
+  </div>
+  <div
+    class="mt-3"
+    fxLayout="column"
+    fxLayoutAlign="center center"
+    *ngIf="deviceXs"
+  >
+    <div>
+      <p>footer works!</p>
+    </div>
+    <div>
+      <p>Iconos de Social</p>
+    </div>
+  </div>
+</footer>

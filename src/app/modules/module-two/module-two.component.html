@@ -1,0 +1,33 @@
+<mat-toolbar class="second-toolbar">
+  <button
+    type="button"
+    aria-label="Toggle sidenav"
+    mat-icon-button
+    (click)="sidenavtwo.toggle()"
+    [ngClass]="{ hidden: deviceMd }"
+  >
+    <fa-icon
+      aria-label="Side nav toggle icon"
+      [icon]="menu"
+      size="lg"
+    ></fa-icon>
+  </button>
+  <span>Module 2</span>
+</mat-toolbar>
+<mat-sidenav-container>
+  <mat-sidenav
+    #sidenavtwo
+    [opened]="deviceMd"
+    role="navigation"
+    [mode]="deviceMd ? 'side' : 'over'"
+  >
+    <mat-nav-list>
+      <a mat-list-item href="#">Link 1</a>
+      <a mat-list-item href="#">Link 2</a>
+      <a mat-list-item href="#">Link 3</a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
