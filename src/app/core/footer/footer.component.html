@@ -1,28 +1,62 @@
 <footer class="bg-dark text-light">
   <div
-    class="pl-5 pr-5 mt-3"
+    class="pl-5 pr-5 py-2"
     fxLayout="row"
     fxLayoutAlign="space-between center"
-    *ngIf="!deviceXs"
+    *ngIf="!deviceSm"
   >
     <div>
-      <p>footer works!</p>
+      <p>
+        2020 &copy; para M&eacute;xico con
+        <span class="text-danger">
+          <fa-icon [icon]="heart"></fa-icon>
+        </span>
+        por Julio C&eacute;sar Melchor Pinto
+      </p>
     </div>
     <div>
-      <p>Iconos de Social</p>
+      <a mat-button href="https://github.com/JulioMelchorPinto">
+        <fa-icon [icon]="github" size="2x"></fa-icon>
+      </a>
+      <a mat-button href="https://twitter.com/MelchorPinto">
+        <fa-icon [icon]="twitter" size="2x"></fa-icon>
+      </a>
+      <a mat-button href="https://facebook.com/jmelchorp">
+        <fa-icon [icon]="facebook" size="2x"></fa-icon>
+      </a>
+      <a mat-button href="https://linkedin.com/in/jmelchorp">
+        <fa-icon [icon]="linkedin" size="2x"></fa-icon>
+      </a>
     </div>
   </div>
   <div
     class="mt-3"
     fxLayout="column"
     fxLayoutAlign="center center"
-    *ngIf="deviceXs"
+    *ngIf="deviceSm"
   >
     <div>
-      <p>footer works!</p>
+      2020 &copy; para M&eacute;xico con
+      <span class="text-danger">
+        <fa-icon [icon]="heart"></fa-icon>
+      </span>
+      por Julio C&eacute;sar Melchor Pinto
     </div>
     <div>
-      <p>Iconos de Social</p>
+      <p>
+        <a mat-button href="https://github.com/JulioMelchorPinto">
+          <fa-icon [icon]="github" size="2x"></fa-icon>
+        </a>
+        <a mat-button href="https://twitter.com/MelchorPinto">
+          <fa-icon [icon]="twitter" size="2x"></fa-icon>
+        </a>
+        <a mat-button href="https://facebook.com/jmelchorp">
+          <fa-icon [icon]="facebook" size="2x"></fa-icon>
+        </a>
+        <a mat-button href="https://linkedin.com/in/jmelchorp">
+          <fa-icon [icon]="linkedin" size="2x"></fa-icon>
+        </a>
+      </p>
     </div>
   </div>
 </footer>

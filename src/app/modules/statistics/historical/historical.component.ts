@@ -21,8 +21,13 @@ export class HistoricalComponent implements OnInit, OnDestroy {
   countryName: string;
 
   public datalabel: Label[];
-  public lineChartData: ChartDataSets[] = [{ data: [], label: '' }];
+  public cumulativeData: ChartDataSets[] = [{ data: [], label: '' }];
+  public newData: ChartDataSets[] = [{ data: [], label: '' }];
+
+  public worldChartData: ChartDataSets[] = [{ data: [], label: '' }];
   public lineChartLabels: Label[] = [];
+  public worldChartLabels: Label[] = [];
+
   public lineChartOptions: ChartOptions = {
     responsive: true,
   };
@@ -36,6 +41,13 @@ export class HistoricalComponent implements OnInit, OnDestroy {
   public lineChartType: ChartType = 'line';
   public lineChartPlugins = [];
   constructor(private _apiService: ApiService) {}
+
+  diff(A) {
+    return A.slice(1).map(function (n, i) {
+      return n - A[i];
+    });
+  }
+
   ngOnDestroy(): void {
     this.destroy$.next(true);
     // Unsubscribe from the subject
@@ -45,7 +57,7 @@ export class HistoricalComponent implements OnInit, OnDestroy {
   ngOnInit() {
     this.countryName = 'mexico';
     this._apiService
-      .sendGetRequest('total/dayone/country/' + this.countryName)
+      .sendGetRequest('total/country/' + this.countryName)
       .pipe(takeUntil(this.destroy$))
       .subscribe((res: HttpResponse<any>) => {
         const myObj = res.body;
@@ -53,17 +65,28 @@ export class HistoricalComponent implements OnInit, OnDestroy {
         var activeData = myObj.map(({ Active }) => Active);
         var recoveredData = myObj.map(({ Recovered }) => Recovered);
         var deathsData = myObj.map(({ Deaths }) => Deaths);
-
         var selectedLabel = myObj.map(({ Date }) => Date);
+        var newConfirmedData = this.diff(confirmedData);
+        var newActiveData = this.diff(activeData);
+        var newRecoveredData = this.diff(recoveredData);
+        var newDeathsData = this.diff(deathsData);
+
+        var newDataSet: ChartDataSets[] = [
+          { data: newConfirmedData, label: 'New Confirmed' },
+          { data: newRecoveredData, label: 'New Recovered' },
+          { data: newActiveData, label: 'New Active' },
+          { data: newDeathsData, label: 'New Deaths' },
+        ];
         var charDataSet: ChartDataSets[] = [
           { data: confirmedData, label: 'Confirmed' },
           { data: activeData, label: 'Active' },
           { data: recoveredData, label: 'Recovered' },
           { data: deathsData, label: 'Deaths' },
         ];
-        this.lineChartData = charDataSet;
+        this.cumulativeData = charDataSet;
+        this.newData = newDataSet;
         this.lineChartLabels = selectedLabel;
-        this.isLoading = !this.isLoading;
       });
+    this.isLoading = !this.isLoading;
   }
 }

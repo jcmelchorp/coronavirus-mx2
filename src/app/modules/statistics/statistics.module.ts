@@ -10,13 +10,11 @@ import { StatisticsComponent } from './statistics.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ApiService } from './services/api.service';
 import { ChartsModule } from 'ng2-charts';
-import { MyLineChartComponent } from './my-line-chart/my-line-chart.component';
-import { MyCircleComponent } from './my-circle/my-circle.component';
-import { MyPieComponent } from './my-pie/my-pie.component';
+
 import { HistoricalComponent } from './historical/historical.component';
 
 @NgModule({
-  declarations: [StatisticsComponent, DashboardComponent, MyLineChartComponent, MyCircleComponent, MyPieComponent, HistoricalComponent],
+  declarations: [StatisticsComponent, DashboardComponent, HistoricalComponent],
   imports: [
     CommonModule,
     StatisticsRoutingModule,

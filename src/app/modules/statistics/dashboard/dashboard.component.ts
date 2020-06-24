@@ -70,7 +70,6 @@ export class DashboardComponent implements OnInit, OnDestroy {
         ];
         //this.country = this.countries[109];
         this.date = this.summary.Date;
-        console.log(this.mexico);
         this.isLoading = !this.isLoading;
       });
   }

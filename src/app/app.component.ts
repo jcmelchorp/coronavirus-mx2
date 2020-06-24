@@ -11,6 +11,7 @@ export class AppComponent {
   title = 'angular-material-template';
   mediaSub: Subscription;
   deviceXs: boolean;
+  deviceSm: boolean;
 
   constructor(public mediaObserver: MediaObserver) {}
   // Http Headers
@@ -19,7 +20,8 @@ export class AppComponent {
     this.mediaSub = this.mediaObserver.media$.subscribe(
       (result: MediaChange) => {
         this.deviceXs = result.mqAlias === 'xs' ? true : false;
-        console.log(this.deviceXs);
+        this.deviceSm =
+          result.mqAlias === 'xs' || result.mqAlias === 'sm' ? true : false;
       }
     );
   }
