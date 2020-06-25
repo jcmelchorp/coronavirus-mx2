@@ -7,71 +7,29 @@
   <mat-spinner *ngIf="isLoading"></mat-spinner>
 </div>
 
-<div
-  *ngIf="!isLoading"
-  class="pl-3 pr-3 pb-5"
-  fxLayout="row wrap"
-  fxLayout.lt-sm="column"
-  fxLayoutGap="25px"
-  fxLayoutAlign="flex-start"
->
-  <mat-card
-    [class.mat-elevation-z6]="true"
-    class="my-2"
-    fxFlex="0 1 calc(50% - 25px)"
-    fxFlex.lt-md="100%"
-  >
+<div *ngIf="!isLoading" class="pl-3 pr-3 pb-5" fxLayout="column">
+  <mat-card [class.mat-elevation-z6]="true" class="my-2" fxFlex="100%">
     <mat-card-header>
-      <mat-icon
-        mat-card-avatar
-        svgIcon="es"
-        aria-hidden="false"
-        aria-label="mexico flag icon"
-      ></mat-icon>
+      <mat-icon mat-card-avatar svgIcon="es" aria-hidden="false" aria-label="mexico flag icon"></mat-icon>
       <mat-card-title>Casos acumulados</mat-card-title>
-      <mat-card-subtitle
-        >La cantidad de casos desde los inicios de la
-        pandemia.</mat-card-subtitle
-      >
+      <mat-card-subtitle>La cantidad de casos desde los inicios de la
+        pandemia.</mat-card-subtitle>
     </mat-card-header>
     <mat-card-content>
-      <canvas
-        baseChart
-        [datasets]="cumulativeData"
-        [labels]="lineChartLabels"
-        [options]="lineChartOptions"
-        [colors]="lineChartColors"
-        [legend]="lineChartLegend"
-        [chartType]="lineChartType"
-        [plugins]="lineChartPlugins"
-      >
+      <canvas baseChart [datasets]="cumulativeData" [labels]="lineChartLabels" [options]="lineChartOptions"
+        [colors]="lineChartColors" [legend]="lineChartLegend" [chartType]="lineChartType" [plugins]="lineChartPlugins">
       </canvas>
     </mat-card-content>
   </mat-card>
 
-  <mat-card
-    [class.mat-elevation-z6]="true"
-    class="my-2"
-    fxFlex="0 1 calc(50% - 25px)"
-    fxFlex.lt-md="100%"
-  >
+  <mat-card [class.mat-elevation-z6]="true" class="my-2" fxFlex="100%">
     <mat-card-header>
       <mat-card-title>Nuevos casos por día</mat-card-title>
-      <mat-card-subtitle
-        >El numero de casos que se registaron por día.</mat-card-subtitle
-      >
+      <mat-card-subtitle>El numero de casos que se registaron por día.</mat-card-subtitle>
     </mat-card-header>
     <mat-card-content>
-      <canvas
-        baseChart
-        [datasets]="newData"
-        [labels]="lineChartLabels"
-        [options]="lineChartOptions"
-        [colors]="lineChartColors"
-        [legend]="lineChartLegend"
-        [chartType]="lineChartType"
-        [plugins]="lineChartPlugins"
-      >
+      <canvas baseChart [datasets]="newData" [labels]="lineChartLabels" [options]="lineChartOptions"
+        [colors]="lineChartColors" [legend]="lineChartLegend" [chartType]="lineChartType" [plugins]="lineChartPlugins">
       </canvas>
     </mat-card-content>
   </mat-card>

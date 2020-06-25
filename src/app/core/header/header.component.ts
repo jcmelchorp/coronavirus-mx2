@@ -28,5 +28,9 @@ export class HeaderComponent {
       'es',
       sanitizer.bypassSecurityTrustResourceUrl('assets/flags/es.svg')
     );
+    iconRegistry.addSvgIcon(
+      'covid',
+      sanitizer.bypassSecurityTrustResourceUrl('assets/icons/coronavirus.svg')
+    );
   }
 }
