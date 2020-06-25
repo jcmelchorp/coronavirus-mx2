@@ -2,10 +2,10 @@
   <label class="display-4">Gr&aacute;fica historial</label>
   <h1 class="mat-h1">Evoluci&oacute;n de la pandemia desde el comienzo.</h1>
 </div>
+
 <div fxLayoutAlign="center center">
   <mat-spinner *ngIf="isLoading"></mat-spinner>
 </div>
-
 <div
   *ngIf="!isLoading"
   class="pl-3 pr-3 pb-5"
@@ -28,12 +28,14 @@
         aria-label="mexico flag icon"
       ></mat-icon>
       <mat-card-title>Casos acumulados</mat-card-title>
+      <mat-card-subtitle
+        >La cantidad de casos desde los inicios de la
+        pandemia.</mat-card-subtitle
+      >
     </mat-card-header>
     <mat-card-content>
       <canvas
         baseChart
-        width="200"
-        height="100"
         [datasets]="cumulativeData"
         [labels]="lineChartLabels"
         [options]="lineChartOptions"
@@ -54,13 +56,13 @@
   >
     <mat-card-header>
       <mat-card-title>Nuevos casos por día</mat-card-title>
-      <mat-card-subtitle></mat-card-subtitle>
+      <mat-card-subtitle
+        >El numero de casos que se registaron por día.</mat-card-subtitle
+      >
     </mat-card-header>
     <mat-card-content>
       <canvas
         baseChart
-        width="200"
-        height="100"
         [datasets]="newData"
         [labels]="lineChartLabels"
         [options]="lineChartOptions"
@@ -73,5 +75,3 @@
     </mat-card-content>
   </mat-card>
 </div>
-
-<div></div>

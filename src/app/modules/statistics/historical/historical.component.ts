@@ -16,25 +16,27 @@ export class HistoricalComponent implements OnInit, OnDestroy {
   destroy$: Subject<boolean> = new Subject<boolean>();
   isLoading: boolean = true;
   public countryData: Oneday[];
-  public dataline: number[];
-  public dataConfirm: number[];
   countryName: string;
-
-  public datalabel: Label[];
   public cumulativeData: ChartDataSets[] = [{ data: [], label: '' }];
   public newData: ChartDataSets[] = [{ data: [], label: '' }];
-
-  public worldChartData: ChartDataSets[] = [{ data: [], label: '' }];
   public lineChartLabels: Label[] = [];
-  public worldChartLabels: Label[] = [];
-
-  public lineChartOptions: ChartOptions = {
-    responsive: true,
-  };
+  public lineChartOptions: ChartOptions = { responsive: true };
   public lineChartColors: Color[] = [
     {
-      borderColor: 'black',
-      backgroundColor: 'rgba(255,0,0,0.3)',
+      borderColor: 'rgba(0,120,0,1)',
+      backgroundColor: 'rgba(0,120,0,0.3)',
+    },
+    {
+      borderColor: 'rgba(50,80,180,1)',
+      backgroundColor: 'rgba(50,80,180,0.3)',
+    },
+    {
+      borderColor: 'rgba(230,160,0,1)',
+      backgroundColor: 'rgba(230,160,0,0.5)',
+    },
+    {
+      borderColor: 'rgba(180,20,0,1)',
+      backgroundColor: 'rgba(180,20,0,0.5)',
     },
   ];
   public lineChartLegend = true;
@@ -56,8 +58,11 @@ export class HistoricalComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     this.countryName = 'mexico';
+    var startDate = '2020-05-01T00:00:00Z';
+    var endDate = '2020-06-25T00:00:00Z';
+    var params = '?from=' + startDate + '&to=' + endDate + '';
     this._apiService
-      .sendGetRequest('total/country/' + this.countryName)
+      .sendGetRequest('total/country/' + this.countryName + params)
       .pipe(takeUntil(this.destroy$))
       .subscribe((res: HttpResponse<any>) => {
         const myObj = res.body;
@@ -65,23 +70,25 @@ export class HistoricalComponent implements OnInit, OnDestroy {
         var activeData = myObj.map(({ Active }) => Active);
         var recoveredData = myObj.map(({ Recovered }) => Recovered);
         var deathsData = myObj.map(({ Deaths }) => Deaths);
-        var selectedLabel = myObj.map(({ Date }) => Date);
         var newConfirmedData = this.diff(confirmedData);
         var newActiveData = this.diff(activeData);
         var newRecoveredData = this.diff(recoveredData);
         var newDeathsData = this.diff(deathsData);
-
+        var selectedLabel = myObj.map(({ Date }) => Date);
+        for (var i in selectedLabel) {
+          selectedLabel[i] = new Date(selectedLabel[i]).toDateString();
+        }
         var newDataSet: ChartDataSets[] = [
-          { data: newConfirmedData, label: 'New Confirmed' },
-          { data: newRecoveredData, label: 'New Recovered' },
-          { data: newActiveData, label: 'New Active' },
-          { data: newDeathsData, label: 'New Deaths' },
+          { data: newConfirmedData, label: 'Nuevos Confirmados' },
+          { data: newRecoveredData, label: 'Nuevos Recuperados' },
+          { data: newActiveData, label: 'Nuevos Activos' },
+          { data: newDeathsData, label: 'Nuevos Muertos' },
         ];
         var charDataSet: ChartDataSets[] = [
-          { data: confirmedData, label: 'Confirmed' },
-          { data: activeData, label: 'Active' },
-          { data: recoveredData, label: 'Recovered' },
-          { data: deathsData, label: 'Deaths' },
+          { data: confirmedData, label: 'Confirmados' },
+          { data: recoveredData, label: 'Recuperados' },
+          { data: activeData, label: 'Activos' },
+          { data: deathsData, label: 'Muertes' },
         ];
         this.cumulativeData = charDataSet;
         this.newData = newDataSet;
