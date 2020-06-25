@@ -4,13 +4,11 @@
   },
   "hosting": {
     "site": "coronavirus-mx",
-    "public": "dist/angular-material-template",
+    "public": "dist/coronavirus-mx",
     "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
-    "rewrites": [
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
-    ]
+    "rewrites": [{
+      "source": "**",
+      "destination": "/index.html"
+    }]
   }
 }

@@ -7,11 +7,14 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { AppMaterialModule } from './app-material.module';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
+import { StatisticsModule } from './modules/statistics/statistics.module';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './core/header/header.component';
 import { FooterComponent } from './core/footer/footer.component';
 import { ContentComponent } from './core/content/content.component';
+import { WellcomeComponent } from './core/wellcome/wellcome.component';
+
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 
@@ -21,6 +24,7 @@ import { environment } from '../environments/environment';
     HeaderComponent,
     FooterComponent,
     ContentComponent,
+    WellcomeComponent,
   ],
   imports: [
     BrowserModule,
@@ -30,8 +34,11 @@ import { environment } from '../environments/environment';
     FontAwesomeModule,
     AppMaterialModule,
     FlexLayoutModule,
+    StatisticsModule,
     BsDatepickerModule.forRoot(),
-    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: environment.production,
+    }),
   ],
   providers: [],
   bootstrap: [AppComponent],

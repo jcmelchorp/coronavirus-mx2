@@ -1,7 +1,8 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { MediaObserver, MediaChange } from '@angular/flex-layout';
-import { Title, Meta } from '@angular/platform-browser';
+import { Title, Meta, DomSanitizer } from '@angular/platform-browser';
+import { MatIconRegistry } from '@angular/material/icon';
 
 @Component({
   selector: 'app-root',
@@ -17,8 +18,23 @@ export class AppComponent implements OnInit, OnDestroy {
   constructor(
     public mediaObserver: MediaObserver,
     private metaService: Meta,
-    private titleService: Title
-  ) {}
+    private titleService: Title,
+    iconRegistry: MatIconRegistry,
+    sanitizer: DomSanitizer
+  ) {
+    iconRegistry.addSvgIcon(
+      'en',
+      sanitizer.bypassSecurityTrustResourceUrl('assets/flags/en.svg')
+    );
+    iconRegistry.addSvgIcon(
+      'es',
+      sanitizer.bypassSecurityTrustResourceUrl('assets/flags/es.svg')
+    );
+    iconRegistry.addSvgIcon(
+      'covid',
+      sanitizer.bypassSecurityTrustResourceUrl('assets/icons/coronavirus.svg')
+    );
+  }
   // Http Headers
 
   ngOnInit() {
