@@ -8,6 +8,8 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { MatCardModule } from '@angular/material/card';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatDatepickerModule } from '@angular/material/datepicker';
 
 @NgModule({
   declarations: [],
@@ -21,6 +23,8 @@ import { MatCardModule } from '@angular/material/card';
     MatSidenavModule,
     MatListModule,
     MatCardModule,
+    MatFormFieldModule,
+    MatDatepickerModule,
   ],
   exports: [
     MatToolbarModule,
@@ -31,6 +35,8 @@ import { MatCardModule } from '@angular/material/card';
     MatSidenavModule,
     MatListModule,
     MatCardModule,
+    MatFormFieldModule,
+    MatDatepickerModule,
   ],
 })
 export class AppMaterialModule {}

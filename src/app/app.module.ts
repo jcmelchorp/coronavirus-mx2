@@ -6,6 +6,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { AppMaterialModule } from './app-material.module';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './core/header/header.component';
@@ -27,6 +28,7 @@ import { ContentComponent } from './core/content/content.component';
     FontAwesomeModule,
     AppMaterialModule,
     FlexLayoutModule,
+    BsDatepickerModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent],

@@ -42,6 +42,7 @@ export class HistoricalComponent implements OnInit, OnDestroy {
   public lineChartLegend = true;
   public lineChartType: ChartType = 'line';
   public lineChartPlugins = [];
+
   constructor(private _apiService: ApiService) {}
 
   diff(A) {
@@ -61,6 +62,7 @@ export class HistoricalComponent implements OnInit, OnDestroy {
     var startDate = '2020-05-01T00:00:00Z';
     var endDate = '2020-06-25T00:00:00Z';
     var params = '?from=' + startDate + '&to=' + endDate + '';
+    //params = '';
     this._apiService
       .sendGetRequest('total/country/' + this.countryName + params)
       .pipe(takeUntil(this.destroy$))

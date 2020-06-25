@@ -44,7 +44,7 @@ export class DashboardComponent implements OnInit, OnDestroy {
   public pieOptions: ChartOptions = {
     responsive: true,
     legend: {
-      position: 'left',
+      position: 'right',
     },
   };
   constructor(private _apiService: ApiService) {}

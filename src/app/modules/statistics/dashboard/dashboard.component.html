@@ -32,15 +32,27 @@
       <mat-card-subtitle>{{ mexico.Date | date }}</mat-card-subtitle>
     </mat-card-header>
     <mat-card-content>
-      <div fxLayout="row" fxLayoutAlign="space-between center">
+      <div fxLayout="row" fxLayoutAlign="center center">
         <div fxLayout="column">
-          <h3 class="badge badge-success">
-            {{ mexico.TotalConfirmed | number }}
-          </h3>
-          <h3 class="badge badge-info">
-            {{ mexico.TotalRecovered | number }}
-          </h3>
-          <h3 class="badge badge-danger">{{ mexico.TotalDeaths | number }}</h3>
+          {{ mexico.NewConfirmed | number }} nuevos casos
+          <h1 class="mat-h1">
+            <span class="badge badge-success">{{
+              mexico.TotalConfirmed | number
+            }}</span>
+          </h1>
+
+          {{ mexico.NewRecovered | number }} nuevos casos
+          <h1 class="mat-h1">
+            <span class="badge badge-info">{{
+              mexico.TotalRecovered | number
+            }}</span>
+          </h1>
+          {{ mexico.NewDeaths | number }} nuevos casos
+          <h1 class="mat-h1">
+            <span class="badge badge-danger">{{
+              mexico.TotalDeaths | number
+            }}</span>
+          </h1>
         </div>
         <div>
           <canvas
@@ -71,15 +83,27 @@
       <mat-card-subtitle>{{ summary.Date | date }}</mat-card-subtitle>
     </mat-card-header>
     <mat-card-content>
-      <div fxLayout="row" fxLayoutAlign="space-between center">
+      <div fxLayout="row" fxLayoutAlign="center center">
         <div fxLayout="column">
-          <h3 class="badge badge-success">
-            {{ global.TotalConfirmed | number }}
-          </h3>
-          <h3 class="badge badge-info">
-            {{ global.TotalRecovered | number }}
-          </h3>
-          <h3 class="badge badge-danger">{{ global.TotalDeaths | number }}</h3>
+          {{ global.NewConfirmed | number }} nuevos casos
+          <h1 class="mat-h1">
+            <span class="badge badge-success">{{
+              global.TotalConfirmed | number
+            }}</span>
+          </h1>
+
+          {{ global.NewRecovered | number }} nuevos casos
+          <h1 class="mat-h1">
+            <span class="badge badge-info">{{
+              global.TotalRecovered | number
+            }}</span>
+          </h1>
+          {{ global.NewDeaths | number }} nuevos casos
+          <h1 class="mat-h1">
+            <span class="badge badge-danger">{{
+              global.TotalDeaths | number
+            }}</span>
+          </h1>
         </div>
         <div>
           <canvas
