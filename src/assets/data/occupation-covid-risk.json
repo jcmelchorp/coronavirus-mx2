@@ -1,3866 +1,3866 @@
 [
   {
-    "Occupation": "Dental Hygienists",
-    "COVID-19 Risk Score": 99.7
+    "occupation": "Dental Hygienists",
+    "score": 99.7
   },
   {
-    "Occupation": "Respiratory Therapy Technicians",
-    "COVID-19 Risk Score": 95
+    "occupation": "Respiratory Therapy Technicians",
+    "score": 95
   },
   {
-    "Occupation": "Sports Medicine Physicians",
-    "COVID-19 Risk Score": 94.6
+    "occupation": "Sports Medicine Physicians",
+    "score": 94.6
   },
   {
-    "Occupation": "Dental Assistants",
-    "COVID-19 Risk Score": 92.5
+    "occupation": "Dental Assistants",
+    "score": 92.5
   },
   {
-    "Occupation": "Radiation Therapists",
-    "COVID-19 Risk Score": 92.4
+    "occupation": "Radiation Therapists",
+    "score": 92.4
   },
   {
-    "Occupation": "Oral and Maxillofacial Surgeons",
-    "COVID-19 Risk Score": 92.3
+    "occupation": "Oral and Maxillofacial Surgeons",
+    "score": 92.3
   },
   {
-    "Occupation": "Dentists, General",
-    "COVID-19 Risk Score": 92.1
+    "occupation": "Dentists, General",
+    "score": 92.1
   },
   {
-    "Occupation": "Obstetricians and Gynecologists",
-    "COVID-19 Risk Score": 91.8
+    "occupation": "Obstetricians and Gynecologists",
+    "score": 91.8
   },
   {
-    "Occupation": "Dermatologists",
-    "COVID-19 Risk Score": 91.1
+    "occupation": "Dermatologists",
+    "score": 91.1
   },
   {
-    "Occupation": "Orderlies (Patient Care Assistants)",
-    "COVID-19 Risk Score": 90.2
+    "occupation": "Orderlies (Patient Care Assistants)",
+    "score": 90.2
   },
   {
-    "Occupation": "Acute Care Nurses",
-    "COVID-19 Risk Score": 90.1
+    "occupation": "Acute Care Nurses",
+    "score": 90.1
   },
   {
-    "Occupation": "Family and General Practitioners",
-    "COVID-19 Risk Score": 90.1
+    "occupation": "Family and General Practitioners",
+    "score": 90.1
   },
   {
-    "Occupation": "Ophthalmologists",
-    "COVID-19 Risk Score": 88.4
+    "occupation": "Ophthalmologists",
+    "score": 88.4
   },
   {
-    "Occupation": "Urologists",
-    "COVID-19 Risk Score": 88.3
+    "occupation": "Urologists",
+    "score": 88.3
   },
   {
-    "Occupation": "Registered Nurses",
-    "COVID-19 Risk Score": 86.1
+    "occupation": "Registered Nurses",
+    "score": 86.1
   },
   {
-    "Occupation": "Hospitalists",
-    "COVID-19 Risk Score": 85.3
+    "occupation": "Hospitalists",
+    "score": 85.3
   },
   {
-    "Occupation": "Pediatricians, General",
-    "COVID-19 Risk Score": 85.1
+    "occupation": "Pediatricians, General",
+    "score": 85.1
   },
   {
-    "Occupation": "Respiratory Therapists",
-    "COVID-19 Risk Score": 84.2
+    "occupation": "Respiratory Therapists",
+    "score": 84.2
   },
   {
-    "Occupation": "Radiologic Technicians",
-    "COVID-19 Risk Score": 84.1
+    "occupation": "Radiologic Technicians",
+    "score": 84.1
   },
   {
-    "Occupation": "Licensed Practical and Licensed Vocational Nurses",
-    "COVID-19 Risk Score": 82.1
+    "occupation": "Licensed Practical and Licensed Vocational Nurses",
+    "score": 82.1
   },
   {
-    "Occupation": "Critical Care Nurses",
-    "COVID-19 Risk Score": 81.7
+    "occupation": "Critical Care Nurses",
+    "score": 81.7
   },
   {
-    "Occupation": "Orthodontists",
-    "COVID-19 Risk Score": 81.3
+    "occupation": "Orthodontists",
+    "score": 81.3
   },
   {
-    "Occupation": "Radiologic Technologists",
-    "COVID-19 Risk Score": 81.2
+    "occupation": "Radiologic Technologists",
+    "score": 81.2
   },
   {
-    "Occupation": "Nurse Midwives",
-    "COVID-19 Risk Score": 81.1
+    "occupation": "Nurse Midwives",
+    "score": 81.1
   },
   {
-    "Occupation": "Surgical Technologists",
-    "COVID-19 Risk Score": 80.7
+    "occupation": "Surgical Technologists",
+    "score": 80.7
   },
   {
-    "Occupation": "Diagnostic Medical Sonographers",
-    "COVID-19 Risk Score": 80.5
+    "occupation": "Diagnostic Medical Sonographers",
+    "score": 80.5
   },
   {
-    "Occupation": "Physical Therapist Aides",
-    "COVID-19 Risk Score": 80.3
+    "occupation": "Physical Therapist Aides",
+    "score": 80.3
   },
   {
-    "Occupation": "Allergists and Immunologists",
-    "COVID-19 Risk Score": 80.3
+    "occupation": "Allergists and Immunologists",
+    "score": 80.3
   },
   {
-    "Occupation": "Physician Assistants",
-    "COVID-19 Risk Score": 80
+    "occupation": "Physician Assistants",
+    "score": 80
   },
   {
-    "Occupation": "Acupuncturists",
-    "COVID-19 Risk Score": 79.9
+    "occupation": "Acupuncturists",
+    "score": 79.9
   },
   {
-    "Occupation": "Internists, General (Internal Medicine)",
-    "COVID-19 Risk Score": 79.9
+    "occupation": "Internists, General (Internal Medicine)",
+    "score": 79.9
   },
   {
-    "Occupation": "Cardiovascular Technologists and Technicians",
-    "COVID-19 Risk Score": 79.3
+    "occupation": "Cardiovascular Technologists and Technicians",
+    "score": 79.3
   },
   {
-    "Occupation": "Physical Therapist Assistants",
-    "COVID-19 Risk Score": 79.3
+    "occupation": "Physical Therapist Assistants",
+    "score": 79.3
   },
   {
-    "Occupation": "Physical Therapists",
-    "COVID-19 Risk Score": 78.7
+    "occupation": "Physical Therapists",
+    "score": 78.7
   },
   {
-    "Occupation": "Occupational Therapy Aides",
-    "COVID-19 Risk Score": 78
+    "occupation": "occupational Therapy Aides",
+    "score": 78
   },
   {
-    "Occupation": "Occupational Therapists",
-    "COVID-19 Risk Score": 77.8
+    "occupation": "occupational Therapists",
+    "score": 77.8
   },
   {
-    "Occupation": "Surgical Assistants",
-    "COVID-19 Risk Score": 77.7
+    "occupation": "Surgical Assistants",
+    "score": 77.7
   },
   {
-    "Occupation": "Prosthodontists",
-    "COVID-19 Risk Score": 76.9
+    "occupation": "Prosthodontists",
+    "score": 76.9
   },
   {
-    "Occupation": "Surgeons",
-    "COVID-19 Risk Score": 76.3
+    "occupation": "Surgeons",
+    "score": 76.3
   },
   {
-    "Occupation": "Flight Attendants",
-    "COVID-19 Risk Score": 75.7
+    "occupation": "Flight Attendants",
+    "score": 75.7
   },
   {
-    "Occupation": "Anesthesiologists",
-    "COVID-19 Risk Score": 75.4
+    "occupation": "Anesthesiologists",
+    "score": 75.4
   },
   {
-    "Occupation": "Chiropractors",
-    "COVID-19 Risk Score": 75.1
+    "occupation": "Chiropractors",
+    "score": 75.1
   },
   {
-    "Occupation": "Occupational Therapy Assistants",
-    "COVID-19 Risk Score": 75
+    "occupation": "occupational Therapy Assistants",
+    "score": 75
   },
   {
-    "Occupation": "Veterinary Assistants and Laboratory Animal Caretakers",
-    "COVID-19 Risk Score": 75
+    "occupation": "Veterinary Assistants and Laboratory Animal Caretakers",
+    "score": 75
   },
   {
-    "Occupation": "Nuclear Medicine Technologists",
-    "COVID-19 Risk Score": 74.8
+    "occupation": "Nuclear Medicine Technologists",
+    "score": 74.8
   },
   {
-    "Occupation": "Naturopathic Physicians",
-    "COVID-19 Risk Score": 74.6
+    "occupation": "Naturopathic Physicians",
+    "score": 74.6
   },
   {
-    "Occupation": "Neurodiagnostic Technologists",
-    "COVID-19 Risk Score": 74.5
+    "occupation": "Neurodiagnostic Technologists",
+    "score": 74.5
   },
   {
-    "Occupation": "Nursing Assistants",
-    "COVID-19 Risk Score": 72.5
+    "occupation": "Nursing Assistants",
+    "score": 72.5
   },
   {
-    "Occupation": "Medical Assistants",
-    "COVID-19 Risk Score": 72.2
+    "occupation": "Medical Assistants",
+    "score": 72.2
   },
   {
-    "Occupation": "Orthoptists",
-    "COVID-19 Risk Score": 72.2
+    "occupation": "Orthoptists",
+    "score": 72.2
   },
   {
-    "Occupation": "Midwives",
-    "COVID-19 Risk Score": 71.9
+    "occupation": "Midwives",
+    "score": 71.9
   },
   {
-    "Occupation": "Nurse Anesthetists",
-    "COVID-19 Risk Score": 70.8
+    "occupation": "Nurse Anesthetists",
+    "score": 70.8
   },
   {
-    "Occupation": "Emergency Medical Technicians and Paramedics",
-    "COVID-19 Risk Score": 70.8
+    "occupation": "Emergency Medical Technicians and Paramedics",
+    "score": 70.8
   },
   {
-    "Occupation": "Athletic Trainers",
-    "COVID-19 Risk Score": 70.6
+    "occupation": "Athletic Trainers",
+    "score": 70.6
   },
   {
-    "Occupation": "Podiatrists",
-    "COVID-19 Risk Score": 70.2
+    "occupation": "Podiatrists",
+    "score": 70.2
   },
   {
-    "Occupation": "Veterinarians",
-    "COVID-19 Risk Score": 70.1
+    "occupation": "Veterinarians",
+    "score": 70.1
   },
   {
-    "Occupation": "Neurologists",
-    "COVID-19 Risk Score": 70
+    "occupation": "Neurologists",
+    "score": 70
   },
   {
-    "Occupation": "Psychiatric Technicians",
-    "COVID-19 Risk Score": 69.8
+    "occupation": "Psychiatric Technicians",
+    "score": 69.8
   },
   {
-    "Occupation": "Barbers",
-    "COVID-19 Risk Score": 69.1
+    "occupation": "Barbers",
+    "score": 69.1
   },
   {
-    "Occupation": "Psychiatric Aides",
-    "COVID-19 Risk Score": 69
+    "occupation": "Psychiatric Aides",
+    "score": 69
   },
   {
-    "Occupation": "Physical Medicine and Rehabilitation Physicians",
-    "COVID-19 Risk Score": 69
+    "occupation": "Physical Medicine and Rehabilitation Physicians",
+    "score": 69
   },
   {
-    "Occupation": "Ophthalmic Medical Technologists",
-    "COVID-19 Risk Score": 68.5
+    "occupation": "Ophthalmic Medical Technologists",
+    "score": 68.5
   },
   {
-    "Occupation": "Phlebotomists",
-    "COVID-19 Risk Score": 68.2
+    "occupation": "Phlebotomists",
+    "score": 68.2
   },
   {
-    "Occupation": "Skincare Specialists",
-    "COVID-19 Risk Score": 68.1
+    "occupation": "Skincare Specialists",
+    "score": 68.1
   },
   {
-    "Occupation": "Special Education Teachers, Preschool",
-    "COVID-19 Risk Score": 67.4
+    "occupation": "Special Education Teachers, Preschool",
+    "score": 67.4
   },
   {
-    "Occupation": "Bus Drivers, School or Special Client",
-    "COVID-19 Risk Score": 67.3
+    "occupation": "Bus Drivers, School or Special Client",
+    "score": 67.3
   },
   {
-    "Occupation": "Anesthesiologist Assistants",
-    "COVID-19 Risk Score": 67.2
+    "occupation": "Anesthesiologist Assistants",
+    "score": 67.2
   },
   {
-    "Occupation": "Home Health Aides",
-    "COVID-19 Risk Score": 66.4
+    "occupation": "Home Health Aides",
+    "score": 66.4
   },
   {
-    "Occupation": "Veterinary Technologists and Technicians",
-    "COVID-19 Risk Score": 66
+    "occupation": "Veterinary Technologists and Technicians",
+    "score": 66
   },
   {
-    "Occupation": "Kindergarten Teachers, Except Special Education",
-    "COVID-19 Risk Score": 65.8
+    "occupation": "Kindergarten Teachers, Except Special Education",
+    "score": 65.8
   },
   {
-    "Occupation": "Endoscopy Technicians",
-    "COVID-19 Risk Score": 65.8
+    "occupation": "Endoscopy Technicians",
+    "score": 65.8
   },
   {
-    "Occupation": "Patient Representatives",
-    "COVID-19 Risk Score": 65.1
+    "occupation": "Patient Representatives",
+    "score": 65.1
   },
   {
-    "Occupation": "Speech-Language Pathology Assistants",
-    "COVID-19 Risk Score": 64.9
+    "occupation": "Speech-Language Pathology Assistants",
+    "score": 64.9
   },
   {
-    "Occupation": "Personal Care Aides",
-    "COVID-19 Risk Score": 64
+    "occupation": "Personal Care Aides",
+    "score": 64
   },
   {
-    "Occupation": "Medical Equipment Preparers",
-    "COVID-19 Risk Score": 63.9
+    "occupation": "Medical Equipment Preparers",
+    "score": 63.9
   },
   {
-    "Occupation": "Medical and Clinical Laboratory Technologists",
-    "COVID-19 Risk Score": 63.7
+    "occupation": "Medical and Clinical Laboratory Technologists",
+    "score": 63.7
   },
   {
-    "Occupation": "Municipal Firefighters",
-    "COVID-19 Risk Score": 63.3
+    "occupation": "Municipal Firefighters",
+    "score": 63.3
   },
   {
-    "Occupation": "First-Line Supervisors of Food Preparation and Serving Workers",
-    "COVID-19 Risk Score": 62.9
+    "occupation": "First-Line Supervisors of Food Preparation and Serving Workers",
+    "score": 62.9
   },
   {
-    "Occupation": "Recreational Therapists",
-    "COVID-19 Risk Score": 62.8
+    "occupation": "Recreational Therapists",
+    "score": 62.8
   },
   {
-    "Occupation": "Hearing Aid Specialists",
-    "COVID-19 Risk Score": 62.7
+    "occupation": "Hearing Aid Specialists",
+    "score": 62.7
   },
   {
-    "Occupation": "Pharmacy Technicians",
-    "COVID-19 Risk Score": 62.5
+    "occupation": "Pharmacy Technicians",
+    "score": 62.5
   },
   {
-    "Occupation": "Ophthalmic Medical Technicians",
-    "COVID-19 Risk Score": 62.3
+    "occupation": "Ophthalmic Medical Technicians",
+    "score": 62.3
   },
   {
-    "Occupation": "Hairdressers, Hairstylists, and Cosmetologists",
-    "COVID-19 Risk Score": 62.2
+    "occupation": "Hairdressers, Hairstylists, and Cosmetologists",
+    "score": 62.2
   },
   {
-    "Occupation": "Clinical Nurse Specialists",
-    "COVID-19 Risk Score": 62
+    "occupation": "Clinical Nurse Specialists",
+    "score": 62
   },
   {
-    "Occupation": "Transportation Security Screeners",
-    "COVID-19 Risk Score": 61.4
+    "occupation": "Transportation Security Screeners",
+    "score": 61.4
   },
   {
-    "Occupation": "First-Line Supervisors of Correctional Officers",
-    "COVID-19 Risk Score": 61
+    "occupation": "First-Line Supervisors of Correctional Officers",
+    "score": 61
   },
   {
-    "Occupation": "Dancers",
-    "COVID-19 Risk Score": 61
+    "occupation": "Dancers",
+    "score": 61
   },
   {
-    "Occupation": "Nurse Practitioners",
-    "COVID-19 Risk Score": 60.9
+    "occupation": "Nurse Practitioners",
+    "score": 60.9
   },
   {
-    "Occupation": "Optometrists",
-    "COVID-19 Risk Score": 60.9
+    "occupation": "Optometrists",
+    "score": 60.9
   },
   {
-    "Occupation": "Immigration and Customs Inspectors",
-    "COVID-19 Risk Score": 60.8
+    "occupation": "Immigration and Customs Inspectors",
+    "score": 60.8
   },
   {
-    "Occupation": "Exercise Physiologists",
-    "COVID-19 Risk Score": 60.7
+    "occupation": "Exercise Physiologists",
+    "score": 60.7
   },
   {
-    "Occupation": "Ambulance Drivers and Attendants, Except Emergency Medical Technicians",
-    "COVID-19 Risk Score": 60.7
+    "occupation": "Ambulance Drivers and Attendants, Except Emergency Medical Technicians",
+    "score": 60.7
   },
   {
-    "Occupation": "Correctional Officers and Jailers",
-    "COVID-19 Risk Score": 60.4
+    "occupation": "Correctional Officers and Jailers",
+    "score": 60.4
   },
   {
-    "Occupation": "Social and Human Service Assistants",
-    "COVID-19 Risk Score": 60.3
+    "occupation": "Social and Human Service Assistants",
+    "score": 60.3
   },
   {
-    "Occupation": "Sheriffs and Deputy Sheriffs",
-    "COVID-19 Risk Score": 59
+    "occupation": "Sheriffs and Deputy Sheriffs",
+    "score": 59
   },
   {
-    "Occupation": "Pharmacy Aides",
-    "COVID-19 Risk Score": 58.8
+    "occupation": "Pharmacy Aides",
+    "score": 58.8
   },
   {
-    "Occupation": "Municipal Fire Fighting and Prevention Supervisors",
-    "COVID-19 Risk Score": 58.3
+    "occupation": "Municipal Fire Fighting and Prevention Supervisors",
+    "score": 58.3
   },
   {
-    "Occupation": "Healthcare Social Workers",
-    "COVID-19 Risk Score": 58.2
+    "occupation": "Healthcare Social Workers",
+    "score": 58.2
   },
   {
-    "Occupation": "Childcare Workers",
-    "COVID-19 Risk Score": 58
+    "occupation": "Childcare Workers",
+    "score": 58
   },
   {
-    "Occupation": "Special Education Teachers, Kindergarten and Elementary School",
-    "COVID-19 Risk Score": 57.2
+    "occupation": "Special Education Teachers, Kindergarten and Elementary School",
+    "score": 57.2
   },
   {
-    "Occupation": "Pharmacists",
-    "COVID-19 Risk Score": 56.9
+    "occupation": "Pharmacists",
+    "score": 56.9
   },
   {
-    "Occupation": "Orthotists and Prosthetists",
-    "COVID-19 Risk Score": 56.7
+    "occupation": "Orthotists and Prosthetists",
+    "score": 56.7
   },
   {
-    "Occupation": "Shampooers",
-    "COVID-19 Risk Score": 56.6
+    "occupation": "Shampooers",
+    "score": 56.6
   },
   {
-    "Occupation": "Music Therapists",
-    "COVID-19 Risk Score": 56.1
+    "occupation": "Music Therapists",
+    "score": 56.1
   },
   {
-    "Occupation": "Amusement and Recreation Attendants",
-    "COVID-19 Risk Score": 56
+    "occupation": "Amusement and Recreation Attendants",
+    "score": 56
   },
   {
-    "Occupation": "Slot Supervisors",
-    "COVID-19 Risk Score": 55.9
+    "occupation": "Slot Supervisors",
+    "score": 55.9
   },
   {
-    "Occupation": "Teacher Assistants",
-    "COVID-19 Risk Score": 55.8
+    "occupation": "Teacher Assistants",
+    "score": 55.8
   },
   {
-    "Occupation": "Education Administrators, Preschool and Childcare Center/Program",
-    "COVID-19 Risk Score": 55.7
+    "occupation": "Education Administrators, Preschool and Childcare Center/Program",
+    "score": 55.7
   },
   {
-    "Occupation": "Special Education Teachers, Middle School",
-    "COVID-19 Risk Score": 55.6
+    "occupation": "Special Education Teachers, Middle School",
+    "score": 55.6
   },
   {
-    "Occupation": "Magnetic Resonance Imaging Technologists",
-    "COVID-19 Risk Score": 55.6
+    "occupation": "Magnetic Resonance Imaging Technologists",
+    "score": 55.6
   },
   {
-    "Occupation": "Adapted Physical Education Specialists",
-    "COVID-19 Risk Score": 55.2
+    "occupation": "Adapted Physical Education Specialists",
+    "score": 55.2
   },
   {
-    "Occupation": "Preschool Teachers, Except Special Education",
-    "COVID-19 Risk Score": 55.2
+    "occupation": "Preschool Teachers, Except Special Education",
+    "score": 55.2
   },
   {
-    "Occupation": "Gaming Dealers",
-    "COVID-19 Risk Score": 55
+    "occupation": "Gaming Dealers",
+    "score": 55
   },
   {
-    "Occupation": "Advanced Practice Psychiatric Nurses",
-    "COVID-19 Risk Score": 54.2
+    "occupation": "Advanced Practice Psychiatric Nurses",
+    "score": 54.2
   },
   {
-    "Occupation": "Elementary School Teachers, Except Special Education",
-    "COVID-19 Risk Score": 53.8
+    "occupation": "Elementary School Teachers, Except Special Education",
+    "score": 53.8
   },
   {
-    "Occupation": "Fire Investigators",
-    "COVID-19 Risk Score": 53.8
+    "occupation": "Fire Investigators",
+    "score": 53.8
   },
   {
-    "Occupation": "Singers",
-    "COVID-19 Risk Score": 52.9
+    "occupation": "Singers",
+    "score": 52.9
   },
   {
-    "Occupation": "Massage Therapists",
-    "COVID-19 Risk Score": 52.8
+    "occupation": "Massage Therapists",
+    "score": 52.8
   },
   {
-    "Occupation": "Speech-Language Pathologists",
-    "COVID-19 Risk Score": 52.7
+    "occupation": "Speech-Language Pathologists",
+    "score": 52.7
   },
   {
-    "Occupation": "Choreographers",
-    "COVID-19 Risk Score": 52.4
+    "occupation": "Choreographers",
+    "score": 52.4
   },
   {
-    "Occupation": "Medical Secretaries",
-    "COVID-19 Risk Score": 52.2
+    "occupation": "Medical Secretaries",
+    "score": 52.2
   },
   {
-    "Occupation": "Police Patrol Officers",
-    "COVID-19 Risk Score": 51.9
+    "occupation": "Police Patrol Officers",
+    "score": 51.9
   },
   {
-    "Occupation": "First-Line Supervisors of Police and Detectives",
-    "COVID-19 Risk Score": 51.9
+    "occupation": "First-Line Supervisors of Police and Detectives",
+    "score": 51.9
   },
   {
-    "Occupation": "Transportation Attendants, Except Flight Attendants",
-    "COVID-19 Risk Score": 51.8
+    "occupation": "Transportation Attendants, Except Flight Attendants",
+    "score": 51.8
   },
   {
-    "Occupation": "Transit and Railroad Police",
-    "COVID-19 Risk Score": 51.6
+    "occupation": "Transit and Railroad Police",
+    "score": 51.6
   },
   {
-    "Occupation": "Morticians, Undertakers, and Funeral Directors",
-    "COVID-19 Risk Score": 51.3
+    "occupation": "Morticians, Undertakers, and Funeral Directors",
+    "score": 51.3
   },
   {
-    "Occupation": "Pipelayers",
-    "COVID-19 Risk Score": 51.3
+    "occupation": "Pipelayers",
+    "score": 51.3
   },
   {
-    "Occupation": "Ushers, Lobby Attendants, and Ticket Takers",
-    "COVID-19 Risk Score": 51.2
+    "occupation": "Ushers, Lobby Attendants, and Ticket Takers",
+    "score": 51.2
   },
   {
-    "Occupation": "Radiologists",
-    "COVID-19 Risk Score": 51.1
+    "occupation": "Radiologists",
+    "score": 51.1
   },
   {
-    "Occupation": "Tellers",
-    "COVID-19 Risk Score": 50.9
+    "occupation": "Tellers",
+    "score": 50.9
   },
   {
-    "Occupation": "Bailiffs",
-    "COVID-19 Risk Score": 50.7
+    "occupation": "Bailiffs",
+    "score": 50.7
   },
   {
-    "Occupation": "Opticians, Dispensing",
-    "COVID-19 Risk Score": 50.6
+    "occupation": "Opticians, Dispensing",
+    "score": 50.6
   },
   {
-    "Occupation": "Septic Tank Servicers and Sewer Pipe Cleaners",
-    "COVID-19 Risk Score": 50.5
+    "occupation": "Septic Tank Servicers and Sewer Pipe Cleaners",
+    "score": 50.5
   },
   {
-    "Occupation": "Actors",
-    "COVID-19 Risk Score": 50.4
+    "occupation": "Actors",
+    "score": 50.4
   },
   {
-    "Occupation": "Gaming Surveillance Officers and Gaming Investigators",
-    "COVID-19 Risk Score": 50.3
+    "occupation": "Gaming Surveillance Officers and Gaming Investigators",
+    "score": 50.3
   },
   {
-    "Occupation": "Dietetic Technicians",
-    "COVID-19 Risk Score": 50.3
+    "occupation": "Dietetic Technicians",
+    "score": 50.3
   },
   {
-    "Occupation": "First-Line Supervisors of Personal Service Workers",
-    "COVID-19 Risk Score": 50.2
+    "occupation": "First-Line Supervisors of Personal Service Workers",
+    "score": 50.2
   },
   {
-    "Occupation": "Animal Control Workers",
-    "COVID-19 Risk Score": 50.1
+    "occupation": "Animal Control Workers",
+    "score": 50.1
   },
   {
-    "Occupation": "Audiologists",
-    "COVID-19 Risk Score": 50
+    "occupation": "Audiologists",
+    "score": 50
   },
   {
-    "Occupation": "Manicurists and Pedicurists",
-    "COVID-19 Risk Score": 49.5
+    "occupation": "Manicurists and Pedicurists",
+    "score": 49.5
   },
   {
-    "Occupation": "Medical and Clinical Laboratory Technicians",
-    "COVID-19 Risk Score": 49.3
+    "occupation": "Medical and Clinical Laboratory Technicians",
+    "score": 49.3
   },
   {
-    "Occupation": "Embalmers",
-    "COVID-19 Risk Score": 49
+    "occupation": "Embalmers",
+    "score": 49
   },
   {
-    "Occupation": "Spa Managers",
-    "COVID-19 Risk Score": 48.7
+    "occupation": "Spa Managers",
+    "score": 48.7
   },
   {
-    "Occupation": "Nuclear Medicine Physicians",
-    "COVID-19 Risk Score": 48.6
+    "occupation": "Nuclear Medicine Physicians",
+    "score": 48.6
   },
   {
-    "Occupation": "Substance Abuse and Behavioral Disorder Counselors",
-    "COVID-19 Risk Score": 48.6
+    "occupation": "Substance Abuse and Behavioral Disorder Counselors",
+    "score": 48.6
   },
   {
-    "Occupation": "Hosts and Hostesses, Restaurant, Lounge, and Coffee Shop",
-    "COVID-19 Risk Score": 48.4
+    "occupation": "Hosts and Hostesses, Restaurant, Lounge, and Coffee Shop",
+    "score": 48.4
   },
   {
-    "Occupation": "Recreation Workers",
-    "COVID-19 Risk Score": 48
+    "occupation": "Recreation Workers",
+    "score": 48
   },
   {
-    "Occupation": "Police Detectives",
-    "COVID-19 Risk Score": 47.9
+    "occupation": "Police Detectives",
+    "score": 47.9
   },
   {
-    "Occupation": "Bus Drivers, Transit and Intercity",
-    "COVID-19 Risk Score": 47.9
+    "occupation": "Bus Drivers, Transit and Intercity",
+    "score": 47.9
   },
   {
-    "Occupation": "Makeup Artists, Theatrical and Performance",
-    "COVID-19 Risk Score": 47.8
+    "occupation": "Makeup Artists, Theatrical and Performance",
+    "score": 47.8
   },
   {
-    "Occupation": "Coroners",
-    "COVID-19 Risk Score": 47.8
+    "occupation": "Coroners",
+    "score": 47.8
   },
   {
-    "Occupation": "Police Identification and Records Officers",
-    "COVID-19 Risk Score": 47.7
+    "occupation": "Police Identification and Records Officers",
+    "score": 47.7
   },
   {
-    "Occupation": "Food Servers, Nonrestaurant",
-    "COVID-19 Risk Score": 47.6
+    "occupation": "Food Servers, Nonrestaurant",
+    "score": 47.6
   },
   {
-    "Occupation": "Gaming Supervisors",
-    "COVID-19 Risk Score": 47.2
+    "occupation": "Gaming Supervisors",
+    "score": 47.2
   },
   {
-    "Occupation": "Stock Clerks, Sales Floor",
-    "COVID-19 Risk Score": 47.2
+    "occupation": "Stock Clerks, Sales Floor",
+    "score": 47.2
   },
   {
-    "Occupation": "Airline Pilots, Copilots, and Flight Engineers",
-    "COVID-19 Risk Score": 46.9
+    "occupation": "Airline Pilots, Copilots, and Flight Engineers",
+    "score": 46.9
   },
   {
-    "Occupation": "Interpreters and Translators",
-    "COVID-19 Risk Score": 46.8
+    "occupation": "Interpreters and Translators",
+    "score": 46.8
   },
   {
-    "Occupation": "Subway and Streetcar Operators",
-    "COVID-19 Risk Score": 46.7
+    "occupation": "Subway and Streetcar Operators",
+    "score": 46.7
   },
   {
-    "Occupation": "Middle School Teachers, Except Special and Career/Technical Education",
-    "COVID-19 Risk Score": 46.6
+    "occupation": "Middle School Teachers, Except Special and Career/Technical Education",
+    "score": 46.6
   },
   {
-    "Occupation": "Funeral Attendants",
-    "COVID-19 Risk Score": 46.4
+    "occupation": "Funeral Attendants",
+    "score": 46.4
   },
   {
-    "Occupation": "Licensing Examiners and Inspectors",
-    "COVID-19 Risk Score": 45.9
+    "occupation": "Licensing Examiners and Inspectors",
+    "score": 45.9
   },
   {
-    "Occupation": "Nonfarm Animal Caretakers",
-    "COVID-19 Risk Score": 45.9
+    "occupation": "Nonfarm Animal Caretakers",
+    "score": 45.9
   },
   {
-    "Occupation": "Aircraft Cargo Handling Supervisors",
-    "COVID-19 Risk Score": 45.7
+    "occupation": "Aircraft Cargo Handling Supervisors",
+    "score": 45.7
   },
   {
-    "Occupation": "Forest Firefighters",
-    "COVID-19 Risk Score": 45.6
+    "occupation": "Forest Firefighters",
+    "score": 45.6
   },
   {
-    "Occupation": "Dining Room and Cafeteria Attendants and Bartender Helpers",
-    "COVID-19 Risk Score": 45.6
+    "occupation": "Dining Room and Cafeteria Attendants and Bartender Helpers",
+    "score": 45.6
   },
   {
-    "Occupation": "Electrical and Electronics Repairers, Powerhouse, Substation, and Relay",
-    "COVID-19 Risk Score": 45.3
+    "occupation": "Electrical and Electronics Repairers, Powerhouse, Substation, and Relay",
+    "score": 45.3
   },
   {
-    "Occupation": "Postal Service Clerks",
-    "COVID-19 Risk Score": 45
+    "occupation": "Postal Service Clerks",
+    "score": 45
   },
   {
-    "Occupation": "Criminal Investigators and Special Agents",
-    "COVID-19 Risk Score": 44.8
+    "occupation": "Criminal Investigators and Special Agents",
+    "score": 44.8
   },
   {
-    "Occupation": "Gaming and Sports Book Writers and Runners",
-    "COVID-19 Risk Score": 44.3
+    "occupation": "Gaming and Sports Book Writers and Runners",
+    "score": 44.3
   },
   {
-    "Occupation": "Cooks, Institution and Cafeteria",
-    "COVID-19 Risk Score": 44
+    "occupation": "Cooks, Institution and Cafeteria",
+    "score": 44
   },
   {
-    "Occupation": "Gaming Cage Workers",
-    "COVID-19 Risk Score": 43.9
+    "occupation": "Gaming Cage Workers",
+    "score": 43.9
   },
   {
-    "Occupation": "Dietitians and Nutritionists",
-    "COVID-19 Risk Score": 43.7
+    "occupation": "Dietitians and Nutritionists",
+    "score": 43.7
   },
   {
-    "Occupation": "Waiters and Waitresses",
-    "COVID-19 Risk Score": 43.6
+    "occupation": "Waiters and Waitresses",
+    "score": 43.6
   },
   {
-    "Occupation": "License Clerks",
-    "COVID-19 Risk Score": 43.3
+    "occupation": "License Clerks",
+    "score": 43.3
   },
   {
-    "Occupation": "Bartenders",
-    "COVID-19 Risk Score": 43.1
+    "occupation": "Bartenders",
+    "score": 43.1
   },
   {
-    "Occupation": "Special Education Teachers, Secondary School",
-    "COVID-19 Risk Score": 43.1
+    "occupation": "Special Education Teachers, Secondary School",
+    "score": 43.1
   },
   {
-    "Occupation": "Structural Iron and Steel Workers",
-    "COVID-19 Risk Score": 42.9
+    "occupation": "Structural Iron and Steel Workers",
+    "score": 42.9
   },
   {
-    "Occupation": "Food Preparation Workers",
-    "COVID-19 Risk Score": 42.8
+    "occupation": "Food Preparation Workers",
+    "score": 42.8
   },
   {
-    "Occupation": "Art, Drama, and Music Teachers, Postsecondary",
-    "COVID-19 Risk Score": 42.8
+    "occupation": "Art, Drama, and Music Teachers, Postsecondary",
+    "score": 42.8
   },
   {
-    "Occupation": "Low Vision Therapists, Orientation and Mobility Specialists, and Vision Rehabilitation         Therapists",
-    "COVID-19 Risk Score": 42.7
+    "occupation": "Low Vision Therapists, Orientation and Mobility Specialists, and Vision Rehabilitation         Therapists",
+    "score": 42.7
   },
   {
-    "Occupation": "Receptionists and Information Clerks",
-    "COVID-19 Risk Score": 42.6
+    "occupation": "Receptionists and Information Clerks",
+    "score": 42.6
   },
   {
-    "Occupation": "First-Line Supervisors of Housekeeping and Janitorial Workers",
-    "COVID-19 Risk Score": 42.6
+    "occupation": "First-Line Supervisors of Housekeeping and Janitorial Workers",
+    "score": 42.6
   },
   {
-    "Occupation": "Meeting, Convention, and Event Planners",
-    "COVID-19 Risk Score": 42.4
+    "occupation": "Meeting, Convention, and Event Planners",
+    "score": 42.4
   },
   {
-    "Occupation": "Statement Clerks",
-    "COVID-19 Risk Score": 42.2
+    "occupation": "Statement Clerks",
+    "score": 42.2
   },
   {
-    "Occupation": "Locker Room, Coatroom, and Dressing Room Attendants",
-    "COVID-19 Risk Score": 41.9
+    "occupation": "Locker Room, Coatroom, and Dressing Room Attendants",
+    "score": 41.9
   },
   {
-    "Occupation": "Reservation and Transportation Ticket Agents and Travel Clerks",
-    "COVID-19 Risk Score": 41.8
+    "occupation": "Reservation and Transportation Ticket Agents and Travel Clerks",
+    "score": 41.8
   },
   {
-    "Occupation": "Gaming Change Persons and Booth Cashiers",
-    "COVID-19 Risk Score": 41.7
+    "occupation": "Gaming Change Persons and Booth Cashiers",
+    "score": 41.7
   },
   {
-    "Occupation": "Cashiers",
-    "COVID-19 Risk Score": 41.7
+    "occupation": "Cashiers",
+    "score": 41.7
   },
   {
-    "Occupation": "Probation Officers and Correctional Treatment Specialists",
-    "COVID-19 Risk Score": 41.6
+    "occupation": "Probation Officers and Correctional Treatment Specialists",
+    "score": 41.6
   },
   {
-    "Occupation": "Child, Family, and School Social Workers",
-    "COVID-19 Risk Score": 41.6
+    "occupation": "Child, Family, and School Social Workers",
+    "score": 41.6
   },
   {
-    "Occupation": "Switchboard Operators, Including Answering Service",
-    "COVID-19 Risk Score": 41.2
+    "occupation": "Switchboard Operators, Including Answering Service",
+    "score": 41.2
   },
   {
-    "Occupation": "Gaming Managers",
-    "COVID-19 Risk Score": 41.2
+    "occupation": "Gaming Managers",
+    "score": 41.2
   },
   {
-    "Occupation": "Adhesive Bonding Machine Operators and Tenders",
-    "COVID-19 Risk Score": 41.1
+    "occupation": "Adhesive Bonding Machine Operators and Tenders",
+    "score": 41.1
   },
   {
-    "Occupation": "Couriers and Messengers",
-    "COVID-19 Risk Score": 41.1
+    "occupation": "Couriers and Messengers",
+    "score": 41.1
   },
   {
-    "Occupation": "Tutors",
-    "COVID-19 Risk Score": 41
+    "occupation": "Tutors",
+    "score": 41
   },
   {
-    "Occupation": "Credit Checkers",
-    "COVID-19 Risk Score": 41
+    "occupation": "Credit Checkers",
+    "score": 41
   },
   {
-    "Occupation": "Air Traffic Controllers",
-    "COVID-19 Risk Score": 40.9
+    "occupation": "Air Traffic Controllers",
+    "score": 40.9
   },
   {
-    "Occupation": "Educational, Guidance, School, and Vocational Counselors",
-    "COVID-19 Risk Score": 40.9
+    "occupation": "Educational, Guidance, School, and Vocational Counselors",
+    "score": 40.9
   },
   {
-    "Occupation": "Nursing Instructors and Teachers, Postsecondary",
-    "COVID-19 Risk Score": 40.7
+    "occupation": "Nursing Instructors and Teachers, Postsecondary",
+    "score": 40.7
   },
   {
-    "Occupation": "Office Clerks, General",
-    "COVID-19 Risk Score": 40.6
+    "occupation": "Office Clerks, General",
+    "score": 40.6
   },
   {
-    "Occupation": "Maids and Housekeeping Cleaners",
-    "COVID-19 Risk Score": 40.5
+    "occupation": "Maids and Housekeeping Cleaners",
+    "score": 40.5
   },
   {
-    "Occupation": "Rail-Track Laying and Maintenance Equipment Operators",
-    "COVID-19 Risk Score": 40.2
+    "occupation": "Rail-Track Laying and Maintenance Equipment Operators",
+    "score": 40.2
   },
   {
-    "Occupation": "Food Service Managers",
-    "COVID-19 Risk Score": 40.1
+    "occupation": "Food Service Managers",
+    "score": 40.1
   },
   {
-    "Occupation": "Baristas",
-    "COVID-19 Risk Score": 40
+    "occupation": "Baristas",
+    "score": 40
   },
   {
-    "Occupation": "Telecommunications Line Installers and Repairers",
-    "COVID-19 Risk Score": 40
+    "occupation": "Telecommunications Line Installers and Repairers",
+    "score": 40
   },
   {
-    "Occupation": "Interviewers, Except Eligibility and Loan",
-    "COVID-19 Risk Score": 39.9
+    "occupation": "Interviewers, Except Eligibility and Loan",
+    "score": 39.9
   },
   {
-    "Occupation": "Community Health Workers",
-    "COVID-19 Risk Score": 39.7
+    "occupation": "Community Health Workers",
+    "score": 39.7
   },
   {
-    "Occupation": "Counter Attendants, Cafeteria, Food Concession, and Coffee Shop",
-    "COVID-19 Risk Score": 39.6
+    "occupation": "Counter Attendants, Cafeteria, Food Concession, and Coffee Shop",
+    "score": 39.6
   },
   {
-    "Occupation": "Clinical Research Coordinators",
-    "COVID-19 Risk Score": 39.5
+    "occupation": "Clinical Research Coordinators",
+    "score": 39.5
   },
   {
-    "Occupation": "Quality Control Systems Managers",
-    "COVID-19 Risk Score": 39.4
+    "occupation": "Quality Control Systems Managers",
+    "score": 39.4
   },
   {
-    "Occupation": "Roustabouts, Oil and Gas",
-    "COVID-19 Risk Score": 39.4
+    "occupation": "Roustabouts, Oil and Gas",
+    "score": 39.4
   },
   {
-    "Occupation": "Derrick Operators, Oil and Gas",
-    "COVID-19 Risk Score": 39.2
+    "occupation": "Derrick Operators, Oil and Gas",
+    "score": 39.2
   },
   {
-    "Occupation": "Commercial Pilots",
-    "COVID-19 Risk Score": 39.2
+    "occupation": "Commercial Pilots",
+    "score": 39.2
   },
   {
-    "Occupation": "Career/Technical Education Teachers, Secondary School",
-    "COVID-19 Risk Score": 39.1
+    "occupation": "Career/Technical Education Teachers, Secondary School",
+    "score": 39.1
   },
   {
-    "Occupation": "Radio Operators",
-    "COVID-19 Risk Score": 38.9
+    "occupation": "Radio Operators",
+    "score": 38.9
   },
   {
-    "Occupation": "Retail Salespersons",
-    "COVID-19 Risk Score": 38.7
+    "occupation": "Retail Salespersons",
+    "score": 38.7
   },
   {
-    "Occupation": "Ship and Boat Captains",
-    "COVID-19 Risk Score": 38.6
+    "occupation": "Ship and Boat Captains",
+    "score": 38.6
   },
   {
-    "Occupation": "Career/Technical Education Teachers, Middle School",
-    "COVID-19 Risk Score": 38.5
+    "occupation": "Career/Technical Education Teachers, Middle School",
+    "score": 38.5
   },
   {
-    "Occupation": "Histotechnologists and Histologic Technicians",
-    "COVID-19 Risk Score": 38.3
+    "occupation": "Histotechnologists and Histologic Technicians",
+    "score": 38.3
   },
   {
-    "Occupation": "New Accounts Clerks",
-    "COVID-19 Risk Score": 38.3
+    "occupation": "New Accounts Clerks",
+    "score": 38.3
   },
   {
-    "Occupation": "Tailors, Dressmakers, and Custom Sewers",
-    "COVID-19 Risk Score": 38.3
+    "occupation": "Tailors, Dressmakers, and Custom Sewers",
+    "score": 38.3
   },
   {
-    "Occupation": "Procurement Clerks",
-    "COVID-19 Risk Score": 38.2
+    "occupation": "Procurement Clerks",
+    "score": 38.2
   },
   {
-    "Occupation": "Crossing Guards",
-    "COVID-19 Risk Score": 38.2
+    "occupation": "Crossing Guards",
+    "score": 38.2
   },
   {
-    "Occupation": "Driver/Sales Workers",
-    "COVID-19 Risk Score": 38.1
+    "occupation": "Driver/Sales Workers",
+    "score": 38.1
   },
   {
-    "Occupation": "Fire Inspectors",
-    "COVID-19 Risk Score": 38
+    "occupation": "Fire Inspectors",
+    "score": 38
   },
   {
-    "Occupation": "Costume Attendants",
-    "COVID-19 Risk Score": 38
+    "occupation": "Costume Attendants",
+    "score": 38
   },
   {
-    "Occupation": "Loan Interviewers and Clerks",
-    "COVID-19 Risk Score": 37.7
+    "occupation": "Loan Interviewers and Clerks",
+    "score": 37.7
   },
   {
-    "Occupation": "Health Specialties Teachers, Postsecondary",
-    "COVID-19 Risk Score": 37.6
+    "occupation": "Health Specialties Teachers, Postsecondary",
+    "score": 37.6
   },
   {
-    "Occupation": "First-Line Supervisors of Transportation and Material-Moving Machine and Vehicle Operators",
-    "COVID-19 Risk Score": 37.5
+    "occupation": "First-Line Supervisors of Transportation and Material-Moving Machine and Vehicle Operators",
+    "score": 37.5
   },
   {
-    "Occupation": "Elevator Installers and Repairers",
-    "COVID-19 Risk Score": 37.4
+    "occupation": "Elevator Installers and Repairers",
+    "score": 37.4
   },
   {
-    "Occupation": "Telemarketers",
-    "COVID-19 Risk Score": 37.3
+    "occupation": "Telemarketers",
+    "score": 37.3
   },
   {
-    "Occupation": "Fitness Trainers and Aerobics Instructors",
-    "COVID-19 Risk Score": 37.3
+    "occupation": "Fitness Trainers and Aerobics Instructors",
+    "score": 37.3
   },
   {
-    "Occupation": "Secondary School Teachers, Except Special and Career/Technical Education",
-    "COVID-19 Risk Score": 37.3
+    "occupation": "Secondary School Teachers, Except Special and Career/Technical Education",
+    "score": 37.3
   },
   {
-    "Occupation": "Administrative Law Judges, Adjudicators, and Hearing Officers",
-    "COVID-19 Risk Score": 37.3
+    "occupation": "Administrative Law Judges, Adjudicators, and Hearing Officers",
+    "score": 37.3
   },
   {
-    "Occupation": "Cooks, Restaurant",
-    "COVID-19 Risk Score": 37.3
+    "occupation": "Cooks, Restaurant",
+    "score": 37.3
   },
   {
-    "Occupation": "Tire Repairers and Changers",
-    "COVID-19 Risk Score": 37.2
+    "occupation": "Tire Repairers and Changers",
+    "score": 37.2
   },
   {
-    "Occupation": "Brokerage Clerks",
-    "COVID-19 Risk Score": 37.2
+    "occupation": "Brokerage Clerks",
+    "score": 37.2
   },
   {
-    "Occupation": "Rough Carpenters",
-    "COVID-19 Risk Score": 37.2
+    "occupation": "Rough Carpenters",
+    "score": 37.2
   },
   {
-    "Occupation": "Dispatchers, Except Police, Fire, and Ambulance",
-    "COVID-19 Risk Score": 37.1
+    "occupation": "Dispatchers, Except Police, Fire, and Ambulance",
+    "score": 37.1
   },
   {
-    "Occupation": "Chefs and Head Cooks",
-    "COVID-19 Risk Score": 37
+    "occupation": "Chefs and Head Cooks",
+    "score": 37
   },
   {
-    "Occupation": "Transportation Vehicle, Equipment and Systems Inspectors, Except Aviation",
-    "COVID-19 Risk Score": 37
+    "occupation": "Transportation Vehicle, Equipment and Systems Inspectors, Except Aviation",
+    "score": 37
   },
   {
-    "Occupation": "Stationary Engineers and Boiler Operators",
-    "COVID-19 Risk Score": 37
+    "occupation": "Stationary Engineers and Boiler Operators",
+    "score": 37
   },
   {
-    "Occupation": "Real Estate Sales Agents",
-    "COVID-19 Risk Score": 36.9
+    "occupation": "Real Estate Sales Agents",
+    "score": 36.9
   },
   {
-    "Occupation": "Pile-Driver Operators",
-    "COVID-19 Risk Score": 36.9
+    "occupation": "Pile-Driver Operators",
+    "score": 36.9
   },
   {
-    "Occupation": "Counter and Rental Clerks",
-    "COVID-19 Risk Score": 36.8
+    "occupation": "Counter and Rental Clerks",
+    "score": 36.8
   },
   {
-    "Occupation": "Combined Food Preparation and Serving Workers, Including Fast Food",
-    "COVID-19 Risk Score": 36.8
+    "occupation": "Combined Food Preparation and Serving Workers, Including Fast Food",
+    "score": 36.8
   },
   {
-    "Occupation": "Parking Lot Attendants",
-    "COVID-19 Risk Score": 36.8
+    "occupation": "Parking Lot Attendants",
+    "score": 36.8
   },
   {
-    "Occupation": "Mental Health Counselors",
-    "COVID-19 Risk Score": 36.6
+    "occupation": "Mental Health Counselors",
+    "score": 36.6
   },
   {
-    "Occupation": "Secretaries and Administrative Assistants, Except Legal, Medical, and Executive",
-    "COVID-19 Risk Score": 36.5
+    "occupation": "Secretaries and Administrative Assistants, Except Legal, Medical, and Executive",
+    "score": 36.5
   },
   {
-    "Occupation": "Radio, Cellular, and Tower Equipment Installers and Repairers",
-    "COVID-19 Risk Score": 36.5
+    "occupation": "Radio, Cellular, and Tower Equipment Installers and Repairers",
+    "score": 36.5
   },
   {
-    "Occupation": "Manufactured Building and Mobile Home Installers",
-    "COVID-19 Risk Score": 36.5
+    "occupation": "Manufactured Building and Mobile Home Installers",
+    "score": 36.5
   },
   {
-    "Occupation": "Postmasters and Mail Superintendents",
-    "COVID-19 Risk Score": 36.3
+    "occupation": "Postmasters and Mail Superintendents",
+    "score": 36.3
   },
   {
-    "Occupation": "Construction Laborers",
-    "COVID-19 Risk Score": 36.3
+    "occupation": "Construction Laborers",
+    "score": 36.3
   },
   {
-    "Occupation": "Microbiologists",
-    "COVID-19 Risk Score": 36.2
+    "occupation": "Microbiologists",
+    "score": 36.2
   },
   {
-    "Occupation": "Meat, Poultry, and Fish Cutters and Trimmers",
-    "COVID-19 Risk Score": 36.2
+    "occupation": "Meat, Poultry, and Fish Cutters and Trimmers",
+    "score": 36.2
   },
   {
-    "Occupation": "Control and Valve Installers and Repairers, Except Mechanical Door",
-    "COVID-19 Risk Score": 36.1
+    "occupation": "Control and Valve Installers and Repairers, Except Mechanical Door",
+    "score": 36.1
   },
   {
-    "Occupation": "Broadcast News Analysts",
-    "COVID-19 Risk Score": 36.1
+    "occupation": "Broadcast News Analysts",
+    "score": 36.1
   },
   {
-    "Occupation": "Roof Bolters, Mining",
-    "COVID-19 Risk Score": 35.8
+    "occupation": "Roof Bolters, Mining",
+    "score": 35.8
   },
   {
-    "Occupation": "Musicians, Instrumental",
-    "COVID-19 Risk Score": 35.8
+    "occupation": "Musicians, Instrumental",
+    "score": 35.8
   },
   {
-    "Occupation": "Library Assistants, Clerical",
-    "COVID-19 Risk Score": 35.8
+    "occupation": "Library Assistants, Clerical",
+    "score": 35.8
   },
   {
-    "Occupation": "Coaches and Scouts",
-    "COVID-19 Risk Score": 35.8
+    "occupation": "Coaches and Scouts",
+    "score": 35.8
   },
   {
-    "Occupation": "Lifeguards, Ski Patrol, and Other Recreational Protective Service Workers",
-    "COVID-19 Risk Score": 35.4
+    "occupation": "Lifeguards, Ski Patrol, and Other Recreational Protective Service Workers",
+    "score": 35.4
   },
   {
-    "Occupation": "Cooks, Short Order",
-    "COVID-19 Risk Score": 35.4
+    "occupation": "Cooks, Short Order",
+    "score": 35.4
   },
   {
-    "Occupation": "First-Line Supervisors of Helpers, Laborers, and Material Movers, Hand",
-    "COVID-19 Risk Score": 35.3
+    "occupation": "First-Line Supervisors of Helpers, Laborers, and Material Movers, Hand",
+    "score": 35.3
   },
   {
-    "Occupation": "Concierges",
-    "COVID-19 Risk Score": 35.3
+    "occupation": "Concierges",
+    "score": 35.3
   },
   {
-    "Occupation": "Taxi Drivers and Chauffeurs",
-    "COVID-19 Risk Score": 35.2
+    "occupation": "Taxi Drivers and Chauffeurs",
+    "score": 35.2
   },
   {
-    "Occupation": "Fish and Game Wardens",
-    "COVID-19 Risk Score": 35.2
+    "occupation": "Fish and Game Wardens",
+    "score": 35.2
   },
   {
-    "Occupation": "Helpers--Extraction Workers",
-    "COVID-19 Risk Score": 35.1
+    "occupation": "Helpers--Extraction Workers",
+    "score": 35.1
   },
   {
-    "Occupation": "General and Operations Managers",
-    "COVID-19 Risk Score": 35.1
+    "occupation": "General and Operations Managers",
+    "score": 35.1
   },
   {
-    "Occupation": "Forest Fire Fighting and Prevention Supervisors",
-    "COVID-19 Risk Score": 35.1
+    "occupation": "Forest Fire Fighting and Prevention Supervisors",
+    "score": 35.1
   },
   {
-    "Occupation": "Recreation and Fitness Studies Teachers, Postsecondary",
-    "COVID-19 Risk Score": 34.8
+    "occupation": "Recreation and Fitness Studies Teachers, Postsecondary",
+    "score": 34.8
   },
   {
-    "Occupation": "Railroad Brake, Signal, and Switch Operators",
-    "COVID-19 Risk Score": 34.8
+    "occupation": "Railroad Brake, Signal, and Switch Operators",
+    "score": 34.8
   },
   {
-    "Occupation": "Maintenance and Repair Workers, General",
-    "COVID-19 Risk Score": 34.7
+    "occupation": "Maintenance and Repair Workers, General",
+    "score": 34.7
   },
   {
-    "Occupation": "Wholesale and Retail Buyers, Except Farm Products",
-    "COVID-19 Risk Score": 34.6
+    "occupation": "Wholesale and Retail Buyers, Except Farm Products",
+    "score": 34.6
   },
   {
-    "Occupation": "Cement Masons and Concrete Finishers",
-    "COVID-19 Risk Score": 34.6
+    "occupation": "Cement Masons and Concrete Finishers",
+    "score": 34.6
   },
   {
-    "Occupation": "Marriage and Family Therapists",
-    "COVID-19 Risk Score": 34.5
+    "occupation": "Marriage and Family Therapists",
+    "score": 34.5
   },
   {
-    "Occupation": "Agents and Business Managers of Artists, Performers, and Athletes",
-    "COVID-19 Risk Score": 34.5
+    "occupation": "Agents and Business Managers of Artists, Performers, and Athletes",
+    "score": 34.5
   },
   {
-    "Occupation": "Self-Enrichment Education Teachers",
-    "COVID-19 Risk Score": 34.4
+    "occupation": "Self-Enrichment Education Teachers",
+    "score": 34.4
   },
   {
-    "Occupation": "Funeral Service Managers",
-    "COVID-19 Risk Score": 34.3
+    "occupation": "Funeral Service Managers",
+    "score": 34.3
   },
   {
-    "Occupation": "Telecommunications Equipment Installers and Repairers, Except Line Installers",
-    "COVID-19 Risk Score": 34.3
+    "occupation": "Telecommunications Equipment Installers and Repairers, Except Line Installers",
+    "score": 34.3
   },
   {
-    "Occupation": "Cytogenetic Technologists",
-    "COVID-19 Risk Score": 34.3
+    "occupation": "Cytogenetic Technologists",
+    "score": 34.3
   },
   {
-    "Occupation": "Health Educators",
-    "COVID-19 Risk Score": 34.2
+    "occupation": "Health Educators",
+    "score": 34.2
   },
   {
-    "Occupation": "Copy Writers",
-    "COVID-19 Risk Score": 34.2
+    "occupation": "Copy Writers",
+    "score": 34.2
   },
   {
-    "Occupation": "Civil Engineering Technicians",
-    "COVID-19 Risk Score": 34.2
+    "occupation": "Civil Engineering Technicians",
+    "score": 34.2
   },
   {
-    "Occupation": "Highway Maintenance Workers",
-    "COVID-19 Risk Score": 34.1
+    "occupation": "Highway Maintenance Workers",
+    "score": 34.1
   },
   {
-    "Occupation": "Insurance Appraisers, Auto Damage",
-    "COVID-19 Risk Score": 34
+    "occupation": "Insurance Appraisers, Auto Damage",
+    "score": 34
   },
   {
-    "Occupation": "Eligibility Interviewers, Government Programs",
-    "COVID-19 Risk Score": 33.9
+    "occupation": "Eligibility Interviewers, Government Programs",
+    "score": 33.9
   },
   {
-    "Occupation": "Service Unit Operators, Oil, Gas, and Mining",
-    "COVID-19 Risk Score": 33.9
+    "occupation": "Service Unit Operators, Oil, Gas, and Mining",
+    "score": 33.9
   },
   {
-    "Occupation": "Packers and Packagers, Hand",
-    "COVID-19 Risk Score": 33.9
+    "occupation": "Packers and Packagers, Hand",
+    "score": 33.9
   },
   {
-    "Occupation": "Light Truck or Delivery Services Drivers",
-    "COVID-19 Risk Score": 33.8
+    "occupation": "Light Truck or Delivery Services Drivers",
+    "score": 33.8
   },
   {
-    "Occupation": "Helpers--Carpenters",
-    "COVID-19 Risk Score": 33.8
+    "occupation": "Helpers--Carpenters",
+    "score": 33.8
   },
   {
-    "Occupation": "Hotel, Motel, and Resort Desk Clerks",
-    "COVID-19 Risk Score": 33.7
+    "occupation": "Hotel, Motel, and Resort Desk Clerks",
+    "score": 33.7
   },
   {
-    "Occupation": "Retail Loss Prevention Specialists",
-    "COVID-19 Risk Score": 33.7
+    "occupation": "Retail Loss Prevention Specialists",
+    "score": 33.7
   },
   {
-    "Occupation": "Ship Engineers",
-    "COVID-19 Risk Score": 33.6
+    "occupation": "Ship Engineers",
+    "score": 33.6
   },
   {
-    "Occupation": "Laundry and Dry-Cleaning Workers",
-    "COVID-19 Risk Score": 33.5
+    "occupation": "Laundry and Dry-Cleaning Workers",
+    "score": 33.5
   },
   {
-    "Occupation": "First-Line Supervisors of Animal Husbandry and Animal Care Workers",
-    "COVID-19 Risk Score": 33.5
+    "occupation": "First-Line Supervisors of Animal Husbandry and Animal Care Workers",
+    "score": 33.5
   },
   {
-    "Occupation": "Art Therapists",
-    "COVID-19 Risk Score": 33.5
+    "occupation": "Art Therapists",
+    "score": 33.5
   },
   {
-    "Occupation": "Demonstrators and Product Promoters",
-    "COVID-19 Risk Score": 33.5
+    "occupation": "Demonstrators and Product Promoters",
+    "score": 33.5
   },
   {
-    "Occupation": "Human Resources Assistants, Except Payroll and Timekeeping",
-    "COVID-19 Risk Score": 33.5
+    "occupation": "Human Resources Assistants, Except Payroll and Timekeeping",
+    "score": 33.5
   },
   {
-    "Occupation": "Chief Executives",
-    "COVID-19 Risk Score": 33.4
+    "occupation": "Chief Executives",
+    "score": 33.4
   },
   {
-    "Occupation": "Motorboat Operators",
-    "COVID-19 Risk Score": 33.2
+    "occupation": "Motorboat Operators",
+    "score": 33.2
   },
   {
-    "Occupation": "Instructional Coordinators",
-    "COVID-19 Risk Score": 33.2
+    "occupation": "Instructional Coordinators",
+    "score": 33.2
   },
   {
-    "Occupation": "Librarians",
-    "COVID-19 Risk Score": 33.2
+    "occupation": "Librarians",
+    "score": 33.2
   },
   {
-    "Occupation": "Directors- Stage, Motion Pictures, Television, and Radio",
-    "COVID-19 Risk Score": 33.2
+    "occupation": "Directors- Stage, Motion Pictures, Television, and Radio",
+    "score": 33.2
   },
   {
-    "Occupation": "Parts Salespersons",
-    "COVID-19 Risk Score": 33.1
+    "occupation": "Parts Salespersons",
+    "score": 33.1
   },
   {
-    "Occupation": "Rehabilitation Counselors",
-    "COVID-19 Risk Score": 33.1
+    "occupation": "Rehabilitation Counselors",
+    "score": 33.1
   },
   {
-    "Occupation": "Boilermakers",
-    "COVID-19 Risk Score": 33
+    "occupation": "Boilermakers",
+    "score": 33
   },
   {
-    "Occupation": "Sailors and Marine Oilers",
-    "COVID-19 Risk Score": 32.9
+    "occupation": "Sailors and Marine Oilers",
+    "score": 32.9
   },
   {
-    "Occupation": "Bill and Account Collectors",
-    "COVID-19 Risk Score": 32.9
+    "occupation": "Bill and Account Collectors",
+    "score": 32.9
   },
   {
-    "Occupation": "Computer Science Teachers, Postsecondary",
-    "COVID-19 Risk Score": 32.9
+    "occupation": "Computer Science Teachers, Postsecondary",
+    "score": 32.9
   },
   {
-    "Occupation": "Fiberglass Laminators and Fabricators",
-    "COVID-19 Risk Score": 32.9
+    "occupation": "Fiberglass Laminators and Fabricators",
+    "score": 32.9
   },
   {
-    "Occupation": "Securities and Commodities Traders",
-    "COVID-19 Risk Score": 32.8
+    "occupation": "Securities and Commodities Traders",
+    "score": 32.8
   },
   {
-    "Occupation": "Transportation Managers",
-    "COVID-19 Risk Score": 32.7
+    "occupation": "Transportation Managers",
+    "score": 32.7
   },
   {
-    "Occupation": "Electricians",
-    "COVID-19 Risk Score": 32.6
+    "occupation": "Electricians",
+    "score": 32.6
   },
   {
-    "Occupation": "Tank Car, Truck, and Ship Loaders",
-    "COVID-19 Risk Score": 32.5
+    "occupation": "Tank Car, Truck, and Ship Loaders",
+    "score": 32.5
   },
   {
-    "Occupation": "Forest and Conservation Workers",
-    "COVID-19 Risk Score": 32.5
+    "occupation": "Forest and Conservation Workers",
+    "score": 32.5
   },
   {
-    "Occupation": "Home Appliance Repairers",
-    "COVID-19 Risk Score": 32.5
+    "occupation": "Home Appliance Repairers",
+    "score": 32.5
   },
   {
-    "Occupation": "Sales Agents, Financial Services",
-    "COVID-19 Risk Score": 32.4
+    "occupation": "Sales Agents, Financial Services",
+    "score": 32.4
   },
   {
-    "Occupation": "Farm Labor Contractors",
-    "COVID-19 Risk Score": 32.3
+    "occupation": "Farm Labor Contractors",
+    "score": 32.3
   },
   {
-    "Occupation": "Refuse and Recyclable Material Collectors",
-    "COVID-19 Risk Score": 32.3
+    "occupation": "Refuse and Recyclable Material Collectors",
+    "score": 32.3
   },
   {
-    "Occupation": "Vocational Education Teachers, Postsecondary",
-    "COVID-19 Risk Score": 32.3
+    "occupation": "Vocational Education Teachers, Postsecondary",
+    "score": 32.3
   },
   {
-    "Occupation": "Commercial Divers",
-    "COVID-19 Risk Score": 32.2
+    "occupation": "Commercial Divers",
+    "score": 32.2
   },
   {
-    "Occupation": "Fishers and Related Fishing Workers",
-    "COVID-19 Risk Score": 32.1
+    "occupation": "Fishers and Related Fishing Workers",
+    "score": 32.1
   },
   {
-    "Occupation": "Loss Prevention Managers",
-    "COVID-19 Risk Score": 32
+    "occupation": "Loss Prevention Managers",
+    "score": 32
   },
   {
-    "Occupation": "Police, Fire, and Ambulance Dispatchers",
-    "COVID-19 Risk Score": 32
+    "occupation": "Police, Fire, and Ambulance Dispatchers",
+    "score": 32
   },
   {
-    "Occupation": "Producers",
-    "COVID-19 Risk Score": 32
+    "occupation": "Producers",
+    "score": 32
   },
   {
-    "Occupation": "Tax Examiners and Collectors, and Revenue Agents",
-    "COVID-19 Risk Score": 31.9
+    "occupation": "Tax Examiners and Collectors, and Revenue Agents",
+    "score": 31.9
   },
   {
-    "Occupation": "Gem and Diamond Workers",
-    "COVID-19 Risk Score": 31.9
+    "occupation": "Gem and Diamond Workers",
+    "score": 31.9
   },
   {
-    "Occupation": "Nannies",
-    "COVID-19 Risk Score": 31.9
+    "occupation": "Nannies",
+    "score": 31.9
   },
   {
-    "Occupation": "Construction Carpenters",
-    "COVID-19 Risk Score": 31.8
+    "occupation": "Construction Carpenters",
+    "score": 31.8
   },
   {
-    "Occupation": "First-Line Supervisors of Mechanics, Installers, and Repairers",
-    "COVID-19 Risk Score": 31.8
+    "occupation": "First-Line Supervisors of Mechanics, Installers, and Repairers",
+    "score": 31.8
   },
   {
-    "Occupation": "Government Property Inspectors and Investigators",
-    "COVID-19 Risk Score": 31.7
+    "occupation": "Government Property Inspectors and Investigators",
+    "score": 31.7
   },
   {
-    "Occupation": "Food Cooking Machine Operators and Tenders",
-    "COVID-19 Risk Score": 31.7
+    "occupation": "Food Cooking Machine Operators and Tenders",
+    "score": 31.7
   },
   {
-    "Occupation": "Refractory Materials Repairers, Except Brickmasons",
-    "COVID-19 Risk Score": 31.7
+    "occupation": "Refractory Materials Repairers, Except Brickmasons",
+    "score": 31.7
   },
   {
-    "Occupation": "Mental Health and Substance Abuse Social Workers",
-    "COVID-19 Risk Score": 31.6
+    "occupation": "Mental Health and Substance Abuse Social Workers",
+    "score": 31.6
   },
   {
-    "Occupation": "Mechanical Engineering Technologists",
-    "COVID-19 Risk Score": 31.4
+    "occupation": "Mechanical Engineering Technologists",
+    "score": 31.4
   },
   {
-    "Occupation": "Education Administrators, Elementary and Secondary School",
-    "COVID-19 Risk Score": 31.3
+    "occupation": "Education Administrators, Elementary and Secondary School",
+    "score": 31.3
   },
   {
-    "Occupation": "Program Directors",
-    "COVID-19 Risk Score": 31.3
+    "occupation": "Program Directors",
+    "score": 31.3
   },
   {
-    "Occupation": "Signal and Track Switch Repairers",
-    "COVID-19 Risk Score": 31.3
+    "occupation": "Signal and Track Switch Repairers",
+    "score": 31.3
   },
   {
-    "Occupation": "Plumbers",
-    "COVID-19 Risk Score": 31.2
+    "occupation": "Plumbers",
+    "score": 31.2
   },
   {
-    "Occupation": "Wind Turbine Service Technicians",
-    "COVID-19 Risk Score": 31.2
+    "occupation": "Wind Turbine Service Technicians",
+    "score": 31.2
   },
   {
-    "Occupation": "Adult Basic and Secondary Education and Literacy Teachers and Instructors",
-    "COVID-19 Risk Score": 31.2
+    "occupation": "Adult Basic and Secondary Education and Literacy Teachers and Instructors",
+    "score": 31.2
   },
   {
-    "Occupation": "Technical Directors/Managers",
-    "COVID-19 Risk Score": 31.2
+    "occupation": "Technical Directors/Managers",
+    "score": 31.2
   },
   {
-    "Occupation": "Real Estate Brokers",
-    "COVID-19 Risk Score": 31.2
+    "occupation": "Real Estate Brokers",
+    "score": 31.2
   },
   {
-    "Occupation": "Bakers",
-    "COVID-19 Risk Score": 31.2
+    "occupation": "Bakers",
+    "score": 31.2
   },
   {
-    "Occupation": "Fashion Designers",
-    "COVID-19 Risk Score": 31.2
+    "occupation": "Fashion Designers",
+    "score": 31.2
   },
   {
-    "Occupation": "Computer User Support Specialists",
-    "COVID-19 Risk Score": 31.1
+    "occupation": "Computer User Support Specialists",
+    "score": 31.1
   },
   {
-    "Occupation": "Mechanical Engineers",
-    "COVID-19 Risk Score": 31.1
+    "occupation": "Mechanical Engineers",
+    "score": 31.1
   },
   {
-    "Occupation": "Dental Laboratory Technicians",
-    "COVID-19 Risk Score": 31.1
+    "occupation": "Dental Laboratory Technicians",
+    "score": 31.1
   },
   {
-    "Occupation": "Helpers--Painters, Paperhangers, Plasterers, and Stucco Masons",
-    "COVID-19 Risk Score": 31.1
+    "occupation": "Helpers--Painters, Paperhangers, Plasterers, and Stucco Masons",
+    "score": 31.1
   },
   {
-    "Occupation": "Forensic Science Technicians",
-    "COVID-19 Risk Score": 31.1
+    "occupation": "Forensic Science Technicians",
+    "score": 31.1
   },
   {
-    "Occupation": "Baggage Porters and Bellhops",
-    "COVID-19 Risk Score": 31
+    "occupation": "Baggage Porters and Bellhops",
+    "score": 31
   },
   {
-    "Occupation": "Preventive Medicine Physicians",
-    "COVID-19 Risk Score": 31
+    "occupation": "Preventive Medicine Physicians",
+    "score": 31
   },
   {
-    "Occupation": "Psychiatrists",
-    "COVID-19 Risk Score": 30.9
+    "occupation": "Psychiatrists",
+    "score": 30.9
   },
   {
-    "Occupation": "Billing, Cost, and Rate Clerks",
-    "COVID-19 Risk Score": 30.9
+    "occupation": "Billing, Cost, and Rate Clerks",
+    "score": 30.9
   },
   {
-    "Occupation": "Tour Guides and Escorts",
-    "COVID-19 Risk Score": 30.8
+    "occupation": "Tour Guides and Escorts",
+    "score": 30.8
   },
   {
-    "Occupation": "Directors, Religious Activities and Education",
-    "COVID-19 Risk Score": 30.8
+    "occupation": "Directors, Religious Activities and Education",
+    "score": 30.8
   },
   {
-    "Occupation": "Solar Energy Installation Managers",
-    "COVID-19 Risk Score": 30.8
+    "occupation": "Solar Energy Installation Managers",
+    "score": 30.8
   },
   {
-    "Occupation": "Floral Designers",
-    "COVID-19 Risk Score": 30.8
+    "occupation": "Floral Designers",
+    "score": 30.8
   },
   {
-    "Occupation": "First-Line Supervisors of Production and Operating Workers",
-    "COVID-19 Risk Score": 30.8
+    "occupation": "First-Line Supervisors of Production and Operating Workers",
+    "score": 30.8
   },
   {
-    "Occupation": "Order Clerks",
-    "COVID-19 Risk Score": 30.7
+    "occupation": "Order Clerks",
+    "score": 30.7
   },
   {
-    "Occupation": "Court Clerks",
-    "COVID-19 Risk Score": 30.6
+    "occupation": "Court Clerks",
+    "score": 30.6
   },
   {
-    "Occupation": "Marking Clerks",
-    "COVID-19 Risk Score": 30.6
+    "occupation": "Marking Clerks",
+    "score": 30.6
   },
   {
-    "Occupation": "Customer Service Representatives",
-    "COVID-19 Risk Score": 30.6
+    "occupation": "Customer Service Representatives",
+    "score": 30.6
   },
   {
-    "Occupation": "First-Line Supervisors of Construction Trades and Extraction Workers",
-    "COVID-19 Risk Score": 30.6
+    "occupation": "First-Line Supervisors of Construction Trades and Extraction Workers",
+    "score": 30.6
   },
   {
-    "Occupation": "Mine Cutting and Channeling Machine Operators",
-    "COVID-19 Risk Score": 30.6
+    "occupation": "Mine Cutting and Channeling Machine Operators",
+    "score": 30.6
   },
   {
-    "Occupation": "Clergy",
-    "COVID-19 Risk Score": 30.5
+    "occupation": "Clergy",
+    "score": 30.5
   },
   {
-    "Occupation": "Sales Managers",
-    "COVID-19 Risk Score": 30.4
+    "occupation": "Sales Managers",
+    "score": 30.4
   },
   {
-    "Occupation": "Farmworkers, Farm, Ranch, and Aquacultural Animals",
-    "COVID-19 Risk Score": 30.4
+    "occupation": "Farmworkers, Farm, Ranch, and Aquacultural Animals",
+    "score": 30.4
   },
   {
-    "Occupation": "Cargo and Freight Agents",
-    "COVID-19 Risk Score": 30.3
+    "occupation": "Cargo and Freight Agents",
+    "score": 30.3
   },
   {
-    "Occupation": "Models",
-    "COVID-19 Risk Score": 30.3
+    "occupation": "Models",
+    "score": 30.3
   },
   {
-    "Occupation": "Agricultural Inspectors",
-    "COVID-19 Risk Score": 30.2
+    "occupation": "Agricultural Inspectors",
+    "score": 30.2
   },
   {
-    "Occupation": "Music Directors",
-    "COVID-19 Risk Score": 30.2
+    "occupation": "Music Directors",
+    "score": 30.2
   },
   {
-    "Occupation": "Credit Authorizers",
-    "COVID-19 Risk Score": 30.1
+    "occupation": "Credit Authorizers",
+    "score": 30.1
   },
   {
-    "Occupation": "Lodging Managers",
-    "COVID-19 Risk Score": 30.1
+    "occupation": "Lodging Managers",
+    "score": 30.1
   },
   {
-    "Occupation": "Pilots, Ship",
-    "COVID-19 Risk Score": 30.1
+    "occupation": "Pilots, Ship",
+    "score": 30.1
   },
   {
-    "Occupation": "Sheet Metal Workers",
-    "COVID-19 Risk Score": 30
+    "occupation": "Sheet Metal Workers",
+    "score": 30
   },
   {
-    "Occupation": "Mail Clerks and Mail Machine Operators, Except Postal Service",
-    "COVID-19 Risk Score": 29.8
+    "occupation": "Mail Clerks and Mail Machine Operators, Except Postal Service",
+    "score": 29.8
   },
   {
-    "Occupation": "Nuclear Power Reactor Operators",
-    "COVID-19 Risk Score": 29.8
+    "occupation": "Nuclear Power Reactor Operators",
+    "score": 29.8
   },
   {
-    "Occupation": "First-Line Supervisors of Retail Sales Workers",
-    "COVID-19 Risk Score": 29.8
+    "occupation": "First-Line Supervisors of Retail Sales Workers",
+    "score": 29.8
   },
   {
-    "Occupation": "Judges, Magistrate Judges, and Magistrates",
-    "COVID-19 Risk Score": 29.8
+    "occupation": "Judges, Magistrate Judges, and Magistrates",
+    "score": 29.8
   },
   {
-    "Occupation": "Buyers and Purchasing Agents, Farm Products",
-    "COVID-19 Risk Score": 29.7
+    "occupation": "Buyers and Purchasing Agents, Farm Products",
+    "score": 29.7
   },
   {
-    "Occupation": "Stonemasons",
-    "COVID-19 Risk Score": 29.7
+    "occupation": "Stonemasons",
+    "score": 29.7
   },
   {
-    "Occupation": "Refrigeration Mechanics and Installers",
-    "COVID-19 Risk Score": 29.7
+    "occupation": "Refrigeration Mechanics and Installers",
+    "score": 29.7
   },
   {
-    "Occupation": "Airfield Operations Specialists",
-    "COVID-19 Risk Score": 29.6
+    "occupation": "Airfield Operations Specialists",
+    "score": 29.6
   },
   {
-    "Occupation": "Computer Network Support Specialists",
-    "COVID-19 Risk Score": 29.6
+    "occupation": "Computer Network Support Specialists",
+    "score": 29.6
   },
   {
-    "Occupation": "Photographic Process Workers and Processing Machine Operators",
-    "COVID-19 Risk Score": 29.5
+    "occupation": "Photographic Process Workers and Processing Machine Operators",
+    "score": 29.5
   },
   {
-    "Occupation": "First-Line Supervisors of Non-Retail Sales Workers",
-    "COVID-19 Risk Score": 29.4
+    "occupation": "First-Line Supervisors of Non-Retail Sales Workers",
+    "score": 29.4
   },
   {
-    "Occupation": "Model Makers, Metal and Plastic",
-    "COVID-19 Risk Score": 29.4
+    "occupation": "Model Makers, Metal and Plastic",
+    "score": 29.4
   },
   {
-    "Occupation": "Emergency Management Directors",
-    "COVID-19 Risk Score": 29.4
+    "occupation": "Emergency Management Directors",
+    "score": 29.4
   },
   {
-    "Occupation": "Clinical Psychologists",
-    "COVID-19 Risk Score": 29.4
+    "occupation": "Clinical Psychologists",
+    "score": 29.4
   },
   {
-    "Occupation": "Mechanical Engineering Technicians",
-    "COVID-19 Risk Score": 29.4
+    "occupation": "Mechanical Engineering Technicians",
+    "score": 29.4
   },
   {
-    "Occupation": "Dishwashers",
-    "COVID-19 Risk Score": 29.3
+    "occupation": "Dishwashers",
+    "score": 29.3
   },
   {
-    "Occupation": "Medical Appliance Technicians",
-    "COVID-19 Risk Score": 29.2
+    "occupation": "Medical Appliance Technicians",
+    "score": 29.2
   },
   {
-    "Occupation": "Millwrights",
-    "COVID-19 Risk Score": 29.2
+    "occupation": "Millwrights",
+    "score": 29.2
   },
   {
-    "Occupation": "Floor Layers, Except Carpet, Wood, and Hard Tiles",
-    "COVID-19 Risk Score": 29.1
+    "occupation": "Floor Layers, Except Carpet, Wood, and Hard Tiles",
+    "score": 29.1
   },
   {
-    "Occupation": "Social and Community Service Managers",
-    "COVID-19 Risk Score": 29
+    "occupation": "Social and Community Service Managers",
+    "score": 29
   },
   {
-    "Occupation": "Freight Forwarders",
-    "COVID-19 Risk Score": 28.9
+    "occupation": "Freight Forwarders",
+    "score": 28.9
   },
   {
-    "Occupation": "Public Relations and Fundraising Managers",
-    "COVID-19 Risk Score": 28.9
+    "occupation": "Public Relations and Fundraising Managers",
+    "score": 28.9
   },
   {
-    "Occupation": "Camera Operators, Television, Video, and Motion Picture",
-    "COVID-19 Risk Score": 28.9
+    "occupation": "Camera Operators, Television, Video, and Motion Picture",
+    "score": 28.9
   },
   {
-    "Occupation": "Neuropsychologists and Clinical Neuropsychologists",
-    "COVID-19 Risk Score": 28.8
+    "occupation": "Neuropsychologists and Clinical Neuropsychologists",
+    "score": 28.8
   },
   {
-    "Occupation": "Helpers--Pipelayers, Plumbers, Pipefitters, and Steamfitters",
-    "COVID-19 Risk Score": 28.8
+    "occupation": "Helpers--Pipelayers, Plumbers, Pipefitters, and Steamfitters",
+    "score": 28.8
   },
   {
-    "Occupation": "Electric Motor, Power Tool, and Related Repairers",
-    "COVID-19 Risk Score": 28.7
+    "occupation": "Electric Motor, Power Tool, and Related Repairers",
+    "score": 28.7
   },
   {
-    "Occupation": "Merchandise Displayers and Window Trimmers",
-    "COVID-19 Risk Score": 28.7
+    "occupation": "Merchandise Displayers and Window Trimmers",
+    "score": 28.7
   },
   {
-    "Occupation": "Molding and Casting Workers",
-    "COVID-19 Risk Score": 28.7
+    "occupation": "Molding and Casting Workers",
+    "score": 28.7
   },
   {
-    "Occupation": "Locksmiths and Safe Repairers",
-    "COVID-19 Risk Score": 28.6
+    "occupation": "Locksmiths and Safe Repairers",
+    "score": 28.6
   },
   {
-    "Occupation": "Rotary Drill Operators, Oil and Gas",
-    "COVID-19 Risk Score": 28.5
+    "occupation": "Rotary Drill Operators, Oil and Gas",
+    "score": 28.5
   },
   {
-    "Occupation": "First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers",
-    "COVID-19 Risk Score": 28.5
+    "occupation": "First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers",
+    "score": 28.5
   },
   {
-    "Occupation": "Pump Operators, Except Wellhead Pumpers",
-    "COVID-19 Risk Score": 28.4
+    "occupation": "Pump Operators, Except Wellhead Pumpers",
+    "score": 28.4
   },
   {
-    "Occupation": "Computer Operators",
-    "COVID-19 Risk Score": 28.3
+    "occupation": "Computer Operators",
+    "score": 28.3
   },
   {
-    "Occupation": "Wind Energy Operations Managers",
-    "COVID-19 Risk Score": 28.3
+    "occupation": "Wind Energy Operations Managers",
+    "score": 28.3
   },
   {
-    "Occupation": "Word Processors and Typists",
-    "COVID-19 Risk Score": 28.2
+    "occupation": "Word Processors and Typists",
+    "score": 28.2
   },
   {
-    "Occupation": "Fitness and Wellness Coordinators",
-    "COVID-19 Risk Score": 28.1
+    "occupation": "Fitness and Wellness Coordinators",
+    "score": 28.1
   },
   {
-    "Occupation": "Helpers--Electricians",
-    "COVID-19 Risk Score": 28
+    "occupation": "Helpers--Electricians",
+    "score": 28
   },
   {
-    "Occupation": "Petroleum Pump System Operators, Refinery Operators, and Gaugers",
-    "COVID-19 Risk Score": 28
+    "occupation": "Petroleum Pump System Operators, Refinery Operators, and Gaugers",
+    "score": 28
   },
   {
-    "Occupation": "Freight and Cargo Inspectors",
-    "COVID-19 Risk Score": 28
+    "occupation": "Freight and Cargo Inspectors",
+    "score": 28
   },
   {
-    "Occupation": "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",
-    "COVID-19 Risk Score": 27.9
+    "occupation": "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products",
+    "score": 27.9
   },
   {
-    "Occupation": "Food Batchmakers",
-    "COVID-19 Risk Score": 27.9
+    "occupation": "Food Batchmakers",
+    "score": 27.9
   },
   {
-    "Occupation": "Roofers",
-    "COVID-19 Risk Score": 27.8
+    "occupation": "Roofers",
+    "score": 27.8
   },
   {
-    "Occupation": "Executive Secretaries and Executive Administrative Assistants",
-    "COVID-19 Risk Score": 27.8
+    "occupation": "Executive Secretaries and Executive Administrative Assistants",
+    "score": 27.8
   },
   {
-    "Occupation": "Loan Counselors",
-    "COVID-19 Risk Score": 27.8
+    "occupation": "Loan Counselors",
+    "score": 27.8
   },
   {
-    "Occupation": "Loan Officers",
-    "COVID-19 Risk Score": 27.8
+    "occupation": "Loan Officers",
+    "score": 27.8
   },
   {
-    "Occupation": "Radio and Television Announcers",
-    "COVID-19 Risk Score": 27.6
+    "occupation": "Radio and Television Announcers",
+    "score": 27.6
   },
   {
-    "Occupation": "Animal Trainers",
-    "COVID-19 Risk Score": 27.6
+    "occupation": "Animal Trainers",
+    "score": 27.6
   },
   {
-    "Occupation": "Residential Advisors",
-    "COVID-19 Risk Score": 27.6
+    "occupation": "Residential Advisors",
+    "score": 27.6
   },
   {
-    "Occupation": "Locomotive Engineers",
-    "COVID-19 Risk Score": 27.5
+    "occupation": "Locomotive Engineers",
+    "score": 27.5
   },
   {
-    "Occupation": "Biological Science Teachers, Postsecondary",
-    "COVID-19 Risk Score": 27.5
+    "occupation": "Biological Science Teachers, Postsecondary",
+    "score": 27.5
   },
   {
-    "Occupation": "Model Makers, Wood",
-    "COVID-19 Risk Score": 27.5
+    "occupation": "Model Makers, Wood",
+    "score": 27.5
   },
   {
-    "Occupation": "Forest Fire Inspectors and Prevention Specialists",
-    "COVID-19 Risk Score": 27.5
+    "occupation": "Forest Fire Inspectors and Prevention Specialists",
+    "score": 27.5
   },
   {
-    "Occupation": "Advertising Sales Agents",
-    "COVID-19 Risk Score": 27.4
+    "occupation": "Advertising Sales Agents",
+    "score": 27.4
   },
   {
-    "Occupation": "Quality Control Analysts",
-    "COVID-19 Risk Score": 27.3
+    "occupation": "Quality Control Analysts",
+    "score": 27.3
   },
   {
-    "Occupation": "Engine and Other Machine Assemblers",
-    "COVID-19 Risk Score": 27.3
+    "occupation": "Engine and Other Machine Assemblers",
+    "score": 27.3
   },
   {
-    "Occupation": "Riggers",
-    "COVID-19 Risk Score": 27.3
+    "occupation": "Riggers",
+    "score": 27.3
   },
   {
-    "Occupation": "Credit Counselors",
-    "COVID-19 Risk Score": 27.3
+    "occupation": "Credit Counselors",
+    "score": 27.3
   },
   {
-    "Occupation": "Talent Directors",
-    "COVID-19 Risk Score": 27.2
+    "occupation": "Talent Directors",
+    "score": 27.2
   },
   {
-    "Occupation": "Automotive and Watercraft Service Attendants",
-    "COVID-19 Risk Score": 27.2
+    "occupation": "Automotive and Watercraft Service Attendants",
+    "score": 27.2
   },
   {
-    "Occupation": "Recycling Coordinators",
-    "COVID-19 Risk Score": 27.1
+    "occupation": "Recycling Coordinators",
+    "score": 27.1
   },
   {
-    "Occupation": "Chemical Equipment Operators and Tenders",
-    "COVID-19 Risk Score": 26.9
+    "occupation": "Chemical Equipment Operators and Tenders",
+    "score": 26.9
   },
   {
-    "Occupation": "Data Entry Keyers",
-    "COVID-19 Risk Score": 26.9
+    "occupation": "Data Entry Keyers",
+    "score": 26.9
   },
   {
-    "Occupation": "Inspectors, Testers, Sorters, Samplers, and Weighers",
-    "COVID-19 Risk Score": 26.9
+    "occupation": "Inspectors, Testers, Sorters, Samplers, and Weighers",
+    "score": 26.9
   },
   {
-    "Occupation": "Cytotechnologists",
-    "COVID-19 Risk Score": 26.9
+    "occupation": "Cytotechnologists",
+    "score": 26.9
   },
   {
-    "Occupation": "Human Resources Specialists",
-    "COVID-19 Risk Score": 26.8
+    "occupation": "Human Resources Specialists",
+    "score": 26.8
   },
   {
-    "Occupation": "Crane and Tower Operators",
-    "COVID-19 Risk Score": 26.8
+    "occupation": "Crane and Tower Operators",
+    "score": 26.8
   },
   {
-    "Occupation": "Nuclear Equipment Operation Technicians",
-    "COVID-19 Risk Score": 26.8
+    "occupation": "Nuclear Equipment Operation Technicians",
+    "score": 26.8
   },
   {
-    "Occupation": "Labor Relations Specialists",
-    "COVID-19 Risk Score": 26.7
+    "occupation": "Labor Relations Specialists",
+    "score": 26.7
   },
   {
-    "Occupation": "Municipal Clerks",
-    "COVID-19 Risk Score": 26.6
+    "occupation": "Municipal Clerks",
+    "score": 26.6
   },
   {
-    "Occupation": "Industrial Production Managers",
-    "COVID-19 Risk Score": 26.6
+    "occupation": "Industrial Production Managers",
+    "score": 26.6
   },
   {
-    "Occupation": "Pipe Fitters and Steamfitters",
-    "COVID-19 Risk Score": 26.5
+    "occupation": "Pipe Fitters and Steamfitters",
+    "score": 26.5
   },
   {
-    "Occupation": "Rolling Machine Setters, Operators, and Tenders, Metal and Plastic",
-    "COVID-19 Risk Score": 26.5
+    "occupation": "Rolling Machine Setters, Operators, and Tenders, Metal and Plastic",
+    "score": 26.5
   },
   {
-    "Occupation": "Radio Mechanics",
-    "COVID-19 Risk Score": 26.5
+    "occupation": "Radio Mechanics",
+    "score": 26.5
   },
   {
-    "Occupation": "Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders",
-    "COVID-19 Risk Score": 26.5
+    "occupation": "Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders",
+    "score": 26.5
   },
   {
-    "Occupation": "Weighers, Measurers, Checkers, and Samplers, Recordkeeping",
-    "COVID-19 Risk Score": 26.5
+    "occupation": "Weighers, Measurers, Checkers, and Samplers, Recordkeeping",
+    "score": 26.5
   },
   {
-    "Occupation": "Railroad Conductors and Yardmasters",
-    "COVID-19 Risk Score": 26.4
+    "occupation": "Railroad Conductors and Yardmasters",
+    "score": 26.4
   },
   {
-    "Occupation": "Home Economics Teachers, Postsecondary",
-    "COVID-19 Risk Score": 26.4
+    "occupation": "Home Economics Teachers, Postsecondary",
+    "score": 26.4
   },
   {
-    "Occupation": "Order Fillers, Wholesale and Retail Sales",
-    "COVID-19 Risk Score": 26.4
+    "occupation": "Order Fillers, Wholesale and Retail Sales",
+    "score": 26.4
   },
   {
-    "Occupation": "Solar Sales Representatives and Assessors",
-    "COVID-19 Risk Score": 26.4
+    "occupation": "Solar Sales Representatives and Assessors",
+    "score": 26.4
   },
   {
-    "Occupation": "Counseling Psychologists",
-    "COVID-19 Risk Score": 26.3
+    "occupation": "Counseling Psychologists",
+    "score": 26.3
   },
   {
-    "Occupation": "Gas Compressor and Gas Pumping Station Operators",
-    "COVID-19 Risk Score": 26.3
+    "occupation": "Gas Compressor and Gas Pumping Station Operators",
+    "score": 26.3
   },
   {
-    "Occupation": "Glaziers",
-    "COVID-19 Risk Score": 26.2
+    "occupation": "Glaziers",
+    "score": 26.2
   },
   {
-    "Occupation": "Heating and Air Conditioning Mechanics and Installers",
-    "COVID-19 Risk Score": 26.2
+    "occupation": "Heating and Air Conditioning Mechanics and Installers",
+    "score": 26.2
   },
   {
-    "Occupation": "Security and Fire Alarm Systems Installers",
-    "COVID-19 Risk Score": 26.2
+    "occupation": "Security and Fire Alarm Systems Installers",
+    "score": 26.2
   },
   {
-    "Occupation": "First-Line Supervisors of Office and Administrative Support Workers",
-    "COVID-19 Risk Score": 26.2
+    "occupation": "First-Line Supervisors of Office and Administrative Support Workers",
+    "score": 26.2
   },
   {
-    "Occupation": "Paralegals and Legal Assistants",
-    "COVID-19 Risk Score": 26.1
+    "occupation": "Paralegals and Legal Assistants",
+    "score": 26.1
   },
   {
-    "Occupation": "Electrical and Electronics Installers and Repairers, Transportation Equipment",
-    "COVID-19 Risk Score": 26.1
+    "occupation": "Electrical and Electronics Installers and Repairers, Transportation Equipment",
+    "score": 26.1
   },
   {
-    "Occupation": "Biological Technicians",
-    "COVID-19 Risk Score": 26
+    "occupation": "Biological Technicians",
+    "score": 26
   },
   {
-    "Occupation": "Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary",
-    "COVID-19 Risk Score": 26
+    "occupation": "Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary",
+    "score": 26
   },
   {
-    "Occupation": "Continuous Mining Machine Operators",
-    "COVID-19 Risk Score": 26
+    "occupation": "Continuous Mining Machine Operators",
+    "score": 26
   },
   {
-    "Occupation": "Range Managers",
-    "COVID-19 Risk Score": 26
+    "occupation": "Range Managers",
+    "score": 26
   },
   {
-    "Occupation": "Training and Development Managers",
-    "COVID-19 Risk Score": 26
+    "occupation": "Training and Development Managers",
+    "score": 26
   },
   {
-    "Occupation": "Medical and Health Services Managers",
-    "COVID-19 Risk Score": 25.9
+    "occupation": "Medical and Health Services Managers",
+    "score": 25.9
   },
   {
-    "Occupation": "Insulation Workers, Mechanical",
-    "COVID-19 Risk Score": 25.9
+    "occupation": "Insulation Workers, Mechanical",
+    "score": 25.9
   },
   {
-    "Occupation": "Rail Yard Engineers, Dinkey Operators, and Hostlers",
-    "COVID-19 Risk Score": 25.8
+    "occupation": "Rail Yard Engineers, Dinkey Operators, and Hostlers",
+    "score": 25.8
   },
   {
-    "Occupation": "Correspondence Clerks",
-    "COVID-19 Risk Score": 25.8
+    "occupation": "Correspondence Clerks",
+    "score": 25.8
   },
   {
-    "Occupation": "Distance Learning Coordinators",
-    "COVID-19 Risk Score": 25.8
+    "occupation": "Distance Learning Coordinators",
+    "score": 25.8
   },
   {
-    "Occupation": "Reporters and Correspondents",
-    "COVID-19 Risk Score": 25.8
+    "occupation": "Reporters and Correspondents",
+    "score": 25.8
   },
   {
-    "Occupation": "Ophthalmic Laboratory Technicians",
-    "COVID-19 Risk Score": 25.7
+    "occupation": "Ophthalmic Laboratory Technicians",
+    "score": 25.7
   },
   {
-    "Occupation": "Compliance Managers",
-    "COVID-19 Risk Score": 25.7
+    "occupation": "Compliance Managers",
+    "score": 25.7
   },
   {
-    "Occupation": "Production, Planning, and Expediting Clerks",
-    "COVID-19 Risk Score": 25.7
+    "occupation": "Production, Planning, and Expediting Clerks",
+    "score": 25.7
   },
   {
-    "Occupation": "Insurance Adjusters, Examiners, and Investigators",
-    "COVID-19 Risk Score": 25.6
+    "occupation": "Insurance Adjusters, Examiners, and Investigators",
+    "score": 25.6
   },
   {
-    "Occupation": "Paper Goods Machine Setters, Operators, and Tenders",
-    "COVID-19 Risk Score": 25.6
+    "occupation": "Paper Goods Machine Setters, Operators, and Tenders",
+    "score": 25.6
   },
   {
-    "Occupation": "Industrial Machinery Mechanics",
-    "COVID-19 Risk Score": 25.6
+    "occupation": "Industrial Machinery Mechanics",
+    "score": 25.6
   },
   {
-    "Occupation": "Laborers and Freight, Stock, and Material Movers, Hand",
-    "COVID-19 Risk Score": 25.5
+    "occupation": "Laborers and Freight, Stock, and Material Movers, Hand",
+    "score": 25.5
   },
   {
-    "Occupation": "Slaughterers and Meat Packers",
-    "COVID-19 Risk Score": 25.5
+    "occupation": "Slaughterers and Meat Packers",
+    "score": 25.5
   },
   {
-    "Occupation": "Foundry Mold and Coremakers",
-    "COVID-19 Risk Score": 25.4
+    "occupation": "Foundry Mold and Coremakers",
+    "score": 25.4
   },
   {
-    "Occupation": "Marine Architects",
-    "COVID-19 Risk Score": 25.4
+    "occupation": "Marine Architects",
+    "score": 25.4
   },
   {
-    "Occupation": "Meter Readers, Utilities",
-    "COVID-19 Risk Score": 25.2
+    "occupation": "Meter Readers, Utilities",
+    "score": 25.2
   },
   {
-    "Occupation": "Butchers and Meat Cutters",
-    "COVID-19 Risk Score": 25.2
+    "occupation": "Butchers and Meat Cutters",
+    "score": 25.2
   },
   {
-    "Occupation": "Audio and Video Equipment Technicians",
-    "COVID-19 Risk Score": 25.2
+    "occupation": "Audio and Video Equipment Technicians",
+    "score": 25.2
   },
   {
-    "Occupation": "Outdoor Power Equipment and Other Small Engine Mechanics",
-    "COVID-19 Risk Score": 25.2
+    "occupation": "Outdoor Power Equipment and Other Small Engine Mechanics",
+    "score": 25.2
   },
   {
-    "Occupation": "Accountants",
-    "COVID-19 Risk Score": 25.2
+    "occupation": "Accountants",
+    "score": 25.2
   },
   {
-    "Occupation": "Environmental Engineering Technicians",
-    "COVID-19 Risk Score": 25.1
+    "occupation": "Environmental Engineering Technicians",
+    "score": 25.1
   },
   {
-    "Occupation": "Medical Scientists, Except Epidemiologists",
-    "COVID-19 Risk Score": 25.1
+    "occupation": "Medical Scientists, Except Epidemiologists",
+    "score": 25.1
   },
   {
-    "Occupation": "Claims Examiners, Property and Casualty Insurance",
-    "COVID-19 Risk Score": 25
+    "occupation": "Claims Examiners, Property and Casualty Insurance",
+    "score": 25
   },
   {
-    "Occupation": "Biofuels Processing Technicians",
-    "COVID-19 Risk Score": 25
+    "occupation": "Biofuels Processing Technicians",
+    "score": 25
   },
   {
-    "Occupation": "Security Managers",
-    "COVID-19 Risk Score": 25
+    "occupation": "Security Managers",
+    "score": 25
   },
   {
-    "Occupation": "Customs Brokers",
-    "COVID-19 Risk Score": 25
+    "occupation": "Customs Brokers",
+    "score": 25
   },
   {
-    "Occupation": "Nursery and Greenhouse Managers",
-    "COVID-19 Risk Score": 24.9
+    "occupation": "Nursery and Greenhouse Managers",
+    "score": 24.9
   },
   {
-    "Occupation": "Park Naturalists",
-    "COVID-19 Risk Score": 24.8
+    "occupation": "Park Naturalists",
+    "score": 24.8
   },
   {
-    "Occupation": "Medical Transcriptionists",
-    "COVID-19 Risk Score": 24.8
+    "occupation": "Medical Transcriptionists",
+    "score": 24.8
   },
   {
-    "Occupation": "Shoe and Leather Workers and Repairers",
-    "COVID-19 Risk Score": 24.8
+    "occupation": "Shoe and Leather Workers and Repairers",
+    "score": 24.8
   },
   {
-    "Occupation": "Segmental Pavers",
-    "COVID-19 Risk Score": 24.8
+    "occupation": "Segmental Pavers",
+    "score": 24.8
   },
   {
-    "Occupation": "Biofuels Production Managers",
-    "COVID-19 Risk Score": 24.8
+    "occupation": "Biofuels Production Managers",
+    "score": 24.8
   },
   {
-    "Occupation": "Mates- Ship, Boat, and Barge",
-    "COVID-19 Risk Score": 24.7
+    "occupation": "Mates- Ship, Boat, and Barge",
+    "score": 24.7
   },
   {
-    "Occupation": "Sales Agents, Securities and Commodities",
-    "COVID-19 Risk Score": 24.7
+    "occupation": "Sales Agents, Securities and Commodities",
+    "score": 24.7
   },
   {
-    "Occupation": "Chemical Plant and System Operators",
-    "COVID-19 Risk Score": 24.7
+    "occupation": "Chemical Plant and System Operators",
+    "score": 24.7
   },
   {
-    "Occupation": "Excavating and Loading Machine and Dragline Operators",
-    "COVID-19 Risk Score": 24.7
+    "occupation": "Excavating and Loading Machine and Dragline Operators",
+    "score": 24.7
   },
   {
-    "Occupation": "Biomass Plant Technicians",
-    "COVID-19 Risk Score": 24.6
+    "occupation": "Biomass Plant Technicians",
+    "score": 24.6
   },
   {
-    "Occupation": "Network and Computer Systems Administrators",
-    "COVID-19 Risk Score": 24.6
+    "occupation": "Network and Computer Systems Administrators",
+    "score": 24.6
   },
   {
-    "Occupation": "Tree Trimmers and Pruners",
-    "COVID-19 Risk Score": 24.5
+    "occupation": "Tree Trimmers and Pruners",
+    "score": 24.5
   },
   {
-    "Occupation": "Insurance Sales Agents",
-    "COVID-19 Risk Score": 24.5
+    "occupation": "Insurance Sales Agents",
+    "score": 24.5
   },
   {
-    "Occupation": "Power Distributors and Dispatchers",
-    "COVID-19 Risk Score": 24.5
+    "occupation": "Power Distributors and Dispatchers",
+    "score": 24.5
   },
   {
-    "Occupation": "Door-To-Door Sales Workers, News and Street Vendors, and Related Workers",
-    "COVID-19 Risk Score": 24.3
+    "occupation": "Door-To-Door Sales Workers, News and Street Vendors, and Related Workers",
+    "score": 24.3
   },
   {
-    "Occupation": "Proofreaders and Copy Markers",
-    "COVID-19 Risk Score": 24.3
+    "occupation": "Proofreaders and Copy Markers",
+    "score": 24.3
   },
   {
-    "Occupation": "Athletes and Sports Competitors",
-    "COVID-19 Risk Score": 24.3
+    "occupation": "Athletes and Sports Competitors",
+    "score": 24.3
   },
   {
-    "Occupation": "Umpires, Referees, and Other Sports Officials",
-    "COVID-19 Risk Score": 24.2
+    "occupation": "Umpires, Referees, and Other Sports Officials",
+    "score": 24.2
   },
   {
-    "Occupation": "Mechatronics Engineers",
-    "COVID-19 Risk Score": 24.1
+    "occupation": "Mechatronics Engineers",
+    "score": 24.1
   },
   {
-    "Occupation": "Fence Erectors",
-    "COVID-19 Risk Score": 24
+    "occupation": "Fence Erectors",
+    "score": 24
   },
   {
-    "Occupation": "Maintenance Workers, Machinery",
-    "COVID-19 Risk Score": 24
+    "occupation": "Maintenance Workers, Machinery",
+    "score": 24
   },
   {
-    "Occupation": "Construction Managers",
-    "COVID-19 Risk Score": 24
+    "occupation": "Construction Managers",
+    "score": 24
   },
   {
-    "Occupation": "Weatherization Installers and Technicians",
-    "COVID-19 Risk Score": 23.9
+    "occupation": "Weatherization Installers and Technicians",
+    "score": 23.9
   },
   {
-    "Occupation": "Patternmakers, Metal and Plastic",
-    "COVID-19 Risk Score": 23.9
+    "occupation": "Patternmakers, Metal and Plastic",
+    "score": 23.9
   },
   {
-    "Occupation": "Industrial Engineering Technicians",
-    "COVID-19 Risk Score": 23.9
+    "occupation": "Industrial Engineering Technicians",
+    "score": 23.9
   },
   {
-    "Occupation": "Financial Managers, Branch or Department",
-    "COVID-19 Risk Score": 23.9
+    "occupation": "Financial Managers, Branch or Department",
+    "score": 23.9
   },
   {
-    "Occupation": "Security Guards",
-    "COVID-19 Risk Score": 23.9
+    "occupation": "Security Guards",
+    "score": 23.9
   },
   {
-    "Occupation": "Mechanical Door Repairers",
-    "COVID-19 Risk Score": 23.8
+    "occupation": "Mechanical Door Repairers",
+    "score": 23.8
   },
   {
-    "Occupation": "Biomass Power Plant Managers",
-    "COVID-19 Risk Score": 23.8
+    "occupation": "Biomass Power Plant Managers",
+    "score": 23.8
   },
   {
-    "Occupation": "Advertising and Promotions Managers",
-    "COVID-19 Risk Score": 23.8
+    "occupation": "Advertising and Promotions Managers",
+    "score": 23.8
   },
   {
-    "Occupation": "Film and Video Editors",
-    "COVID-19 Risk Score": 23.8
+    "occupation": "Film and Video Editors",
+    "score": 23.8
   },
   {
-    "Occupation": "Travel Agents",
-    "COVID-19 Risk Score": 23.8
+    "occupation": "Travel Agents",
+    "score": 23.8
   },
   {
-    "Occupation": "Marketing Managers",
-    "COVID-19 Risk Score": 23.8
+    "occupation": "Marketing Managers",
+    "score": 23.8
   },
   {
-    "Occupation": "Criminal Justice and Law Enforcement Teachers, Postsecondary",
-    "COVID-19 Risk Score": 23.8
+    "occupation": "Criminal Justice and Law Enforcement Teachers, Postsecondary",
+    "score": 23.8
   },
   {
-    "Occupation": "Logisticians",
-    "COVID-19 Risk Score": 23.7
+    "occupation": "Logisticians",
+    "score": 23.7
   },
   {
-    "Occupation": "File Clerks",
-    "COVID-19 Risk Score": 23.7
+    "occupation": "File Clerks",
+    "score": 23.7
   },
   {
-    "Occupation": "Pathologists",
-    "COVID-19 Risk Score": 23.6
+    "occupation": "Pathologists",
+    "score": 23.6
   },
   {
-    "Occupation": "Biologists",
-    "COVID-19 Risk Score": 23.6
+    "occupation": "Biologists",
+    "score": 23.6
   },
   {
-    "Occupation": "First-Line Supervisors of Aquacultural Workers",
-    "COVID-19 Risk Score": 23.6
+    "occupation": "First-Line Supervisors of Aquacultural Workers",
+    "score": 23.6
   },
   {
-    "Occupation": "Hydroelectric Plant Technicians",
-    "COVID-19 Risk Score": 23.5
+    "occupation": "Hydroelectric Plant Technicians",
+    "score": 23.5
   },
   {
-    "Occupation": "Bicycle Repairers",
-    "COVID-19 Risk Score": 23.5
+    "occupation": "Bicycle Repairers",
+    "score": 23.5
   },
   {
-    "Occupation": "Timing Device Assemblers and Adjusters",
-    "COVID-19 Risk Score": 23.5
+    "occupation": "Timing Device Assemblers and Adjusters",
+    "score": 23.5
   },
   {
-    "Occupation": "Electro-Mechanical Technicians",
-    "COVID-19 Risk Score": 23.4
+    "occupation": "Electro-Mechanical Technicians",
+    "score": 23.4
   },
   {
-    "Occupation": "Computer Programmers",
-    "COVID-19 Risk Score": 23.4
+    "occupation": "Computer Programmers",
+    "score": 23.4
   },
   {
-    "Occupation": "Graders and Sorters, Agricultural Products",
-    "COVID-19 Risk Score": 23.4
+    "occupation": "Graders and Sorters, Agricultural Products",
+    "score": 23.4
   },
   {
-    "Occupation": "Recycling and Reclamation Workers",
-    "COVID-19 Risk Score": 23.4
+    "occupation": "Recycling and Reclamation Workers",
+    "score": 23.4
   },
   {
-    "Occupation": "Anthropology and Archeology Teachers, Postsecondary",
-    "COVID-19 Risk Score": 23.4
+    "occupation": "Anthropology and Archeology Teachers, Postsecondary",
+    "score": 23.4
   },
   {
-    "Occupation": "Pest Control Workers",
-    "COVID-19 Risk Score": 23.2
+    "occupation": "Pest Control Workers",
+    "score": 23.2
   },
   {
-    "Occupation": "Forging Machine Setters, Operators, and Tenders, Metal and Plastic",
-    "COVID-19 Risk Score": 23.2
+    "occupation": "Forging Machine Setters, Operators, and Tenders, Metal and Plastic",
+    "score": 23.2
   },
   {
-    "Occupation": "Genetic Counselors",
-    "COVID-19 Risk Score": 23.2
+    "occupation": "Genetic Counselors",
+    "score": 23.2
   },
   {
-    "Occupation": "Sociology Teachers, Postsecondary",
-    "COVID-19 Risk Score": 23.2
+    "occupation": "Sociology Teachers, Postsecondary",
+    "score": 23.2
   },
   {
-    "Occupation": "Textile Winding, Twisting, and Drawing Out Machine Setters, Operators, and Tenders",
-    "COVID-19 Risk Score": 23.1
+    "occupation": "Textile Winding, Twisting, and Drawing Out Machine Setters, Operators, and Tenders",
+    "score": 23.1
   },
   {
-    "Occupation": "Property, Real Estate, and Community Association Managers",
-    "COVID-19 Risk Score": 23.1
+    "occupation": "Property, Real Estate, and Community Association Managers",
+    "score": 23.1
   },
   {
-    "Occupation": "Lawyers",
-    "COVID-19 Risk Score": 23
+    "occupation": "Lawyers",
+    "score": 23
   },
   {
-    "Occupation": "Painters, Construction and Maintenance",
-    "COVID-19 Risk Score": 23
+    "occupation": "Painters, Construction and Maintenance",
+    "score": 23
   },
   {
-    "Occupation": "Area, Ethnic, and Cultural Studies Teachers, Postsecondary",
-    "COVID-19 Risk Score": 22.9
+    "occupation": "Area, Ethnic, and Cultural Studies Teachers, Postsecondary",
+    "score": 22.9
   },
   {
-    "Occupation": "Helpers--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setters",
-    "COVID-19 Risk Score": 22.9
+    "occupation": "Helpers--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setters",
+    "score": 22.9
   },
   {
-    "Occupation": "Art Directors",
-    "COVID-19 Risk Score": 22.9
+    "occupation": "Art Directors",
+    "score": 22.9
   },
   {
-    "Occupation": "Brickmasons and Blockmasons",
-    "COVID-19 Risk Score": 22.9
+    "occupation": "Brickmasons and Blockmasons",
+    "score": 22.9
   },
   {
-    "Occupation": "Chemical Technicians",
-    "COVID-19 Risk Score": 22.9
+    "occupation": "Chemical Technicians",
+    "score": 22.9
   },
   {
-    "Occupation": "Training and Development Specialists",
-    "COVID-19 Risk Score": 22.8
+    "occupation": "Training and Development Specialists",
+    "score": 22.8
   },
   {
-    "Occupation": "Energy Auditors",
-    "COVID-19 Risk Score": 22.7
+    "occupation": "Energy Auditors",
+    "score": 22.7
   },
   {
-    "Occupation": "Occupational Health and Safety Specialists",
-    "COVID-19 Risk Score": 22.7
+    "occupation": "occupational Health and Safety Specialists",
+    "score": 22.7
   },
   {
-    "Occupation": "Agricultural Technicians",
-    "COVID-19 Risk Score": 22.7
+    "occupation": "Agricultural Technicians",
+    "score": 22.7
   },
   {
-    "Occupation": "Sawing Machine Setters, Operators, and Tenders, Wood",
-    "COVID-19 Risk Score": 22.7
+    "occupation": "Sawing Machine Setters, Operators, and Tenders, Wood",
+    "score": 22.7
   },
   {
-    "Occupation": "Janitors and Cleaners, Except Maids and Housekeeping Cleaners",
-    "COVID-19 Risk Score": 22.7
+    "occupation": "Janitors and Cleaners, Except Maids and Housekeeping Cleaners",
+    "score": 22.7
   },
   {
-    "Occupation": "Power Plant Operators",
-    "COVID-19 Risk Score": 22.6
+    "occupation": "Power Plant Operators",
+    "score": 22.6
   },
   {
-    "Occupation": "Public Address System and Other Announcers",
-    "COVID-19 Risk Score": 22.6
+    "occupation": "Public Address System and Other Announcers",
+    "score": 22.6
   },
   {
-    "Occupation": "Architecture Teachers, Postsecondary",
-    "COVID-19 Risk Score": 22.6
+    "occupation": "Architecture Teachers, Postsecondary",
+    "score": 22.6
   },
   {
-    "Occupation": "Office Machine Operators, Except Computer",
-    "COVID-19 Risk Score": 22.6
+    "occupation": "Office Machine Operators, Except Computer",
+    "score": 22.6
   },
   {
-    "Occupation": "Insurance Claims Clerks",
-    "COVID-19 Risk Score": 22.5
+    "occupation": "Insurance Claims Clerks",
+    "score": 22.5
   },
   {
-    "Occupation": "Audio-Visual and Multimedia Collections Specialists",
-    "COVID-19 Risk Score": 22.5
+    "occupation": "Audio-Visual and Multimedia Collections Specialists",
+    "score": 22.5
   },
   {
-    "Occupation": "Team Assemblers",
-    "COVID-19 Risk Score": 22.5
+    "occupation": "Team Assemblers",
+    "score": 22.5
   },
   {
-    "Occupation": "Water and Wastewater Treatment Plant and System Operators",
-    "COVID-19 Risk Score": 22.4
+    "occupation": "Water and Wastewater Treatment Plant and System Operators",
+    "score": 22.4
   },
   {
-    "Occupation": "Sales Engineers",
-    "COVID-19 Risk Score": 22.3
+    "occupation": "Sales Engineers",
+    "score": 22.3
   },
   {
-    "Occupation": "Auditors",
-    "COVID-19 Risk Score": 22.3
+    "occupation": "Auditors",
+    "score": 22.3
   },
   {
-    "Occupation": "Photographers",
-    "COVID-19 Risk Score": 22.3
+    "occupation": "Photographers",
+    "score": 22.3
   },
   {
-    "Occupation": "Purchasing Managers",
-    "COVID-19 Risk Score": 22.2
+    "occupation": "Purchasing Managers",
+    "score": 22.2
   },
   {
-    "Occupation": "Compensation, Benefits, and Job Analysis Specialists",
-    "COVID-19 Risk Score": 22.2
+    "occupation": "Compensation, Benefits, and Job Analysis Specialists",
+    "score": 22.2
   },
   {
-    "Occupation": "Risk Management Specialists",
-    "COVID-19 Risk Score": 22.2
+    "occupation": "Risk Management Specialists",
+    "score": 22.2
   },
   {
-    "Occupation": "Public Relations Specialists",
-    "COVID-19 Risk Score": 22.2
+    "occupation": "Public Relations Specialists",
+    "score": 22.2
   },
   {
-    "Occupation": "Communications Teachers, Postsecondary",
-    "COVID-19 Risk Score": 22.2
+    "occupation": "Communications Teachers, Postsecondary",
+    "score": 22.2
   },
   {
-    "Occupation": "Fabric and Apparel Patternmakers",
-    "COVID-19 Risk Score": 22.1
+    "occupation": "Fabric and Apparel Patternmakers",
+    "score": 22.1
   },
   {
-    "Occupation": "Energy Brokers",
-    "COVID-19 Risk Score": 22.1
+    "occupation": "Energy Brokers",
+    "score": 22.1
   },
   {
-    "Occupation": "Bookkeeping, Accounting, and Auditing Clerks",
-    "COVID-19 Risk Score": 22.1
+    "occupation": "Bookkeeping, Accounting, and Auditing Clerks",
+    "score": 22.1
   },
   {
-    "Occupation": "First-Line Supervisors of Logging Workers",
-    "COVID-19 Risk Score": 22.1
+    "occupation": "First-Line Supervisors of Logging Workers",
+    "score": 22.1
   },
   {
-    "Occupation": "Food Science Technicians",
-    "COVID-19 Risk Score": 22.1
+    "occupation": "Food Science Technicians",
+    "score": 22.1
   },
   {
-    "Occupation": "Postal Service Mail Sorters, Processors, and Processing Machine Operators",
-    "COVID-19 Risk Score": 22
+    "occupation": "Postal Service Mail Sorters, Processors, and Processing Machine Operators",
+    "score": 22
   },
   {
-    "Occupation": "Law Teachers, Postsecondary",
-    "COVID-19 Risk Score": 21.9
+    "occupation": "Law Teachers, Postsecondary",
+    "score": 21.9
   },
   {
-    "Occupation": "Recreational Vehicle Service Technicians",
-    "COVID-19 Risk Score": 21.9
+    "occupation": "Recreational Vehicle Service Technicians",
+    "score": 21.9
   },
   {
-    "Occupation": "Payroll and Timekeeping Clerks",
-    "COVID-19 Risk Score": 21.8
+    "occupation": "Payroll and Timekeeping Clerks",
+    "score": 21.8
   },
   {
-    "Occupation": "Avionics Technicians",
-    "COVID-19 Risk Score": 21.7
+    "occupation": "Avionics Technicians",
+    "score": 21.7
   },
   {
-    "Occupation": "Graduate Teaching Assistants",
-    "COVID-19 Risk Score": 21.7
+    "occupation": "Graduate Teaching Assistants",
+    "score": 21.7
   },
   {
-    "Occupation": "Automotive Glass Installers and Repairers",
-    "COVID-19 Risk Score": 21.7
+    "occupation": "Automotive Glass Installers and Repairers",
+    "score": 21.7
   },
   {
-    "Occupation": "Locomotive Firers",
-    "COVID-19 Risk Score": 21.7
+    "occupation": "Locomotive Firers",
+    "score": 21.7
   },
   {
-    "Occupation": "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
-    "COVID-19 Risk Score": 21.6
+    "occupation": "Electrical and Electronics Repairers, Commercial and Industrial Equipment",
+    "score": 21.6
   },
   {
-    "Occupation": "Equal Opportunity Representatives and Officers",
-    "COVID-19 Risk Score": 21.5
+    "occupation": "Equal Opportunity Representatives and Officers",
+    "score": 21.5
   },
   {
-    "Occupation": "Education Administrators, Postsecondary",
-    "COVID-19 Risk Score": 21.5
+    "occupation": "Education Administrators, Postsecondary",
+    "score": 21.5
   },
   {
-    "Occupation": "Operating Engineers and Other Construction Equipment Operators",
-    "COVID-19 Risk Score": 21.5
+    "occupation": "Operating Engineers and Other Construction Equipment Operators",
+    "score": 21.5
   },
   {
-    "Occupation": "Motorboat Mechanics and Service Technicians",
-    "COVID-19 Risk Score": 21.4
+    "occupation": "Motorboat Mechanics and Service Technicians",
+    "score": 21.4
   },
   {
-    "Occupation": "Landscaping and Groundskeeping Workers",
-    "COVID-19 Risk Score": 21.4
+    "occupation": "Landscaping and Groundskeeping Workers",
+    "score": 21.4
   },
   {
-    "Occupation": "Helpers--Installation, Maintenance, and Repair Workers",
-    "COVID-19 Risk Score": 21.4
+    "occupation": "Helpers--Installation, Maintenance, and Repair Workers",
+    "score": 21.4
   },
   {
-    "Occupation": "Textile Bleaching and Dyeing Machine Operators and Tenders",
-    "COVID-19 Risk Score": 21.4
+    "occupation": "Textile Bleaching and Dyeing Machine Operators and Tenders",
+    "score": 21.4
   },
   {
-    "Occupation": "Online Merchants",
-    "COVID-19 Risk Score": 21.4
+    "occupation": "Online Merchants",
+    "score": 21.4
   },
   {
-    "Occupation": "Extruding and Forming Machine Setters, Operators, and Tenders, Synthetic and Glass Fibers",
-    "COVID-19 Risk Score": 21.3
+    "occupation": "Extruding and Forming Machine Setters, Operators, and Tenders, Synthetic and Glass Fibers",
+    "score": 21.3
   },
   {
-    "Occupation": "Hunters and Trappers",
-    "COVID-19 Risk Score": 21.2
+    "occupation": "Hunters and Trappers",
+    "score": 21.2
   },
   {
-    "Occupation": "Helpers--Roofers",
-    "COVID-19 Risk Score": 21.1
+    "occupation": "Helpers--Roofers",
+    "score": 21.1
   },
   {
-    "Occupation": "Industrial Truck and Tractor Operators",
-    "COVID-19 Risk Score": 21.1
+    "occupation": "Industrial Truck and Tractor Operators",
+    "score": 21.1
   },
   {
-    "Occupation": "Logistics Managers",
-    "COVID-19 Risk Score": 21.1
+    "occupation": "Logistics Managers",
+    "score": 21.1
   },
   {
-    "Occupation": "Insurance Underwriters",
-    "COVID-19 Risk Score": 21.1
+    "occupation": "Insurance Underwriters",
+    "score": 21.1
   },
   {
-    "Occupation": "Rail Car Repairers",
-    "COVID-19 Risk Score": 21
+    "occupation": "Rail Car Repairers",
+    "score": 21
   },
   {
-    "Occupation": "Chemists",
-    "COVID-19 Risk Score": 20.9
+    "occupation": "Chemists",
+    "score": 20.9
   },
   {
-    "Occupation": "Mobile Heavy Equipment Mechanics, Except Engines",
-    "COVID-19 Risk Score": 20.9
+    "occupation": "Mobile Heavy Equipment Mechanics, Except Engines",
+    "score": 20.9
   },
   {
-    "Occupation": "Nuclear Monitoring Technicians",
-    "COVID-19 Risk Score": 20.9
+    "occupation": "Nuclear Monitoring Technicians",
+    "score": 20.9
   },
   {
-    "Occupation": "Human Resources Managers",
-    "COVID-19 Risk Score": 20.8
+    "occupation": "Human Resources Managers",
+    "score": 20.8
   },
   {
-    "Occupation": "Explosives Workers, Ordnance Handling Experts, and Blasters",
-    "COVID-19 Risk Score": 20.8
+    "occupation": "Explosives Workers, Ordnance Handling Experts, and Blasters",
+    "score": 20.8
   },
   {
-    "Occupation": "English Language and Literature Teachers, Postsecondary",
-    "COVID-19 Risk Score": 20.8
+    "occupation": "English Language and Literature Teachers, Postsecondary",
+    "score": 20.8
   },
   {
-    "Occupation": "Petroleum Engineers",
-    "COVID-19 Risk Score": 20.8
+    "occupation": "Petroleum Engineers",
+    "score": 20.8
   },
   {
-    "Occupation": "Computer and Information Research Scientists",
-    "COVID-19 Risk Score": 20.8
+    "occupation": "Computer and Information Research Scientists",
+    "score": 20.8
   },
   {
-    "Occupation": "Cleaners of Vehicles and Equipment",
-    "COVID-19 Risk Score": 20.8
+    "occupation": "Cleaners of Vehicles and Equipment",
+    "score": 20.8
   },
   {
-    "Occupation": "Automotive Specialty Technicians",
-    "COVID-19 Risk Score": 20.7
+    "occupation": "Automotive Specialty Technicians",
+    "score": 20.7
   },
   {
-    "Occupation": "Video Game Designers",
-    "COVID-19 Risk Score": 20.7
+    "occupation": "Video Game Designers",
+    "score": 20.7
   },
   {
-    "Occupation": "Compensation and Benefits Managers",
-    "COVID-19 Risk Score": 20.6
+    "occupation": "Compensation and Benefits Managers",
+    "score": 20.6
   },
   {
-    "Occupation": "Supply Chain Managers",
-    "COVID-19 Risk Score": 20.6
+    "occupation": "Supply Chain Managers",
+    "score": 20.6
   },
   {
-    "Occupation": "Forest and Conservation Technicians",
-    "COVID-19 Risk Score": 20.6
+    "occupation": "Forest and Conservation Technicians",
+    "score": 20.6
   },
   {
-    "Occupation": "Radio Frequency Identification Device Specialists",
-    "COVID-19 Risk Score": 20.6
+    "occupation": "Radio Frequency Identification Device Specialists",
+    "score": 20.6
   },
   {
-    "Occupation": "Chief Sustainability Officers",
-    "COVID-19 Risk Score": 20.5
+    "occupation": "Chief Sustainability Officers",
+    "score": 20.5
   },
   {
-    "Occupation": "Private Detectives and Investigators",
-    "COVID-19 Risk Score": 20.5
+    "occupation": "Private Detectives and Investigators",
+    "score": 20.5
   },
   {
-    "Occupation": "Administrative Services Managers",
-    "COVID-19 Risk Score": 20.5
+    "occupation": "Administrative Services Managers",
+    "score": 20.5
   },
   {
-    "Occupation": "Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders",
-    "COVID-19 Risk Score": 20.5
+    "occupation": "Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders",
+    "score": 20.5
   },
   {
-    "Occupation": "Electronic Home Entertainment Equipment Installers and Repairers",
-    "COVID-19 Risk Score": 20.4
+    "occupation": "Electronic Home Entertainment Equipment Installers and Repairers",
+    "score": 20.4
   },
   {
-    "Occupation": "Packaging and Filling Machine Operators and Tenders",
-    "COVID-19 Risk Score": 20.4
+    "occupation": "Packaging and Filling Machine Operators and Tenders",
+    "score": 20.4
   },
   {
-    "Occupation": "Telecommunications Engineering Specialists",
-    "COVID-19 Risk Score": 20.4
+    "occupation": "Telecommunications Engineering Specialists",
+    "score": 20.4
   },
   {
-    "Occupation": "Industrial Engineers",
-    "COVID-19 Risk Score": 20.4
+    "occupation": "Industrial Engineers",
+    "score": 20.4
   },
   {
-    "Occupation": "Computer and Information Systems Managers",
-    "COVID-19 Risk Score": 20.3
+    "occupation": "Computer and Information Systems Managers",
+    "score": 20.3
   },
   {
-    "Occupation": "Budget Analysts",
-    "COVID-19 Risk Score": 20.3
+    "occupation": "Budget Analysts",
+    "score": 20.3
   },
   {
-    "Occupation": "Assessors",
-    "COVID-19 Risk Score": 20.3
+    "occupation": "Assessors",
+    "score": 20.3
   },
   {
-    "Occupation": "Aerospace Engineers",
-    "COVID-19 Risk Score": 20.3
+    "occupation": "Aerospace Engineers",
+    "score": 20.3
   },
   {
-    "Occupation": "Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic",
-    "COVID-19 Risk Score": 20.3
+    "occupation": "Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic",
+    "score": 20.3
   },
   {
-    "Occupation": "Personal Financial Advisors",
-    "COVID-19 Risk Score": 20.2
+    "occupation": "Personal Financial Advisors",
+    "score": 20.2
   },
   {
-    "Occupation": "Legal Secretaries",
-    "COVID-19 Risk Score": 20.2
+    "occupation": "Legal Secretaries",
+    "score": 20.2
   },
   {
-    "Occupation": "Paving, Surfacing, and Tamping Equipment Operators",
-    "COVID-19 Risk Score": 20.1
+    "occupation": "Paving, Surfacing, and Tamping Equipment Operators",
+    "score": 20.1
   },
   {
-    "Occupation": "Bioinformatics Technicians",
-    "COVID-19 Risk Score": 20
+    "occupation": "Bioinformatics Technicians",
+    "score": 20
   },
   {
-    "Occupation": "Reinforcing Iron and Rebar Workers",
-    "COVID-19 Risk Score": 20
+    "occupation": "Reinforcing Iron and Rebar Workers",
+    "score": 20
   },
   {
-    "Occupation": "Electromechanical Engineering Technologists",
-    "COVID-19 Risk Score": 20
+    "occupation": "Electromechanical Engineering Technologists",
+    "score": 20
   },
   {
-    "Occupation": "Commercial and Industrial Designers",
-    "COVID-19 Risk Score": 20
+    "occupation": "Commercial and Industrial Designers",
+    "score": 20
   },
   {
-    "Occupation": "Credit Analysts",
-    "COVID-19 Risk Score": 20
+    "occupation": "Credit Analysts",
+    "score": 20
   },
   {
-    "Occupation": "Tax Preparers",
-    "COVID-19 Risk Score": 20
+    "occupation": "Tax Preparers",
+    "score": 20
   },
   {
-    "Occupation": "Validation Engineers",
-    "COVID-19 Risk Score": 20
+    "occupation": "Validation Engineers",
+    "score": 20
   },
   {
-    "Occupation": "Occupational Health and Safety Technicians",
-    "COVID-19 Risk Score": 20
+    "occupation": "occupational Health and Safety Technicians",
+    "score": 20
   },
   {
-    "Occupation": "Mathematical Science Teachers, Postsecondary",
-    "COVID-19 Risk Score": 20
+    "occupation": "Mathematical Science Teachers, Postsecondary",
+    "score": 20
   },
   {
-    "Occupation": "Travel Guides",
-    "COVID-19 Risk Score": 20
+    "occupation": "Travel Guides",
+    "score": 20
   },
   {
-    "Occupation": "Industrial Safety and Health Engineers",
-    "COVID-19 Risk Score": 20
+    "occupation": "Industrial Safety and Health Engineers",
+    "score": 20
   },
   {
-    "Occupation": "Mixing and Blending Machine Setters, Operators, and Tenders",
-    "COVID-19 Risk Score": 19.9
+    "occupation": "Mixing and Blending Machine Setters, Operators, and Tenders",
+    "score": 19.9
   },
   {
-    "Occupation": "Library Technicians",
-    "COVID-19 Risk Score": 19.9
+    "occupation": "Library Technicians",
+    "score": 19.9
   },
   {
-    "Occupation": "Editors",
-    "COVID-19 Risk Score": 19.9
+    "occupation": "Editors",
+    "score": 19.9
   },
   {
-    "Occupation": "Informatics Nurse Specialists",
-    "COVID-19 Risk Score": 19.8
+    "occupation": "Informatics Nurse Specialists",
+    "score": 19.8
   },
   {
-    "Occupation": "Computer Systems Analysts",
-    "COVID-19 Risk Score": 19.8
+    "occupation": "Computer Systems Analysts",
+    "score": 19.8
   },
   {
-    "Occupation": "Cabinetmakers and Bench Carpenters",
-    "COVID-19 Risk Score": 19.7
+    "occupation": "Cabinetmakers and Bench Carpenters",
+    "score": 19.7
   },
   {
-    "Occupation": "Cost Estimators",
-    "COVID-19 Risk Score": 19.7
+    "occupation": "Cost Estimators",
+    "score": 19.7
   },
   {
-    "Occupation": "Education Teachers, Postsecondary",
-    "COVID-19 Risk Score": 19.6
+    "occupation": "Education Teachers, Postsecondary",
+    "score": 19.6
   },
   {
-    "Occupation": "Geothermal Technicians",
-    "COVID-19 Risk Score": 19.6
+    "occupation": "Geothermal Technicians",
+    "score": 19.6
   },
   {
-    "Occupation": "Farm and Home Management Advisors",
-    "COVID-19 Risk Score": 19.6
+    "occupation": "Farm and Home Management Advisors",
+    "score": 19.6
   },
   {
-    "Occupation": "Solar Thermal Installers and Technicians",
-    "COVID-19 Risk Score": 19.6
+    "occupation": "Solar Thermal Installers and Technicians",
+    "score": 19.6
   },
   {
-    "Occupation": "Physics Teachers, Postsecondary",
-    "COVID-19 Risk Score": 19.4
+    "occupation": "Physics Teachers, Postsecondary",
+    "score": 19.4
   },
   {
-    "Occupation": "Multimedia Artists and Animators",
-    "COVID-19 Risk Score": 19.4
+    "occupation": "Multimedia Artists and Animators",
+    "score": 19.4
   },
   {
-    "Occupation": "Shipping, Receiving, and Traffic Clerks",
-    "COVID-19 Risk Score": 19.4
+    "occupation": "Shipping, Receiving, and Traffic Clerks",
+    "score": 19.4
   },
   {
-    "Occupation": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
-    "COVID-19 Risk Score": 19.4
+    "occupation": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products",
+    "score": 19.4
   },
   {
-    "Occupation": "Medical Equipment Repairers",
-    "COVID-19 Risk Score": 19.4
+    "occupation": "Medical Equipment Repairers",
+    "score": 19.4
   },
   {
-    "Occupation": "Sound Engineering Technicians",
-    "COVID-19 Risk Score": 19.4
+    "occupation": "Sound Engineering Technicians",
+    "score": 19.4
   },
   {
-    "Occupation": "Financial Analysts",
-    "COVID-19 Risk Score": 19.3
+    "occupation": "Financial Analysts",
+    "score": 19.3
   },
   {
-    "Occupation": "Electromechanical Equipment Assemblers",
-    "COVID-19 Risk Score": 19.3
+    "occupation": "Electromechanical Equipment Assemblers",
+    "score": 19.3
   },
   {
-    "Occupation": "Aircraft Mechanics and Service Technicians",
-    "COVID-19 Risk Score": 19.3
+    "occupation": "Aircraft Mechanics and Service Technicians",
+    "score": 19.3
   },
   {
-    "Occupation": "Food Scientists and Technologists",
-    "COVID-19 Risk Score": 19.2
+    "occupation": "Food Scientists and Technologists",
+    "score": 19.2
   },
   {
-    "Occupation": "Anthropologists",
-    "COVID-19 Risk Score": 19.1
+    "occupation": "Anthropologists",
+    "score": 19.1
   },
   {
-    "Occupation": "Information Technology Project Managers",
-    "COVID-19 Risk Score": 19
+    "occupation": "Information Technology Project Managers",
+    "score": 19
   },
   {
-    "Occupation": "Hydroelectric Production Managers",
-    "COVID-19 Risk Score": 19
+    "occupation": "Hydroelectric Production Managers",
+    "score": 19
   },
   {
-    "Occupation": "Cutters and Trimmers, Hand",
-    "COVID-19 Risk Score": 18.9
+    "occupation": "Cutters and Trimmers, Hand",
+    "score": 18.9
   },
   {
-    "Occupation": "Industrial-Organizational Psychologists",
-    "COVID-19 Risk Score": 18.9
+    "occupation": "Industrial-Organizational Psychologists",
+    "score": 18.9
   },
   {
-    "Occupation": "Coating, Painting, and Spraying Machine Setters, Operators, and Tenders",
-    "COVID-19 Risk Score": 18.9
+    "occupation": "Coating, Painting, and Spraying Machine Setters, Operators, and Tenders",
+    "score": 18.9
   },
   {
-    "Occupation": "Geophysical Data Technicians",
-    "COVID-19 Risk Score": 18.9
+    "occupation": "Geophysical Data Technicians",
+    "score": 18.9
   },
   {
-    "Occupation": "Library Science Teachers, Postsecondary",
-    "COVID-19 Risk Score": 18.9
+    "occupation": "Library Science Teachers, Postsecondary",
+    "score": 18.9
   },
   {
-    "Occupation": "Treasurers and Controllers",
-    "COVID-19 Risk Score": 18.9
+    "occupation": "Treasurers and Controllers",
+    "score": 18.9
   },
   {
-    "Occupation": "Environmental Scientists and Specialists, Including Health",
-    "COVID-19 Risk Score": 18.8
+    "occupation": "Environmental Scientists and Specialists, Including Health",
+    "score": 18.8
   },
   {
-    "Occupation": "Set and Exhibit Designers",
-    "COVID-19 Risk Score": 18.8
+    "occupation": "Set and Exhibit Designers",
+    "score": 18.8
   },
   {
-    "Occupation": "Cartographers and Photogrammetrists",
-    "COVID-19 Risk Score": 18.8
+    "occupation": "Cartographers and Photogrammetrists",
+    "score": 18.8
   },
   {
-    "Occupation": "Logging Equipment Operators",
-    "COVID-19 Risk Score": 18.8
+    "occupation": "Logging Equipment Operators",
+    "score": 18.8
   },
   {
-    "Occupation": "Electrical Power-Line Installers and Repairers",
-    "COVID-19 Risk Score": 18.8
+    "occupation": "Electrical Power-Line Installers and Repairers",
+    "score": 18.8
   },
   {
-    "Occupation": "Court Reporters",
-    "COVID-19 Risk Score": 18.8
+    "occupation": "Court Reporters",
+    "score": 18.8
   },
   {
-    "Occupation": "Fundraisers",
-    "COVID-19 Risk Score": 18.8
+    "occupation": "Fundraisers",
+    "score": 18.8
   },
   {
-    "Occupation": "Mine Shuttle Car Operators",
-    "COVID-19 Risk Score": 18.7
+    "occupation": "Mine Shuttle Car Operators",
+    "score": 18.7
   },
   {
-    "Occupation": "Engineering Teachers, Postsecondary",
-    "COVID-19 Risk Score": 18.7
+    "occupation": "Engineering Teachers, Postsecondary",
+    "score": 18.7
   },
   {
-    "Occupation": "Fabric Menders, Except Garment",
-    "COVID-19 Risk Score": 18.6
+    "occupation": "Fabric Menders, Except Garment",
+    "score": 18.6
   },
   {
-    "Occupation": "Aircraft Structure, Surfaces, Rigging, and Systems Assemblers",
-    "COVID-19 Risk Score": 18.5
+    "occupation": "Aircraft Structure, Surfaces, Rigging, and Systems Assemblers",
+    "score": 18.5
   },
   {
-    "Occupation": "Architects, Except Landscape and Naval",
-    "COVID-19 Risk Score": 18.5
+    "occupation": "Architects, Except Landscape and Naval",
+    "score": 18.5
   },
   {
-    "Occupation": "Agricultural Equipment Operators",
-    "COVID-19 Risk Score": 18.5
+    "occupation": "Agricultural Equipment Operators",
+    "score": 18.5
   },
   {
-    "Occupation": "Insurance Policy Processing Clerks",
-    "COVID-19 Risk Score": 18.4
+    "occupation": "Insurance Policy Processing Clerks",
+    "score": 18.4
   },
   {
-    "Occupation": "Musical Instrument Repairers and Tuners",
-    "COVID-19 Risk Score": 18.4
+    "occupation": "Musical Instrument Repairers and Tuners",
+    "score": 18.4
   },
   {
-    "Occupation": "Hazardous Materials Removal Workers",
-    "COVID-19 Risk Score": 18.3
+    "occupation": "Hazardous Materials Removal Workers",
+    "score": 18.3
   },
   {
-    "Occupation": "Grinding and Polishing Workers, Hand",
-    "COVID-19 Risk Score": 18.3
+    "occupation": "Grinding and Polishing Workers, Hand",
+    "score": 18.3
   },
   {
-    "Occupation": "Log Graders and Scalers",
-    "COVID-19 Risk Score": 18.3
+    "occupation": "Log Graders and Scalers",
+    "score": 18.3
   },
   {
-    "Occupation": "Chemistry Teachers, Postsecondary",
-    "COVID-19 Risk Score": 18.2
+    "occupation": "Chemistry Teachers, Postsecondary",
+    "score": 18.2
   },
   {
-    "Occupation": "Logistics Engineers",
-    "COVID-19 Risk Score": 18.2
+    "occupation": "Logistics Engineers",
+    "score": 18.2
   },
   {
-    "Occupation": "Geothermal Production Managers",
-    "COVID-19 Risk Score": 18.2
+    "occupation": "Geothermal Production Managers",
+    "score": 18.2
   },
   {
-    "Occupation": "Cooks, Fast Food",
-    "COVID-19 Risk Score": 18.2
+    "occupation": "Cooks, Fast Food",
+    "score": 18.2
   },
   {
-    "Occupation": "Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic",
-    "COVID-19 Risk Score": 18.1
+    "occupation": "Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic",
+    "score": 18.1
   },
   {
-    "Occupation": "Cooling and Freezing Equipment Operators and Tenders",
-    "COVID-19 Risk Score": 18.1
+    "occupation": "Cooling and Freezing Equipment Operators and Tenders",
+    "score": 18.1
   },
   {
-    "Occupation": "Medical Records and Health Information Technicians",
-    "COVID-19 Risk Score": 18.1
+    "occupation": "Medical Records and Health Information Technicians",
+    "score": 18.1
   },
   {
-    "Occupation": "Storage and Distribution Managers",
-    "COVID-19 Risk Score": 18.1
+    "occupation": "Storage and Distribution Managers",
+    "score": 18.1
   },
   {
-    "Occupation": "Aviation Inspectors",
-    "COVID-19 Risk Score": 18.1
+    "occupation": "Aviation Inspectors",
+    "score": 18.1
   },
   {
-    "Occupation": "Hoist and Winch Operators",
-    "COVID-19 Risk Score": 18
+    "occupation": "Hoist and Winch Operators",
+    "score": 18
   },
   {
-    "Occupation": "Earth Drillers, Except Oil and Gas",
-    "COVID-19 Risk Score": 18
+    "occupation": "Earth Drillers, Except Oil and Gas",
+    "score": 18
   },
   {
-    "Occupation": "Electronic Equipment Installers and Repairers, Motor Vehicles",
-    "COVID-19 Risk Score": 18
+    "occupation": "Electronic Equipment Installers and Repairers, Motor Vehicles",
+    "score": 18
   },
   {
-    "Occupation": "Environmental Science Teachers, Postsecondary",
-    "COVID-19 Risk Score": 17.9
+    "occupation": "Environmental Science Teachers, Postsecondary",
+    "score": 17.9
   },
   {
-    "Occupation": "Landscape Architects",
-    "COVID-19 Risk Score": 17.9
+    "occupation": "Landscape Architects",
+    "score": 17.9
   },
   {
-    "Occupation": "Arbitrators, Mediators, and Conciliators",
-    "COVID-19 Risk Score": 17.9
+    "occupation": "Arbitrators, Mediators, and Conciliators",
+    "score": 17.9
   },
   {
-    "Occupation": "Bus and Truck Mechanics and Diesel Engine Specialists",
-    "COVID-19 Risk Score": 17.8
+    "occupation": "Bus and Truck Mechanics and Diesel Engine Specialists",
+    "score": 17.8
   },
   {
-    "Occupation": "Layout Workers, Metal and Plastic",
-    "COVID-19 Risk Score": 17.8
+    "occupation": "Layout Workers, Metal and Plastic",
+    "score": 17.8
   },
   {
-    "Occupation": "Aerospace Engineering and Operations Technicians",
-    "COVID-19 Risk Score": 17.8
+    "occupation": "Aerospace Engineering and Operations Technicians",
+    "score": 17.8
   },
   {
-    "Occupation": "Plasterers and Stucco Masons",
-    "COVID-19 Risk Score": 17.8
+    "occupation": "Plasterers and Stucco Masons",
+    "score": 17.8
   },
   {
-    "Occupation": "Carpet Installers",
-    "COVID-19 Risk Score": 17.7
+    "occupation": "Carpet Installers",
+    "score": 17.7
   },
   {
-    "Occupation": "Printing Press Operators",
-    "COVID-19 Risk Score": 17.7
+    "occupation": "Printing Press Operators",
+    "score": 17.7
   },
   {
-    "Occupation": "Soil and Water Conservationists",
-    "COVID-19 Risk Score": 17.5
+    "occupation": "Soil and Water Conservationists",
+    "score": 17.5
   },
   {
-    "Occupation": "Curators",
-    "COVID-19 Risk Score": 17.4
+    "occupation": "Curators",
+    "score": 17.4
   },
   {
-    "Occupation": "Water/Wastewater Engineers",
-    "COVID-19 Risk Score": 17.3
+    "occupation": "Water/Wastewater Engineers",
+    "score": 17.3
   },
   {
-    "Occupation": "Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders",
-    "COVID-19 Risk Score": 17.1
+    "occupation": "Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders",
+    "score": 17.1
   },
   {
-    "Occupation": "Painting, Coating, and Decorating Workers",
-    "COVID-19 Risk Score": 17.1
+    "occupation": "Painting, Coating, and Decorating Workers",
+    "score": 17.1
   },
   {
-    "Occupation": "Broadcast Technicians",
-    "COVID-19 Risk Score": 17.1
+    "occupation": "Broadcast Technicians",
+    "score": 17.1
   },
   {
-    "Occupation": "Investment Fund Managers",
-    "COVID-19 Risk Score": 17.1
+    "occupation": "Investment Fund Managers",
+    "score": 17.1
   },
   {
-    "Occupation": "Cleaning, Washing, and Metal Pickling Equipment Operators and Tenders",
-    "COVID-19 Risk Score": 17
+    "occupation": "Cleaning, Washing, and Metal Pickling Equipment Operators and Tenders",
+    "score": 17
   },
   {
-    "Occupation": "Urban and Regional Planners",
-    "COVID-19 Risk Score": 17
+    "occupation": "Urban and Regional Planners",
+    "score": 17
   },
   {
-    "Occupation": "Electronics Engineering Technicians",
-    "COVID-19 Risk Score": 17
+    "occupation": "Electronics Engineering Technicians",
+    "score": 17
   },
   {
-    "Occupation": "Lathe and Turning Machine Tool Setters, Operators, and Tenders, Metal and Plastic",
-    "COVID-19 Risk Score": 17
+    "occupation": "Lathe and Turning Machine Tool Setters, Operators, and Tenders, Metal and Plastic",
+    "score": 17
   },
   {
-    "Occupation": "Motorcycle Mechanics",
-    "COVID-19 Risk Score": 17
+    "occupation": "Motorcycle Mechanics",
+    "score": 17
   },
   {
-    "Occupation": "Automotive Master Mechanics",
-    "COVID-19 Risk Score": 16.9
+    "occupation": "Automotive Master Mechanics",
+    "score": 16.9
   },
   {
-    "Occupation": "Aquacultural Managers",
-    "COVID-19 Risk Score": 16.7
+    "occupation": "Aquacultural Managers",
+    "score": 16.7
   },
   {
-    "Occupation": "Logistics Analysts",
-    "COVID-19 Risk Score": 16.7
+    "occupation": "Logistics Analysts",
+    "score": 16.7
   },
   {
-    "Occupation": "Clinical Data Managers",
-    "COVID-19 Risk Score": 16.7
+    "occupation": "Clinical Data Managers",
+    "score": 16.7
   },
   {
-    "Occupation": "Manufacturing Engineers",
-    "COVID-19 Risk Score": 16.7
+    "occupation": "Manufacturing Engineers",
+    "score": 16.7
   },
   {
-    "Occupation": "City and Regional Planning Aides",
-    "COVID-19 Risk Score": 16.7
+    "occupation": "City and Regional Planning Aides",
+    "score": 16.7
   },
   {
-    "Occupation": "Metal-Refining Furnace Operators and Tenders",
-    "COVID-19 Risk Score": 16.6
+    "occupation": "Metal-Refining Furnace Operators and Tenders",
+    "score": 16.6
   },
   {
-    "Occupation": "Psychology Teachers, Postsecondary",
-    "COVID-19 Risk Score": 16.5
+    "occupation": "Psychology Teachers, Postsecondary",
+    "score": 16.5
   },
   {
-    "Occupation": "Furniture Finishers",
-    "COVID-19 Risk Score": 16.4
+    "occupation": "Furniture Finishers",
+    "score": 16.4
   },
   {
-    "Occupation": "Structural Metal Fabricators and Fitters",
-    "COVID-19 Risk Score": 16.4
+    "occupation": "Structural Metal Fabricators and Fitters",
+    "score": 16.4
   },
   {
-    "Occupation": "Archeologists",
-    "COVID-19 Risk Score": 16.3
+    "occupation": "Archeologists",
+    "score": 16.3
   },
   {
-    "Occupation": "Parking Enforcement Workers",
-    "COVID-19 Risk Score": 16.2
+    "occupation": "Parking Enforcement Workers",
+    "score": 16.2
   },
   {
-    "Occupation": "Cutting and Slicing Machine Setters, Operators, and Tenders",
-    "COVID-19 Risk Score": 16.1
+    "occupation": "Cutting and Slicing Machine Setters, Operators, and Tenders",
+    "score": 16.1
   },
   {
-    "Occupation": "Historians",
-    "COVID-19 Risk Score": 16.1
+    "occupation": "Historians",
+    "score": 16.1
   },
   {
-    "Occupation": "Industrial Engineering Technologists",
-    "COVID-19 Risk Score": 16.1
+    "occupation": "Industrial Engineering Technologists",
+    "score": 16.1
   },
   {
-    "Occupation": "Electrical Drafters",
-    "COVID-19 Risk Score": 16.1
+    "occupation": "Electrical Drafters",
+    "score": 16.1
   },
   {
-    "Occupation": "Postal Service Mail Carriers",
-    "COVID-19 Risk Score": 16.1
+    "occupation": "Postal Service Mail Carriers",
+    "score": 16.1
   },
   {
-    "Occupation": "Automotive Engineering Technicians",
-    "COVID-19 Risk Score": 16.1
+    "occupation": "Automotive Engineering Technicians",
+    "score": 16.1
   },
   {
-    "Occupation": "Regulatory Affairs Managers",
-    "COVID-19 Risk Score": 16.1
+    "occupation": "Regulatory Affairs Managers",
+    "score": 16.1
   },
   {
-    "Occupation": "Animal Scientists",
-    "COVID-19 Risk Score": 16.1
+    "occupation": "Animal Scientists",
+    "score": 16.1
   },
   {
-    "Occupation": "Precision Agriculture Technicians",
-    "COVID-19 Risk Score": 16
+    "occupation": "Precision Agriculture Technicians",
+    "score": 16
   },
   {
-    "Occupation": "Coin, Vending, and Amusement Machine Servicers and Repairers",
-    "COVID-19 Risk Score": 16
+    "occupation": "Coin, Vending, and Amusement Machine Servicers and Repairers",
+    "score": 16
   },
   {
-    "Occupation": "Upholsterers",
-    "COVID-19 Risk Score": 16
+    "occupation": "Upholsterers",
+    "score": 16
   },
   {
-    "Occupation": "Woodworking Machine Setters, Operators, and Tenders, Except Sawing",
-    "COVID-19 Risk Score": 16
+    "occupation": "Woodworking Machine Setters, Operators, and Tenders, Except Sawing",
+    "score": 16
   },
   {
-    "Occupation": "Electrical Engineering Technologists",
-    "COVID-19 Risk Score": 16
+    "occupation": "Electrical Engineering Technologists",
+    "score": 16
   },
   {
-    "Occupation": "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
-    "COVID-19 Risk Score": 15.9
+    "occupation": "Purchasing Agents, Except Wholesale, Retail, and Farm Products",
+    "score": 15.9
   },
   {
-    "Occupation": "Photonics Engineers",
-    "COVID-19 Risk Score": 15.9
+    "occupation": "Photonics Engineers",
+    "score": 15.9
   },
   {
-    "Occupation": "Geography Teachers, Postsecondary",
-    "COVID-19 Risk Score": 15.9
+    "occupation": "Geography Teachers, Postsecondary",
+    "score": 15.9
   },
   {
-    "Occupation": "Interior Designers",
-    "COVID-19 Risk Score": 15.9
+    "occupation": "Interior Designers",
+    "score": 15.9
   },
   {
-    "Occupation": "Computer Numerically Controlled Machine Tool Programmers, Metal and Plastic",
-    "COVID-19 Risk Score": 15.9
+    "occupation": "Computer Numerically Controlled Machine Tool Programmers, Metal and Plastic",
+    "score": 15.9
   },
   {
-    "Occupation": "Electrical Engineers",
-    "COVID-19 Risk Score": 15.8
+    "occupation": "Electrical Engineers",
+    "score": 15.8
   },
   {
-    "Occupation": "Technical Writers",
-    "COVID-19 Risk Score": 15.8
+    "occupation": "Technical Writers",
+    "score": 15.8
   },
   {
-    "Occupation": "Heavy and Tractor-Trailer Truck Drivers",
-    "COVID-19 Risk Score": 15.7
+    "occupation": "Heavy and Tractor-Trailer Truck Drivers",
+    "score": 15.7
   },
   {
-    "Occupation": "Helpers--Production Workers",
-    "COVID-19 Risk Score": 15.7
+    "occupation": "Helpers--Production Workers",
+    "score": 15.7
   },
   {
-    "Occupation": "Information Security Analysts",
-    "COVID-19 Risk Score": 15.6
+    "occupation": "Information Security Analysts",
+    "score": 15.6
   },
   {
-    "Occupation": "Intelligence Analysts",
-    "COVID-19 Risk Score": 15.6
+    "occupation": "Intelligence Analysts",
+    "score": 15.6
   },
   {
-    "Occupation": "Computer-Controlled Machine Tool Operators, Metal and Plastic",
-    "COVID-19 Risk Score": 15.6
+    "occupation": "Computer-Controlled Machine Tool Operators, Metal and Plastic",
+    "score": 15.6
   },
   {
-    "Occupation": "Insulation Workers, Floor, Ceiling, and Wall",
-    "COVID-19 Risk Score": 15.6
+    "occupation": "Insulation Workers, Floor, Ceiling, and Wall",
+    "score": 15.6
   },
   {
-    "Occupation": "Geneticists",
-    "COVID-19 Risk Score": 15.6
+    "occupation": "Geneticists",
+    "score": 15.6
   },
   {
-    "Occupation": "Plating and Coating Machine Setters, Operators, and Tenders, Metal and Plastic",
-    "COVID-19 Risk Score": 15.6
+    "occupation": "Plating and Coating Machine Setters, Operators, and Tenders, Metal and Plastic",
+    "score": 15.6
   },
   {
-    "Occupation": "Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",
-    "COVID-19 Risk Score": 15.5
+    "occupation": "Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic",
+    "score": 15.5
   },
   {
-    "Occupation": "Welders, Cutters, and Welder Fitters",
-    "COVID-19 Risk Score": 15.5
+    "occupation": "Welders, Cutters, and Welder Fitters",
+    "score": 15.5
   },
   {
-    "Occupation": "Sewing Machine Operators",
-    "COVID-19 Risk Score": 15.5
+    "occupation": "Sewing Machine Operators",
+    "score": 15.5
   },
   {
-    "Occupation": "Pressers, Textile, Garment, and Related Materials",
-    "COVID-19 Risk Score": 15.4
+    "occupation": "Pressers, Textile, Garment, and Related Materials",
+    "score": 15.4
   },
   {
-    "Occupation": "Transportation Planners",
-    "COVID-19 Risk Score": 15.3
+    "occupation": "Transportation Planners",
+    "score": 15.3
   },
   {
-    "Occupation": "Construction and Building Inspectors",
-    "COVID-19 Risk Score": 15.3
+    "occupation": "Construction and Building Inspectors",
+    "score": 15.3
   },
   {
-    "Occupation": "Electronics Engineers, Except Computer",
-    "COVID-19 Risk Score": 15.3
+    "occupation": "Electronics Engineers, Except Computer",
+    "score": 15.3
   },
   {
-    "Occupation": "Machinists",
-    "COVID-19 Risk Score": 15.3
+    "occupation": "Machinists",
+    "score": 15.3
   },
   {
-    "Occupation": "Automotive Body and Related Repairers",
-    "COVID-19 Risk Score": 15.2
+    "occupation": "Automotive Body and Related Repairers",
+    "score": 15.2
   },
   {
-    "Occupation": "Statistical Assistants",
-    "COVID-19 Risk Score": 15.2
+    "occupation": "Statistical Assistants",
+    "score": 15.2
   },
   {
-    "Occupation": "Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic",
-    "COVID-19 Risk Score": 15.2
+    "occupation": "Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic",
+    "score": 15.2
   },
   {
-    "Occupation": "Business Continuity Planners",
-    "COVID-19 Risk Score": 15.2
+    "occupation": "Business Continuity Planners",
+    "score": 15.2
   },
   {
-    "Occupation": "Energy Engineers",
-    "COVID-19 Risk Score": 15.2
+    "occupation": "Energy Engineers",
+    "score": 15.2
   },
   {
-    "Occupation": "Robotics Technicians",
-    "COVID-19 Risk Score": 15.2
+    "occupation": "Robotics Technicians",
+    "score": 15.2
   },
   {
-    "Occupation": "Transportation Engineers",
-    "COVID-19 Risk Score": 15.2
+    "occupation": "Transportation Engineers",
+    "score": 15.2
   },
   {
-    "Occupation": "Machine Feeders and Offbearers",
-    "COVID-19 Risk Score": 15.1
+    "occupation": "Machine Feeders and Offbearers",
+    "score": 15.1
   },
   {
-    "Occupation": "Terrazzo Workers and Finishers",
-    "COVID-19 Risk Score": 15.1
+    "occupation": "Terrazzo Workers and Finishers",
+    "score": 15.1
   },
   {
-    "Occupation": "Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal         and Plastic",
-    "COVID-19 Risk Score": 15.1
+    "occupation": "Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal         and Plastic",
+    "score": 15.1
   },
   {
-    "Occupation": "Economics Teachers, Postsecondary",
-    "COVID-19 Risk Score": 15
+    "occupation": "Economics Teachers, Postsecondary",
+    "score": 15
   },
   {
-    "Occupation": "Regulatory Affairs Specialists",
-    "COVID-19 Risk Score": 15
+    "occupation": "Regulatory Affairs Specialists",
+    "score": 15
   },
   {
-    "Occupation": "Non-Destructive Testing Specialists",
-    "COVID-19 Risk Score": 15
+    "occupation": "Non-Destructive Testing Specialists",
+    "score": 15
   },
   {
-    "Occupation": "Software Developers, Systems Software",
-    "COVID-19 Risk Score": 15
+    "occupation": "Software Developers, Systems Software",
+    "score": 15
   },
   {
-    "Occupation": "Bridge and Lock Tenders",
-    "COVID-19 Risk Score": 14.9
+    "occupation": "Bridge and Lock Tenders",
+    "score": 14.9
   },
   {
-    "Occupation": "Tile and Marble Setters",
-    "COVID-19 Risk Score": 14.9
+    "occupation": "Tile and Marble Setters",
+    "score": 14.9
   },
   {
-    "Occupation": "Forestry and Conservation Science Teachers, Postsecondary",
-    "COVID-19 Risk Score": 14.9
+    "occupation": "Forestry and Conservation Science Teachers, Postsecondary",
+    "score": 14.9
   },
   {
-    "Occupation": "Social Work Teachers, Postsecondary",
-    "COVID-19 Risk Score": 14.9
+    "occupation": "Social Work Teachers, Postsecondary",
+    "score": 14.9
   },
   {
-    "Occupation": "School Psychologists",
-    "COVID-19 Risk Score": 14.8
+    "occupation": "School Psychologists",
+    "score": 14.8
   },
   {
-    "Occupation": "Software Quality Assurance Engineers and Testers",
-    "COVID-19 Risk Score": 14.8
+    "occupation": "Software Quality Assurance Engineers and Testers",
+    "score": 14.8
   },
   {
-    "Occupation": "Environmental Engineers",
-    "COVID-19 Risk Score": 14.8
+    "occupation": "Environmental Engineers",
+    "score": 14.8
   },
   {
-    "Occupation": "Farm Equipment Mechanics and Service Technicians",
-    "COVID-19 Risk Score": 14.8
+    "occupation": "Farm Equipment Mechanics and Service Technicians",
+    "score": 14.8
   },
   {
-    "Occupation": "Physicists",
-    "COVID-19 Risk Score": 14.7
+    "occupation": "Physicists",
+    "score": 14.7
   },
   {
-    "Occupation": "Biofuels/Biodiesel Technology and Product Development Managers",
-    "COVID-19 Risk Score": 14.7
+    "occupation": "Biofuels/Biodiesel Technology and Product Development Managers",
+    "score": 14.7
   },
   {
-    "Occupation": "Software Developers, Applications",
-    "COVID-19 Risk Score": 14.7
+    "occupation": "Software Developers, Applications",
+    "score": 14.7
   },
   {
-    "Occupation": "Brownfield Redevelopment Specialists and Site Managers",
-    "COVID-19 Risk Score": 14.7
+    "occupation": "Brownfield Redevelopment Specialists and Site Managers",
+    "score": 14.7
   },
   {
-    "Occupation": "Document Management Specialists",
-    "COVID-19 Risk Score": 14.7
+    "occupation": "Document Management Specialists",
+    "score": 14.7
   },
   {
-    "Occupation": "Biochemical Engineers",
-    "COVID-19 Risk Score": 14.7
+    "occupation": "Biochemical Engineers",
+    "score": 14.7
   },
   {
-    "Occupation": "Separating, Filtering, Clarifying, Precipitating, and Still Machine Setters, Operators, and         Tenders",
-    "COVID-19 Risk Score": 14.6
+    "occupation": "Separating, Filtering, Clarifying, Precipitating, and Still Machine Setters, Operators, and         Tenders",
+    "score": 14.6
   },
   {
-    "Occupation": "Wellhead Pumpers",
-    "COVID-19 Risk Score": 14.6
+    "occupation": "Wellhead Pumpers",
+    "score": 14.6
   },
   {
-    "Occupation": "Drywall and Ceiling Tile Installers",
-    "COVID-19 Risk Score": 14.6
+    "occupation": "Drywall and Ceiling Tile Installers",
+    "score": 14.6
   },
   {
-    "Occupation": "History Teachers, Postsecondary",
-    "COVID-19 Risk Score": 14.6
+    "occupation": "History Teachers, Postsecondary",
+    "score": 14.6
   },
   {
-    "Occupation": "Traffic Technicians",
-    "COVID-19 Risk Score": 14.6
+    "occupation": "Traffic Technicians",
+    "score": 14.6
   },
   {
-    "Occupation": "Product Safety Engineers",
-    "COVID-19 Risk Score": 14.6
+    "occupation": "Product Safety Engineers",
+    "score": 14.6
   },
   {
-    "Occupation": "Market Research Analysts and Marketing Specialists",
-    "COVID-19 Risk Score": 14.5
+    "occupation": "Market Research Analysts and Marketing Specialists",
+    "score": 14.5
   },
   {
-    "Occupation": "Biomedical Engineers",
-    "COVID-19 Risk Score": 14.5
+    "occupation": "Biomedical Engineers",
+    "score": 14.5
   },
   {
-    "Occupation": "Database Administrators",
-    "COVID-19 Risk Score": 14.5
+    "occupation": "Database Administrators",
+    "score": 14.5
   },
   {
-    "Occupation": "Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic",
-    "COVID-19 Risk Score": 14.4
+    "occupation": "Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic",
+    "score": 14.4
   },
   {
-    "Occupation": "Patternmakers, Wood",
-    "COVID-19 Risk Score": 14.4
+    "occupation": "Patternmakers, Wood",
+    "score": 14.4
   },
   {
-    "Occupation": "Solar Photovoltaic Installers",
-    "COVID-19 Risk Score": 14.3
+    "occupation": "Solar Photovoltaic Installers",
+    "score": 14.3
   },
   {
-    "Occupation": "Dredge Operators",
-    "COVID-19 Risk Score": 14.3
+    "occupation": "Dredge Operators",
+    "score": 14.3
   },
   {
-    "Occupation": "Museum Technicians and Conservators",
-    "COVID-19 Risk Score": 14.2
+    "occupation": "Museum Technicians and Conservators",
+    "score": 14.2
   },
   {
-    "Occupation": "Security Management Specialists",
-    "COVID-19 Risk Score": 14.2
+    "occupation": "Security Management Specialists",
+    "score": 14.2
   },
   {
-    "Occupation": "Animal Breeders",
-    "COVID-19 Risk Score": 14.1
+    "occupation": "Animal Breeders",
+    "score": 14.1
   },
   {
-    "Occupation": "Management Analysts",
-    "COVID-19 Risk Score": 14.1
+    "occupation": "Management Analysts",
+    "score": 14.1
   },
   {
-    "Occupation": "Solar Energy Systems Engineers",
-    "COVID-19 Risk Score": 14.1
+    "occupation": "Solar Energy Systems Engineers",
+    "score": 14.1
   },
   {
-    "Occupation": "Zoologists and Wildlife Biologists",
-    "COVID-19 Risk Score": 14
+    "occupation": "Zoologists and Wildlife Biologists",
+    "score": 14
   },
   {
-    "Occupation": "Print Binding and Finishing Workers",
-    "COVID-19 Risk Score": 13.9
+    "occupation": "Print Binding and Finishing Workers",
+    "score": 13.9
   },
   {
-    "Occupation": "Foreign Language and Literature Teachers, Postsecondary",
-    "COVID-19 Risk Score": 13.9
+    "occupation": "Foreign Language and Literature Teachers, Postsecondary",
+    "score": 13.9
   },
   {
-    "Occupation": "Philosophy and Religion Teachers, Postsecondary",
-    "COVID-19 Risk Score": 13.7
+    "occupation": "Philosophy and Religion Teachers, Postsecondary",
+    "score": 13.7
   },
   {
-    "Occupation": "Natural Sciences Managers",
-    "COVID-19 Risk Score": 13.7
+    "occupation": "Natural Sciences Managers",
+    "score": 13.7
   },
   {
-    "Occupation": "Computer, Automated Teller, and Office Machine Repairers",
-    "COVID-19 Risk Score": 13.7
+    "occupation": "Computer, Automated Teller, and Office Machine Repairers",
+    "score": 13.7
   },
   {
-    "Occupation": "Chemical Engineers",
-    "COVID-19 Risk Score": 13.6
+    "occupation": "Chemical Engineers",
+    "score": 13.6
   },
   {
-    "Occupation": "Electronics Engineering Technologists",
-    "COVID-19 Risk Score": 13.5
+    "occupation": "Electronics Engineering Technologists",
+    "score": 13.5
   },
   {
-    "Occupation": "Electrical Engineering Technicians",
-    "COVID-19 Risk Score": 13.5
+    "occupation": "Electrical Engineering Technicians",
+    "score": 13.5
   },
   {
-    "Occupation": "Semiconductor Processors",
-    "COVID-19 Risk Score": 13.5
+    "occupation": "Semiconductor Processors",
+    "score": 13.5
   },
   {
-    "Occupation": "Conveyor Operators and Tenders",
-    "COVID-19 Risk Score": 13.5
+    "occupation": "Conveyor Operators and Tenders",
+    "score": 13.5
   },
   {
-    "Occupation": "Bioinformatics Scientists",
-    "COVID-19 Risk Score": 13.4
+    "occupation": "Bioinformatics Scientists",
+    "score": 13.4
   },
   {
-    "Occupation": "Epidemiologists",
-    "COVID-19 Risk Score": 13.3
+    "occupation": "Epidemiologists",
+    "score": 13.3
   },
   {
-    "Occupation": "Civil Engineers",
-    "COVID-19 Risk Score": 13.3
+    "occupation": "Civil Engineers",
+    "score": 13.3
   },
   {
-    "Occupation": "Agricultural Sciences Teachers, Postsecondary",
-    "COVID-19 Risk Score": 13.3
+    "occupation": "Agricultural Sciences Teachers, Postsecondary",
+    "score": 13.3
   },
   {
-    "Occupation": "Tool Grinders, Filers, and Sharpeners",
-    "COVID-19 Risk Score": 13.3
+    "occupation": "Tool Grinders, Filers, and Sharpeners",
+    "score": 13.3
   },
   {
-    "Occupation": "Etchers and Engravers",
-    "COVID-19 Risk Score": 13.3
+    "occupation": "Etchers and Engravers",
+    "score": 13.3
   },
   {
-    "Occupation": "Remote Sensing Technicians",
-    "COVID-19 Risk Score": 13.3
+    "occupation": "Remote Sensing Technicians",
+    "score": 13.3
   },
   {
-    "Occupation": "Sustainability Specialists",
-    "COVID-19 Risk Score": 13.1
+    "occupation": "Sustainability Specialists",
+    "score": 13.1
   },
   {
-    "Occupation": "Climate Change Analysts",
-    "COVID-19 Risk Score": 13.1
+    "occupation": "Climate Change Analysts",
+    "score": 13.1
   },
   {
-    "Occupation": "Fire-Prevention and Protection Engineers",
-    "COVID-19 Risk Score": 13.1
+    "occupation": "Fire-Prevention and Protection Engineers",
+    "score": 13.1
   },
   {
-    "Occupation": "Gas Plant Operators",
-    "COVID-19 Risk Score": 13.1
+    "occupation": "Gas Plant Operators",
+    "score": 13.1
   },
   {
-    "Occupation": "Automotive Engineers",
-    "COVID-19 Risk Score": 13
+    "occupation": "Automotive Engineers",
+    "score": 13
   },
   {
-    "Occupation": "Manufacturing Production Technicians",
-    "COVID-19 Risk Score": 13
+    "occupation": "Manufacturing Production Technicians",
+    "score": 13
   },
   {
-    "Occupation": "Geographers",
-    "COVID-19 Risk Score": 13
+    "occupation": "Geographers",
+    "score": 13
   },
   {
-    "Occupation": "Mining and Geological Engineers, Including Mining Safety Engineers",
-    "COVID-19 Risk Score": 13
+    "occupation": "Mining and Geological Engineers, Including Mining Safety Engineers",
+    "score": 13
   },
   {
-    "Occupation": "Pourers and Casters, Metal",
-    "COVID-19 Risk Score": 12.9
+    "occupation": "Pourers and Casters, Metal",
+    "score": 12.9
   },
   {
-    "Occupation": "Tire Builders",
-    "COVID-19 Risk Score": 12.9
+    "occupation": "Tire Builders",
+    "score": 12.9
   },
   {
-    "Occupation": "Nanotechnology Engineering Technicians",
-    "COVID-19 Risk Score": 12.9
+    "occupation": "Nanotechnology Engineering Technicians",
+    "score": 12.9
   },
   {
-    "Occupation": "Graphic Designers",
-    "COVID-19 Risk Score": 12.8
+    "occupation": "Graphic Designers",
+    "score": 12.8
   },
   {
-    "Occupation": "Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic",
-    "COVID-19 Risk Score": 12.8
+    "occupation": "Drilling and Boring Machine Tool Setters, Operators, and Tenders, Metal and Plastic",
+    "score": 12.8
   },
   {
-    "Occupation": "Civil Drafters",
-    "COVID-19 Risk Score": 12.7
+    "occupation": "Civil Drafters",
+    "score": 12.7
   },
   {
-    "Occupation": "Environmental Restoration Planners",
-    "COVID-19 Risk Score": 12.7
+    "occupation": "Environmental Restoration Planners",
+    "score": 12.7
   },
   {
-    "Occupation": "Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tenders",
-    "COVID-19 Risk Score": 12.6
+    "occupation": "Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tenders",
+    "score": 12.6
   },
   {
-    "Occupation": "Glass Blowers, Molders, Benders, and Finishers",
-    "COVID-19 Risk Score": 12.6
+    "occupation": "Glass Blowers, Molders, Benders, and Finishers",
+    "score": 12.6
   },
   {
-    "Occupation": "Fraud Examiners, Investigators and Analysts",
-    "COVID-19 Risk Score": 12.5
+    "occupation": "Fraud Examiners, Investigators and Analysts",
+    "score": 12.5
   },
   {
-    "Occupation": "Web Developers",
-    "COVID-19 Risk Score": 12.5
+    "occupation": "Web Developers",
+    "score": 12.5
   },
   {
-    "Occupation": "Database Architects",
-    "COVID-19 Risk Score": 12.5
+    "occupation": "Database Architects",
+    "score": 12.5
   },
   {
-    "Occupation": "Business Intelligence Analysts",
-    "COVID-19 Risk Score": 12.5
+    "occupation": "Business Intelligence Analysts",
+    "score": 12.5
   },
   {
-    "Occupation": "Human Factors Engineers and Ergonomists",
-    "COVID-19 Risk Score": 12.5
+    "occupation": "Human Factors Engineers and Ergonomists",
+    "score": 12.5
   },
   {
-    "Occupation": "Survey Researchers",
-    "COVID-19 Risk Score": 12.5
+    "occupation": "Survey Researchers",
+    "score": 12.5
   },
   {
-    "Occupation": "Title Examiners, Abstractors, and Searchers",
-    "COVID-19 Risk Score": 12.4
+    "occupation": "Title Examiners, Abstractors, and Searchers",
+    "score": 12.4
   },
   {
-    "Occupation": "Electronic Drafters",
-    "COVID-19 Risk Score": 12.2
+    "occupation": "Electronic Drafters",
+    "score": 12.2
   },
   {
-    "Occupation": "Robotics Engineers",
-    "COVID-19 Risk Score": 12.2
+    "occupation": "Robotics Engineers",
+    "score": 12.2
   },
   {
-    "Occupation": "Prepress Technicians and Workers",
-    "COVID-19 Risk Score": 12.2
+    "occupation": "Prepress Technicians and Workers",
+    "score": 12.2
   },
   {
-    "Occupation": "Loading Machine Operators, Underground Mining",
-    "COVID-19 Risk Score": 12.2
+    "occupation": "Loading Machine Operators, Underground Mining",
+    "score": 12.2
   },
   {
-    "Occupation": "Nanotechnology Engineering Technologists",
-    "COVID-19 Risk Score": 12.1
+    "occupation": "Nanotechnology Engineering Technologists",
+    "score": 12.1
   },
   {
-    "Occupation": "Motion Picture Projectionists",
-    "COVID-19 Risk Score": 12.1
+    "occupation": "Motion Picture Projectionists",
+    "score": 12.1
   },
   {
-    "Occupation": "Stock Clerks- Stockroom, Warehouse, or Storage Yard",
-    "COVID-19 Risk Score": 12.1
+    "occupation": "Stock Clerks- Stockroom, Warehouse, or Storage Yard",
+    "score": 12.1
   },
   {
-    "Occupation": "Financial Examiners",
-    "COVID-19 Risk Score": 12
+    "occupation": "Financial Examiners",
+    "score": 12
   },
   {
-    "Occupation": "Solderers and Brazers",
-    "COVID-19 Risk Score": 11.9
+    "occupation": "Solderers and Brazers",
+    "score": 11.9
   },
   {
-    "Occupation": "Architectural and Engineering Managers",
-    "COVID-19 Risk Score": 11.9
+    "occupation": "Architectural and Engineering Managers",
+    "score": 11.9
   },
   {
-    "Occupation": "Surveyors",
-    "COVID-19 Risk Score": 11.8
+    "occupation": "Surveyors",
+    "score": 11.8
   },
   {
-    "Occupation": "Wind Energy Project Managers",
-    "COVID-19 Risk Score": 11.6
+    "occupation": "Wind Energy Project Managers",
+    "score": 11.6
   },
   {
-    "Occupation": "Textile Knitting and Weaving Machine Setters, Operators, and Tenders",
-    "COVID-19 Risk Score": 11.6
+    "occupation": "Textile Knitting and Weaving Machine Setters, Operators, and Tenders",
+    "score": 11.6
   },
   {
-    "Occupation": "Desktop Publishers",
-    "COVID-19 Risk Score": 11.3
+    "occupation": "Desktop Publishers",
+    "score": 11.3
   },
   {
-    "Occupation": "Pesticide Handlers, Sprayers, and Applicators, Vegetation",
-    "COVID-19 Risk Score": 11.2
+    "occupation": "Pesticide Handlers, Sprayers, and Applicators, Vegetation",
+    "score": 11.2
   },
   {
-    "Occupation": "Coil Winders, Tapers, and Finishers",
-    "COVID-19 Risk Score": 11.2
+    "occupation": "Coil Winders, Tapers, and Finishers",
+    "score": 11.2
   },
   {
-    "Occupation": "Paperhangers",
-    "COVID-19 Risk Score": 11.1
+    "occupation": "Paperhangers",
+    "score": 11.1
   },
   {
-    "Occupation": "Political Science Teachers, Postsecondary",
-    "COVID-19 Risk Score": 11.1
+    "occupation": "Political Science Teachers, Postsecondary",
+    "score": 11.1
   },
   {
-    "Occupation": "Cooks, Private Household",
-    "COVID-19 Risk Score": 11.1
+    "occupation": "Cooks, Private Household",
+    "score": 11.1
   },
   {
-    "Occupation": "Materials Engineers",
-    "COVID-19 Risk Score": 11.1
+    "occupation": "Materials Engineers",
+    "score": 11.1
   },
   {
-    "Occupation": "Farm and Ranch Managers",
-    "COVID-19 Risk Score": 11.1
+    "occupation": "Farm and Ranch Managers",
+    "score": 11.1
   },
   {
-    "Occupation": "Rock Splitters, Quarry",
-    "COVID-19 Risk Score": 11
+    "occupation": "Rock Splitters, Quarry",
+    "score": 11
   },
   {
-    "Occupation": "Architectural Drafters",
-    "COVID-19 Risk Score": 11
+    "occupation": "Architectural Drafters",
+    "score": 11
   },
   {
-    "Occupation": "Geographic Information Systems Technicians",
-    "COVID-19 Risk Score": 10.9
+    "occupation": "Geographic Information Systems Technicians",
+    "score": 10.9
   },
   {
-    "Occupation": "Stone Cutters and Carvers, Manufacturing",
-    "COVID-19 Risk Score": 10.9
+    "occupation": "Stone Cutters and Carvers, Manufacturing",
+    "score": 10.9
   },
   {
-    "Occupation": "Social Science Research Assistants",
-    "COVID-19 Risk Score": 10.7
+    "occupation": "Social Science Research Assistants",
+    "score": 10.7
   },
   {
-    "Occupation": "Business Teachers, Postsecondary",
-    "COVID-19 Risk Score": 10.6
+    "occupation": "Business Teachers, Postsecondary",
+    "score": 10.6
   },
   {
-    "Occupation": "First-Line Supervisors of Agricultural Crop and Horticultural Workers",
-    "COVID-19 Risk Score": 10.6
+    "occupation": "First-Line Supervisors of Agricultural Crop and Horticultural Workers",
+    "score": 10.6
   },
   {
-    "Occupation": "Environmental Science and Protection Technicians, Including Health",
-    "COVID-19 Risk Score": 10.6
+    "occupation": "Environmental Science and Protection Technicians, Including Health",
+    "score": 10.6
   },
   {
-    "Occupation": "Camera and Photographic Equipment Repairers",
-    "COVID-19 Risk Score": 10.6
+    "occupation": "Camera and Photographic Equipment Repairers",
+    "score": 10.6
   },
   {
-    "Occupation": "Nursery Workers",
-    "COVID-19 Risk Score": 10.5
+    "occupation": "Nursery Workers",
+    "score": 10.5
   },
   {
-    "Occupation": "Water Resource Specialists",
-    "COVID-19 Risk Score": 10.3
+    "occupation": "Water Resource Specialists",
+    "score": 10.3
   },
   {
-    "Occupation": "Computer Systems Engineers/Architects",
-    "COVID-19 Risk Score": 10.3
+    "occupation": "Computer Systems Engineers/Architects",
+    "score": 10.3
   },
   {
-    "Occupation": "Agricultural Engineers",
-    "COVID-19 Risk Score": 10.3
+    "occupation": "Agricultural Engineers",
+    "score": 10.3
   },
   {
-    "Occupation": "Mechanical Drafters",
-    "COVID-19 Risk Score": 10.2
+    "occupation": "Mechanical Drafters",
+    "score": 10.2
   },
   {
-    "Occupation": "Instructional Designers and Technologists",
-    "COVID-19 Risk Score": 10.1
+    "occupation": "Instructional Designers and Technologists",
+    "score": 10.1
   },
   {
-    "Occupation": "Wind Energy Engineers",
-    "COVID-19 Risk Score": 10.1
+    "occupation": "Wind Energy Engineers",
+    "score": 10.1
   },
   {
-    "Occupation": "Appraisers, Real Estate",
-    "COVID-19 Risk Score": 10
+    "occupation": "Appraisers, Real Estate",
+    "score": 10
   },
   {
-    "Occupation": "Web Administrators",
-    "COVID-19 Risk Score": 10
+    "occupation": "Web Administrators",
+    "score": 10
   },
   {
-    "Occupation": "Geodetic Surveyors",
-    "COVID-19 Risk Score": 10
+    "occupation": "Geodetic Surveyors",
+    "score": 10
   },
   {
-    "Occupation": "Farmworkers and Laborers, Crop",
-    "COVID-19 Risk Score": 9.9
+    "occupation": "Farmworkers and Laborers, Crop",
+    "score": 9.9
   },
   {
-    "Occupation": "Nuclear Engineers",
-    "COVID-19 Risk Score": 9.9
+    "occupation": "Nuclear Engineers",
+    "score": 9.9
   },
   {
-    "Occupation": "Fuel Cell Engineers",
-    "COVID-19 Risk Score": 9.7
+    "occupation": "Fuel Cell Engineers",
+    "score": 9.7
   },
   {
-    "Occupation": "Nanosystems Engineers",
-    "COVID-19 Risk Score": 9.7
+    "occupation": "Nanosystems Engineers",
+    "score": 9.7
   },
   {
-    "Occupation": "Surveying Technicians",
-    "COVID-19 Risk Score": 9.7
+    "occupation": "Surveying Technicians",
+    "score": 9.7
   },
   {
-    "Occupation": "Watch Repairers",
-    "COVID-19 Risk Score": 9.7
+    "occupation": "Watch Repairers",
+    "score": 9.7
   },
   {
-    "Occupation": "Fine Artists, Including Painters, Sculptors, and Illustrators",
-    "COVID-19 Risk Score": 9.6
+    "occupation": "Fine Artists, Including Painters, Sculptors, and Illustrators",
+    "score": 9.6
   },
   {
-    "Occupation": "Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",
-    "COVID-19 Risk Score": 9.3
+    "occupation": "Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic",
+    "score": 9.3
   },
   {
-    "Occupation": "Shoe Machine Operators and Tenders",
-    "COVID-19 Risk Score": 9.3
+    "occupation": "Shoe Machine Operators and Tenders",
+    "score": 9.3
   },
   {
-    "Occupation": "Manufacturing Engineering Technologists",
-    "COVID-19 Risk Score": 9.1
+    "occupation": "Manufacturing Engineering Technologists",
+    "score": 9.1
   },
   {
-    "Occupation": "Foresters",
-    "COVID-19 Risk Score": 9
+    "occupation": "Foresters",
+    "score": 9
   },
   {
-    "Occupation": "Political Scientists",
-    "COVID-19 Risk Score": 8.9
+    "occupation": "Political Scientists",
+    "score": 8.9
   },
   {
-    "Occupation": "Floor Sanders and Finishers",
-    "COVID-19 Risk Score": 8.8
+    "occupation": "Floor Sanders and Finishers",
+    "score": 8.8
   },
   {
-    "Occupation": "Search Marketing Strategists",
-    "COVID-19 Risk Score": 8.7
+    "occupation": "Search Marketing Strategists",
+    "score": 8.7
   },
   {
-    "Occupation": "Mapping Technicians",
-    "COVID-19 Risk Score": 8.7
+    "occupation": "Mapping Technicians",
+    "score": 8.7
   },
   {
-    "Occupation": "Archivists",
-    "COVID-19 Risk Score": 8.6
+    "occupation": "Archivists",
+    "score": 8.6
   },
   {
-    "Occupation": "Precious Metal Workers",
-    "COVID-19 Risk Score": 8.4
+    "occupation": "Precious Metal Workers",
+    "score": 8.4
   },
   {
-    "Occupation": "Materials Scientists",
-    "COVID-19 Risk Score": 8.3
+    "occupation": "Materials Scientists",
+    "score": 8.3
   },
   {
-    "Occupation": "Judicial Law Clerks",
-    "COVID-19 Risk Score": 8.2
+    "occupation": "Judicial Law Clerks",
+    "score": 8.2
   },
   {
-    "Occupation": "Biostatisticians",
-    "COVID-19 Risk Score": 8
+    "occupation": "Biostatisticians",
+    "score": 8
   },
   {
-    "Occupation": "Craft Artists",
-    "COVID-19 Risk Score": 8
+    "occupation": "Craft Artists",
+    "score": 8
   },
   {
-    "Occupation": "Potters, Manufacturing",
-    "COVID-19 Risk Score": 8
+    "occupation": "Potters, Manufacturing",
+    "score": 8
   },
   {
-    "Occupation": "Environmental Compliance Inspectors",
-    "COVID-19 Risk Score": 7.9
+    "occupation": "Environmental Compliance Inspectors",
+    "score": 7.9
   },
   {
-    "Occupation": "Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",
-    "COVID-19 Risk Score": 7.7
+    "occupation": "Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders",
+    "score": 7.7
   },
   {
-    "Occupation": "Textile Cutting Machine Setters, Operators, and Tenders",
-    "COVID-19 Risk Score": 7.6
+    "occupation": "Textile Cutting Machine Setters, Operators, and Tenders",
+    "score": 7.6
   },
   {
-    "Occupation": "Sewers, Hand",
-    "COVID-19 Risk Score": 7.5
+    "occupation": "Sewers, Hand",
+    "score": 7.5
   },
   {
-    "Occupation": "Electrical and Electronic Equipment Assemblers",
-    "COVID-19 Risk Score": 7.4
+    "occupation": "Electrical and Electronic Equipment Assemblers",
+    "score": 7.4
   },
   {
-    "Occupation": "Painters, Transportation Equipment",
-    "COVID-19 Risk Score": 7.3
+    "occupation": "Painters, Transportation Equipment",
+    "score": 7.3
   },
   {
-    "Occupation": "Geospatial Information Scientists and Technologists",
-    "COVID-19 Risk Score": 7.2
+    "occupation": "Geospatial Information Scientists and Technologists",
+    "score": 7.2
   },
   {
-    "Occupation": "Marine Engineers",
-    "COVID-19 Risk Score": 7.2
+    "occupation": "Marine Engineers",
+    "score": 7.2
   },
   {
-    "Occupation": "Hydrologists",
-    "COVID-19 Risk Score": 7.2
+    "occupation": "Hydrologists",
+    "score": 7.2
   },
   {
-    "Occupation": "Tool and Die Makers",
-    "COVID-19 Risk Score": 7.2
+    "occupation": "Tool and Die Makers",
+    "score": 7.2
   },
   {
-    "Occupation": "Industrial Ecologists",
-    "COVID-19 Risk Score": 6.9
+    "occupation": "Industrial Ecologists",
+    "score": 6.9
   },
   {
-    "Occupation": "Jewelers",
-    "COVID-19 Risk Score": 6.9
+    "occupation": "Jewelers",
+    "score": 6.9
   },
   {
-    "Occupation": "Statisticians",
-    "COVID-19 Risk Score": 6.7
+    "occupation": "Statisticians",
+    "score": 6.7
   },
   {
-    "Occupation": "Microsystems Engineers",
-    "COVID-19 Risk Score": 6.1
+    "occupation": "Microsystems Engineers",
+    "score": 6.1
   },
   {
-    "Occupation": "Music Composers and Arrangers",
-    "COVID-19 Risk Score": 6.1
+    "occupation": "Music Composers and Arrangers",
+    "score": 6.1
   },
   {
-    "Occupation": "Computer Hardware Engineers",
-    "COVID-19 Risk Score": 6.1
+    "occupation": "Computer Hardware Engineers",
+    "score": 6.1
   },
   {
-    "Occupation": "Biochemists and Biophysicists",
-    "COVID-19 Risk Score": 6.1
+    "occupation": "Biochemists and Biophysicists",
+    "score": 6.1
   },
   {
-    "Occupation": "Sociologists",
-    "COVID-19 Risk Score": 6.1
+    "occupation": "Sociologists",
+    "score": 6.1
   },
   {
-    "Occupation": "Remote Sensing Scientists and Technologists",
-    "COVID-19 Risk Score": 6
+    "occupation": "Remote Sensing Scientists and Technologists",
+    "score": 6
   },
   {
-    "Occupation": "Environmental Economists",
-    "COVID-19 Risk Score": 6
+    "occupation": "Environmental Economists",
+    "score": 6
   },
   {
-    "Occupation": "Molecular and Cellular Biologists",
-    "COVID-19 Risk Score": 5.8
+    "occupation": "Molecular and Cellular Biologists",
+    "score": 5.8
   },
   {
-    "Occupation": "Actuaries",
-    "COVID-19 Risk Score": 5.2
+    "occupation": "Actuaries",
+    "score": 5.2
   },
   {
-    "Occupation": "Atmospheric and Space Scientists",
-    "COVID-19 Risk Score": 5
+    "occupation": "Atmospheric and Space Scientists",
+    "score": 5
   },
   {
-    "Occupation": "Soil and Plant Scientists",
-    "COVID-19 Risk Score": 4.9
+    "occupation": "Soil and Plant Scientists",
+    "score": 4.9
   },
   {
-    "Occupation": "Poets, Lyricists and Creative Writers",
-    "COVID-19 Risk Score": 4.9
+    "occupation": "Poets, Lyricists and Creative Writers",
+    "score": 4.9
   },
   {
-    "Occupation": "Computer Network Architects",
-    "COVID-19 Risk Score": 4.8
+    "occupation": "Computer Network Architects",
+    "score": 4.8
   },
   {
-    "Occupation": "Mathematicians",
-    "COVID-19 Risk Score": 4.3
+    "occupation": "Mathematicians",
+    "score": 4.3
   },
   {
-    "Occupation": "Geoscientists, Except Hydrologists and Geographers",
-    "COVID-19 Risk Score": 4.2
+    "occupation": "Geoscientists, Except Hydrologists and Geographers",
+    "score": 4.2
   },
   {
-    "Occupation": "Operations Research Analysts",
-    "COVID-19 Risk Score": 3.5
+    "occupation": "Operations Research Analysts",
+    "score": 3.5
   },
   {
-    "Occupation": "Geological Sample Test Technicians",
-    "COVID-19 Risk Score": 3.3
+    "occupation": "Geological Sample Test Technicians",
+    "score": 3.3
   },
   {
-    "Occupation": "Financial Quantitative Analysts",
-    "COVID-19 Risk Score": 2.9
+    "occupation": "Financial Quantitative Analysts",
+    "score": 2.9
   },
   {
-    "Occupation": "Data Warehousing Specialists",
-    "COVID-19 Risk Score": 2.9
+    "occupation": "Data Warehousing Specialists",
+    "score": 2.9
   },
   {
-    "Occupation": "Fallers",
-    "COVID-19 Risk Score": 2.8
+    "occupation": "Fallers",
+    "score": 2.8
   },
   {
-    "Occupation": "Photonics Technicians",
-    "COVID-19 Risk Score": 2.7
+    "occupation": "Photonics Technicians",
+    "score": 2.7
   },
   {
-    "Occupation": "Tapers",
-    "COVID-19 Risk Score": 2.3
+    "occupation": "Tapers",
+    "score": 2.3
   },
   {
-    "Occupation": "Astronomers",
-    "COVID-19 Risk Score": 2
+    "occupation": "Astronomers",
+    "score": 2
   },
   {
-    "Occupation": "Economists",
-    "COVID-19 Risk Score": 1.5
+    "occupation": "Economists",
+    "score": 1.5
   }
 ]

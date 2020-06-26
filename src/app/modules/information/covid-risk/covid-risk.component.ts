@@ -2,7 +2,8 @@ import { AfterViewInit, Component, OnInit, ViewChild } from '@angular/core';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTable } from '@angular/material/table';
-import { TableDataSource, TableItem } from './table-datasource';
+import { TableDataSource } from './table-datasource';
+import { OccupationRisk } from './occupation-risk-data';
 
 @Component({
   selector: 'app-covid-risk',
@@ -12,7 +13,7 @@ import { TableDataSource, TableItem } from './table-datasource';
 export class CovidRiskComponent implements AfterViewInit, OnInit {
   @ViewChild(MatPaginator) paginator: MatPaginator;
   @ViewChild(MatSort) sort: MatSort;
-  @ViewChild(MatTable) table: MatTable<TableItem>;
+  @ViewChild(MatTable) table: MatTable<OccupationRisk>;
   dataSource: TableDataSource;
 
   /** Columns displayed in the table. Columns IDs can be added, removed, or reordered. */
