@@ -12,8 +12,8 @@ import { MatIconRegistry } from '@angular/material/icon';
 export class AppComponent implements OnInit, OnDestroy {
   title = 'Coronavirus MX';
   mediaSub: Subscription;
-  deviceXs: boolean;
-  deviceSm: boolean;
+  public deviceXs: boolean;
+  public deviceSm: boolean;
 
   constructor(
     public mediaObserver: MediaObserver,

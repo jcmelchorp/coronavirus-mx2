@@ -9,8 +9,8 @@ const routes: Routes = [
     loadChildren: () =>
       import('./modules/statistics/statistics.module').then(
         (m) => m.StatisticsModule
-      )
-  }
+      ),
+  },
 ];
 
 @NgModule({

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { MediaChange, MediaObserver } from '@angular/flex-layout';
@@ -11,7 +11,7 @@ import { MediaChange, MediaObserver } from '@angular/flex-layout';
 export class StatisticsComponent implements OnInit {
   menu = faBars;
   mediaSub: Subscription;
-  deviceMd: boolean;
+  deviceSm: boolean;
   deviceSize: string;
   constructor(public mediaObserver: MediaObserver) {}
 
@@ -19,7 +19,7 @@ export class StatisticsComponent implements OnInit {
     this.mediaSub = this.mediaObserver.media$.subscribe(
       (result: MediaChange) => {
         this.deviceSize = result.mqAlias;
-        this.deviceMd =
+        this.deviceSm =
           this.deviceSize === 'sm' || this.deviceSize === 'xs' ? true : false;
       }
     );
