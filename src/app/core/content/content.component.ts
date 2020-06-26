@@ -6,7 +6,6 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./content.component.scss'],
 })
 export class ContentComponent implements OnInit {
-  @Input() deviceSm: boolean;
   constructor() {}
 
   ngOnInit(): void {}

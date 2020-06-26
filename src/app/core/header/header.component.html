@@ -2,11 +2,11 @@
   <mat-toolbar [class.mat-elevation-z10]="true">
     <mat-toolbar-row fxLayoutAlign="space-between center">
       <div fxLayout="row">
-        <button mat-button [routerLink]="['/']">
+        <button mat-icon-button [routerLink]="['/']">
           <fa-icon [icon]="virus" size="2x"></fa-icon>
         </button>
         <!--buttons disappear on Xs devices-->
-        <div *ngIf="!deviceXs" fxLayout="row">
+        <div *ngIf="!deviceXs">
           <button mat-button [routerLink]="['statistics/current']">
             Datos
           </button>
@@ -14,18 +14,10 @@
         <!---->
       </div>
       <div fxLayout="row">
-        <button
-          mat-icon-button
-          [matMenuTriggerFor]="langs"
-          aria-label="Example icon-button with a menu"
-        >
+        <button mat-icon-button [matMenuTriggerFor]="langs" aria-label="Example icon-button with a menu">
           <fa-icon [icon]="lang" size="lg"></fa-icon>
         </button>
-        <button
-          mat-icon-button
-          [matMenuTriggerFor]="menu"
-          aria-label="Example icon-button with a menu"
-        >
+        <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
           <fa-icon [icon]="dots" size="lg"></fa-icon>
         </button>
       </div>
@@ -43,19 +35,11 @@
   </mat-menu>
   <mat-menu #langs="matMenu" fxLayoutAlign="end">
     <button mat-menu-item>
-      <mat-icon
-        svgIcon="es"
-        aria-hidden="false"
-        aria-label="español flag icon"
-      ></mat-icon>
+      <mat-icon svgIcon="es" aria-hidden="false" aria-label="español flag icon"></mat-icon>
       Espa&ntilde;ol
     </button>
     <button mat-menu-item>
-      <mat-icon
-        svgIcon="en"
-        aria-hidden="false"
-        aria-label="english flag icon"
-      ></mat-icon>
+      <mat-icon svgIcon="en" aria-hidden="false" aria-label="english flag icon"></mat-icon>
       English
     </button>
   </mat-menu>

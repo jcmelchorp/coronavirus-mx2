@@ -100,7 +100,7 @@ export class AppComponent implements OnInit, OnDestroy {
       {
         property: 'twitter:image',
         content:
-          'https://coronavirus-mx.web.app/assets/screenshots/screenshot02.png',
+          'https://coronavirus-mx.web.app/assets/screenshots/screenshot01.png',
       },
     ]);
     this.mediaSub = this.mediaObserver.media$.subscribe(
