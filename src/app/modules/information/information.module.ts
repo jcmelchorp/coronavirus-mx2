@@ -11,9 +11,10 @@ import { InformationRoutingModule } from './information-routing.module';
 import { InformationComponent } from './information.component';
 import { CovidRiskComponent } from './covid-risk/covid-risk.component';
 import { MenuComponent } from './menu/menu.component';
+import { ReturnToNormalComponent } from './return-to-normal/return-to-normal.component';
 
 @NgModule({
-  declarations: [InformationComponent, CovidRiskComponent, MenuComponent],
+  declarations: [InformationComponent, CovidRiskComponent, MenuComponent, ReturnToNormalComponent],
   imports: [
     CommonModule,
     InformationRoutingModule,
