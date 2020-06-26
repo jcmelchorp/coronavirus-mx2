@@ -7,8 +7,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { AppMaterialModule } from './app-material.module';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
-import { StatisticsModule } from './modules/statistics/statistics.module';
-
+import { AccordionModule } from 'ngx-bootstrap/accordion';
+import { TabsModule } from 'ngx-bootstrap/tabs';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './core/header/header.component';
 import { FooterComponent } from './core/footer/footer.component';
@@ -17,6 +17,8 @@ import { WellcomeComponent } from './core/wellcome/wellcome.component';
 
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { NotFoundComponent } from './core/not-found/not-found.component';
+import { UnderConstructionComponent } from './core/under-construction/under-construction.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,8 @@ import { environment } from '../environments/environment';
     FooterComponent,
     ContentComponent,
     WellcomeComponent,
+    NotFoundComponent,
+    UnderConstructionComponent,
   ],
   imports: [
     BrowserModule,
@@ -34,7 +38,8 @@ import { environment } from '../environments/environment';
     FontAwesomeModule,
     AppMaterialModule,
     FlexLayoutModule,
-    StatisticsModule,
+    AccordionModule.forRoot(),
+    TabsModule.forRoot(),
     BsDatepickerModule.forRoot(),
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production,
