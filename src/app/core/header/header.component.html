@@ -7,9 +7,9 @@
         </button>
         <!--buttons disappear on Xs devices-->
         <div *ngIf="!deviceXs">
-          <button mat-button [routerLink]="['statistics/current']">Estadísticas</button>
-          <button mat-button [routerLink]="['modeling/SIR']">Modelo SIR</button>
-          <button mat-button [routerLink]="['information/menu']">Información</button>
+          <button mat-button [routerLink]="['statistics/current']">{{'statistics-module-name' | translate}}</button>
+          <button mat-button [routerLink]="['modeling/SIR']">{{'modeling-module-name' | translate}}</button>
+          <button mat-button [routerLink]="['information/menu']">{{'information-module-name' | translate}}</button>
           <!-- <button mat-button [routerLink]="['modeling/SIR']">Modelo SIR</button>
           <button mat-button [routerLink]="['information']">Información</button> -->
         </div>
@@ -26,9 +26,9 @@
     </mat-toolbar-row>
     <!--mat-toolbar-row displayed on Xs devices-->
     <mat-toolbar-row *ngIf="deviceXs" fxLayoutAlign="space-between center">
-      <button mat-button [routerLink]="['statistics/current']">Estadísticas</button>
-      <button mat-button [routerLink]="['modeling/SIR']">Modelo SIR</button>
-      <button mat-button [routerLink]="['information/menu']">Información</button>
+      <button mat-button [routerLink]="['statistics/current']">{{'statistics-module-name'|translate}}</button>
+      <button mat-button [routerLink]="['modeling/SIR']">{{'modeling-module-name'|translate}}</button>
+      <button mat-button [routerLink]="['information/menu']">{{'information-module-name'|translate}}</button>
       <!-- <button mat-button [routerLink]="['modeling/SIR']">Modelo SIR</button>
       <button mat-button [routerLink]="['information']">Información</button> -->
     </mat-toolbar-row>
@@ -40,13 +40,13 @@
     <button mat-menu-item>Item 2</button>
   </mat-menu>
   <mat-menu #langs="matMenu" fxLayoutAlign="end">
-    <button mat-menu-item>
+    <button mat-menu-item (click)="switchLang('es')">
       <mat-icon svgIcon="es" aria-hidden="false" aria-label="español flag icon"></mat-icon>
-      Espa&ntilde;ol
+      {{'language-es-name'|translate}}
     </button>
-    <button mat-menu-item>
+    <button mat-menu-item (click)="switchLang('en')">
       <mat-icon svgIcon="en" aria-hidden="false" aria-label="english flag icon"></mat-icon>
-      English
+      {{'language-en-name'|translate}}
     </button>
   </mat-menu>
   <!---->

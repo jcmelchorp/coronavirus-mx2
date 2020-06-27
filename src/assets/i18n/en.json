@@ -1,0 +1,20 @@
+{
+  "app-name": "Coronavirus MX",
+  "app-description": "Information about pandemic induced by SARS-CoV2 nobel coronavirus",
+  "author-name": "by Julio Melchor",
+  "made-for": "made in Mexico with",
+  "language-es-name": "Spanish",
+  "language-en-name": "English",
+  "home": "Home",
+  "statistics-module-name": "Statistics",
+  "statistics-current-route-name": "Current data",
+  "statistics-historical-route-name": "Timeline",
+  "modeling-module-name": "SIR Model",
+  "modeling-sirmodel-route-name": "SIR Model",
+  "information-module-name": "Information",
+  "notfound-module-title": "Error 404",
+  "notfound-module-message": "How you get here? This part don't even exist",
+  "notfound-module-description": "Page not found",
+  "under-module-title": "Module under construction",
+  "under-module-description": "This module is under development, check it out soon"
+}

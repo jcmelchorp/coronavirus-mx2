@@ -1,0 +1,20 @@
+{
+  "app-name": "Coronavirus MX",
+  "app-description": "Información sobre la pandemia causada por el nuevo coronavirus SARS-CoV2",
+  "author-name": "por Julio César Melchor Pinto",
+  "made-for": "para México con",
+  "language-es-name": "Español",
+  "language-en-name": "Inglés",
+  "home": "Inicio",
+  "statistics-module-name": "Estadísticas",
+  "statistics-current-route-name": "Datos actuales",
+  "statistics-historical-route-name": "Histórico",
+  "modeling-module-name": "Modelo SIR",
+  "modeling-sirmodel-route-name": "Modelo SIR",
+  "information-module-name": "Información",
+  "notfound-module-title": "Error 404",
+  "notfound-module-message": "Probablemente estas aquí por un error, te sugerimos regresar",
+  "notfound-module-description": "Pagina no encontrada",
+  "under-module-title": "Zona en construcción",
+  "under-module-description": "Esta sección aún se encuentra en desarrollo, podrás consultarla pronto"
+}

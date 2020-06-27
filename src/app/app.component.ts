@@ -3,6 +3,7 @@ import { Subscription } from 'rxjs';
 import { MediaObserver, MediaChange } from '@angular/flex-layout';
 import { Title, Meta, DomSanitizer } from '@angular/platform-browser';
 import { MatIconRegistry } from '@angular/material/icon';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
@@ -16,12 +17,15 @@ export class AppComponent implements OnInit, OnDestroy {
   public deviceSm: boolean;
 
   constructor(
+    public translate: TranslateService,
     public mediaObserver: MediaObserver,
     private metaService: Meta,
     private titleService: Title,
     iconRegistry: MatIconRegistry,
     sanitizer: DomSanitizer
   ) {
+    translate.addLangs(['es', 'en']);
+    translate.setDefaultLang('es');
     iconRegistry.addSvgIcon(
       'en',
       sanitizer.bypassSecurityTrustResourceUrl('assets/flags/en.svg')
@@ -113,5 +117,8 @@ export class AppComponent implements OnInit, OnDestroy {
   }
   ngOnDestroy() {
     this.mediaSub.unsubscribe();
+  }
+  switchLang(lang: string) {
+    this.translate.use(lang);
   }
 }
