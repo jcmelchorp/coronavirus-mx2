@@ -8,7 +8,7 @@
         <!--buttons disappear on Xs devices-->
         <div *ngIf="!deviceXs">
           <button mat-button [routerLink]="['statistics/current']">Estadísticas</button>
-          <button mat-button [routerLink]="['under-construction']">Modelo SIR</button>
+          <button mat-button [routerLink]="['modeling/SIR']">Modelo SIR</button>
           <button mat-button [routerLink]="['information/menu']">Información</button>
           <!-- <button mat-button [routerLink]="['modeling/SIR']">Modelo SIR</button>
           <button mat-button [routerLink]="['information']">Información</button> -->
@@ -27,7 +27,7 @@
     <!--mat-toolbar-row displayed on Xs devices-->
     <mat-toolbar-row *ngIf="deviceXs" fxLayoutAlign="space-between center">
       <button mat-button [routerLink]="['statistics/current']">Estadísticas</button>
-      <button mat-button [routerLink]="['under-construction']">Modelo SIR</button>
+      <button mat-button [routerLink]="['modeling/SIR']">Modelo SIR</button>
       <button mat-button [routerLink]="['information/menu']">Información</button>
       <!-- <button mat-button [routerLink]="['modeling/SIR']">Modelo SIR</button>
       <button mat-button [routerLink]="['information']">Información</button> -->

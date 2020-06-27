@@ -60,11 +60,11 @@ export class HistoricalComponent implements OnInit, OnDestroy {
   ngOnInit() {
     this.countryName = 'mexico';
     var startDate = '2020-05-01T00:00:00Z';
-    var endDate = '2020-06-25T00:00:00Z';
+    var endDate = '2020-06-26T00:00:00Z';
     var params = '?from=' + startDate + '&to=' + endDate + '';
     //params = '';
     this._apiService
-      .sendGetRequest('total/country/' + this.countryName + params)
+      .sendGetRequest('total/country/' + this.countryName)
       .pipe(takeUntil(this.destroy$))
       .subscribe((res: HttpResponse<any>) => {
         const myObj = res.body;

@@ -7,6 +7,7 @@ import { SIRComponent } from './s-i-r/s-i-r.component';
 import { AppMaterialModule } from 'src/app/app-material.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ChartsModule } from 'ng2-charts';
 @NgModule({
   declarations: [ModelingComponent, SIRComponent],
   imports: [
@@ -16,6 +17,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     FontAwesomeModule,
     ModelingRoutingModule,
     KatexModule,
+    ChartsModule,
   ],
 })
 export class ModelingModule {}
