@@ -1,0 +1,210 @@
+\documentclass[12pt]{article}
+\usepackage{fancyhdr,fancybox,amssymb,epsfig,amsmath,latexsym,bm}
+\usepackage{enumerate}
+\usepackage{tikz}
+\usepackage[all]{xy}
+\usetikzlibrary{arrows}
+\usetikzlibrary{decorations.markings}
+
+\tikzset{big arrow/.style={decoration={markings,mark=at position 0.6
+      with {\arrow[scale=2]{>}}}, postaction={decorate}, shorten >=1pt}}
+
+% Code to make an augmented matrix (Usage: \begin{bmatrix}[ccc|c])
+\makeatletter
+\renewcommand*\env@matrix[1][*\c@MaxMatrixCols c]{%
+  \hskip -\arraycolsep
+  \let\@ifnextchar\new@ifnextchar
+  \array{#1}}
+\makeatother
+
+\topmargin=-.5in
+\headsep=0.2in
+\oddsidemargin=0in
+\textwidth=6.7in
+\textheight=9.2in
+\footskip=.5in
+
+% Change this line to \def\bold{\mathbf} for ``upright boldface.''
+\def\bold{\bm}
+
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\def\0{\bold{0}}
+\def\A{\bold{A}}
+\def\B{\bold{B}}
+\def\C{\bold{C}}
+\def\I{\bold{I}}
+\def\M{\bold{M}}
+\def\P{\bold{P}}
+\def\Q{\bold{Q}}
+\def\a{\bold{a}}
+\def\b{\bold{b}}
+\def\c{\bold{c}}
+\def\e{\bold{e}}
+\def\p{\bold{p}}
+\def\q{\bold{q}}
+\def\t{\bold{t}}
+\def\u{\bold{u}}
+\def\v{\bold{v}}
+\def\x{\bold{x}}
+\def\<{\langle}
+\def\>{\rangle}
+\def\hat{\widehat}
+
+\DeclareMathOperator{\Span}{Span}
+\DeclareMathOperator{\rank}{rank}
+\newcommand{\vv}[2]{\begin{bmatrix} #1 \\ #2 \end{bmatrix}}
+\newcommand{\vvv}[3]{\begin{bmatrix} #1 \\ #2 \\ #3 \end{bmatrix}}
+
+\newcommand{\ds}{\displaystyle}
+
+\renewcommand{\footrulewidth}{1pt}
+\newenvironment{proof}[1][Proof.]{\smallskip\begin{trivlist}
+    \item[\hskip \labelsep {\sffamily #1}]}{\qed\end{trivlist}\bigskip}
+\newenvironment{sol}[1][Solution.]{\smallskip\begin{trivlist}
+    \item[\hskip \labelsep {\sffamily #1}]}{\qed\end{trivlist}\bigskip}
+\newenvironment{fminipage}
+{\setlength{\fboxsep}{15pt}\begin{Sbox}\begin{minipage}}
+{\end{minipage}\end{Sbox}\fbox{\TheSbox}}
+\newcommand{\qed}{\hfill \ensuremath{\Box}}
+\newcommand{\disp}{\displaystyle}
+
+
+\pagestyle{fancy} \lhead{{\sf Homework 4 $|$ Due February 9 (Monday); MCM participants exempt
+}} \rhead{\thepage} \cfoot{{\sf Math 4500 $|$ Mathematical Modeling
+    $|$ Spring 2015 $|$ M.~Macauley}}
+
+
+\begin{document}
+
+$\;$
+
+\begin{enumerate}
+
+
+  % Allman/Rhodes Exercise 3.3.2
+\item Carry out the steps outlined below for the following
+  predator--prey model:
+  \begin{align*}
+    P_{t+1}&=P_t(1+.8(1-P_t))-4P_tQ_t \\
+    Q_{t+1}&=.9Q_t+2P_tQ_t
+  \end{align*}
+  \begin{enumerate}
+  \item Compute the equilbria.
+  \item Use MATLAB and the {\tt twopop} program to make an informed
+    guess as to whether the equilbria are stable or unstable. Print
+    out or sketch the phase portrait.
+  \item Linearlize the model at each of the equilibria and compute
+    eigenvalues to determine stability.
+  \end{enumerate}
+
+
+
+  % Allman/Rhodes Exercise 7.1.6 (modified)
+\item One approach to preventing disease spread is to simply
+  quarantine infectives. Suppose a disease is modeled by the SIR
+  model, but people who get the disease are health-conscience and
+  quarantine themselves. The net result is that a fraction $q$ of the
+  infectives are prevented from having contacts with the
+  susceptibles. Only $1-q$ of the infectives will be able to spread
+  the disease.
+  \begin{enumerate}
+    \item Modify the equations of the SIR model to reflect this. What
+      value of $q$ gives the usual SIR model?
+    \item Quarantining can be viewed as a way of modifying the
+      transmission coefficient. Suppose an SIR model has transmission
+      coefficient $\alpha$, and a fraction $q$ of the infectives are
+      successfully quarantined. Then the model with quarantining is
+      identical to a standard SIR model with some other transmission
+      coefficient $\alpha'$, the \emph{effective transmission
+        coefficient}. Give a formula for $\alpha'$ in terms of
+      $\alpha$ and $q$.
+    \item Use the MATLAB program {\tt sir} to investigate the behavior
+      of your quarantine model for $N=100$, $\alpha=0.001$, and
+      $\gamma=0.05$, and vary $q$ from $0$ to $1$. Explain the
+      qualitative behavior you see. Can you find a value of $q$ that
+      prevents an epidemic from occurring, regardless of $I_0$?
+      Estimate the smallest such $q$.
+  \end{enumerate}
+
+
+
+  % Allman/Rhodes Exercise 7.1.6
+\item Another approach to preventing disease spread is vaccination of
+  susceptibles. Suppose a public health organization offers a vaccine
+  for a disease modeled by the SIR model. One simple model of this
+  situation counts each successful vaccination in the removed class
+  throughout the duration of the model. 
+  \begin{enumerate}
+  \item Suppose that all vaccinations occur before the time $t=0$. Even if
+    this is not the case, we may assume it is -- why?
+  \item Suppose with $N=100$, we have $I_0=1$, with the removed class
+    composed of the fraction $q$ of the population that was
+    successfully vaccinated. Give formulas for $S_0$ and $R_0$ (the
+    initial number of recovered people, \emph{not} the basic reproductive
+    number $\mathcal{R}_0$). What value of $q$ gives the usual SIR
+    model?
+  \item Repeat Part~(c) from the previous problem for this situation.
+  \end{enumerate}
+
+
+
+  % Allman/Rhodes Exercises 7.2.5
+\item An isolated island population of $100$ individuals is exposed to
+  a particularly deadly disease; an infected individual remains
+  contagious until overcome by death after $4$ days. We want to
+  predict the disease' effect on the community on a daily
+  basis. Suppose initially one individual is stricken with the disease. 
+  \begin{enumerate}
+    \item What is the removal rate $\gamma$? 
+    \item For what values of the \emph{relative removal rate}
+      $\rho:=\gamma/\alpha$ will an epidemic occur? Use this to
+      determine for what values of the transmission coefficient
+      $\alpha$ an epidemic will occur.
+    \item Use a computer program such as {\tt sir} to estimate the
+      number of days until the epidemic peaks for the values of
+      $\alpha=.003$, $.005$, $.01$, and $.0125$, presenting your data
+      in a table. How does the magnitude of $\alpha$ relate to the
+      time until the peak?
+    \item Calculate the basic reproductive numbers and the relative
+      remove rates $\rho$ for the values of $\alpha$ above, adding
+      that information to your table.
+  \end{enumerate}
+
+
+
+  % Allman/Rhodes Exercises 7.3.4--8.
+\item The following difference equation is called the \emph{SIS
+  model}:
+  \begin{align*}
+    \Delta S&=-\alpha SI+\gamma I \\
+    \Delta I&=\alpha SI-\gamma I\,.
+  \end{align*}
+  \begin{enumerate}
+  \item What disease might be modeled well by the SIS framework?
+  \item Use a computer program such as {\tt sir} or {\tt twopop} to
+    explore the dynamics of the SIS model. Vary the parameters
+    $\alpha$, $\gamma$, $N$, $S_0$, and $I_0$. Describe your findings.
+  \item Solve for all equilibria $(S^*,I^*)$. Are these biologically
+    reasonable? An equilibrium $I^*>0$ is called an \emph{endemic
+      equilibrium}. Can an SIS disease be endemic?
+  \item Since $S_t+I_t=N$ is constant, substitute $I_t=N-S_t$ back
+    into the formula for $S_t$ and find a formula for $S_{t+1}$ in
+    terms of $S_t$. Find a formula for $I_{t+1}$ in terms of $I_t$.
+  \item For the SIR model, the threshold value $\rho:=\gamma/\alpha$,
+    called the \emph{relative remove rate}, plays an important
+    role. What does it represent? Is there an analogous threshold
+    value for the SIS model? If so, find it. If not, explain why.
+  \item For the SIR model, the basic reproductive number
+    $\mathcal{R}_0$ plays an important role. How should one define
+    $\mathcal{R}_0$ for the SIS model? Justify your answer. 
+\end{enumerate}
+
+
+
+\end{enumerate}
+
+\end{document}
+
