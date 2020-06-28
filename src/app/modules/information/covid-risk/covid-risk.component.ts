@@ -3,7 +3,7 @@ import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTable } from '@angular/material/table';
 import { TableDataSource } from './table-datasource';
-import { OccupationRisk } from './occupation-risk-data';
+import { OccupationRisk } from './occupation-risk';
 
 @Component({
   selector: 'app-covid-risk',

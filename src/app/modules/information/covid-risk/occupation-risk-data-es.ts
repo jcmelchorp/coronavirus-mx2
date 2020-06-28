@@ -26,39 +26,39 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Cirujanos orales y maxilofaciales',
-        puntuación: 92.3,
+        score: 92.3,
       },
       {
         occupation: 'Dentistas generales',
-        puntuación: 92.1,
+        score: 92.1,
       },
       {
         occupation: 'Obstetras y ginecólogos',
-        puntuación: 91.8,
+        score: 91.8,
       },
       {
         occupation: 'Dermatólogos ',
-        ' score ': 91.1,
+        score: 91.1,
       },
       {
-        ' occupation ': ' Ordenanzas (asistentes de atención al paciente) ',
-        ' score ': 90.2,
+        occupation: ' Ordenanzas (asistentes de atención al paciente) ',
+        score: 90.2,
       },
       {
-        ' occupation ': ' Enfermeras de cuidados agudos ',
-        ' score ': 90.1,
+        occupation: ' Enfermeras de cuidados agudos ',
+        score: 90.1,
       },
       {
-        ' occupation ': ' Familia y médicos generales ',
-        ' score ': 90.1,
+        occupation: ' Familia y médicos generales ',
+        score: 90.1,
       },
       {
-        ' occupation ': ' Oftalmólogos ',
-        ' score ': 88.4,
+        occupation: ' Oftalmólogos ',
+        score: 88.4,
       },
       {
-        ' occupation ': ' Urólogos ',
-        ' score ': 88.3,
+        occupation: ' Urólogos ',
+        score: 88.3,
       },
       {
         occupation: 'Enfermeras registradas',
@@ -74,16 +74,15 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Respirat terapeutas de ory ',
-        ' puntuación ': 84.2,
+        score: 84.2,
       },
       {
-        ' occupation ': ' Técnicos radiológicos ',
-        ' puntuación ': 84.1,
+        occupation: ' Técnicos radiológicos ',
+        score: 84.1,
       },
       {
-        ' occupation ':
-          ' Enfermeras profesionales y profesionales con licencia ',
-        ' puntuación ': 82.1,
+        occupation: ' Enfermeras profesionales y profesionales con licencia ',
+        score: 82.1,
       },
       {
         occupation: 'Enfermeros de cuidados críticos',
@@ -119,72 +118,72 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Asistentes médicos',
-        'score ': 80,
+        score: 80,
       },
       {
-        ' occupation ': ' Acupunturistas ',
-        ' score ': 79.9,
+        occupation: ' Acupunturistas ',
+        score: 79.9,
       },
       {
-        ' occupation ': ' Internistas, General (Medicina interna) ',
-        ' score ': 79.9,
+        occupation: ' Internistas, General (Medicina interna) ',
+        score: 79.9,
       },
       {
-        ' occupation ': ' Cardiovascular Tecnólogos y técnicos ',
-        ' puntuación ': 79.3,
+        occupation: ' Cardiovascular Tecnólogos y técnicos ',
+        score: 79.3,
       },
       {
-        ' occupation ': ' Asistentes de fisioterapeuta ',
-        ' puntuación ': 79.3,
+        occupation: ' Asistentes de fisioterapeuta ',
+        score: 79.3,
       },
       {
-        ' occupation ': ' Terapeutas físicos ',
-        ' score ': 78.7,
+        occupation: ' Terapeutas físicos ',
+        score: 78.7,
       },
       {
-        ' occupation ': ' Ayudantes de terapia ocupacional ',
-        ' score ': 78,
+        occupation: ' Ayudantes de terapia occupational ',
+        score: 78,
       },
       {
-        ' occupation ': ' Terapeutas ocupacionales ',
-        ' score ': 77.8,
+        occupation: ' Terapeutas occupationales ',
+        score: 77.8,
       },
       {
-        ' occupation ': ' Asistentes quirúrgicos ',
-        ' puntuación ': 77.7,
+        occupation: ' Asistentes quirúrgicos ',
+        score: 77.7,
       },
       {
-        ' occupation ': ' Prostodoncistas ',
-        ' puntuación ': 76.9,
+        occupation: ' Prostodoncistas ',
+        score: 76.9,
       },
       {
-        ' occupation ': ' Cirujanos ',
-        ' puntuación ': 76.3,
+        occupation: ' Cirujanos ',
+        score: 76.3,
       },
       {
-        ' occupation ': ' Vuelo Asistentes ',
-        ' score ': 75.7,
+        occupation: ' Vuelo Asistentes ',
+        score: 75.7,
       },
       {
-        ' occupation ': ' Anestesiólogos ',
-        ' score ': 75.4,
+        occupation: ' Anestesiólogos ',
+        score: 75.4,
       },
       {
-        ' occupation ': ' Quiroprácticos ',
-        ' score ': 75.1,
+        occupation: ' Quiroprácticos ',
+        score: 75.1,
       },
       {
-        ' occupation ': ' Terapia ocupacional Asistentes ',
-        ' score ': 75,
+        occupation: ' Terapia occupational Asistentes ',
+        score: 75,
       },
       {
-        ' occupation ':
+        occupation:
           ' Asistentes veterinarios y cuidadores de animales de laboratorio ',
-        ' score ': 75,
+        score: 75,
       },
       {
-        ' occupation ': ' Tecnólogos en medicina nuclear ',
-        ' score ': 74.8,
+        occupation: ' Tecnólogos en medicina nuclear ',
+        score: 74.8,
       },
       {
         occupation: 'Médicos naturistas',
@@ -236,27 +235,27 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: ' Técnicos psiquiátricos ',
-        ' score ': 69.8,
+        score: 69.8,
       },
       {
-        ' occupation ': ' Barberos ',
-        ' score ': 69.1,
+        occupation: ' Barberos ',
+        score: 69.1,
       },
       {
-        ' occupation ': ' Ayudantes psiquiátricos ',
-        ' score ': 69,
+        occupation: ' Ayudantes psiquiátricos ',
+        score: 69,
       },
       {
-        ' occupation ': ' Médicos en medicina física y rehabilitación ',
-        ' puntuación ': 69,
+        occupation: ' Médicos en medicina física y rehabilitación ',
+        score: 69,
       },
       {
-        ' occupation ': ' Tecnólogos médicos oftálmicos ',
-        ' puntuación ': 68.5,
+        occupation: ' Tecnólogos médicos oftálmicos ',
+        score: 68.5,
       },
       {
-        ' occupation ': ' Flebotomistas ',
-        ' puntuación ': 68.2,
+        occupation: ' Flebotomistas ',
+        score: 68.2,
       },
       {
         occupation: 'Especialistas en cuidado de la piel',
@@ -268,28 +267,28 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Conductores de autobús, escuela o especial Cliente ',
-        ' score ': 67.3,
+        score: 67.3,
       },
       {
-        ' occupation ': ' Asistentes de anestesiólogo ',
-        ' score ': 67.2,
+        occupation: ' Asistentes de anestesiólogo ',
+        score: 67.2,
       },
       {
-        ' occupation ': ' Ayudantes de salud en el hogar ',
-        ' score ': 66.4,
+        occupation: ' Ayudantes de salud en el hogar ',
+        score: 66.4,
       },
       {
-        ' occupation ': ' Tecnólogos y técnicos veterinarios ',
-        ' score ': 66,
+        occupation: ' Tecnólogos y técnicos veterinarios ',
+        score: 66,
       },
       {
-        ' occupation ':
+        occupation:
           ' Maestros de jardín de infantes, excepto educación especial ',
-        ' score ': 65.8,
+        score: 65.8,
       },
       {
-        ' occupation ': ' Técnicos de endoscopia ',
-        ' score ': 65.8,
+        occupation: ' Técnicos de endoscopia ',
+        score: 65.8,
       },
       {
         occupation: 'Representantes de pacientes',
@@ -301,28 +300,28 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Asistentes de cuidado personal',
-        ' score ': 64,
+        score: 64,
       },
       {
-        ' occupation ': ' Preparadores de equipos médicos ',
-        ' score ': 63.9,
+        occupation: ' Preparadores de equipos médicos ',
+        score: 63.9,
       },
       {
-        ' occupation ': ' Tecnólogos de laboratorio médico y clínico ',
-        ' score ': 63.7,
+        occupation: ' Tecnólogos de laboratorio médico y clínico ',
+        score: 63.7,
       },
       {
-        ' occupation ': ' Bomberos municipales ',
-        ' score ': 63.3,
+        occupation: ' Bomberos municipales ',
+        score: 63.3,
       },
       {
-        ' occupation ':
+        occupation:
           ' Supervisores de primera línea de trabajadores de preparación y servicio de alimentos ',
-        ' score ': 62.9,
+        score: 62.9,
       },
       {
-        ' occupation ': ' Terapeutas recreativos ',
-        ' score ': 62.8,
+        occupation: ' Terapeutas recreativos ',
+        score: 62.8,
       },
       {
         occupation: 'Especialistas en audífonos',
@@ -346,28 +345,28 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Seguridad de transporte Cribadores ',
-        ' score ': 61.4,
+        score: 61.4,
       },
       {
-        ' occupation ':
+        occupation:
           ' Supervisores de primera línea de oficiales correccionales ',
-        ' score ': 61,
+        score: 61,
       },
       {
-        ' occupation ': ' Bailarines ',
-        ' score ': 61,
+        occupation: ' Bailarines ',
+        score: 61,
       },
       {
-        ' ocupacion ': ' Enfermeras practicantes ',
-        ' score ': 60.9,
+        occupation: ' Enfermeras practicantes ',
+        score: 60.9,
       },
       {
-        ' ocupacion ': ' Optometristas ',
-        ' score ': 60.9,
+        occupation: ' Optometristas ',
+        score: 60.9,
       },
       {
-        ' ocupacion ': ' Inspectores de Inmigracion y Aduanas ',
-        ' score ': 60.8,
+        occupation: ' Inspectores de Inmigracion y Aduanas ',
+        score: 60.8,
       },
       {
         occupation: 'Fisiólogos del ejercicio',
@@ -380,68 +379,68 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Oficiales correccionales y Carceleros ',
-        ' puntuación ': 60.4,
+        score: 60.4,
       },
       {
-        ' occupation ': ' Asistentes de servicios sociales y humanos ',
-        ' puntuación ': 60.3,
+        occupation: ' Asistentes de servicios sociales y humanos ',
+        score: 60.3,
       },
       {
-        ' occupation ion ': ' Alguaciles y alguaciles adjuntos ',
-        ' score ': 59,
+        occupation: ' Alguaciles y alguaciles adjuntos ',
+        score: 59,
       },
       {
-        ' occupation ': ' Ayudantes de farmacia ',
-        ' score ': 58.8,
+        occupation: ' Ayudantes de farmacia ',
+        score: 58.8,
       },
       {
-        ' occupation ':
+        occupation:
           ' Supervisores municipales de prevención y lucha contra incendios ',
-        ' score ': 58.3,
+        score: 58.3,
       },
       {
-        ' occupation ': ' Trabajadores sociales de la salud ',
-        ' score ': 58.2,
+        occupation: ' Trabajadores sociales de la salud ',
+        score: 58.2,
       },
       {
-        ' occupation ': ' Trabajadores de cuidado de niños ',
-        ' score ': 58,
+        occupation: ' Trabajadores de cuidado de niños ',
+        score: 58,
       },
       {
-        ' occupation ':
+        occupation:
           ' Maestros de educación especial, Jardín de infantes y escuela primaria ',
-        ' score ': 57.2,
+        score: 57.2,
       },
       {
-        ' occupation ': ' Farmacéuticos ',
-        ' score ': 56.9,
+        occupation: ' Farmacéuticos ',
+        score: 56.9,
       },
       {
-        ' occupation ': ' Ortopedistas y protésicos ',
-        ' score ': 56.7,
+        occupation: ' Ortopedistas y protésicos ',
+        score: 56.7,
       },
       {
-        ' occupation ': ' Champús ',
-        ' puntuación ': 56.6,
+        occupation: ' Champús ',
+        score: 56.6,
       },
       {
-        ' occupation ': ' Musicoterapeutas ',
-        ' puntuación ': 56.1,
+        occupation: ' Musicoterapeutas ',
+        score: 56.1,
       },
       {
-        ' occupation ': ' Asistentes de entretenimiento y recreación ',
-        ' puntuación ': 56,
+        occupation: ' Asistentes de entretenimiento y recreación ',
+        score: 56,
       },
       {
-        ocupacion: 'Supervisores de tragamonedas',
+        occupation: 'Supervisores de tragamonedas',
         score: 55.9,
       },
       {
-        ocupacion: 'Asistentes de maestros',
+        occupation: 'Asistentes de maestros',
         score: 55.8,
       },
       {
-        ocupacion:
+        occupation:
           'Administradores de educación, centro / programa de preescolar y cuidado de niños',
         score: 55.7,
       },
@@ -451,15 +450,15 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Imagin de resonancia magnética g Tecnólogos ',
-        ' score ': 55.6,
+        score: 55.6,
       },
       {
-        ' occupation ': ' Especialistas en educación física adaptada ',
-        ' score ': 55.2,
+        occupation: ' Especialistas en educación física adaptada ',
+        score: 55.2,
       },
       {
-        ' occupation ': ' Maestros de preescolar, excepto educación especial ',
-        ' score ': 55.2,
+        occupation: ' Maestros de preescolar, excepto educación especial ',
+        score: 55.2,
       },
       {
         occupation: 'Distribuidores de juegos',
@@ -471,48 +470,47 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Maestros de escuela primaria, excepto educación especial ',
-        ' score ': 53.8,
+        score: 53.8,
       },
       {
-        ' occupation ': ' Investigadores de incendios ',
-        ' score ': 53.8,
+        occupation: ' Investigadores de incendios ',
+        score: 53.8,
       },
       {
-        ' occupation ': ' Cantantes ',
-        ' score ': 52.9,
+        occupation: ' Cantantes ',
+        score: 52.9,
       },
       {
-        ' occupation ': ' Terapeutas de masaje ',
-        ' score ': 52.8,
+        occupation: ' Terapeutas de masaje ',
+        score: 52.8,
       },
       {
-        ' occupation ': ' Patólogos del habla y lenguaje ',
-        ' score ': 52.7,
+        occupation: ' Patólogos del habla y lenguaje ',
+        score: 52.7,
       },
       {
-        ' occupation ': ' Coreógrafos ',
-        ' score ': 52.4,
+        occupation: ' Coreógrafos ',
+        score: 52.4,
       },
       {
-        ' occupation ': ' Secretarios médicos ',
-        ' puntuación ': 52.2,
+        occupation: ' Secretarios médicos ',
+        score: 52.2,
       },
       {
-        ' occupation ': ' Oficiales de patrulla policial ',
-        ' puntuación ': 51.9,
+        occupation: ' Oficiales de patrulla policial ',
+        score: 51.9,
       },
       {
-        ' occupation ':
-          ' Supervisores de primera línea de policía y detectives ',
-        ' puntuación ': 51.9,
+        occupation: ' Supervisores de primera línea de policía y detectives ',
+        score: 51.9,
       },
       {
         occupation: 'Auxiliares de transporte, excepto asistentes de vuelo',
-        puntuación: 51.8,
+        score: 51.8,
       },
       {
         occupation: 'Policía de tránsito y ferrocarriles',
-        puntuación: 51.6,
+        score: 51.6,
       },
       {
         occupation: 'Funerarios, empresarios y directores de funerarias',
@@ -524,18 +522,18 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Ushers, Lobby Asistentes y Taquilleros ',
-        ' score ': 51.2,
+        score: 51.2,
       },
       {
-        ' occupation ': ' Radiólogos ',
-        ' score ': 51.1,
+        occupation: ' Radiólogos ',
+        score: 51.1,
       },
       {
-        ' occupation ': ' Cajeros ',
-        ' score ': 50.9,
+        occupation: ' Cajeros ',
+        score: 50.9,
       },
       {
-        ' occupation ': 'Alguaciles',
+        occupation: 'Alguaciles',
         score: 50.7,
       },
       {
@@ -557,28 +555,28 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Técnicos dietéticos',
-        ' score ': 50.3,
+        score: 50.3,
       },
       {
-        ' occupation ':
+        occupation:
           ' Supervisores de primera línea de trabajadores de servicios personales ',
-        ' score ': 50.2,
+        score: 50.2,
       },
       {
-        ' occupation ': ' Trabajadores de control de animales ',
-        ' score ': 50.1,
+        occupation: ' Trabajadores de control de animales ',
+        score: 50.1,
       },
       {
-        ' occupation ': ' Audiólogos ',
-        ' score ': 50,
+        occupation: ' Audiólogos ',
+        score: 50,
       },
       {
-        ' occupation ': ' Manicuristas y pedicuristas ',
-        ' score ': 49.5,
+        occupation: ' Manicuristas y pedicuristas ',
+        score: 49.5,
       },
       {
-        ' occupation ': ' Técnicos de laboratorio médico y clínico ',
-        ' score ': 49.3,
+        occupation: ' Técnicos de laboratorio médico y clínico ',
+        score: 49.3,
       },
       {
         occupation: 'Embalsamadores',
@@ -595,11 +593,11 @@ export class OccupationRiskDataEs {
       {
         occupation:
           'Consejeros de abuso de sustancias y trastornos del comportamiento',
-        puntuación: 48.6,
+        score: 48.6,
       },
       {
         occupation: 'Anfitriones y azafatas, restaurante, salón y cafetería',
-        puntuación: 48.4,
+        score: 48.4,
       },
       {
         occupation: 'Trabajadores de recreación',
@@ -611,27 +609,27 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Conductores de autobuses, tránsito e interurbanos',
-        ' puntuación ': 47.9,
+        score: 47.9,
       },
       {
-        ' occupation ': ' Maquilladores, teatro y performance ',
-        ' puntuación ': 47.8,
+        occupation: ' Maquilladores, teatro y performance ',
+        score: 47.8,
       },
       {
-        ' occupation ': ' Forenses ',
-        ' puntuación ': 47.8,
+        occupation: ' Forenses ',
+        score: 47.8,
       },
       {
-        ' occupation ': ' Policía Oficiales de identificación y registros ',
-        ' score ': 47.7,
+        occupation: ' Policía Oficiales de identificación y registros ',
+        score: 47.7,
       },
       {
-        ' occupation ': ' Servidores de alimentos, no restaurante ',
-        ' score ': 47.6,
+        occupation: ' Servidores de alimentos, no restaurante ',
+        score: 47.6,
       },
       {
-        ' occupation ': ' Supervisores de juegos ',
-        ' score ': 47.2,
+        occupation: ' Supervisores de juegos ',
+        score: 47.2,
       },
       {
         occupation: 'Empleados de almacén, Piso de ventas',
@@ -652,15 +650,15 @@ export class OccupationRiskDataEs {
       {
         occupation:
           'Maestros de escuela intermedia, excepto especial y Educación profesional / técnica ',
-        ' score ': 46.6,
+        score: 46.6,
       },
       {
-        ' occupation ': ' Asistentes funerarios ',
-        ' score ': 46.4,
+        occupation: ' Asistentes funerarios ',
+        score: 46.4,
       },
       {
-        ' occupation ': ' Examinadores e inspectores de licencias ',
-        ' score ': 45.9,
+        occupation: ' Examinadores e inspectores de licencias ',
+        score: 45.9,
       },
       {
         occupation: 'Cuidadores de animales no agrícolas',
@@ -693,22 +691,22 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Libro de juegos y deportes Escritores y corredores ',
-        ' puntuación ': 44.3,
+        score: 44.3,
       },
       {
-        ' occupation ': ' cocineros, institución y café teria ',
-        ' score ': 44,
+        occupation: ' cocineros, institución y café teria ',
+        score: 44,
       },
       {
-        ' occupation ': ' Trabajadores de jaulas de juego ',
-        ' score ': 43.9,
+        occupation: ' Trabajadores de jaulas de juego ',
+        score: 43.9,
       },
       {
-        ' occupation ': ' Dietistas y nutricionistas ',
-        ' score ': 43.7,
+        occupation: ' Dietistas y nutricionistas ',
+        score: 43.7,
       },
       {
-        ' occupation ': 'Camareros y camareras',
+        occupation: 'Camareros y camareras',
         score: 43.6,
       },
       {
@@ -720,23 +718,23 @@ export class OccupationRiskDataEs {
         score: 43.1,
       },
       {
-        'occupation ': ' Maestros de Educación Especial, Escuela Secundaria ',
-        ' score ': 43.1,
+        occupation: ' Maestros de Educación Especial, Escuela Secundaria ',
+        score: 43.1,
       },
       {
-        ' occupation ': ' Trabajadores Estructurales de Hierro y Acero ',
-        ' score ': 42.9,
+        occupation: ' Trabajadores Estructurales de Hierro y Acero ',
+        score: 42.9,
       },
       {
-        ' occupation ': ' Trabajadores de Preparación de Alimentos ',
-        ' score ': 42.8,
+        occupation: ' Trabajadores de Preparación de Alimentos ',
+        score: 42.8,
       },
       {
-        ' occupation ': ' Maestros de arte, drama y música, post secundaria ',
-        ' score ': 42.8,
+        occupation: ' Maestros de arte, drama y música, post secundaria ',
+        score: 42.8,
       },
       {
-        ' occupation ':
+        occupation:
           ' Terapeutas de baja visión, Especialistas en orientación y movilidad y Terapeutas de rehabilitación de la vista ',
         score: 42.7,
       },
@@ -751,18 +749,18 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Planificadores de reuniones, convenciones y eventos',
-        puntuación: 42.4,
+        score: 42.4,
       },
       {
         occupation: 'Declaración Cle rks ',
-        ' score ': 42.2,
+        score: 42.2,
       },
       {
-        ' occupation ': ' Locker Room, Coatroom, and Dressing Astendant ',
-        ' score ': 41.9,
+        occupation: ' Locker Room, Coatroom, and Dressing Astendant ',
+        score: 41.9,
       },
       {
-        ' occupation ':
+        occupation:
           ' Agentes de boletos de reserva y transporte y empleados de viajes ',
         score: 41.8,
       },
@@ -777,58 +775,56 @@ export class OccupationRiskDataEs {
       {
         occupation:
           ' Oficiales de libertad condicional y especialistas en tratamiento correccional ',
-        ' score ': 41.6,
+        score: 41.6,
       },
       {
-        ' occupation ': ' Trabajadores sociales de niños, familias y escuelas ',
-        ' score ': 41.6,
+        occupation: ' Trabajadores sociales de niños, familias y escuelas ',
+        score: 41.6,
       },
       {
-        ' occupation ':
+        occupation:
           ' Operadores de centralita, incluido el servicio de contestador ',
-        ' score ': 41.2,
+        score: 41.2,
       },
       {
-        ' occupation ': ' Gerentes de juego ',
-        ' score ': 41.2,
+        occupation: ' Gerentes de juego ',
+        score: 41.2,
       },
       {
-        ' occupation ':
-          ' Operadores y licitaciones de máquinas de unión adhesiva ',
-        ' score ': 41.1,
+        occupation: ' Operadores y licitaciones de máquinas de unión adhesiva ',
+        score: 41.1,
       },
       {
-        ' occupation ': ' Mensajeros y mensajeros ',
-        ' score ': 41.1,
+        occupation: ' Mensajeros y mensajeros ',
+        score: 41.1,
       },
       {
-        ' occupation ': ' Tutores ',
-        ' score ': 41,
+        occupation: ' Tutores ',
+        score: 41,
       },
       {
-        ' occupation ': ' Verificadores de crédito ',
-        ' score ': 41,
+        occupation: ' Verificadores de crédito ',
+        score: 41,
       },
       {
-        ' occupation ': ' Controladores de tránsito aéreo ',
-        ' score ': 40.9,
+        occupation: ' Controladores de tránsito aéreo ',
+        score: 40.9,
       },
       {
-        ' occupation ':
+        occupation:
           ' Consejeros educativos, de orientación, escolares y vocacionales ',
-        ' s core ': 40.9,
+        score: 40.9,
       },
       {
-        ' occupation ':
-          ' Instructores y maestros de enfermería, post secundaria ',
-        ' score ': 40.7,
+        occupation: ' Instructores y maestros de enfermería, post secundaria ',
+        score: 40.7,
       },
       {
-        ' occupation ': ' Empleados de oficina, general ',
-        ' score ': 40.6,
+        occupation: ' Empleados de oficina, general ',
+        score: 40.6,
       },
       {
-        ' occupation ': 'Maids and Housekeeping Cleaners',
+        occupation: 'Maids and Housekeeping Cleaners',
         score: 40.5,
       },
       {
@@ -838,27 +834,27 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Administradores de servicios de alimentos',
-        ' puntuación ': 40.1,
+        score: 40.1,
       },
       {
-        ' occupation ': ' Baristas ',
-        ' puntuación ': 40,
+        occupation: ' Baristas ',
+        score: 40,
       },
       {
-        ' occupation ':
+        occupation:
           ' Instaladores y reparadores de líneas de telecomunicaciones ',
-        ' puntuación ': 40,
+        score: 40,
       },
       {
-        ' occupation ': ' Entrevistadores, Excepto elegibilidad y préstamo ',
-        ' score ': 39.9,
+        occupation: ' Entrevistadores, Excepto elegibilidad y préstamo ',
+        score: 39.9,
       },
       {
-        ' occupation ': ' Trabajadores de la salud comunitaria ',
-        ' score ': 39.7,
+        occupation: ' Trabajadores de la salud comunitaria ',
+        score: 39.7,
       },
       {
-        ' occupation ':
+        occupation:
           ' Asistentes de mostrador, cafetería, concesión de alimentos y cafetería ',
         score: 39.6,
       },
@@ -872,45 +868,45 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: ' Roustabouts, Petróleo y Gas ',
-        ' score ': 39.4,
+        score: 39.4,
       },
       {
-        ' occupation ': ' Operadores de torres, Petróleo y Gas ',
-        ' score ': 39.2,
+        occupation: ' Operadores de torres, Petróleo y Gas ',
+        score: 39.2,
       },
       {
-        ' occupation n ': ' Pilotos comerciales ',
-        ' score ': 39.2,
+        occupation: ' Pilotos comerciales ',
+        score: 39.2,
       },
       {
-        ' occupation ':
+        occupation:
           ' Profesores de educación profesional / técnica, escuela secundaria ',
-        ' score ': 39.1,
+        score: 39.1,
       },
       {
-        ' occupation ': ' Operadores de radio ',
-        ' score ': 38.9,
+        occupation: ' Operadores de radio ',
+        score: 38.9,
       },
       {
-        ' occupation ': ' Vendedores minoristas ',
-        ' score ': 38.7,
+        occupation: ' Vendedores minoristas ',
+        score: 38.7,
       },
       {
-        ' occupation ': ' Capitanes de barcos y embarcaciones ',
-        ' score ': 38.6,
+        occupation: ' Capitanes de barcos y embarcaciones ',
+        score: 38.6,
       },
       {
-        ' occupation ':
+        occupation:
           ' Carrera / Técnico Docentes de educación, escuela secundaria ',
-        ' score ': 38.5,
+        score: 38.5,
       },
       {
-        ' occupation ': ' Histotecnólogos y técnicos histológicos ',
-        ' score ': 38.3,
+        occupation: ' Histotecnólogos y técnicos histológicos ',
+        score: 38.3,
       },
       {
-        ' occupation ': ' Empleados de nuevas cuentas ',
-        ' score ': 38.3,
+        occupation: ' Empleados de nuevas cuentas ',
+        score: 38.3,
       },
       {
         occupation: 'Sastres, modistas y alcantarillas personalizadas',
@@ -922,28 +918,27 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Cruce de guardias',
-        puntuación: 38.2,
+        score: 38.2,
       },
       {
         occupation: 'Conductor / Trabajadores de ventas',
-        puntuación: 38.1,
+        score: 38.1,
       },
       {
         occupation: 'Inspectores de bomberos',
-        puntuación: 38,
+        score: 38,
       },
       {
         occupation: 'Disfraz Asistentes ',
-        ' score ': 38,
+        score: 38,
       },
       {
-        ' occupation ': ' Entrevistadores y empleados de préstamos ',
-        ' score ': 37.7,
+        occupation: ' Entrevistadores y empleados de préstamos ',
+        score: 37.7,
       },
       {
-        ' occupation ':
-          ' Profesores de especialidades de salud, post secundaria ',
-        ' score ': 37.6,
+        occupation: ' Profesores de especialidades de salud, post secundaria ',
+        score: 37.6,
       },
       {
         occupation:
@@ -955,26 +950,26 @@ export class OccupationRiskDataEs {
         score: 37.4,
       },
       {
-        ' ocupacion ': ' Telemarketers ',
-        ' score ': 37.3,
+        occupation: ' Telemarketers ',
+        score: 37.3,
       },
       {
-        ' ocupation ': ' Fitness Trainers and Aerobics Instructors ',
-        ' score ': 37.3,
+        occupation: ' Fitness Trainers and Aerobics Instructors ',
+        score: 37.3,
       },
       {
-        ' occupation ':
+        occupation:
           ' Profesores de secundaria, excepto especial y profesional / técnico Educación ',
-        ' score ': 37.3,
+        score: 37.3,
       },
       {
-        ' occupation ':
+        occupation:
           ' Jueces de derecho administrativo, jueces y oficiales de audiencias ',
-        ' score ': 37.3,
+        score: 37.3,
       },
       {
-        ' occupation ': ' Cocineros, restaurante ',
-        ' score ': 37.3,
+        occupation: ' Cocineros, restaurante ',
+        score: 37.3,
       },
       {
         occupation: 'Reparadores y cambiadores de llantas',
@@ -986,42 +981,41 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Carpinteros en bruto',
-        'score ': 37.2,
+        score: 37.2,
       },
       {
-        ' occupation ':
-          ' Despachadores, excepto policía, bomberos y ambulancia ',
-        ' puntuación ': 37.1,
+        occupation: ' Despachadores, excepto policía, bomberos y ambulancia ',
+        score: 37.1,
       },
       {
-        ' occupation ': ' Chefs y jefes de cocina ',
-        ' puntuación ': 37,
+        occupation: ' Chefs y jefes de cocina ',
+        score: 37,
       },
       {
-        ' occupation ':
+        occupation:
           ' Inspectores de vehículos, equipos y sistemas de transporte, excepto aviación ',
-        ' score ': 37,
+        score: 37,
       },
       {
-        ' ocupacion en ': ' Ingenieros estacionarios y operadores de calderas ',
-        ' score ': 37,
+        occupation: ' Ingenieros estacionarios y operadores de calderas ',
+        score: 37,
       },
       {
-        ' occupation ': ' Agentes de ventas de bienes raíces ',
-        ' score ': 36.9,
+        occupation: ' Agentes de ventas de bienes raíces ',
+        score: 36.9,
       },
       {
-        ' occupation ': ' Operadores de pilotes ',
-        ' score ': 36.9,
+        occupation: ' Operadores de pilotes ',
+        score: 36.9,
       },
       {
-        ' occupation ': ' Empleados de mostrador y de alquiler ',
-        ' score ': 36.8,
+        occupation: ' Empleados de mostrador y de alquiler ',
+        score: 36.8,
       },
       {
-        ' occupation ':
+        occupation:
           ' Trabajadores de preparación y servicio de alimentos combinados, incluida la comida rápida ',
-        ' score ': 36.8,
+        score: 36.8,
       },
       {
         occupation: 'Asistentes de estacionamiento',
@@ -1034,28 +1028,27 @@ export class OccupationRiskDataEs {
       {
         occupation:
           'Secretarios y asistentes administrativos, excepto legales, Médico y Ejecutivo ',
-        ' score ': 36.5,
+        score: 36.5,
       },
       {
-        ' occupation ':
+        occupation:
           ' Instaladores y reparadores de equipos de radio, celulares y torres ',
-        ' score ': 36.5,
+        score: 36.5,
       },
       {
-        ' occupation ':
-          ' Instaladores de edificios prefabricados y casas móviles ',
-        ' score ': 36.5,
+        occupation: ' Instaladores de edificios prefabricados y casas móviles ',
+        score: 36.5,
       },
       {
-        ' occupation ': ' Postmasters y Mail Superintendents ',
-        ' score ': 36.3,
+        occupation: ' Postmasters y Mail Superintendents ',
+        score: 36.3,
       },
       {
-        ' occupation ': ' Trabajadores de la construcción ',
-        ' score ': 36.3,
+        occupation: ' Trabajadores de la construcción ',
+        score: 36.3,
       },
       {
-        ' occupation ': 'Microbiólogos',
+        occupation: 'Microbiólogos',
         score: 36.2,
       },
       {
@@ -1102,15 +1095,15 @@ export class OccupationRiskDataEs {
         score: 35.3,
       },
       {
-        ocupacion: 'Conserjes',
+        occupation: 'Conserjes',
         score: 35.3,
       },
       {
-        ocupacion: 'Taxistas y choferes',
+        occupation: 'Taxistas y choferes',
         score: 35.2,
       },
       {
-        ocupacion: 'Pescado y vigilantes de caza',
+        occupation: 'Pescado y vigilantes de caza',
         score: 35.2,
       },
       {
@@ -1124,26 +1117,26 @@ export class OccupationRiskDataEs {
       {
         occupation:
           'Bosque Supervisores de prevención y lucha contra incendios ',
-        ' puntuación ': 35.1,
+        score: 35.1,
       },
       {
-        ' occupation ':
+        occupation:
           ' Profesores de estudios de recreación y acondicionamiento físico, postsecundaria ',
-        ' puntuación ': 34.8,
+        score: 34.8,
       },
       {
-        ' occupation ':
+        occupation:
           ' Operadores de frenos, señales e interruptores de ferrocarril ',
-        ' score ': 34.8,
+        score: 34.8,
       },
       {
-        ' occupation ': ' Trabajadores de mantenimiento y reparación, general ',
-        ' score ': 34.7,
+        occupation: ' Trabajadores de mantenimiento y reparación, general ',
+        score: 34.7,
       },
       {
-        ' occupation ':
+        occupation:
           ' Compradores mayoristas y minoristas, excepto productos agrícolas ',
-        ' score ': 34.6,
+        score: 34.6,
       },
       {
         occupation: 'Albañiles de cemento y terminadores de hormigón',
@@ -1156,32 +1149,31 @@ export class OccupationRiskDataEs {
       {
         occupation:
           'Agentes y Gerentes comerciales de artistas, artistas intérpretes y deportistas ',
-        ' score ': 34.5,
+        score: 34.5,
       },
       {
-        ' occupation ':
-          ' Maestros de educación para el enriquecimiento personal ',
-        ' score ': 34.4,
+        occupation: ' Maestros de educación para el enriquecimiento personal ',
+        score: 34.4,
       },
       {
-        ' occupation ': ' Gerentes de servicios funerarios ',
-        ' puntuación ': 34.3,
+        occupation: ' Gerentes de servicios funerarios ',
+        score: 34.3,
       },
       {
-        ' occupation ':
+        occupation:
           ' Instaladores y reparadores de equipos de telecomunicaciones, excepto instaladores de línea ',
-        ' puntuación ': 34.3,
+        score: 34.3,
       },
       {
-        ' occupation ': ' Tecnólogos citogenéticos ',
-        ' puntuación ': 34.3,
+        occupation: ' Tecnólogos citogenéticos ',
+        score: 34.3,
       },
       {
-        ' occupation ': ' Educadores de salud ',
-        ' puntuación ': 34.2,
+        occupation: ' Educadores de salud ',
+        score: 34.2,
       },
       {
-        ' occupation ': 'Copiar escritores',
+        occupation: 'Copiar escritores',
         score: 34.2,
       },
       {
@@ -1193,27 +1185,27 @@ export class OccupationRiskDataEs {
         score: 34.1,
       },
       {
-        ' occupation ': ' Tasadores de seguros, daños a automóviles ',
-        ' score ': 34,
+        occupation: ' Tasadores de seguros, daños a automóviles ',
+        score: 34,
       },
       {
-        ' occupation ':
+        occupation:
           ' Entrevistadores de elegibilidad, programas gubernamentales ',
-        ' score ': 33.9,
+        score: 33.9,
       },
       {
-        ' occupation ':
+        occupation:
           ' Operadores de unidades de servicio, petróleo, Gas y minería ',
-        ' score ': 33.9,
+        score: 33.9,
       },
       {
-        ' occupation ': ' Empacadores y empacadores, mano ',
-        ' score ': 33.9,
+        occupation: ' Empacadores y empacadores, mano ',
+        score: 33.9,
       },
       {
-        ' occupation ':
+        occupation:
           ' Conductores de camiones ligeros o de servicios de entrega ',
-        ' score ': 33.8,
+        score: 33.8,
       },
       {
         occupation: 'Ayudantes - Carpinteros',
@@ -1246,16 +1238,16 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Manifestantes y Promotores de productos ',
-        ' score ': 33.5,
+        score: 33.5,
       },
       {
-        ' occupation ':
+        occupation:
           ' Asistentes de recursos humanos, excepto nómina y cronometraje ',
-        ' score ': 33.5,
+        score: 33.5,
       },
       {
-        ' occupation ': ' Ejecutivos en jefe ',
-        ' score ': 33.4,
+        occupation: ' Ejecutivos en jefe ',
+        score: 33.4,
       },
       {
         occupation: 'Operadores de lanchas motoras',
@@ -1271,34 +1263,34 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Directores: escenario, películas, televisión y radio',
-        puntuación: 33.2,
+        score: 33.2,
       },
       {
         occupation: 'Vendedores de piezas',
-        puntuación: 33.1,
+        score: 33.1,
       },
       {
         occupation: 'Consejeros de rehabilitación',
-        puntuación: 33.1,
+        score: 33.1,
       },
       {
         occupation: 'Caldereros',
-        puntuación: 33,
+        score: 33,
       },
       {
         occupation: 'Marineros y engrasadores marinos',
-        puntuación: 32.9,
+        score: 32.9,
       },
       {
-        'occupation ': ' Coleccionistas de cuentas y cuentas ',
-        ' score ': 32.9,
+        occupation: ' Coleccionistas de cuentas y cuentas ',
+        score: 32.9,
       },
       {
-        ' occupation ': ' Profesores de informática, post secundaria ',
-        ' score ': 32.9,
+        occupation: ' Profesores de informática, post secundaria ',
+        score: 32.9,
       },
       {
-        ' occupation ': 'Laminadores y fabricantes de fibra de vidrio',
+        occupation: 'Laminadores y fabricantes de fibra de vidrio',
         score: 32.9,
       },
       {
@@ -1351,35 +1343,35 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Gerentes de prevención de pérdidas ',
-        ' score ': 32,
+        score: 32,
       },
       {
-        ' occupation ': ' Despachadores de policía, bomberos y ambulancias ',
-        ' score ': 32,
+        occupation: ' Despachadores de policía, bomberos y ambulancias ',
+        score: 32,
       },
       {
-        ' occupation ': ' Productores ',
-        ' sc ore ': 32,
+        occupation: ' Productores ',
+        score: 32,
       },
       {
-        ' occupation ':
+        occupation:
           ' Examinadores y recaudadores de impuestos, y agentes de ingresos ',
-        ' score ': 31.9,
+        score: 31.9,
       },
       {
-        ' occupation ': ' Trabajadores de gemas y diamantes ',
-        ' score ': 31.9,
+        occupation: ' Trabajadores de gemas y diamantes ',
+        score: 31.9,
       },
       {
-        ' occupation ': ' Niñeras ',
-        ' score ': 31.9,
+        occupation: ' Niñeras ',
+        score: 31.9,
       },
       {
-        ' occupation ': ' Carpinteros de construcción ',
-        ' score ': 31.8,
+        occupation: ' Carpinteros de construcción ',
+        score: 31.8,
       },
       {
-        ' occupation ':
+        occupation:
           ' Supervisores de primera línea de mecánicos, instaladores y reparadores ',
         score: 31.8,
       },
@@ -1393,34 +1385,34 @@ export class OccupationRiskDataEs {
         score: 31.7,
       },
       {
-        ' occupation ':
+        occupation:
           ' Reparadores de materiales refractarios, excepto albañiles ',
-        ' score ': 31.7,
+        score: 31.7,
       },
       {
-        ' occupation ':
+        occupation:
           ' Trabajadores sociales de salud mental y abuso de sustancias ',
-        ' score ': 31.6,
+        score: 31.6,
       },
       {
-        ' occupation ': ' Tecnólogos en ingeniería mecánica ',
-        ' score ': 31.4,
+        occupation: ' Tecnólogos en ingeniería mecánica ',
+        score: 31.4,
       },
       {
-        ' occupation ':
+        occupation:
           ' Administradores de educación, escuela primaria y secundaria ',
-        ' score ': 31.3,
+        score: 31.3,
       },
       {
-        ' occupation ': ' Directores de programa ',
-        ' score ': 31.3,
+        occupation: ' Directores de programa ',
+        score: 31.3,
       },
       {
-        ' occupation ': ' Reparadores de interruptores de señal y seguimiento ',
-        ' puntuación ': 31.3,
+        occupation: ' Reparadores de interruptores de señal y seguimiento ',
+        score: 31.3,
       },
       {
-        ' occupation ': ' Fontaneros ',
+        occupation: ' Fontaneros ',
         score: 31.2,
       },
       {
@@ -1495,16 +1487,16 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Instalación de energía solar Gerentes ',
-        ' score ': 30.8,
+        score: 30.8,
       },
       {
-        ' occupation ': ' Diseñadores florales ',
-        ' score ': 30.8,
+        occupation: ' Diseñadores florales ',
+        score: 30.8,
       },
       {
-        ' occupation ':
+        occupation:
           ' Supervisores de primera línea de trabajadores de producción y operación ',
-        ' score ': 30.8,
+        score: 30.8,
       },
       {
         occupation: 'Empleados de órdenes',
@@ -1550,15 +1542,15 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Modelos',
-        partitura: 30.3,
+        score: 30.3,
       },
       {
         occupation: 'Inspectores agrícolas',
-        partitura: 30.2,
+        score: 30.2,
       },
       {
         occupation: 'Directores de música',
-        partitura: 30.2,
+        score: 30.2,
       },
       {
         occupation: 'Autorizadores de crédito',
@@ -1592,70 +1584,68 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Jueces, jueces magistrados y magistrados ',
-        ' score ': 29.8,
+        score: 29.8,
       },
       {
-        ' occupation ':
-          ' Compradores y agentes de compras, productos agrícolas ',
-        ' score ': 29.7,
+        occupation: ' Compradores y agentes de compras, productos agrícolas ',
+        score: 29.7,
       },
       {
-        ' occupation ': ' Canteros ',
-        ' score ': 29.7,
+        occupation: ' Canteros ',
+        score: 29.7,
       },
       {
-        ' occupation ': ' Mecánicos e instaladores de refrigeración ',
-        ' score ': 29.7,
+        occupation: ' Mecánicos e instaladores de refrigeración ',
+        score: 29.7,
       },
       {
-        ' occupation ': ' Especialistas en operaciones de aeródromos ',
-        ' score ': 29.6,
+        occupation: ' Especialistas en operaciones de aeródromos ',
+        score: 29.6,
       },
       {
-        ' occupation ':
-          ' Especialistas en soporte de redes de computadoras ts ',
-        ' score ': 29.6,
+        occupation: ' Especialistas en soporte de redes de computadoras ts ',
+        score: 29.6,
       },
       {
-        ' occupation ':
+        occupation:
           ' Trabajadores de procesos fotográficos y operadores de máquinas de procesamiento ',
-        ' score ': 29.5,
+        score: 29.5,
       },
       {
-        ' occupation ':
+        occupation:
           ' Supervisores de primera línea de trabajadores de ventas no minoristas ',
-        puntuación: 29.4,
+        score: 29.4,
       },
       {
         occupation: 'Creadores de modelos, metal y plástico',
-        puntuación: 29.4,
+        score: 29.4,
       },
       {
         occupation: 'Directores de gestión de emergencias',
-        puntuación: 29.4,
+        score: 29.4,
       },
       {
         occupation: 'Psicólogos clínicos',
-        puntuación: 29.4,
+        score: 29.4,
       },
       {
         occupation: 'Técnicos en ingeniería mecánica',
-        puntuación: 29.4,
+        score: 29.4,
       },
       {
         occupation: 'Lavavajillas',
-        puntuación: 29.3,
+        score: 29.3,
       },
       {
-        'occupation ': ' Técnicos de aparatos médicos ',
-        ' puntuación ': 29.2,
+        occupation: ' Técnicos de aparatos médicos ',
+        score: 29.2,
       },
       {
-        ' occupation ': ' Millwrights ',
-        ' puntuación ': 29.2,
+        occupation: ' Millwrights ',
+        score: 29.2,
       },
       {
-        ' occupation ':
+        occupation:
           ' Capas de piso, excepto alfombras, madera y azulejos duros ',
         score: 29.1,
       },
@@ -1669,11 +1659,11 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: ' Gerentes de relaciones públicas y recaudación de fondos ',
-        ' score ': 28.9,
+        score: 28.9,
       },
       {
-        ' occupation ': ' Operadores de cámara, televisión, video y películas ',
-        ' score ': 28.9,
+        occupation: ' Operadores de cámara, televisión, video y películas ',
+        score: 28.9,
       },
       {
         occupation: 'Neuropsicólogos y Neuropsicólogos clínicos',
@@ -1685,25 +1675,25 @@ export class OccupationRiskDataEs {
         score: 28.8,
       },
       {
-        'occupation ':
+        occupation:
           ' Motor eléctrico, herramienta eléctrica y reparadores relacionados ',
-        ' score ': 28.7,
+        score: 28.7,
       },
       {
-        ' occupation ': ' Exhibidores de productos y recortadores de ventanas ',
-        ' score ': 28.7,
+        occupation: ' Exhibidores de productos y recortadores de ventanas ',
+        score: 28.7,
       },
       {
-        ' occupation ': ' Moldeado y fundición Trabajadores ',
-        ' score ': 28.7,
+        occupation: ' Moldeado y fundición Trabajadores ',
+        score: 28.7,
       },
       {
-        ' occupation ': ' Cerrajeros y reparadores seguros ',
-        ' score ': 28.6,
+        occupation: ' Cerrajeros y reparadores seguros ',
+        score: 28.6,
       },
       {
-        ' occupation ': ' Operadores de taladros rotativos, petróleo y gas ',
-        ' score ': 28.5,
+        occupation: ' Operadores de taladros rotativos, petróleo y gas ',
+        score: 28.5,
       },
       {
         occupation:
@@ -1725,58 +1715,57 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Procesadores de texto y mecanógrafos',
-        'score ': 28.2,
+        score: 28.2,
       },
       {
-        ' occupation ':
-          ' Coordinadores de acondicionamiento físico y bienestar ',
-        ' score ': 28.1,
+        occupation: ' Coordinadores de acondicionamiento físico y bienestar ',
+        score: 28.1,
       },
       {
-        ' ocupacion en ': ' Ayudantes - Electricistas ',
-        ' score ': 28,
+        occupation: ' Ayudantes - Electricistas ',
+        score: 28,
       },
       {
-        ' occupation ':
+        occupation:
           ' Operadores de sistemas de bombas de petróleo, operadores de refinería y medidores ',
-        ' score ': 28,
+        score: 28,
       },
       {
-        ' occupation ': ' Carga y Inspectores de carga ',
-        ' score ': 28,
+        occupation: ' Carga y Inspectores de carga ',
+        score: 28,
       },
       {
-        ' occupation ':
+        occupation:
           ' Representantes de ventas, venta al por mayor y manufactura, excepto productos técnicos y científicos ',
-        ' score ': 27.9,
+        score: 27.9,
       },
       {
-        ' occupation ': ' Batchmakers de alimentos ',
-        ' score ': 27.9,
+        occupation: ' Batchmakers de alimentos ',
+        score: 27.9,
       },
       {
-        ' occupation ': ' Techadores ',
-        ' score ': 27.8,
+        occupation: ' Techadores ',
+        score: 27.8,
       },
       {
-        ' occupation ':
+        occupation:
           ' Secretarios Ejecutivos y Asistentes Administrativos Ejecutivos ',
-        ' score ': 27.8,
+        score: 27.8,
       },
       {
-        ' occupation ': ' Consejeros de Préstamo ',
-        ' score ': 27.8,
+        occupation: ' Consejeros de Préstamo ',
+        score: 27.8,
       },
       {
-        ' occupation ': ' Funcionarios de préstamos ',
-        ' score ': 27.8,
+        occupation: ' Funcionarios de préstamos ',
+        score: 27.8,
       },
       {
-        ' occupation ': ' Anunciadores de radio y televisión ',
-        ' score ': 27.6,
+        occupation: ' Anunciadores de radio y televisión ',
+        score: 27.6,
       },
       {
-        ' occupation ': 'Entrenadores de animales',
+        occupation: 'Entrenadores de animales',
         score: 27.6,
       },
       {
@@ -1818,45 +1807,44 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Asesores de crédito',
-        ' score ': 27.3,
+        score: 27.3,
       },
       {
-        ' occupation ': ' Directores de talento ',
-        ' score ': 27.2,
+        occupation: ' Directores de talento ',
+        score: 27.2,
       },
       {
-        ' occupation ':
-          ' Asistentes de servicio automotriz y de embarcaciones ',
-        ' score ': 27.2,
+        occupation: ' Asistentes de servicio automotriz y de embarcaciones ',
+        score: 27.2,
       },
       {
-        ' occupation ': ' Reciclaje Coordinadores ',
-        ' score ': 27.1,
+        occupation: ' Reciclaje Coordinadores ',
+        score: 27.1,
       },
       {
-        ' occupation ': ' Operadores y licitadores de equipos químicos ',
-        ' score ': 26.9,
+        occupation: ' Operadores y licitadores de equipos químicos ',
+        score: 26.9,
       },
       {
-        ' occupation ': ' Tecladores de entrada de datos ',
-        ' score ': 26.9,
+        occupation: ' Tecladores de entrada de datos ',
+        score: 26.9,
       },
       {
-        ' occupation ':
+        occupation:
           ' Inspectores, probadores, clasificadores, muestreadores y pesadores ',
-        ' score ': 26.9,
+        score: 26.9,
       },
       {
-        ' occupation ': ' Citotecnólogos ',
-        ' score ': 26.9,
+        occupation: ' Citotecnólogos ',
+        score: 26.9,
       },
       {
-        ' occupation ': ' Especialistas en recursos humanos ',
-        puntuación: 26.8,
+        occupation: ' Especialistas en recursos humanos ',
+        score: 26.8,
       },
       {
         occupation: 'Operadores de grúas y torres',
-        puntuación: 26.8,
+        score: 26.8,
       },
       {
         occupation: 'Técnicos de operación de equipos nucleares',
@@ -1881,24 +1869,24 @@ export class OccupationRiskDataEs {
       {
         occupation:
           'Preparadores de máquinas de laminación , Operadores y Licitaciones, Metal y Plástico ',
-        ' score ': 26.5,
+        score: 26.5,
       },
       {
-        ' occupation ': ' Radio Mecánica ',
-        ' score ': 26.5,
+        occupation: ' Radio Mecánica ',
+        score: 26.5,
       },
       {
-        ' occupation ':
+        occupation:
           ' Horno, Horno, Horno, Secador, y Operadores y licitadores de caldera ',
-        ' score ': 26.5,
+        score: 26.5,
       },
       {
-        ' occupation ':
+        occupation:
           ' Pesadores, medidores, verificadores y muestreadores, mantenimiento de registros ',
-        ' score ': 26.5,
+        score: 26.5,
       },
       {
-        ' occupation ': ' Conductores de ferrocarril y maestros de patio ',
+        occupation: ' Conductores de ferrocarril y maestros de patio ',
         score: 26.4,
       },
       {
@@ -1911,61 +1899,61 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Representantes y asesores de ventas solares',
-        puntuación: 26.4,
+        score: 26.4,
       },
       {
         occupation: 'Psicología de asesoramiento sts ',
-        ' score ': 26.3,
+        score: 26.3,
       },
       {
-        ' occupation ':
+        occupation:
           ' Operadores de compresores de gas y estaciones de bombeo de gas ',
-        ' score ': 26.3,
+        score: 26.3,
       },
       {
-        ' occupation ': ' Glaziers ',
-        ' score ': 26.2,
+        occupation: ' Glaziers ',
+        score: 26.2,
       },
       {
-        ' occupation ':
+        occupation:
           ' Mecánicos e instaladores de calefacción y aire acondicionado ',
-        ' puntuación ': 26.2,
+        score: 26.2,
       },
       {
-        ' occupation ':
+        occupation:
           ' Instaladores de sistemas de seguridad y alarma contra incendios ',
-        ' puntuación ': 26.2,
+        score: 26.2,
       },
       {
-        ' occupation ':
+        occupation:
           ' Primera línea Supervisores de trabajadores de oficina y apoyo administrativo ',
-        ' score ': 26.2,
+        score: 26.2,
       },
       {
-        ' occupation ': ' Paralegales y asistentes legales ',
-        ' score ': 26.1,
+        occupation: ' Paralegales y asistentes legales ',
+        score: 26.1,
       },
       {
-        ' occupation ':
+        occupation:
           ' Instaladores y reparadores eléctricos y electrónicos, equipos de transporte ',
-        ' score ': 26.1,
+        score: 26.1,
       },
       {
-        ' occupation ': ' Técnicos biológicos ',
-        ' score ': 26,
+        occupation: ' Técnicos biológicos ',
+        score: 26,
       },
       {
-        ' occupation ':
+        occupation:
           ' Maestros de ciencias atmosféricas, terrestres, marinas y espaciales, post secundaria ',
-        ' score ': 26,
+        score: 26,
       },
       {
         occupation: 'Operadores de máquinas de minería continua',
-        puntuación: 26,
+        score: 26,
       },
       {
         occupation: 'Gerentes de rango',
-        puntuación: 26,
+        score: 26,
       },
       {
         occupation: 'Gerentes de capacitación y desarrollo',
@@ -2005,55 +1993,54 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Producción, planificación y agilización Empleados ',
-        ' score ': 25.7,
+        score: 25.7,
       },
       {
-        ' occupation ':
-          ' Ajustadores de seguros, examinadores e investigadores ',
-        ' score ': 25.6,
+        occupation: ' Ajustadores de seguros, examinadores e investigadores ',
+        score: 25.6,
       },
       {
-        ' occupation ':
+        occupation:
           ' Preparadores, operadores y licitadores de máquinas de artículos de papel ',
-        ' score ': 25.6,
+        score: 25.6,
       },
       {
-        ' occupation ': ' Mecánica de maquinaria industrial ',
-        ' score ': 25.6,
+        occupation: ' Mecánica de maquinaria industrial ',
+        score: 25.6,
       },
       {
-        ' occupation ':
+        occupation:
           ' Trabajadores y transportistas, cargadores y transportistas de materiales, mano ',
-        ' score ': 25.5,
+        score: 25.5,
       },
       {
         occupation: 'Matadores y empacadores de carne',
-        puntuación: 25.5,
+        score: 25.5,
       },
       {
         occupation: 'Molde de fundición y fabricantes de núcleos',
-        ' score ': 25.4,
+        score: 25.4,
       },
       {
-        ' occupation ': ' Arquitectos marinos ',
-        ' score ': 25.4,
+        occupation: ' Arquitectos marinos ',
+        score: 25.4,
       },
       {
-        ' occupation ': ' Lectores de medidores, servicios públicos ',
-        ' score ': 25.2,
+        occupation: ' Lectores de medidores, servicios públicos ',
+        score: 25.2,
       },
       {
-        ' occupation ': ' Carniceros y Cortadores de carne ',
-        ' score ': 25.2,
+        occupation: ' Carniceros y Cortadores de carne ',
+        score: 25.2,
       },
       {
-        ' occupation ': ' Técnicos de equipos de audio y video ',
-        ' score ': 25.2,
+        occupation: ' Técnicos de equipos de audio y video ',
+        score: 25.2,
       },
       {
-        ' occupation ':
+        occupation:
           ' Equipo de energía para exteriores y otros mecánicos de motores pequeños ',
-        ' score ': 25.2,
+        score: 25.2,
       },
       {
         occupation: 'Contadores',
@@ -2077,36 +2064,36 @@ export class OccupationRiskDataEs {
         score: 25,
       },
       {
-        ' occupation ': ' Gerentes de seguridad ',
-        ' score ': 25,
+        occupation: ' Gerentes de seguridad ',
+        score: 25,
       },
       {
-        ' occupation ': ' Agentes de aduanas ',
-        ' score ': 25,
+        occupation: ' Agentes de aduanas ',
+        score: 25,
       },
       {
-        ' occupation ': ' Gerentes de viveros e invernaderos ',
-        ' score ': 24.9,
+        occupation: ' Gerentes de viveros e invernaderos ',
+        score: 24.9,
       },
       {
         occupation: 'Parque Naturalistas',
-        puntuación: 24.8,
+        score: 24.8,
       },
       {
         occupation: 'Transcriptores médicos',
-        puntuación: 24.8,
+        score: 24.8,
       },
       {
         occupation: 'Sho e y Trabajadores y reparadores de cuero ',
-        ' score ': 24.8,
+        score: 24.8,
       },
       {
-        ' occupation ': ' Pavimentadoras segmentarias ',
-        ' score ': 24.8,
+        occupation: ' Pavimentadoras segmentarias ',
+        score: 24.8,
       },
       {
-        ' occupation ': ' Gerentes de producción de biocombustibles ',
-        ' score ': 24.8,
+        occupation: ' Gerentes de producción de biocombustibles ',
+        score: 24.8,
       },
       {
         occupation: 'Compañeros- Barco, barco y barcaza',
@@ -2118,16 +2105,15 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: ' Operadores de plantas y sistemas químicos ',
-        ' score ': 24.7,
+        score: 24.7,
       },
       {
-        ' occupation ':
-          ' Operadores de máquinas de excavación y carga y draga ',
-        ' score ': 24.7,
+        occupation: ' Operadores de máquinas de excavación y carga y draga ',
+        score: 24.7,
       },
       {
-        ' occupation ': ' Técnicos de planta de biomasa ',
-        ' score ': 24.6,
+        occupation: ' Técnicos de planta de biomasa ',
+        score: 24.6,
       },
       {
         occupation: 'Administradores de redes y sistemas informáticos',
@@ -2139,20 +2125,20 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Seguro Agentes de ventas ',
-        ' score ': 24.5,
+        score: 24.5,
       },
       {
-        ' occupation ': ' Distribuidores y despachadores de energía ',
-        ' score ': 24.5,
+        occupation: ' Distribuidores y despachadores de energía ',
+        score: 24.5,
       },
       {
-        ' occupation ':
+        occupation:
           ' Trabajadores de ventas puerta a puerta, Noticias y vendedores ambulantes, y Trabajadores relacionados ',
-        ' score ': 24.3,
+        score: 24.3,
       },
       {
-        ' occupation ': ' Correctores de pruebas y marcadores de copia ',
-        ' score ': 24.3,
+        occupation: ' Correctores de pruebas y marcadores de copia ',
+        score: 24.3,
       },
       {
         occupation: 'Atletas y competidores deportivos',
@@ -2164,18 +2150,18 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Ingenieros Mecatrónicos ',
-        ' score ': 24.1,
+        score: 24.1,
       },
       {
-        ' occupation ': ' Erectores de cerca ',
-        ' score ': 24,
+        occupation: ' Erectores de cerca ',
+        score: 24,
       },
       {
-        ' occupation ': ' Trabajadores de mantenimiento, maquinaria ',
-        ' score ': 24,
+        occupation: ' Trabajadores de mantenimiento, maquinaria ',
+        score: 24,
       },
       {
-        ' occupation ': 'Gerentes de construcción',
+        occupation: 'Gerentes de construcción',
         score: 24,
       },
       {
@@ -2208,14 +2194,14 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: ' Gerentes de publicidad y promociones ',
-        ' puntuación ': 23.8,
+        score: 23.8,
       },
       {
-        ' occupation ': ' Editores de cine y video ',
-        ' puntuación ': 23.8,
+        occupation: ' Editores de cine y video ',
+        score: 23.8,
       },
       {
-        ' occupation ': ' Agentes de viajes ',
+        occupation: ' Agentes de viajes ',
         score: 23.8,
       },
       {
@@ -2228,19 +2214,19 @@ export class OccupationRiskDataEs {
         score: 23.8,
       },
       {
-        'occupation ': ' Logisticians ',
-        ' score ': 23.7,
+        occupation: ' Logisticians ',
+        score: 23.7,
       },
       {
-        ' occupation ': ' File Clerks ',
-        ' score ': 23.7,
+        occupation: ' File Clerks ',
+        score: 23.7,
       },
       {
-        ' occupation ': ' Patólogos ',
-        ' score ': 23.6,
+        occupation: ' Patólogos ',
+        score: 23.6,
       },
       {
-        ' occupation ': 'Biólogos',
+        occupation: 'Biólogos',
         score: 23.6,
       },
       {
@@ -2274,32 +2260,32 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Trabajadores de reciclaje y recuperación',
-        puntuación: 23.4,
+        score: 23.4,
       },
       {
         occupation:
           'Profesores de antropología y arqueología, educación secundaria',
-        puntuación: 23.4,
+        score: 23.4,
       },
       {
-        'occupation ': ' Trabajadores de control de plagas ',
-        ' score ': 23.2,
+        occupation: ' Trabajadores de control de plagas ',
+        score: 23.2,
       },
       {
-        ' occupation ':
+        occupation:
           ' Preparadores, operadores y licitadores de máquinas de forja, metal y plástico ',
-        ' score ': 23.2,
+        score: 23.2,
       },
       {
-        ' occupation ': ' Consejeros genéticos ',
-        ' score ': 23.2,
+        occupation: ' Consejeros genéticos ',
+        score: 23.2,
       },
       {
-        ' occupation ': ' Profesores de sociología, post secundaria ',
-        ' score ': 23.2,
+        occupation: ' Profesores de sociología, post secundaria ',
+        score: 23.2,
       },
       {
-        ' occupation ':
+        occupation:
           ' Enrolladores, retorcidos y extractores de máquinas, operadores y licitaciones ',
         score: 23.1,
       },
@@ -2313,25 +2299,25 @@ export class OccupationRiskDataEs {
         score: 23,
       },
       {
-        ' occupation ': ' Pintores, construcción y mantenimiento ',
-        ' puntuación ': 23,
+        occupation: ' Pintores, construcción y mantenimiento ',
+        score: 23,
       },
       {
-        ' occupation ':
+        occupation:
           ' Profesores de área, étnicos y culturales, Post secundaria ',
-        ' puntuación ': 22.9,
+        score: 22.9,
       },
       {
-        ' occupation ':
+        occupation:
           ' Ayudantes --Los albañiles, albañiles, albañiles y colocadores de azulejos y mármol ',
-        ' puntuación ': 22.9,
+        score: 22.9,
       },
       {
-        ' occupation ': ' directores de arte ',
-        ' puntuación ': 22.9,
+        occupation: ' directores de arte ',
+        score: 22.9,
       },
       {
-        ' occupation ': ' albañiles y albañiles ',
+        occupation: ' albañiles y albañiles ',
         score: 22.9,
       },
       {
@@ -2340,37 +2326,37 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Capacitación y desarrollo Especialistas en opciones ',
-        ' score ': 22.8,
+        score: 22.8,
       },
       {
-        ' occupation ': ' Auditores de energía ',
-        ' score ': 22.7,
+        occupation: ' Auditores de energía ',
+        score: 22.7,
       },
       {
-        ' occupation ': ' Especialistas en salud y seguridad ocupacional ',
-        ' score ': 22.7,
+        occupation: ' Especialistas en salud y seguridad occupational ',
+        score: 22.7,
       },
       {
-        ' occupation ': ' Técnicos agrícolas ',
-        ' score ': 22.7,
+        occupation: ' Técnicos agrícolas ',
+        score: 22.7,
       },
       {
-        ' occupation ':
+        occupation:
           ' Preparadores, operadores y licitadores de máquinas de aserrar, madera ',
-        ' score ': 22.7,
+        score: 22.7,
       },
       {
-        ' occupation ':
+        occupation:
           ' Conserjes y limpiadores, Excepto empleadas domésticas y limpiadores de limpieza ',
-        ' score ': 22.7,
+        score: 22.7,
       },
       {
-        ' occupation ': ' Operadores de centrales eléctricas ',
-        ' score ': 22.6,
+        occupation: ' Operadores de centrales eléctricas ',
+        score: 22.6,
       },
       {
-        ' occupation ': ' Sistema de megafonía y otros anunciantes ',
-        ' score ': 22.6,
+        occupation: ' Sistema de megafonía y otros anunciantes ',
+        score: 22.6,
       },
       {
         occupation: 'Profesores de arquitectura, educación secundaria',
@@ -2382,16 +2368,15 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Seguro Empleados de reclamos ',
-        ' score ': 22.5,
+        score: 22.5,
       },
       {
-        ' occupation ':
-          ' Especialistas en colecciones audiovisuales y multimedia ',
-        ' score ': 22.5,
+        occupation: ' Especialistas en colecciones audiovisuales y multimedia ',
+        score: 22.5,
       },
       {
-        ' occupation ': ' Ensambladores de equipos ',
-        ' score ': 22.5,
+        occupation: ' Ensambladores de equipos ',
+        score: 22.5,
       },
       {
         occupation:
@@ -2412,16 +2397,16 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: ' Gerentes de Compras ',
-        ' score ': 22.2,
+        score: 22.2,
       },
       {
-        ' occupation ':
+        occupation:
           ' Especialistas en Compensación, Beneficios y Análisis de Trabajo ',
-        ' score ': 22.2,
+        score: 22.2,
       },
       {
-        ' occupation ': ' Especialistas en Manejo de Riesgos ',
-        ' score ': 22.2,
+        occupation: ' Especialistas en Manejo de Riesgos ',
+        score: 22.2,
       },
       {
         occupation: 'Especialistas en Relaciones Públicas',
@@ -2444,22 +2429,21 @@ export class OccupationRiskDataEs {
         score: 22.1,
       },
       {
-        'occupation ':
-          ' Supervisores de primera línea de trabajadores madereros ',
-        ' score ': 22.1,
+        occupation: ' Supervisores de primera línea de trabajadores madereros ',
+        score: 22.1,
       },
       {
-        ' occupation ': ' Técnicos en ciencias de los alimentos ',
-        ' score ': 22.1,
+        occupation: ' Técnicos en ciencias de los alimentos ',
+        score: 22.1,
       },
       {
-        ' occupation ':
+        occupation:
           ' Clasificadores, procesadores de correo del servicio postal, y Operadores de máquinas de procesamiento ',
-        ' score ': 22,
+        score: 22,
       },
       {
-        ' occupation ': ' Profesores de derecho, post secundaria ',
-        ' score ': 21.9,
+        occupation: ' Profesores de derecho, post secundaria ',
+        score: 21.9,
       },
       {
         occupation: 'Técnicos de servicio de vehículos recreativos',
@@ -2471,29 +2455,28 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Técnicos de aviónica',
-        'score ': 21.7,
+        score: 21.7,
       },
       {
-        ' occupation ': ' Asistentes graduados de enseñanza ',
-        ' score ': 21.7,
+        occupation: ' Asistentes graduados de enseñanza ',
+        score: 21.7,
       },
       {
-        ' occupation ': ' Instaladores y reparadores de vidrios automotrices ',
-        ' score ': 21.7,
+        occupation: ' Instaladores y reparadores de vidrios automotrices ',
+        score: 21.7,
       },
       {
-        ' occupation ': ' Locomotora Bomberos ',
-        ' score ': 21.7,
+        occupation: ' Locomotora Bomberos ',
+        score: 21.7,
       },
       {
-        ' occupation ':
+        occupation:
           ' Reparadores eléctricos y electrónicos, equipo comercial e industrial ',
-        ' score ': 21.6,
+        score: 21.6,
       },
       {
-        ' occupation ':
-          ' Representantes y oficiales de igualdad de oportunidades ',
-        ' score ': 21.5,
+        occupation: ' Representantes y oficiales de igualdad de oportunidades ',
+        score: 21.5,
       },
       {
         occupation: 'Administradores de educación, post secundaria',
@@ -2515,10 +2498,10 @@ export class OccupationRiskDataEs {
       {
         occupation:
           'Ayudantes - Trabajadores de instalación, mantenimiento y reparación ',
-        ' score ': 21.4,
+        score: 21.4,
       },
       {
-        ocupacion:
+        occupation:
           'Operadores y licitaciones de máquinas de teñir y teñir textiles',
         score: 21.4,
       },
@@ -2529,48 +2512,47 @@ export class OccupationRiskDataEs {
       {
         occupation:
           'Extrusoras y formadoras de máquinas , Operadores y licitaciones, fibras sintéticas y de vidrio ',
-        ' puntuación ': 21.3,
+        score: 21.3,
       },
       {
-        ' occupation ': ' Cazadores y tramperos ',
-        ' puntuación ': 21.2,
+        occupation: ' Cazadores y tramperos ',
+        score: 21.2,
       },
       {
-        ' occupation ': ' Ayudantes - Techadores ',
-        ' score ': 21.1,
+        occupation: ' Ayudantes - Techadores ',
+        score: 21.1,
       },
       {
-        ' occupation ': ' Operadores de camiones y tractores industriales ',
-        ' score ': 21.1,
+        occupation: ' Operadores de camiones y tractores industriales ',
+        score: 21.1,
       },
       {
-        ' occupation ': ' Gerentes de logística ',
-        ' score ': 21.1,
+        occupation: ' Gerentes de logística ',
+        score: 21.1,
       },
       {
-        ' occupation ': ' Seguro Aseguradores ',
-        ' puntuación ': 21.1,
+        occupation: ' Seguro Aseguradores ',
+        score: 21.1,
       },
       {
-        ' occupation ': ' Reparadores de vagones de ferrocarril ',
-        ' puntuación ': 21,
+        occupation: ' Reparadores de vagones de ferrocarril ',
+        score: 21,
       },
       {
-        ' occupation ': ' Químicos ',
-        ' puntuación ': 20.9,
+        occupation: ' Químicos ',
+        score: 20.9,
       },
       {
-        ' occupation ':
-          ' Mecánica de equipos pesados ​​móviles, excepto motores ',
-        ' score ': 20.9,
+        occupation: ' Mecánica de equipos pesados ​​móviles, excepto motores ',
+        score: 20.9,
       },
       {
-        ' occupation ': ' Técnicos de monitoreo nuclear ',
-        ' score ': 20.9,
+        occupation: ' Técnicos de monitoreo nuclear ',
+        score: 20.9,
       },
       {
-        ' occupation ': ' Gerentes de recursos humanos ',
-        ' score ': 20.8,
+        occupation: ' Gerentes de recursos humanos ',
+        score: 20.8,
       },
       {
         occupation:
@@ -2580,23 +2562,23 @@ export class OccupationRiskDataEs {
       {
         occupation:
           'Idioma inglés y d Profesores de literatura, post secundaria ',
-        ' score ': 20.8,
+        score: 20.8,
       },
       {
-        ' occupation ': ' Ingenieros de petróleo ',
-        ' score ': 20.8,
+        occupation: ' Ingenieros de petróleo ',
+        score: 20.8,
       },
       {
-        ' occupation ': ' Científicos e investigadores en informática ',
-        ' score ': 20.8,
+        occupation: ' Científicos e investigadores en informática ',
+        score: 20.8,
       },
       {
         occupation: 'Limpiadores de vehículos y equipos',
-        puntuación: 20.8,
+        score: 20.8,
       },
       {
         occupation: 'Técnicos especializados en automoción',
-        puntuación: 20.7,
+        score: 20.7,
       },
       {
         occupation: 'Diseñadores de videojuegos',
@@ -2612,16 +2594,16 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: ' Técnicos forestales y de conservación ',
-        ' score ': 20.6,
+        score: 20.6,
       },
       {
-        ' occupation ':
+        occupation:
           ' Especialistas en dispositivos de identificación por radiofrecuencia ',
-        ' score ': 20.6,
+        score: 20.6,
       },
       {
-        ' occupation ': ' Directores de sostenibilidad ',
-        ' score ': 20.5,
+        occupation: ' Directores de sostenibilidad ',
+        score: 20.5,
       },
       {
         occupation: 'Detectives e investigadores privados',
@@ -2634,63 +2616,63 @@ export class OccupationRiskDataEs {
       {
         occupation:
           'Extrusión, formación, prensado, y ajustadores, operadores y licitadores de máquinas compactadoras ',
-        ' score ': 20.5,
+        score: 20.5,
       },
       {
-        ' ocupar ación ':
+        occupation:
           ' Instaladores y reparadores de equipos electrónicos de entretenimiento para el hogar ',
-        ' score ': 20.4,
+        score: 20.4,
       },
       {
-        ' occupation ':
+        occupation:
           ' Operadores y licitaciones de máquinas de envasado y llenado ',
-        ' score ': 20.4,
+        score: 20.4,
       },
       {
-        ' occupation ': ' Ingeniería de telecomunicaciones Especialistas ',
-        ' score ': 20.4,
+        occupation: ' Ingeniería de telecomunicaciones Especialistas ',
+        score: 20.4,
       },
       {
-        ' occupation ': ' Ingenieros industriales ',
-        ' score ': 20.4,
+        occupation: ' Ingenieros industriales ',
+        score: 20.4,
       },
       {
-        ' occupation ': ' Gerentes de sistemas informáticos y de información ',
-        ' score ': 20.3,
+        occupation: ' Gerentes de sistemas informáticos y de información ',
+        score: 20.3,
       },
       {
-        ' occupation ': ' Budget Analysts ',
-        ' score ': 20.3,
+        occupation: ' Budget Analysts ',
+        score: 20.3,
       },
       {
-        ' occupation ': ' Evaluadores ',
-        ' score ': 20.3,
+        occupation: ' Evaluadores ',
+        score: 20.3,
       },
       {
-        ' occupation ': ' Ingenieros aeroespaciales ',
-        ' score ': 20.3,
+        occupation: ' Ingenieros aeroespaciales ',
+        score: 20.3,
       },
       {
-        ' occupation ':
+        occupation:
           ' Establecedores, operadores y licitadores de máquinas herramientas múltiples, metal y plástico ',
-        ' score ': 20.3,
+        score: 20.3,
       },
       {
-        ' occupation ': ' Asesores financieros personales ',
-        ' score ': 20.2,
+        occupation: ' Asesores financieros personales ',
+        score: 20.2,
       },
       {
-        ' occupation ': ' Legal Secretarios ',
-        ' score ': 20.2,
+        occupation: ' Legal Secretarios ',
+        score: 20.2,
       },
       {
-        ' occupation ':
+        occupation:
           ' Operadores de equipos de pavimentación, revestimiento y apisonamiento ',
-        ' score ': 20.1,
+        score: 20.1,
       },
       {
-        ' occupation ': ' Técnicos en bioinformática ',
-        ' score ': 20,
+        occupation: ' Técnicos en bioinformática ',
+        score: 20,
       },
       {
         occupation:
@@ -2699,27 +2681,27 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Elec tecnólogos de ingeniería tromecánica ',
-        ' score ': 20,
+        score: 20,
       },
       {
-        ' occupation ': ' Diseñadores comerciales e industriales ',
-        ' score ': 20,
+        occupation: ' Diseñadores comerciales e industriales ',
+        score: 20,
       },
       {
-        ' occupation ': ' Analistas de crédito ',
-        ' score ': 20,
+        occupation: ' Analistas de crédito ',
+        score: 20,
       },
       {
-        ' occupation ': ' Preparadores de impuestos ',
-        ' score ': 20,
+        occupation: ' Preparadores de impuestos ',
+        score: 20,
       },
       {
-        ' occupation ': ' Ingenieros de validación ',
-        ' score ': 20,
+        occupation: ' Ingenieros de validación ',
+        score: 20,
       },
       {
-        ' occupation ': ' Técnicos de salud y seguridad ocupacional ',
-        ' score ': 20,
+        occupation: ' Técnicos de salud y seguridad occupational ',
+        score: 20,
       },
       {
         occupation: 'Profesores de ciencias matemáticas, post secundaria',
@@ -2731,28 +2713,28 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Ingenieros de seguridad y salud industrial ',
-        ' score ': 20,
+        score: 20,
       },
       {
-        ' occupation ':
+        occupation:
           ' Preparadores, operadores y licitadores de máquinas de mezcla y mezcla ',
-        ' score ': 19.9,
+        score: 19.9,
       },
       {
-        ' occupation ': ' Técnicos de biblioteca ',
-        ' score ': 19.9,
+        occupation: ' Técnicos de biblioteca ',
+        score: 19.9,
       },
       {
         occupation: 'Editores',
-        puntuación: 19.9,
+        score: 19.9,
       },
       {
         occupation: 'Especialistas en enfermería informática',
-        puntuación: 19.8,
+        score: 19.8,
       },
       {
         occupation: 'Analistas de sistemas informáticos',
-        puntuación: 19.8,
+        score: 19.8,
       },
       {
         occupation: 'Ebanistas y carpinteros de banco',
@@ -2772,18 +2754,18 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Asesores de administración de fincas y hogares',
-        ' puntuación ': 19.6,
+        score: 19.6,
       },
       {
-        ' occupation ': ' Instaladores y técnicos de energía solar térmica ',
-        ' puntuación ': 19.6,
+        occupation: ' Instaladores y técnicos de energía solar térmica ',
+        score: 19.6,
       },
       {
-        ' occupation ': ' Profesores de física, educación secundaria ',
-        ' puntuación ': 19.4,
+        occupation: ' Profesores de física, educación secundaria ',
+        score: 19.4,
       },
       {
-        ' occupation ': 'Artistas y animadores multimedia',
+        occupation: 'Artistas y animadores multimedia',
         score: 19.4,
       },
       {
@@ -2793,23 +2775,23 @@ export class OccupationRiskDataEs {
       {
         occupation:
           'Representantes de ventas, venta al por mayor y fabricación, técnico y Productos científicos ',
-        ' score ': 19.4,
+        score: 19.4,
       },
       {
-        ' occupation ': ' Reparadores de equipos médicos ',
-        ' score ': 19.4,
+        occupation: ' Reparadores de equipos médicos ',
+        score: 19.4,
       },
       {
-        ' occupation ': ' Técnicos de ingeniería de sonido ',
-        ' score ': 19.4,
+        occupation: ' Técnicos de ingeniería de sonido ',
+        score: 19.4,
       },
       {
-        ' occupation ': ' Analistas financieros ',
-        ' score ': 19.3,
+        occupation: ' Analistas financieros ',
+        score: 19.3,
       },
       {
-        ' occupation ': ' Ensambladores de equipos electromecánicos ',
-        ' score ': 19.3,
+        occupation: ' Ensambladores de equipos electromecánicos ',
+        score: 19.3,
       },
       {
         occupation: 'Mecánicos de aeronaves y técnicos de servicio',
@@ -2821,55 +2803,53 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Antropólogos',
-        'score ': 19.1,
+        score: 19.1,
       },
       {
-        ' occupation ':
-          ' Gerentes de proyectos de tecnología de la información ',
-        ' score ': 19,
+        occupation: ' Gerentes de proyectos de tecnología de la información ',
+        score: 19,
       },
       {
-        ' occupation ': ' Gerentes de producción hidroeléctrica ',
-        ' score ': 19,
+        occupation: ' Gerentes de producción hidroeléctrica ',
+        score: 19,
       },
       {
-        ' occupation ': ' Cortadores y Recortadores, Mano ',
-        ' score ': 18.9,
+        occupation: ' Cortadores y Recortadores, Mano ',
+        score: 18.9,
       },
       {
-        ' occupation ': ' Psicólogos de organización industrial ',
-        ' score ': 18.9,
+        occupation: ' Psicólogos de organización industrial ',
+        score: 18.9,
       },
       {
-        ' occupation ':
+        occupation:
           ' Preparadores, operadores y licitadores de máquinas de recubrimiento, pintura y pulverización ',
-        'score ': 18.9,
+        score: 18.9,
       },
       {
-        ' occupation ': ' Técnicos en datos geofísicos ',
-        ' score ': 18.9,
+        occupation: ' Técnicos en datos geofísicos ',
+        score: 18.9,
       },
       {
-        ' occupation ':
-          ' Maestros de ciencias de la biblioteca, post secundaria ',
-        ' score ': 18.9,
+        occupation: ' Maestros de ciencias de la biblioteca, post secundaria ',
+        score: 18.9,
       },
       {
-        ' occupation': ' Tesoreros y controladores ',
-        ' score ': 18.9,
+        occupation: ' Tesoreros y controladores ',
+        score: 18.9,
       },
       {
-        ' occupation ':
+        occupation:
           ' Científicos y especialistas ambientales, incluida la salud ',
-        ' score ': 18.8,
+        score: 18.8,
       },
       {
-        ' occupation ': ' Diseñadores de escenarios y exposiciones ',
-        ' puntuación ': 18.8,
+        occupation: ' Diseñadores de escenarios y exposiciones ',
+        score: 18.8,
       },
       {
-        ' occupation ': ' Cartógrafos y fotogrametristas ',
-        ' puntuación ': 18.8,
+        occupation: ' Cartógrafos y fotogrametristas ',
+        score: 18.8,
       },
       {
         occupation: 'Operadores de equipos de registro',
@@ -2881,18 +2861,18 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Tribunal Reporteros ',
-        ' score ': 18.8,
+        score: 18.8,
       },
       {
-        ' occupation ': ' Recaudación de fondos ',
-        ' score ': 18.8,
+        occupation: ' Recaudación de fondos ',
+        score: 18.8,
       },
       {
-        ' occupation ': ' Operadores de vehículos mineros ',
-        ' score ': 18.7,
+        occupation: ' Operadores de vehículos mineros ',
+        score: 18.7,
       },
       {
-        ' occupation ': 'Profesores de ingeniería, post secundaria',
+        occupation: 'Profesores de ingeniería, post secundaria',
         score: 18.7,
       },
       {
@@ -2902,112 +2882,111 @@ export class OccupationRiskDataEs {
       {
         occupation:
           'Estructura de aeronaves, superficies, aparejos y ensambladores de sistemas ',
-        ' score ': 18.5,
+        score: 18.5,
       },
       {
-        ' occupation ': ' Arquitectos, excepto paisaje y naval ',
-        ' score ': 18.5,
+        occupation: ' Arquitectos, excepto paisaje y naval ',
+        score: 18.5,
       },
       {
-        ' occupation ': ' Operadores de equipos agrícolas ',
-        ' score ': 18.5,
+        occupation: ' Operadores de equipos agrícolas ',
+        score: 18.5,
       },
       {
-        ' occupation ': ' Empleados de procesamiento de pólizas de seguro ',
-        ' score ': 18.4,
+        occupation: ' Empleados de procesamiento de pólizas de seguro ',
+        score: 18.4,
       },
       {
-        ' occupation ': ' Reparadores y afinadores de instrumentos musicales ',
-        ' score ': 18.4,
+        occupation: ' Reparadores y afinadores de instrumentos musicales ',
+        score: 18.4,
       },
       {
-        ' occupation ': ' Trabajadores de remoción de materiales peligrosos ',
-        ' score ': 18.3,
+        occupation: ' Trabajadores de remoción de materiales peligrosos ',
+        score: 18.3,
       },
       {
-        ' occupation ': ' Trabajadores de pulido y pulido, mano ',
-        ' score ': 18.3,
+        occupation: ' Trabajadores de pulido y pulido, mano ',
+        score: 18.3,
       },
       {
-        ' occupation ': ' Log Gr aders y escaladores ',
-        ' score ': 18.3,
+        occupation: ' Log Gr aders y escaladores ',
+        score: 18.3,
       },
       {
-        ' occupation ': ' Profesores de química, post secundaria ',
-        ' score ': 18.2,
+        occupation: ' Profesores de química, post secundaria ',
+        score: 18.2,
       },
       {
-        ' occupation ': ' Ingenieros de logística ',
-        ' score ': 18.2,
+        occupation: ' Ingenieros de logística ',
+        score: 18.2,
       },
       {
-        ' occupation ': ' Gerentes de producción geotérmica ',
-        ' score ': 18.2,
+        occupation: ' Gerentes de producción geotérmica ',
+        score: 18.2,
       },
       {
-        ' occupation ': ' Cocineros, comida rápida ',
-        ' score ': 18.2,
+        occupation: ' Cocineros, comida rápida ',
+        score: 18.2,
       },
       {
-        ' occupation ':
+        occupation:
           ' Establecedores, operadores y licitadores de equipos de tratamiento térmico , Metal y plástico ',
-        ' score ': 18.1,
+        score: 18.1,
       },
       {
-        ' occupation ':
+        occupation:
           ' Operadores y licitaciones de equipos de refrigeración y congelación ',
-        ' score ': 18.1,
+        score: 18.1,
       },
       {
-        ' occupation ':
-          ' Técnicos de registros médicos e información de salud ',
-        ' score ': 18.1,
+        occupation: ' Técnicos de registros médicos e información de salud ',
+        score: 18.1,
       },
       {
-        ' occupation ': ' Gerentes de almacenamiento y distribución ',
-        ' score ': 18.1,
+        occupation: ' Gerentes de almacenamiento y distribución ',
+        score: 18.1,
       },
       {
-        ' occupation ': ' Inspectores de aviación ',
-        ' score ': 18.1,
+        occupation: ' Inspectores de aviación ',
+        score: 18.1,
       },
       {
-        ' occupation ': ' Alzamiento y Operadores de cabrestante ',
-        ' score ': 18,
+        occupation: ' Alzamiento y Operadores de cabrestante ',
+        score: 18,
       },
       {
-        ' occupation ': ' Perforadores de tierra, excepto petróleo y gas ',
-        ' score ': 18,
+        occupation: ' Perforadores de tierra, excepto petróleo y gas ',
+        score: 18,
       },
       {
-        ' occupation ':
+        occupation:
           ' Instaladores y reparadores de equipos electrónicos, vehículos de motor ',
-        ' score ': 18,
+        score: 18,
       },
       {
-        ' occupation ': ' Maestros de Ciencias Ambientales, Post Secundaria ',
-        ' score ': 17.9,
+        occupation: ' Maestros de Ciencias Ambientales, Post Secundaria ',
+        score: 17.9,
       },
       {
-        ' ocupacion en ': ' Arquitectos paisajistas ',
-        ' score ': 17.9,
+        occupation: 'Arquitectos paisajistas',
+        score: 17.9,
       },
       {
-        ' occupation ': ' Árbitros, mediadores y conciliadores ',
-        ' score ': 17.9,
+        occupation: ' Árbitros, mediadores y conciliadores ',
+        score: 17.9,
       },
       {
-        ' occupation ':
+        occupation:
           ' Mecánicos de autobuses y camiones y especialistas en motores diesel ',
-        ' score ': 17.8,
+        score: 17.8,
       },
       {
-        ' occupation ': ' Trabajadores de diseño, metal y plástico ',
-        ' score ': 17.8,
+        occupation: ' Trabajadores de diseño, metal y plástico ',
+        score: 17.8,
       },
       {
-        ' occupation ': ' Técnicos de ingeniería y operaciones aeroespaciales ',
-        ' score ': 17.8,
+        occupation: ' Técnicos de ingeniería y operaciones aeroespaciales ',
+        score: 17.8,
       },
       {
         occupation: 'Yeseros y albañiles de estuco',
@@ -3023,11 +3002,11 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Conservacionistas de suelos y aguas',
-        puntuación: 17.5,
+        score: 17.5,
       },
       {
         occupation: 'Curadores',
-        puntuación: 17.4,
+        score: 17.4,
       },
       {
         occupation: 'Ingenieros de agua / aguas residuales',
@@ -3170,11 +3149,11 @@ export class OccupationRiskDataEs {
       {
         occupation:
           'Preparadores, operadores y licitadores de máquinas para trabajar la madera, excepto el aserrado',
-        's core ': 16,
+        score: 16,
       },
       {
-        ' occupation ': ' Tecnólogos en ingeniería eléctrica ',
-        ' score ': 16,
+        occupation: ' Tecnólogos en ingeniería eléctrica ',
+        score: 16,
       },
       {
         occupation:
@@ -3187,16 +3166,16 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Geografía Profesores, Post secundaria ',
-        ' score ': 15.9,
+        score: 15.9,
       },
       {
-        ' occupation ': ' Diseñadores de interiores ',
-        ' score ': 15.9,
+        occupation: ' Diseñadores de interiores ',
+        score: 15.9,
       },
       {
-        ' occupation ':
+        occupation:
           ' Programadores de máquinas herramienta controlados numéricamente por computadora, metal y plástico ',
-        ' score ': 15.9,
+        score: 15.9,
       },
       {
         occupation: 'Ingenieros eléctricos',
@@ -3208,53 +3187,53 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Camión pesado y tractor-remolque Controladores ',
-        ' score ': 15.7,
+        score: 15.7,
       },
       {
-        ' occupation ': ' Ayudantes - Trabajadores de producción ',
-        ' score ': 15.7,
+        occupation: ' Ayudantes - Trabajadores de producción ',
+        score: 15.7,
       },
       {
-        ' occupation ': ' Analistas de seguridad de la información ',
-        ' score ': 15.6,
+        occupation: ' Analistas de seguridad de la información ',
+        score: 15.6,
       },
       {
-        ' occupation ': ' Analistas de inteligencia ',
-        ' puntuación ': 15.6,
+        occupation: ' Analistas de inteligencia ',
+        score: 15.6,
       },
       {
-        ' occupation ':
+        occupation:
           ' Operadores de máquinas herramienta controlados por computadora, metal y plástico ',
-        ' puntuación ': 15.6,
+        score: 15.6,
       },
       {
-        ' occupation ': ' Trabajadores de aislamiento, piso , Techo y Muro ',
-        ' score ': 15.6,
+        occupation: ' Trabajadores de aislamiento, piso , Techo y Muro ',
+        score: 15.6,
       },
       {
-        ' occupation ': ' Genetistas ',
-        ' score ': 15.6,
+        occupation: ' Genetistas ',
+        score: 15.6,
       },
       {
-        ' occupation ':
+        occupation:
           ' Plat Preparadores, Operadores y Encargados de Máquinas de Inyección y Recubrimiento, Metal y Plástico ',
-        ' score ': 15.6,
+        score: 15.6,
       },
       {
-        ' occupation ':
+        occupation:
           ' Enfriadores, Operadores y Encargados de Máquinas de Moldeo, Fabricación de Núcleo y Envoltura, Metal y Plástico ',
-        ' score ': 15.5,
+        score: 15.5,
       },
       {
-        ' occupation ': ' Soldadores, cortadores y montadores de soldadores ',
-        ' score ': 15.5,
+        occupation: ' Soldadores, cortadores y montadores de soldadores ',
+        score: 15.5,
       },
       {
-        ' occupation ': ' Operadores de máquinas de coser ',
-        ' score ': 15.5,
+        occupation: ' Operadores de máquinas de coser ',
+        score: 15.5,
       },
       {
-        ' occupation ':
+        occupation:
           'Prensas, textiles, prendas de vestir y materiales relacionados',
         score: 15.4,
       },
@@ -3264,26 +3243,26 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Inspectores de construcción y construcción',
-        'score ': 15.3,
+        score: 15.3,
       },
       {
-        ' occupation ': ' Ingenieros electrónicos, excepto computadora ',
-        ' score ': 15.3,
+        occupation: ' Ingenieros electrónicos, excepto computadora ',
+        score: 15.3,
       },
       {
-        ' occupation ': ' Maquinistas ',
-        ' score ': 15.3,
+        occupation: ' Maquinistas ',
+        score: 15.3,
       },
       {
-        ' occupation ': ' Carrocería y Reparadores relacionados ',
-        ' puntuación ': 15.2,
+        occupation: ' Carrocería y Reparadores relacionados ',
+        score: 15.2,
       },
       {
-        ' occupation ': ' Asistentes de estadística ',
-        ' puntuación ': 15.2,
+        occupation: ' Asistentes de estadística ',
+        score: 15.2,
       },
       {
-        ' occupation ':
+        occupation:
           ' Extrusores y operadores de máquinas de extrusión y dibujo, metal y plástico ',
         score: 15.2,
       },
@@ -3314,23 +3293,23 @@ export class OccupationRiskDataEs {
       {
         occupation:
           'Rectificado, lapeado, pulido , y Establecedores, operadores y licitadores de máquinas herramienta para pulir, metal y plástico ',
-        ' score ': 15.1,
+        score: 15.1,
       },
       {
-        ' occupation ': ' Profesores de economía, educación secundaria ',
-        ' score ': 15,
+        occupation: ' Profesores de economía, educación secundaria ',
+        score: 15,
       },
       {
-        ' occupation ': ' Normativa Especialistas en asuntos ',
-        ' score ': 15,
+        occupation: ' Normativa Especialistas en asuntos ',
+        score: 15,
       },
       {
-        ' occupation ': ' Especialistas en pruebas no destructivas ',
-        ' score ': 15,
+        occupation: ' Especialistas en pruebas no destructivas ',
+        score: 15,
       },
       {
-        ' occupation ': ' Desarrolladores de software, software de sistemas ',
-        ' score ': 15,
+        occupation: ' Desarrolladores de software, software de sistemas ',
+        score: 15,
       },
       {
         occupation: 'Ofertas de puentes y esclusas',
@@ -3343,11 +3322,11 @@ export class OccupationRiskDataEs {
       {
         occupation:
           'Profesores de ciencias forestales y de la conservación , Postsecundaria ',
-        ' puntuación ': 14.9,
+        score: 14.9,
       },
       {
-        ' occupation ': ' Profesores de trabajo social, Postsecundaria ',
-        ' puntuación ': 14.9,
+        occupation: ' Profesores de trabajo social, Postsecundaria ',
+        score: 14.9,
       },
       {
         occupation: 'Psicólogos escolares',
@@ -3360,76 +3339,75 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Ingenieros ambientales',
-        ' score ': 14.8,
+        score: 14.8,
       },
       {
-        ' occupation ':
-          ' Mecánicos de equipos agrícolas y técnicos de servicio ',
-        ' score ': 14.8,
+        occupation: ' Mecánicos de equipos agrícolas y técnicos de servicio ',
+        score: 14.8,
       },
       {
-        ' occupation ': ' Físicos ',
-        ' score ': 14.7,
+        occupation: ' Físicos ',
+        score: 14.7,
       },
       {
-        ' occupation ':
+        occupation:
           ' Biocombustibles / Gerentes de desarrollo de productos y tecnología de biodiésel ',
-        ' score ': 14.7,
+        score: 14.7,
       },
       {
-        ' occupation ': ' Desarrolladores de software, aplicaciones ',
-        ' score ': 14.7,
+        occupation: ' Desarrolladores de software, aplicaciones ',
+        score: 14.7,
       },
       {
-        ' occupation ':
+        occupation:
           ' Especialistas en reurbanización de Brownfield y gerentes de sitio ',
-        ' score ': 14.7,
+        score: 14.7,
       },
       {
-        ' occupation ': ' Especialistas en gestión de documentos ',
-        ' score ': 14.7,
+        occupation: ' Especialistas en gestión de documentos ',
+        score: 14.7,
       },
       {
-        ' occupation ': ' Ingenieros bioquímicos ',
-        ' score ': 14.7,
+        occupation: ' Ingenieros bioquímicos ',
+        score: 14.7,
       },
       {
-        ' occupation ':
+        occupation:
           ' Separar, Filtrar , Aclaradores, precipitadores e instaladores de máquinas, operadores y licitaciones ',
-        ' score ': 14.6,
+        score: 14.6,
       },
       {
-        ' occupation ': ' Wellhead Pumpers ',
-        ' score ': 14.6,
+        occupation: ' Wellhead Pumpers ',
+        score: 14.6,
       },
       {
-        ' occupation ': ' Drywall and Ceiling Tile Instaladores ',
-        ' puntuación ': 14.6,
+        occupation: ' Drywall and Ceiling Tile Instaladores ',
+        score: 14.6,
       },
       {
-        ' occupation ': ' Histor y Maestros, Post secundaria ',
-        ' score ': 14.6,
+        occupation: ' Histor y Maestros, Post secundaria ',
+        score: 14.6,
       },
       {
-        ' occupation ': ' Técnicos de tráfico ',
-        ' score ': 14.6,
+        occupation: ' Técnicos de tráfico ',
+        score: 14.6,
       },
       {
-        ' occupation ': ' Ingenieros de seguridad de productos ',
-        ' score ': 14.6,
+        occupation: ' Ingenieros de seguridad de productos ',
+        score: 14.6,
       },
       {
-        ' occupation ':
+        occupation:
           ' Analistas de investigación de mercado y especialistas en mercadeo ',
-        ' score ': 14.5,
+        score: 14.5,
       },
       {
-        ' occupation ': ' Ingenieros biomédicos ',
-        ' score ': 14.5,
+        occupation: ' Ingenieros biomédicos ',
+        score: 14.5,
       },
       {
-        ' occupation ': ' Administradores de bases de datos ',
-        ' score ': 14.5,
+        occupation: ' Administradores de bases de datos ',
+        score: 14.5,
       },
       {
         occupation:
@@ -3442,31 +3420,31 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Instaladores solares fotovoltaicos',
-        puntuación: 14.3,
+        score: 14.3,
       },
       {
         occupation: 'Operadores de dragado',
-        puntuación: 14.3,
+        score: 14.3,
       },
       {
         occupation: 'Técnicos y conservadores de museos',
-        puntuación: 14.2,
+        score: 14.2,
       },
       {
         occupation: 'Especialistas en gestión de seguridad',
-        puntuación: 14.2,
+        score: 14.2,
       },
       {
         occupation: 'Criadores de animales',
-        puntuación: 14.1,
+        score: 14.1,
       },
       {
         occupation: 'Analistas de gestión ',
-        ' score ': 14.1,
+        score: 14.1,
       },
       {
-        ' occupation ': ' Ingenieros de sistemas de energía solar ',
-        ' score ': 14.1,
+        occupation: ' Ingenieros de sistemas de energía solar ',
+        score: 14.1,
       },
       {
         occupation: 'Zoólogos y biólogos de vida silvestre',
@@ -3479,15 +3457,15 @@ export class OccupationRiskDataEs {
       {
         occupation:
           'Profesores de lengua y literatura extranjeras , Postsecundaria ',
-        ' score ': 13.9,
+        score: 13.9,
       },
       {
-        ' occupation ': ' Docentes de filosofía y religión, Postsecundaria ',
-        ' score ': 13.7,
+        occupation: ' Docentes de filosofía y religión, Postsecundaria ',
+        score: 13.7,
       },
       {
-        ' occupation ': ' Gerentes de ciencias naturales ',
-        ' score ': 13.7,
+        occupation: ' Gerentes de ciencias naturales ',
+        score: 13.7,
       },
       {
         occupation:
@@ -3500,44 +3478,43 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Tecnólogos en ingeniería electrónica ',
-        ' score ': 13.5,
+        score: 13.5,
       },
       {
-        ' occupation ': ' Técnicos de ingeniería eléctrica ',
-        ' score ': 13.5,
+        occupation: ' Técnicos de ingeniería eléctrica ',
+        score: 13.5,
       },
       {
-        ' occupation ': ' Procesadores de semiconductores ',
-        ' score ': 13.5,
+        occupation: ' Procesadores de semiconductores ',
+        score: 13.5,
       },
       {
-        ' occupation ': ' Operadores y licitaciones de transportadores ',
-        ' score ': 13.5,
+        occupation: ' Operadores y licitaciones de transportadores ',
+        score: 13.5,
       },
       {
-        ' occupation ': ' Científicos bioinformáticos ',
-        ' score ': 13.4,
+        occupation: ' Científicos bioinformáticos ',
+        score: 13.4,
       },
       {
-        ' occupation ': ' Epidemiólogos ',
-        ' score ': 13.3,
+        occupation: ' Epidemiólogos ',
+        score: 13.3,
       },
       {
-        ' occupation ': 'Ingenieros civiles',
+        occupation: 'Ingenieros civiles',
         score: 13.3,
       },
       {
         occupation: 'Profesores de ciencias agrícolas, Postsecundaria ',
-        ' puntuación ': 13.3,
+        score: 13.3,
       },
       {
-        ' occupation ':
-          ' Afiladores de herramientas, archivadores y afiladores ',
-        ' puntuación ': 13.3,
+        occupation: ' Afiladores de herramientas, archivadores y afiladores ',
+        score: 13.3,
       },
       {
-        ' occupation ': ' Grabadores y grabadores ',
-        ' puntuación ': 13.3,
+        occupation: ' Grabadores y grabadores ',
+        score: 13.3,
       },
       {
         occupation: 'Técnicos de teledetección',
@@ -3561,28 +3538,28 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Ingenieros automotrices ',
-        ' score ': 13,
+        score: 13,
       },
       {
-        ' occupation ': ' Técnicos de producción manufacturera ',
-        ' score ': 13,
+        occupation: ' Técnicos de producción manufacturera ',
+        score: 13,
       },
       {
-        ' occupation ': ' Geógrafos ',
-        ' score ': 13,
+        occupation: ' Geógrafos ',
+        score: 13,
       },
       {
-        ' occupation ':
+        occupation:
           ' Minería e ingenieros geológicos, incluyendo ingenieros de seguridad minera ',
-        ' score ': 13,
+        score: 13,
       },
       {
-        ' occupation ': ' Pourers and Casters, Metal ',
-        ' score ': 12.9,
+        occupation: ' Pourers and Casters, Metal ',
+        score: 12.9,
       },
       {
-        ' occupation ': ' Constructores de neumáticos ',
-        ' score ': 12.9,
+        occupation: ' Constructores de neumáticos ',
+        score: 12.9,
       },
       {
         occupation: 'Técnicos de ingeniería de nanotecnología',
@@ -3595,33 +3572,33 @@ export class OccupationRiskDataEs {
       {
         occupation:
           ' Preparadores, operadores y licitadores de máquinas perforadoras y perforadoras, metal y plástico ',
-        ' score ': 12.8,
+        score: 12.8,
       },
       {
-        ' occupation ': ' Redactores civiles ',
-        ' score ': 12.7,
+        occupation: ' Redactores civiles ',
+        score: 12.7,
       },
       {
-        ' occupation ': ' Planificadores de restauración ambiental ',
-        ' score ': 12.7,
+        occupation: ' Planificadores de restauración ambiental ',
+        score: 12.7,
       },
       {
-        ' occupation ':
+        occupation:
           ' Operadores y licitadores de máquinas tostadoras, horneadoras y secadoras de alimentos y tabaco ',
-        ' score ': 12.6,
+        score: 12.6,
       },
       {
-        ' occupation ':
+        occupation:
           ' Sopladores de vidrio, moldeadores, dobladores, y finalizadores ',
-        ' score ': 12.6,
+        score: 12.6,
       },
       {
-        ' occupation ': ' Examinadores de fraude, investigadores y analistas ',
-        ' score ': 12.5,
+        occupation: ' Examinadores de fraude, investigadores y analistas ',
+        score: 12.5,
       },
       {
-        ' occupation ': ' Desarrolladores web ',
-        ' score ': 12.5,
+        occupation: ' Desarrolladores web ',
+        score: 12.5,
       },
       {
         occupation: 'Arquitectos de bases de datos',
@@ -3645,33 +3622,32 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Electrónica Redactores ',
-        ' puntuación ': 12.2,
+        score: 12.2,
       },
       {
-        ' occupation ': ' Ingenieros de robótica ',
-        ' puntuación ': 12.2,
+        occupation: ' Ingenieros de robótica ',
+        score: 12.2,
       },
       {
-        ' occupation ': ' P reprimir a técnicos y trabajadores ',
-        ' score ': 12.2,
+        occupation: ' P reprimir a técnicos y trabajadores ',
+        score: 12.2,
       },
       {
-        ' occupation ':
-          ' Operadores de máquinas de carga, minería subterránea ',
-        ' score ': 12.2,
+        occupation: ' Operadores de máquinas de carga, minería subterránea ',
+        score: 12.2,
       },
       {
-        ' occupation ': ' Tecnólogos en ingeniería de nanotecnología ',
-        ' score ': 12.1,
+        occupation: ' Tecnólogos en ingeniería de nanotecnología ',
+        score: 12.1,
       },
       {
         occupation: 'Proyeccionistas de películas',
-        puntuación: 12.1,
+        score: 12.1,
       },
       {
         occupation:
           'Empleados de almacén - Almacén, almacén o depósito de almacenamiento',
-        puntuación: 12.1,
+        score: 12.1,
       },
       {
         occupation: 'Examinadores financieros',
@@ -3686,26 +3662,26 @@ export class OccupationRiskDataEs {
         score: 11.9,
       },
       {
-        ocupacion: 'Agrimensores',
+        occupation: 'Agrimensores',
         score: 11.8,
       },
       {
-        ocupacion: 'Gerentes de proyectos de energia eolica',
+        occupation: 'Gerentes de proyectos de energia eolica',
         score: 11.6,
       },
       {
-        ocupacion:
+        occupation:
           'Instaladores, operadores y maquinas de tejer y tejer textiles Licitaciones ',
-        ' score ': 11.6,
+        score: 11.6,
       },
       {
-        ' occupation ': ' Editores de escritorio ',
-        ' score ': 11.3,
+        occupation: ' Editores de escritorio ',
+        score: 11.3,
       },
       {
-        ' occupation ':
+        occupation:
           ' Manipuladores, pulverizadores y aplicadores de pesticidas, Vegetación ',
-        ' score ': 11.2,
+        score: 11.2,
       },
       {
         occupation: 'Enrolladoras de bobina, conicidades y finalizadores',
@@ -3713,15 +3689,15 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Paperhang ers ',
-        ' score ': 11.1,
+        score: 11.1,
       },
       {
-        ' occupation ': ' Profesores de ciencias políticas, post secundaria ',
-        ' score ': 11.1,
+        occupation: ' Profesores de ciencias políticas, post secundaria ',
+        score: 11.1,
       },
       {
-        ' occupation ': ' Cocineros, hogar privado ',
-        ' score ': 11.1,
+        occupation: ' Cocineros, hogar privado ',
+        score: 11.1,
       },
       {
         occupation: 'Ingenieros de materiales',
@@ -3745,15 +3721,15 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Cortadores de piedra y talladores , Fabricación ',
-        ' score ': 10.9,
+        score: 10.9,
       },
       {
-        ' occupation ': ' Asistentes de investigación en ciencias sociales ',
-        ' score ': 10.7,
+        occupation: ' Asistentes de investigación en ciencias sociales ',
+        score: 10.7,
       },
       {
-        ' occupation ': ' Profesores de negocios, post secundaria ',
-        ' score ': 10.6,
+        occupation: ' Profesores de negocios, post secundaria ',
+        score: 10.6,
       },
       {
         occupation:
@@ -3766,8 +3742,8 @@ export class OccupationRiskDataEs {
         score: 10.6,
       },
       {
-        'occupation ': ' Reparadores de cámaras y equipos fotográficos ',
-        ' puntuación ': 10.6,
+        occupation: ' Reparadores de cámaras y equipos fotográficos ',
+        score: 10.6,
       },
       {
         occupation: 'Trabajadores infantiles',
@@ -3779,18 +3755,18 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Ingenieros / arquitectos de sistemas informáticos',
-        'score ': 10.3,
+        score: 10.3,
       },
       {
-        ' occupation ': ' Ingenieros agrónomos ',
-        ' score ': 10.3,
+        occupation: ' Ingenieros agrónomos ',
+        score: 10.3,
       },
       {
-        ' occupation ': ' Redactores mecánicos ',
-        ' score ': 10.2,
+        occupation: ' Redactores mecánicos ',
+        score: 10.2,
       },
       {
-        ' occupation ': ' Diseñadores y tecnólogos instruccionales ',
+        occupation: ' Diseñadores y tecnólogos instruccionales ',
         score: 10.1,
       },
       {
@@ -3836,60 +3812,60 @@ export class OccupationRiskDataEs {
       {
         occupation:
           'Artistas plásticos, incluyendo pintores, escultores y Illustra tors ',
-        ' score ': 9.6,
+        score: 9.6,
       },
       {
-        ' occupation ':
-          ' Preparadores, operadores y licitadores de fresadoras y cepilladoras, metal y plástico ',
-        ' score ': 9.3,
+        occupation:
+          'Preparadores, operadores y licitadores de fresadoras y cepilladoras, metal y plástico ',
+        score: 9.3,
       },
       {
-        ' occupation ': ' Operadores y licitadores de máquinas de calzado ',
-        ' puntuación ': 9.3,
+        occupation: ' Operadores y licitadores de máquinas de calzado ',
+        score: 9.3,
       },
       {
-        ' occupation ': ' Tecnólogos de ingeniería de fabricación ',
-        ' puntuación ': 9.1,
+        occupation: ' Tecnólogos de ingeniería de fabricación ',
+        score: 9.1,
       },
       {
-        ' occupation ': ' Silvicultores ',
-        ' puntuación ': 9,
+        occupation: ' Silvicultores ',
+        score: 9,
       },
       {
-        ' occupation ': ' Política Científicos ',
-        ' score ': 8.9,
+        occupation: ' Política Científicos ',
+        score: 8.9,
       },
       {
-        ' occupation ': ' Lijadoras y acabadoras de piso ',
-        ' score ': 8.8,
+        occupation: ' Lijadoras y acabadoras de piso ',
+        score: 8.8,
       },
       {
-        ' occupation ': ' Buscadores de estrategias de marketing ',
-        ' score ': 8.7,
+        occupation: ' Buscadores de estrategias de marketing ',
+        score: 8.7,
       },
       {
-        ' occupation ': ' Técnicos de mapeo ',
-        ' score ': 8.7,
+        occupation: ' Técnicos de mapeo ',
+        score: 8.7,
       },
       {
-        ' occupation ': ' Archiveros ',
-        ' score ': 8.6,
+        occupation: ' Archiveros ',
+        score: 8.6,
       },
       {
-        ' occupation ': ' Trabajadores de metales preciosos ',
-        ' score ': 8.4,
+        occupation: ' Trabajadores de metales preciosos ',
+        score: 8.4,
       },
       {
-        ' occupation ': ' Científicos de materiales ',
-        ' puntuación ': 8.3,
+        occupation: ' Científicos de materiales ',
+        score: 8.3,
       },
       {
-        ' occupation ': ' Empleados de derecho judicial ',
-        ' puntuación ': 8.2,
+        occupation: ' Empleados de derecho judicial ',
+        score: 8.2,
       },
       {
-        ' occupation ': ' Bioestadísticos ',
-        ' puntuación ': 8,
+        occupation: ' Bioestadísticos ',
+        score: 8,
       },
       {
         occupation: 'Craft Artists',
@@ -3914,16 +3890,16 @@ export class OccupationRiskDataEs {
         score: 7.6,
       },
       {
-        'occupation ': ' Alcantarillas, Mano ',
-        ' score ': 7.5,
+        occupation: ' Alcantarillas, Mano ',
+        score: 7.5,
       },
       {
-        ' occupation ': ' Ensambladores de equipos eléctricos y electrónicos ',
-        ' score ': 7.4,
+        occupation: ' Ensambladores de equipos eléctricos y electrónicos ',
+        score: 7.4,
       },
       {
-        ' occupation ': ' Pintores, Equipo de transporte ',
-        ' score ': 7.3,
+        occupation: ' Pintores, Equipo de transporte ',
+        score: 7.3,
       },
       {
         occupation: 'Científicos y tecnólogos de información geoespacial',
@@ -3947,59 +3923,59 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Joyeros ',
-        ' score ': 6.9,
+        score: 6.9,
       },
       {
-        ' occupation ': ' Estadísticos ',
-        ' score ': 6.7,
+        occupation: ' Estadísticos ',
+        score: 6.7,
       },
       {
-        ' occupation ': ' Ingenieros de microsistemas ',
-        ' score ': 6.1,
+        occupation: ' Ingenieros de microsistemas ',
+        score: 6.1,
       },
       {
-        ' occupation ': ' Compositores de música and Arrangers ',
-        ' score ': 6.1,
+        occupation: ' Compositores de música and Arrangers ',
+        score: 6.1,
       },
       {
-        ' occupation ': ' Ingenieros de hardware informático ',
-        ' score ': 6.1,
+        occupation: ' Ingenieros de hardware informático ',
+        score: 6.1,
       },
       {
-        ' occupation ': ' Bioquímicos y biofísicos ',
-        ' scor e ': 6.1,
+        occupation: ' Bioquímicos y biofísicos ',
+        score: 6.1,
       },
       {
-        ' occupation ': ' Sociólogos ',
-        ' score ': 6.1,
+        occupation: ' Sociólogos ',
+        score: 6.1,
       },
       {
-        ' occupation ': ' Científicos y tecnólogos de teledetección ',
-        ' score ': 6,
+        occupation: ' Científicos y tecnólogos de teledetección ',
+        score: 6,
       },
       {
-        ' occupation ': ' Economistas ambientales ',
-        ' puntuación ': 6,
+        occupation: ' Economistas ambientales ',
+        score: 6,
       },
       {
-        ' occupation ': ' Biólogos moleculares y celulares ',
-        ' puntuación ': 5.8,
+        occupation: ' Biólogos moleculares y celulares ',
+        score: 5.8,
       },
       {
-        ' occupation ': ' Actuarios ',
-        ' puntuación ': 5.2,
+        occupation: ' Actuarios ',
+        score: 5.2,
       },
       {
-        ' occupation ': ' Científicos atmosféricos y espaciales ',
-        ' score ': 5,
+        occupation: ' Científicos atmosféricos y espaciales ',
+        score: 5,
       },
       {
-        ' occupation ': ' Científicos de suelos y plantas ',
-        ' score ': 4.9,
+        occupation: ' Científicos de suelos y plantas ',
+        score: 4.9,
       },
       {
-        ' occupation ': ' Poetas, letristas y escritores creativos ',
-        ' score ': 4.9,
+        occupation: ' Poetas, letristas y escritores creativos ',
+        score: 4.9,
       },
       {
         occupation: 'Arquitectos de redes informáticas',
@@ -4035,19 +4011,19 @@ export class OccupationRiskDataEs {
       },
       {
         occupation: 'Técnicos de fotónica',
-        puntuación: 2.7,
+        score: 2.7,
       },
       {
         occupation: 'Tapers',
-        puntuación: 2.3,
+        score: 2.3,
       },
       {
         occupation: 'Astrónomos',
-        puntuación: 2,
+        score: 2,
       },
       {
-        ' occupation ': ' Economistas ',
-        ' score ': 1.5,
+        occupation: ' Economistas ',
+        score: 1.5,
       },
     ];
   }

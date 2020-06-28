@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { KatexOptions } from 'ng-katex';
 import { ChartDataSets, ChartOptions, ChartType } from 'chart.js';
 import { Label, Color } from 'ng2-charts';
+import { FormBuilder, Validators } from '@angular/forms';
 
 export interface Result {
   suc?: number;
@@ -26,11 +27,7 @@ export class SIRComponent implements OnInit {
   public drdt: number;
   public result: Result = { t: 0, suc: 0, inf: 0, rec: 0 };
   public results: Result[] = [];
-
-  constructor() {}
-
   public sirData: ChartDataSets[] = [{ data: [], label: '' }];
-
   public lineChartLabels: Label[] = [];
   public lineChartOptions: ChartOptions = { responsive: true };
   public lineChartColors: Color[] = [
@@ -50,6 +47,80 @@ export class SIRComponent implements OnInit {
   public lineChartLegend = true;
   public lineChartType: ChartType = 'line';
   public lineChartPlugins = [];
+
+  constructor(private formBuilder: FormBuilder) {}
+
+  sirForm = this.formBuilder.group({
+    totalPopulation: [
+      null,
+      Validators.compose([
+        Validators.required,
+        Validators.minLength(1),
+        Validators.maxLength(8),
+      ]),
+    ],
+    initialInfected: [
+      null,
+      Validators.compose([
+        Validators.required,
+        Validators.minLength(1),
+        Validators.maxLength(8),
+      ]),
+    ],
+    initialSucept: [
+      null,
+      Validators.compose([
+        Validators.required,
+        Validators.minLength(1),
+        Validators.maxLength(8),
+      ]),
+    ],
+    totalTime: [
+      null,
+      Validators.compose([
+        Validators.required,
+        Validators.minLength(1),
+        Validators.maxLength(5),
+      ]),
+    ],
+    beta: [
+      null,
+      Validators.compose([
+        Validators.required,
+        Validators.min(-2),
+        Validators.max(2),
+      ]),
+    ],
+    gamma: [
+      null,
+      Validators.compose([
+        Validators.required,
+        Validators.min(-2),
+        Validators.max(2),
+      ]),
+    ],
+  });
+
+  hasUnitNumber = false;
+
+  onSubmit() {
+    this.results = this.calculate();
+    var time = this.results.map(({ t }) => t);
+    var suceptible = this.results.map(({ suc }) => suc);
+    var infected = this.results.map(({ inf }) => inf);
+    var recovered = this.results.map(({ rec }) => rec);
+    var outDataSet: ChartDataSets[] = [
+      { data: suceptible, label: 'Suceptibles' },
+      { data: infected, label: 'Infectados' },
+      { data: recovered, label: 'Recuperados' },
+    ];
+    var days: string[] = [''];
+    for (var i in time) {
+      days[i] = time[i].toString();
+    }
+    this.sirData = outDataSet;
+    this.lineChartLabels = days;
+  }
 
   calculate(): Result[] {
     var output: Result[] = [];

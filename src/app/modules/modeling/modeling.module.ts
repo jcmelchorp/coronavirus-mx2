@@ -8,8 +8,10 @@ import { AppMaterialModule } from 'src/app/app-material.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ChartsModule } from 'ng2-charts';
+import { AddressComponent } from './address/address.component';
+import { ReactiveFormsModule } from '@angular/forms';
 @NgModule({
-  declarations: [ModelingComponent, SIRComponent],
+  declarations: [ModelingComponent, SIRComponent, AddressComponent],
   imports: [
     CommonModule,
     AppMaterialModule,
@@ -18,6 +20,7 @@ import { ChartsModule } from 'ng2-charts';
     ModelingRoutingModule,
     KatexModule,
     ChartsModule,
+    ReactiveFormsModule,
   ],
 })
 export class ModelingModule {}
