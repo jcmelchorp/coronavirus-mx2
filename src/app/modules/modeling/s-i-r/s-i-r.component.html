@@ -20,161 +20,133 @@
 </div>
 
 <div class="px-5">
-  <div fxLayout="row">
-    <div
-      fxLayout.lt-md="column"
-      fxLayoutGap="20px"
-      fxLayoutAlign="center center"
-    >
-      <div fxFlex="60%" fxFlex.lt-md="100%" fxFill>
-        <mat-card>
-          <mat-card-header>
-            <mat-card-title>Modelo SIR</mat-card-title>
-            <mat-card-subtitle> </mat-card-subtitle>
-          </mat-card-header>
-          <mat-card-content>
-            <canvas
-              baseChart
-              [datasets]="sirData"
-              [labels]="lineChartLabels"
-              [options]="lineChartOptions"
-              [colors]="lineChartColors"
-              [legend]="lineChartLegend"
-              [chartType]="lineChartType"
-              [plugins]="lineChartPlugins"
-            >
-            </canvas>
-          </mat-card-content>
-        </mat-card>
-      </div>
-      <div fxFlex="40%" fxFlex.lt-md="100%">
-        <mat-card>
-          <mat-card-header>
-            <mat-card-title>Indicadores del modelo</mat-card-title>
-            <mat-card-subtitle
-              >Condiciones iniciales y parámetros
-              característicos</mat-card-subtitle
-            >
-          </mat-card-header>
-          <mat-card-content>
-            <p>N = 1000</p>
-            <p>s0 = 999</p>
-            <p>i0 = 1</p>
-            <p>r0 = 0</p>
-            <p>beta = 0.2</p>
-            <p>gamma = 0.1</p>
-            <p>dt = 0.25</p>
-
-            <p>
-              Resultados calculados la convinación de los métodos de integración
-              de Runge-Kutta de 2do orden y Heun’s.
-            </p>
-          </mat-card-content>
-          <mat-card-footer> </mat-card-footer>
-        </mat-card>
-      </div>
-    </div>
-  </div>
-  <p>
-    Referencia: Hethcote, “The Mathematics of Infectious Diseases”, SIAM Review
-    vol. 42, pp. 599-653
-  </p>
-</div>
-<form [formGroup]="sirForm" novalidate (ngSubmit)="onSubmit()">
-  <mat-card class="shipping-card">
+  <mat-card>
     <mat-card-header>
-      <mat-card-title>Shipping Information</mat-card-title>
+      <mat-card-title>Modelo SIR</mat-card-title>
+      <mat-card-subtitle> </mat-card-subtitle>
     </mat-card-header>
     <mat-card-content>
-      <div class="row">
-        <div class="col">
-          <mat-form-field class="full-width">
-            <input
-              matInput
-              #totalPopulation
-              maxlength="5"
-              placeholder="Población (N)"
-              type="number"
-              formControlName="totalPopulation"
-            />
-          </mat-form-field>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <mat-form-field class="full-width">
-            <input
-              matInput
-              #initialSucept
-              maxlength="5"
-              placeholder="Personas inicialmente suceptibles"
-              type="number"
-              formControlName="initialSucept"
-            />
-          </mat-form-field>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <mat-form-field class="full-width">
-            <input
-              matInput
-              #initialInfected
-              maxlength="5"
-              placeholder="Personas inicialmente infectadas"
-              type="number"
-              formControlName="initialInfected"
-            />
-          </mat-form-field>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <mat-form-field class="full-width">
-            <input
-              matInput
-              #totalTime
-              maxlength="5"
-              placeholder="Tiempo de simulación (días)"
-              type="number"
-              formControlName="totalTime"
-            />
-          </mat-form-field>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <mat-form-field class="full-width">
-            <input
-              matInput
-              #beta
-              placeholder="Taza de distanciamiento"
-              type="number"
-              formControlName="beta"
-            />
-          </mat-form-field>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <mat-form-field class="full-width">
-            <input
-              matInput
-              #gamma
-              maxlength="5"
-              placeholder="0.1"
-              type="number"
-              formControlName="gamma"
-            />
-          </mat-form-field>
-          <mat-hint align="start"
-            ><strong>Don't disclose personal info</strong>
-          </mat-hint>
-        </div>
-      </div>
+      <canvas
+        baseChart
+        [datasets]="sirData"
+        [labels]="lineChartLabels"
+        [options]="{ responsive: true }"
+        [colors]="lineChartColors"
+        [legend]="true"
+        [chartType]="'line'"
+      >
+      </canvas>
     </mat-card-content>
-    <mat-card-actions>
-      <button mat-raised-button color="primary" type="submit">Submit</button>
-    </mat-card-actions>
   </mat-card>
-</form>
+</div>
+
+<div class="px-5">
+  <form [formGroup]="sirForm" novalidate (ngSubmit)="onSubmit()">
+    <mat-card class="shipping-card">
+      <mat-card-header>
+        <mat-card-title>Shipping Information</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <div class="row">
+          <div class="col">
+            <mat-form-field class="full-width">
+              <input
+                matInput
+                #totalPop
+                maxlength="5"
+                placeholder="Población (N)"
+                type="number"
+                formControlName="totalPop"
+              />
+            </mat-form-field>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <mat-form-field class="full-width">
+              <input
+                matInput
+                #beta
+                placeholder="Taza de propagacion"
+                type="number"
+                formControlName="beta"
+              />
+            </mat-form-field>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <mat-form-field class="full-width">
+              <input
+                matInput
+                #gamma
+                placeholder="Tasa de letalidad"
+                type="number"
+                formControlName="gamma"
+              />
+            </mat-form-field>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <mat-form-field class="full-width">
+              <input
+                matInput
+                #i0
+                placeholder="Personas inicialmente infectadas"
+                type="number"
+                formControlName="i0"
+              />
+            </mat-form-field>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <mat-form-field class="full-width">
+              <input
+                matInput
+                #r0
+                placeholder="Personas inicialmente recuperadas"
+                type="number"
+                formControlName="r0"
+              />
+            </mat-form-field>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <mat-form-field class="full-width">
+              <input
+                matInput
+                #totalTime
+                placeholder="Tiempo de simulación (días)"
+                type="number"
+                formControlName="totalTime"
+              />
+            </mat-form-field>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <mat-form-field class="full-width">
+              <input
+                matInput
+                #delta_t
+                placeholder="Paso de tiempo"
+                type="number"
+                formControlName="delta_t"
+              />
+            </mat-form-field>
+          </div>
+        </div>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-raised-button color="primary" type="submit">Submit</button>
+      </mat-card-actions>
+    </mat-card>
+  </form>
+</div>
+<p>
+  Referencia: Hethcote, “The Mathematics of Infectious Diseases”, SIAM Review
+  vol. 42, pp. 599-653
+</p>
