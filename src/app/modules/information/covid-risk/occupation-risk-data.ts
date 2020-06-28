@@ -1,7 +1,4 @@
-export interface OccupationRisk {
-  occupation: string;
-  score: number;
-}
+import { OccupationRisk } from './occupation-risk';
 
 export class OccupationRiskData {
   risk: OccupationRisk[];

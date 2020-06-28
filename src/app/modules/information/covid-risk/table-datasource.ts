@@ -3,14 +3,15 @@ import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { map } from 'rxjs/operators';
 import { Observable, of as observableOf, merge } from 'rxjs';
-import { OccupationRiskData, OccupationRisk } from './occupation-risk-data';
+import { OccupationRisk } from './occupation-risk';
+import { OccupationRiskDataEs } from './occupation-risk-data-es';
 /**
  * Data source for the Table view. This class should
  * encapsulate all logic for fetching and manipulating the displayed data
  * (including sorting, pagination, and filtering).
  */
 export class TableDataSource extends DataSource<OccupationRisk> {
-  data: OccupationRiskData = new OccupationRiskData();
+  data: OccupationRiskDataEs = new OccupationRiskDataEs();
   paginator: MatPaginator;
   sort: MatSort;
 
