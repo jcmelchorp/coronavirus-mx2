@@ -18,135 +18,113 @@
     </div>
   </div>
 </div>
-
 <div class="px-5">
-  <mat-card>
-    <mat-card-header>
-      <mat-card-title>Modelo SIR</mat-card-title>
-      <mat-card-subtitle> </mat-card-subtitle>
-    </mat-card-header>
-    <mat-card-content>
-      <canvas
-        baseChart
-        [datasets]="sirData"
-        [labels]="lineChartLabels"
-        [options]="{ responsive: true }"
-        [colors]="lineChartColors"
-        [legend]="true"
-        [chartType]="'line'"
-      >
-      </canvas>
-    </mat-card-content>
-  </mat-card>
-</div>
-
-<div class="px-5">
-  <form [formGroup]="sirForm" novalidate (ngSubmit)="onSubmit()">
-    <mat-card class="shipping-card">
+  <div
+    fxLayout="row wrap"
+    fxLayout.lt-sm="column"
+    fxLayoutGap="10px"
+    fxLayoutAlign="flex-start"
+  >
+    <mat-card fxFlex="0 1 calc(50% - 10px)" fxFlex.lt-sm="100%">
       <mat-card-header>
-        <mat-card-title>Shipping Information</mat-card-title>
+        <mat-card-title>Modelo SIR</mat-card-title>
       </mat-card-header>
       <mat-card-content>
-        <div class="row">
-          <div class="col">
-            <mat-form-field class="full-width">
-              <input
-                matInput
-                #totalPop
-                maxlength="5"
-                placeholder="Población (N)"
-                type="number"
-                formControlName="totalPop"
-              />
-            </mat-form-field>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <mat-form-field class="full-width">
-              <input
-                matInput
-                #beta
-                placeholder="Taza de propagacion"
-                type="number"
-                formControlName="beta"
-              />
-            </mat-form-field>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <mat-form-field class="full-width">
-              <input
-                matInput
-                #gamma
-                placeholder="Tasa de letalidad"
-                type="number"
-                formControlName="gamma"
-              />
-            </mat-form-field>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <mat-form-field class="full-width">
-              <input
-                matInput
-                #i0
-                placeholder="Personas inicialmente infectadas"
-                type="number"
-                formControlName="i0"
-              />
-            </mat-form-field>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <mat-form-field class="full-width">
-              <input
-                matInput
-                #r0
-                placeholder="Personas inicialmente recuperadas"
-                type="number"
-                formControlName="r0"
-              />
-            </mat-form-field>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <mat-form-field class="full-width">
-              <input
-                matInput
-                #totalTime
-                placeholder="Tiempo de simulación (días)"
-                type="number"
-                formControlName="totalTime"
-              />
-            </mat-form-field>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <mat-form-field class="full-width">
-              <input
-                matInput
-                #delta_t
-                placeholder="Paso de tiempo"
-                type="number"
-                formControlName="delta_t"
-              />
-            </mat-form-field>
-          </div>
-        </div>
+        <canvas
+          baseChart
+          [datasets]="sirData"
+          [labels]="lineChartLabels"
+          [options]="{ responsive: true }"
+          [colors]="lineChartColors"
+          [legend]="true"
+          [chartType]="'line'"
+        >
+        </canvas>
       </mat-card-content>
-      <mat-card-actions>
-        <button mat-raised-button color="primary" type="submit">Submit</button>
-      </mat-card-actions>
     </mat-card>
-  </form>
+    <form
+      [formGroup]="sirForm"
+      novalidate
+      (ngSubmit)="onSubmit()"
+      fxFlex="0 1 calc(20% - 10px)"
+      fxFlex.lt-sm="100%"
+    >
+      <mat-card>
+        <mat-card-header>
+          <mat-card-title>Parámetros de simulación</mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <mat-form-field>
+            <input
+              matInput
+              #totalPop
+              placeholder="Población total"
+              type="number"
+              formControlName="totalPop"
+            />
+          </mat-form-field>
+          <mat-form-field>
+            <input
+              matInput
+              #beta
+              placeholder="Tasa de contacto"
+              type="number"
+              formControlName="beta"
+            />
+          </mat-form-field>
+          <mat-form-field>
+            <input
+              matInput
+              #gamma
+              placeholder="Tasa media de recuperación"
+              type="number"
+              formControlName="gamma"
+            />
+          </mat-form-field>
+          <mat-form-field>
+            <input
+              matInput
+              #i0
+              placeholder="Personas inicialmente infectadas"
+              type="number"
+              formControlName="i0"
+            />
+          </mat-form-field>
+
+          <mat-form-field>
+            <input
+              matInput
+              #r0
+              placeholder="Personas inicialmente recuperadas"
+              type="number"
+              formControlName="r0"
+            />
+          </mat-form-field>
+          <mat-form-field>
+            <input
+              matInput
+              #totalTime
+              placeholder="Tiempo de simulación (días)"
+              type="number"
+              formControlName="totalTime"
+            />
+          </mat-form-field>
+          <mat-form-field>
+            <input
+              matInput
+              #delta_t
+              placeholder="Paso de tiempo"
+              type="number"
+              formControlName="delta_t"
+            />
+          </mat-form-field>
+        </mat-card-content>
+        <mat-card-actions>
+          <button mat-raised-button color="primary" type="submit">
+            Submit
+          </button>
+        </mat-card-actions>
+      </mat-card>
+    </form>
+  </div>
 </div>
-<p>
-  Referencia: Hethcote, “The Mathematics of Infectious Diseases”, SIAM Review
-  vol. 42, pp. 599-653
-</p>
