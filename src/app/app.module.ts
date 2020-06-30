@@ -12,6 +12,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 // Bootstrap imports
 import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 import { AccordionModule } from 'ngx-bootstrap/accordion';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { TabsModule } from 'ngx-bootstrap/tabs';
 import { AppComponent } from './app.component';
 // Core components
@@ -48,6 +49,7 @@ import { environment } from '../environments/environment';
     FontAwesomeModule,
     AppMaterialModule,
     FlexLayoutModule,
+    CarouselModule,
     AccordionModule.forRoot(),
     TabsModule.forRoot(),
     BsDatepickerModule.forRoot(),

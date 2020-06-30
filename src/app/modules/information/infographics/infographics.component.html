@@ -5,7 +5,7 @@
     fxLayoutGap="10px"
     fxLayoutAlign="flex-start"
   >
-    <ng-container *ngFor="let publication of slides">
+    <ng-container *ngFor="let slide of slides">
       <mat-card
         [class.mat-elevation-z6]="true"
         class="mb-2"
@@ -20,11 +20,11 @@
           <mat-card-subtitle></mat-card-subtitle>
         </mat-card-header>
         <mat-card-content>
-          <a href="{{ publication.image }}">
+          <a href="{{ slide.image }}">
             <img
               mat-card-image
-              src="{{ publication.image }}"
-              alt="{{ publication }} screenshot"
+              src="{{ slide.image }}"
+              alt="{{ slide }} screenshot"
             />
           </a>
         </mat-card-content>

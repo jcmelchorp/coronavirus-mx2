@@ -1,6 +1,11 @@
 <div class="jumbotron">
   <div class="pt-3 text-center">
-    <mat-icon class="mainlogo" svgIcon="covid" aria-hidden="false" aria-label="covid icon"></mat-icon>
+    <mat-icon
+      class="mainlogo"
+      svgIcon="covid"
+      aria-hidden="false"
+      aria-label="covid icon"
+    ></mat-icon>
     <p class="display-4 app-name">
       Coronavirus MX
     </p>
@@ -9,42 +14,39 @@
     </p>
   </div>
 </div>
-<!-- <img src="assets/background/covid-banner-alfa.jpg" class="img-fluid position-absolute" [ngStyle]="{ width: '100%'}" />
- -->
-<div class="pl-2 pr-2 py-5">
-  <div fxLayout="row wrap" fxLayout.lt-sm="column" fxLayoutGap="10px" fxLayoutAlign="space-between center">
-    <div fxFlex="0 1 calc(33.3% - 10px)" fxFlex.lt-md="0 1 calc(50% - 10px)" fxFlex.lt-sm="100%">
-      <mat-card [class.mat-elevation-z6]="true" class="mb-2">
-        <mat-card-header>
-          <mat-card-title>
-            Información
-          </mat-card-title>
-          <mat-card-subtitle></mat-card-subtitle>
-        </mat-card-header>
-        <mat-card-content> </mat-card-content>
-      </mat-card>
+<carousel [interval]="2000">
+  <slide>
+    <div class="text-center py-5 bg-dark text-white">
+      <h2>Gráficas</h2>
+      <div class="lead">
+        <h3>
+          Análisis y monitoreo de las cifras de contagio
+        </h3>
+        <p>
+          Datos locales, nacionales e internacionales
+        </p>
+      </div>
     </div>
-
-    <div fxFlex="0 1 calc(33.3% - 10px)" fxFlex.lt-md="0 1 calc(50% - 10px)" fxFlex.lt-sm="100%">
-      <mat-card [class.mat-elevation-z6]="true" class="mb-2">
-        <mat-card-header>
-          <mat-card-title>
-            Datos actuales
-          </mat-card-title>
-          <mat-card-subtitle></mat-card-subtitle>
-        </mat-card-header>
-        <mat-card-content> </mat-card-content>
-      </mat-card>
+  </slide>
+  <slide>
+    <div class="text-center py-5 bg-dark text-white">
+      <h2>Aspectos de impacto</h2>
+      <div class="lead">
+        <h3>Las diversas áreas de la vida donde afecta la pandemia</h3>
+        <p>Salud, familia, trabajo, escuela, recreación, economía, política</p>
+      </div>
     </div>
-    <div fxFlex="0 1 calc(33.3% - 10px)" fxFlex.lt-md="0 1 calc(50% - 10px)" fxFlex.lt-sm="100%">
-      <mat-card [class.mat-elevation-z6]="true" class="mb-2">
-        <mat-card-header>
-          <mat-card-title>
-            Modelos y predicciones
-          </mat-card-title>
-          <mat-card-subtitle></mat-card-subtitle>
-        </mat-card-header>
-        <mat-card-content> </mat-card-content>
-      </mat-card>
+  </slide>
+  <slide>
+    <div class="text-center py-5 bg-dark text-white">
+      <h2>Modelos epidemiológicos</h2>
+      <div class="lead">
+        <h3>Modelo SIR</h3>
+        <p>
+          Herramienta interactiva básica para entender la evolución de la
+          pandemia
+        </p>
+      </div>
     </div>
-  </div>
+  </slide>
+</carousel>
