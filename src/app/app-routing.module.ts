@@ -1,4 +1,4 @@
-import { NgModule, Input } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { WellcomeComponent } from './core/wellcome/wellcome.component';
 import { NotFoundComponent } from './core/not-found/not-found.component';
