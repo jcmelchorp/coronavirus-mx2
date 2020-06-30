@@ -4,6 +4,8 @@ import { MediaObserver, MediaChange } from '@angular/flex-layout';
 import { Title, Meta, DomSanitizer } from '@angular/platform-browser';
 import { MatIconRegistry } from '@angular/material/icon';
 import { TranslateService } from '@ngx-translate/core';
+import { SwUpdate } from '@angular/service-worker';
+import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Component({
   selector: 'app-root',
@@ -17,6 +19,8 @@ export class AppComponent implements OnInit, OnDestroy {
   public deviceSm: boolean;
 
   constructor(
+    private swUpdate: SwUpdate,
+    private snackBar: MatSnackBar,
     public translate: TranslateService,
     public mediaObserver: MediaObserver,
     private metaService: Meta,
@@ -107,6 +111,13 @@ export class AppComponent implements OnInit, OnDestroy {
           'https://coronavirus-mx.web.app/assets/screenshots/screenshot01.png',
       },
     ]);
+    if (this.swUpdate.isEnabled) {
+      this.swUpdate.available.subscribe(async () => {
+        this.snackBar.open(
+          'Se han hecho cambios desde la última visita. Actualiza la página para continuar'
+        );
+      });
+    }
     this.mediaSub = this.mediaObserver.media$.subscribe(
       (result: MediaChange) => {
         this.deviceXs = result.mqAlias === 'xs' ? true : false;
