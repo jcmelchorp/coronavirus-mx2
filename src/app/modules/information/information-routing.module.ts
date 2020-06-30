@@ -5,6 +5,7 @@ import { InformationComponent } from './information.component';
 import { MenuComponent } from './menu/menu.component';
 import { CovidRiskComponent } from './covid-risk/covid-risk.component';
 import { ReturnToNormalComponent } from './return-to-normal/return-to-normal.component';
+import { InfographicsComponent } from './infographics/infographics.component';
 
 const routes: Routes = [
   {
@@ -14,6 +15,7 @@ const routes: Routes = [
       { path: 'menu', component: MenuComponent },
       { path: 'covid-risk', component: CovidRiskComponent },
       { path: 'return-to-normal', component: ReturnToNormalComponent },
+      { path: 'infographics', component: InfographicsComponent },
     ],
   },
 ];
