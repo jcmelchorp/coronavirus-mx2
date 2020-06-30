@@ -10,10 +10,10 @@ import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 import { PopoverModule } from 'ngx-bootstrap/popover';
 import { InformationRoutingModule } from './information-routing.module';
 import { InformationComponent } from './information.component';
-import { CovidRiskComponent } from './covid-risk/covid-risk.component';
-import { MenuComponent } from './menu/menu.component';
-import { ReturnToNormalComponent } from './return-to-normal/return-to-normal.component';
-import { InfographicsComponent } from './infographics/infographics.component';
+import { CovidRiskComponent } from './components/covid-risk/covid-risk.component';
+import { MenuComponent } from './components/menu/menu.component';
+import { ReturnToNormalComponent } from './components/return-to-normal/return-to-normal.component';
+import { InfographicsComponent } from './components/infographics/infographics.component';
 
 @NgModule({
   declarations: [

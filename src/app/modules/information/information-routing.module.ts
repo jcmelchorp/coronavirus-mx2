@@ -2,10 +2,10 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { InformationComponent } from './information.component';
-import { MenuComponent } from './menu/menu.component';
-import { CovidRiskComponent } from './covid-risk/covid-risk.component';
-import { ReturnToNormalComponent } from './return-to-normal/return-to-normal.component';
-import { InfographicsComponent } from './infographics/infographics.component';
+import { MenuComponent } from './components/menu/menu.component';
+import { CovidRiskComponent } from './components/covid-risk/covid-risk.component';
+import { ReturnToNormalComponent } from './components/return-to-normal/return-to-normal.component';
+import { InfographicsComponent } from './components/infographics/infographics.component';
 
 const routes: Routes = [
   {

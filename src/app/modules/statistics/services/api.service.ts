@@ -5,19 +5,16 @@ import {
   HttpParams,
   HttpErrorResponse,
 } from '@angular/common/http';
-import { throwError, Observable } from 'rxjs';
-import { retry, catchError, tap, map } from 'rxjs/operators';
-import { Oneday } from '../models/oneday';
-import { DataAdapter } from './data-adapter';
+import { throwError } from 'rxjs';
+import { retry, catchError } from 'rxjs/operators';
 @Injectable({
   providedIn: 'root',
 })
 export class ApiService {
   private SERVER_URL: string = 'https://api.covid19api.com/';
-  private API_KEY = '';
   public timeline: number[];
 
-  constructor(private _httpClient: HttpClient, private adapter: DataAdapter) {}
+  constructor(private _httpClient: HttpClient) {}
 
   httpOptions = {
     headers: new HttpHeaders({
