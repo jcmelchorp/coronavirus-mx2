@@ -22,6 +22,7 @@ import { ContentComponent } from './core/content/content.component';
 import { WellcomeComponent } from './core/wellcome/wellcome.component';
 import { NotFoundComponent } from './core/not-found/not-found.component';
 import { UnderConstructionComponent } from './core/under-construction/under-construction.component';
+import { AboutComponent } from './core/about/about.component';
 // PWA import
 import { ServiceWorkerModule } from '@angular/service-worker';
 
@@ -40,6 +41,7 @@ import { environment } from '../environments/environment';
     WellcomeComponent,
     NotFoundComponent,
     UnderConstructionComponent,
+    AboutComponent,
   ],
   imports: [
     BrowserModule,

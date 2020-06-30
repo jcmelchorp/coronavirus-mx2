@@ -3,32 +3,57 @@
     <mat-toolbar-row fxLayoutAlign="space-between center">
       <div fxLayout="row">
         <button mat-icon-button [routerLink]="['/']">
-          <fa-icon [icon]="virus" size="2x"></fa-icon>
+          <mat-icon
+            class="mainlogo"
+            svgIcon="covid"
+            aria-hidden="false"
+            aria-label="covid icon"
+          ></mat-icon>
         </button>
         <!--buttons disappear on Xs devices-->
         <div *ngIf="!deviceXs">
-          <button mat-button [routerLink]="['statistics/current']">{{'statistics-module-name' | translate}}</button>
-          <button mat-button [routerLink]="['modeling/SIR']">{{'modeling-module-name' | translate}}</button>
-          <button mat-button [routerLink]="['information/menu']">{{'information-module-name' | translate}}</button>
+          <button mat-button [routerLink]="['statistics/current']">
+            {{ "statistics-module-name" | translate }}
+          </button>
+          <button mat-button [routerLink]="['modeling/SIR']">
+            {{ "modeling-module-name" | translate }}
+          </button>
+          <button mat-button [routerLink]="['information/menu']">
+            {{ "information-module-name" | translate }}
+          </button>
           <!-- <button mat-button [routerLink]="['modeling/SIR']">Modelo SIR</button>
           <button mat-button [routerLink]="['information']">Información</button> -->
         </div>
         <!---->
       </div>
       <div fxLayout="row">
-        <button mat-icon-button [matMenuTriggerFor]="langs" aria-label="Example icon-button with a menu">
+        <button
+          mat-icon-button
+          [matMenuTriggerFor]="langs"
+          aria-label="Example icon-button with a menu"
+        >
           <fa-icon [icon]="lang" size="lg"></fa-icon>
         </button>
-        <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+        <button
+          mat-icon-button
+          [matMenuTriggerFor]="menu"
+          aria-label="Example icon-button with a menu"
+        >
           <fa-icon [icon]="dots" size="lg"></fa-icon>
         </button>
       </div>
     </mat-toolbar-row>
     <!--mat-toolbar-row displayed on Xs devices-->
     <mat-toolbar-row *ngIf="deviceXs" fxLayoutAlign="space-between center">
-      <button mat-button [routerLink]="['statistics/current']">{{'statistics-module-name'|translate}}</button>
-      <button mat-button [routerLink]="['modeling/SIR']">{{'modeling-module-name'|translate}}</button>
-      <button mat-button [routerLink]="['information/menu']">{{'information-module-name'|translate}}</button>
+      <button mat-button [routerLink]="['statistics/current']">
+        {{ "statistics-module-name" | translate }}
+      </button>
+      <button mat-button [routerLink]="['modeling/SIR']">
+        {{ "modeling-module-name" | translate }}
+      </button>
+      <button mat-button [routerLink]="['information/menu']">
+        {{ "information-module-name" | translate }}
+      </button>
       <!-- <button mat-button [routerLink]="['modeling/SIR']">Modelo SIR</button>
       <button mat-button [routerLink]="['information']">Información</button> -->
     </mat-toolbar-row>
@@ -36,17 +61,31 @@
   </mat-toolbar>
   <!-- Menu Items -->
   <mat-menu #menu="matMenu" fxLayoutAlign="end">
-    <button mat-menu-item>Item 1</button>
-    <button mat-menu-item>Item 2</button>
+    <!--     <button mat-menu-item [routerLink]="['about']">Acerca de</button>
+ -->
+    <button mat-menu-item [routerLink]="['under-construction']">
+      Acerca de
+    </button>
+    <button mat-menu-item [routerLink]="['under-construction']">
+      Acerca de
+    </button>
   </mat-menu>
   <mat-menu #langs="matMenu" fxLayoutAlign="end">
     <button mat-menu-item (click)="switchLang('es')">
-      <mat-icon svgIcon="es" aria-hidden="false" aria-label="español flag icon"></mat-icon>
-      {{'language-es-name'|translate}}
+      <mat-icon
+        svgIcon="es"
+        aria-hidden="false"
+        aria-label="español flag icon"
+      ></mat-icon>
+      {{ "language-es-name" | translate }}
     </button>
     <button mat-menu-item (click)="switchLang('en')">
-      <mat-icon svgIcon="en" aria-hidden="false" aria-label="english flag icon"></mat-icon>
-      {{'language-en-name'|translate}}
+      <mat-icon
+        svgIcon="en"
+        aria-hidden="false"
+        aria-label="english flag icon"
+      ></mat-icon>
+      {{ "language-en-name" | translate }}
     </button>
   </mat-menu>
   <!---->
