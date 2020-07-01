@@ -30,10 +30,12 @@ export class RegionalComponent implements AfterViewInit {
         fillColor: '#6DB65B',
       }),
       onEachFeature: (feature, layer) =>
-        layer.on({
-          mouseover: (e) => this.highlightFeature(e),
-          mouseout: (e) => this.resetFeature(e),
-        }),
+        layer
+          .bindPopup(this.mapService.makeStatesPopup(feature.properties))
+          .on({
+            mouseover: (e) => this.highlightFeature(e),
+            mouseout: (e) => this.resetFeature(e),
+          }),
     });
 
     this.map.addLayer(stateLayer);
