@@ -12,9 +12,16 @@ import { ApiService } from './services/api.service';
 import { ChartsModule } from 'ng2-charts';
 
 import { HistoricalComponent } from './historical/historical.component';
+import { RegionalComponent } from './regional/regional.component';
+import { MapService } from './services/map.service';
 
 @NgModule({
-  declarations: [StatisticsComponent, DashboardComponent, HistoricalComponent],
+  declarations: [
+    StatisticsComponent,
+    DashboardComponent,
+    HistoricalComponent,
+    RegionalComponent,
+  ],
   imports: [
     CommonModule,
     StatisticsRoutingModule,
@@ -24,6 +31,6 @@ import { HistoricalComponent } from './historical/historical.component';
     HttpClientModule,
     ChartsModule,
   ],
-  providers: [ApiService],
+  providers: [ApiService, MapService],
 })
 export class StatisticsModule {}
