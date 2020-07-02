@@ -47,10 +47,10 @@ export class DashboardComponent implements OnInit, OnDestroy {
       position: 'right',
     },
   };
-  constructor(private _apiService: ApiService) {}
+  constructor(private apiService: ApiService) {}
 
   ngOnInit() {
-    this._apiService
+    this.apiService
       .sendGetRequest('summary')
       .pipe(takeUntil(this.destroy$))
       .subscribe((res: HttpResponse<any>) => {
@@ -62,7 +62,7 @@ export class DashboardComponent implements OnInit, OnDestroy {
           this.global.TotalDeaths,
         ];
         this.countries = this.summary.Countries;
-        this.mexico = this.countries.find((x) => x.Slug == 'mexico');
+        this.mexico = this.countries.find((x) => x.Slug === 'mexico');
         this.mexicoPieData = [
           this.mexico.TotalConfirmed,
           this.mexico.TotalRecovered,

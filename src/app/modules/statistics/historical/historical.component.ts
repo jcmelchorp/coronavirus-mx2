@@ -43,7 +43,7 @@ export class HistoricalComponent implements OnInit, OnDestroy {
   public lineChartType: ChartType = 'line';
   public lineChartPlugins = [];
 
-  constructor(private _apiService: ApiService) {}
+  constructor(private apiService: ApiService) {}
 
   diff(A) {
     return A.slice(1).map(function (n, i) {
@@ -59,34 +59,34 @@ export class HistoricalComponent implements OnInit, OnDestroy {
 
   ngOnInit() {
     this.countryName = 'mexico';
-    var startDate = '2020-05-01T00:00:00Z';
-    var endDate = '2020-06-26T00:00:00Z';
-    var params = '?from=' + startDate + '&to=' + endDate + '';
+    const startDate = '2020-05-01T00:00:00Z';
+    const endDate = '2020-06-26T00:00:00Z';
+    const params = '?from=' + startDate + '&to=' + endDate + '';
     //params = '';
-    this._apiService
+    this.apiService
       .sendGetRequest('total/country/' + this.countryName)
       .pipe(takeUntil(this.destroy$))
       .subscribe((res: HttpResponse<any>) => {
         const myObj = res.body;
-        var confirmedData = myObj.map(({ Confirmed }) => Confirmed);
-        var activeData = myObj.map(({ Active }) => Active);
-        var recoveredData = myObj.map(({ Recovered }) => Recovered);
-        var deathsData = myObj.map(({ Deaths }) => Deaths);
-        var newConfirmedData = this.diff(confirmedData);
-        var newActiveData = this.diff(activeData);
-        var newRecoveredData = this.diff(recoveredData);
-        var newDeathsData = this.diff(deathsData);
-        var selectedLabel = myObj.map(({ Date }) => Date);
-        for (var i in selectedLabel) {
+        const confirmedData = myObj.map(({ Confirmed }) => Confirmed);
+        const activeData = myObj.map(({ Active }) => Active);
+        const recoveredData = myObj.map(({ Recovered }) => Recovered);
+        const deathsData = myObj.map(({ Deaths }) => Deaths);
+        const newConfirmedData = this.diff(confirmedData);
+        const newActiveData = this.diff(activeData);
+        const newRecoveredData = this.diff(recoveredData);
+        const newDeathsData = this.diff(deathsData);
+        const selectedLabel = myObj.map(({ Date }) => Date);
+        for (let i in selectedLabel) {
           selectedLabel[i] = new Date(selectedLabel[i]).toDateString();
         }
-        var newDataSet: ChartDataSets[] = [
+        const newDataSet: ChartDataSets[] = [
           { data: newConfirmedData, label: 'Nuevos Confirmados' },
           { data: newRecoveredData, label: 'Nuevos Recuperados' },
           { data: newActiveData, label: 'Nuevos Activos' },
           { data: newDeathsData, label: 'Nuevos Muertos' },
         ];
-        var charDataSet: ChartDataSets[] = [
+        const charDataSet: ChartDataSets[] = [
           { data: confirmedData, label: 'Confirmados' },
           { data: recoveredData, label: 'Recuperados' },
           { data: activeData, label: 'Activos' },

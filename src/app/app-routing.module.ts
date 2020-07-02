@@ -15,13 +15,6 @@ const routes: Routes = [
       ),
   },
   {
-    path: 'modeling',
-    loadChildren: () =>
-      import('./modules/modeling/modeling.module').then(
-        (m) => m.ModelingModule
-      ),
-  },
-  {
     path: 'information',
     loadChildren: () =>
       import('./modules/information/information.module').then(
