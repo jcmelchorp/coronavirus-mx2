@@ -1,12 +1,12 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
-import { ApiService } from '../services/api.service';
-import { Summary } from '../models/summary.interface';
-import { Global } from '../models/global.interface';
+import { ApiService } from '../../services/api.service';
+import { Summary } from '../../models/summary.interface';
+import { Global } from '../../models/global.interface';
 import { Subject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
 import { HttpResponse } from '@angular/common/http';
 import { faGlobeAmericas } from '@fortawesome/free-solid-svg-icons';
-import { Countries } from '../models/countries.interface';
+import { Countries } from '../../models/countries.interface';
 import { ChartDataSets, ChartOptions, ChartType } from 'chart.js';
 import { Label, Color, MultiDataSet, SingleDataSet } from 'ng2-charts';
 
@@ -23,8 +23,8 @@ export class DashboardComponent implements OnInit, OnDestroy {
   mexico: Countries;
   date: string;
   destroy$: Subject<boolean> = new Subject<boolean>();
-  isLoading: boolean = true;
-  isCircleLoading: boolean = true;
+  isLoading = true;
+  isCircleLoading = true;
 
   public mexicoPieData: SingleDataSet = [0, 0, 0];
   public globalPieData: SingleDataSet = [0, 0, 0];

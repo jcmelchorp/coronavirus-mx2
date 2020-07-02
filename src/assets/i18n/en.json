@@ -1,9 +1,10 @@
 {
   "app-name": "Coronavirus MX",
   "app-description": "Information about pandemic induced by SARS-CoV2 nobel coronavirus",
+  "about-message": "Coronavirus-mx es una aplicación independiente diseñada para accedes fácilemnte a la información más relevante sobre la pandemia causada por el nuevo coronavirus SARS-CoV2, con especial atención a la República Mexicana.",
   "author-name": "by Julio Melchor",
   "made-for": "made in Mexico with",
-  "language-es-name": "Spanish",
+  "language-es-name": "Español",
   "language-en-name": "English",
   "home": "Home",
   "statistics-module-name": "Statistics",

@@ -1,8 +1,8 @@
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ChartDataSets, ChartOptions, ChartType } from 'chart.js';
 import { Label, Color } from 'ng2-charts';
-import { Oneday } from '../models/oneday';
-import { ApiService } from '../services/api.service';
+import { Oneday } from '../../models/oneday';
+import { ApiService } from '../../services/api.service';
 import { takeUntil } from 'rxjs/operators';
 import { Subject } from 'rxjs';
 import { HttpResponse } from '@angular/common/http';

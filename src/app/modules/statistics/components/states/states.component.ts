@@ -1,7 +1,7 @@
 import { Component, AfterViewInit } from '@angular/core';
-import { StatesService } from '../services/states.service';
 import { ChartDataSets } from 'chart.js';
 import { Label } from 'ng2-charts';
+import { StatesService } from '../../services/states.service';
 
 @Component({
   selector: 'app-states',

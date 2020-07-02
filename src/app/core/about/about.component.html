@@ -1,13 +1,31 @@
 <div class="jumbotron">
-  <div class="pt-3 text-center">
-    <mat-icon
-      class="mainlogo"
-      svgIcon="covid"
-      aria-hidden="false"
-      aria-label="covid icon"
-    ></mat-icon>
-    <p class="display-4 app-name">
-      {{ "app-name" | translate }}
-    </p>
+  <div class="py-3" fxLayout="row wrap" fxLayout.lt-sm="column" fxLayoutGap="10px" fxLayoutAlign="flex-start">
+    <div fxFlex="0 1 calc(33.3% - 10px)" fxFlex.lt-md="0 1 calc(50% - 10px)" fxFlex.lt-sm="100%">
+      <mat-card>
+        <p class="mat-h1 app-name">
+          <mat-icon class="mainlogo" svgIcon="covid" aria-hidden="false" aria-label="covid icon"></mat-icon>
+          {{ "app-name" | translate }}
+        </p>
+        <p>{{ "about-message" | translate }}</p>
+      </mat-card>
+    </div>
+    <div fxFlex="0 1 calc(33.3% - 10px)" fxFlex.lt-md="0 1 calc(50% - 10px)" fxFlex.lt-sm="100%">
+      <mat-card>
+        <p class="mat-h1 app-name">
+          <mat-icon class="mainlogo" svgIcon="covid" aria-hidden="false" aria-label="covid icon"></mat-icon>
+          {{ "app-name" | translate }}
+        </p>
+        <p>{{ "about-message" | translate }}</p>
+      </mat-card>
+    </div>
+    <div fxFlex="0 1 calc(33.3% - 10px)" fxFlex.lt-md="0 1 calc(50% - 10px)" fxFlex.lt-sm="100%">
+      <mat-card>
+        <p class="mat-h1 app-name">
+          <mat-icon class="mainlogo" svgIcon="covid" aria-hidden="false" aria-label="covid icon"></mat-icon>
+          {{ "app-name" | translate }}
+        </p>
+        <p>{{ "about-message" | translate }}</p>
+      </mat-card>
+    </div>
   </div>
 </div>

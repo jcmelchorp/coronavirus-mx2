@@ -1,12 +1,12 @@
-import { NgModule, Input } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { StatisticsComponent } from './statistics.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { HistoricalComponent } from './historical/historical.component';
-import { RegionalComponent } from './regional/regional.component';
-import { StatesComponent } from './states/states.component';
-import { SIRComponent } from './s-i-r/s-i-r.component';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { HistoricalComponent } from './components/historical/historical.component';
+import { RegionalComponent } from './components/regional/regional.component';
+import { StatesComponent } from './components/states/states.component';
+import { SIRComponent } from './components/s-i-r/s-i-r.component';
 
 const routes: Routes = [
   {

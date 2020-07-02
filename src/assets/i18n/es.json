@@ -1,10 +1,11 @@
 {
   "app-name": "Coronavirus MX",
   "app-description": "Información sobre la pandemia causada por el nuevo coronavirus SARS-CoV2",
+  "about-message": "Coronavirus-mx es una aplicación independiente diseñada para accedes fácilemnte a la información más relevante sobre la pandemia causada por el nuevo coronavirus SARS-CoV2, con especial atención a la República Mexicana.",
   "author-name": "por Julio César Melchor Pinto",
   "made-for": "para México con",
   "language-es-name": "Español",
-  "language-en-name": "Inglés",
+  "language-en-name": "English",
   "home": "Inicio",
   "statistics-module-name": "Estadísticas",
   "statistics-current-route-name": "Datos actuales",

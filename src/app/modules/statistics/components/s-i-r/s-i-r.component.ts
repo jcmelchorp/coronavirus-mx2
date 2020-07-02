@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { KatexOptions } from 'ng-katex';
 import { ChartDataSets, ChartOptions, ChartType } from 'chart.js';
 import { Label, Color } from 'ng2-charts';
-import { FormBuilder, Validators, FormControl } from '@angular/forms';
+import { FormBuilder, Validators } from '@angular/forms';
 
 export interface Result {
   suc?: number;
