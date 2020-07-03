@@ -15,7 +15,7 @@ export class StatesComponent implements AfterViewInit {
   public newData: ChartDataSets[] = [{ data: [], label: '' }];
   public lineChartLabels: Label[] = [];
   constructor(private stateService: StatesService) {}
-  getConfirmedStates() {
+  /* getConfirmedStates() {
     this.stateService.getConfirmed().subscribe((data) => {
       console.log(data);
       const list = data.split('\n');
@@ -24,8 +24,8 @@ export class StatesComponent implements AfterViewInit {
       });
       console.log(this.covdata);
     });
-  }
+  } */
   ngAfterViewInit(): void {
-    this.getConfirmedStates();
+    //this.getConfirmedStates();
   }
 }

@@ -3,17 +3,13 @@
     <div class="text-center">
       <p class="display-4 d-none d-sm-block">Datos actuales</p>
       <p class="mat-h1 d-none d-sm-block">
-        <small class="text-muted"
-          >Panel de datos actuales en M&eacute;xico y el mundo.</small
-        >
+        <small class="text-muted">Panel de datos actuales en M&eacute;xico y el mundo.</small>
       </p>
       <p class="d-block d-sm-none" [ngStyle]="{ fontSize: '32px' }">
         Datos actuales
       </p>
       <p class="mat-h3 d-block d-sm-none">
-        <small class="text-muted"
-          >Panel de datos actuales en M&eacute;xico y el mundo.</small
-        >
+        <small class="text-muted">Panel de datos actuales en M&eacute;xico y el mundo.</small>
       </p>
     </div>
   </div>
@@ -22,27 +18,11 @@
 <div fxLayoutAlign="center center">
   <mat-spinner *ngIf="isLoading"></mat-spinner>
 </div>
-<div
-  *ngIf="!isLoading"
-  class="pl-3 pr-3 pb-5"
-  fxLayout="row wrap"
-  fxLayout.lt-sm="column"
-  fxLayoutGap="10px"
-  fxLayoutAlign="flex-start"
->
-  <mat-card
-    [class.mat-elevation-z6]="true"
-    class="my-2"
-    fxFlex="0 1 calc(50% - 10px)"
-    fxFlex.lt-md="100%"
-  >
+<div *ngIf="!isLoading" class="px-3" fxLayout="row wrap" fxLayout.lt-sm="column" fxLayoutGap="10px"
+  fxLayoutAlign="flex-start">
+  <mat-card [class.mat-elevation-z6]="true" class="my-2" fxFlex="0 1 calc(50% - 10px)" fxFlex.lt-md="100%">
     <mat-card-header>
-      <mat-icon
-        mat-card-avatar
-        svgIcon="es"
-        aria-hidden="false"
-        aria-label="mexico flag icon"
-      ></mat-icon>
+      <mat-icon mat-card-avatar svgIcon="es" aria-hidden="false" aria-label="mexico flag icon"></mat-icon>
       <mat-card-title>{{ mexico.Country | titlecase }}</mat-card-title>
       <mat-card-subtitle>{{ mexico.Date | date }}</mat-card-subtitle>
     </mat-card-header>
@@ -70,28 +50,15 @@
           </h1>
         </div>
         <div>
-          <canvas
-            baseChart
-            [data]="mexicoPieData"
-            [labels]="pieLabels"
-            [chartType]="pieType"
-            [options]="pieOptions"
-            [plugins]="piePlugins"
-            [legend]="pieLegend"
-            [colors]="pieColors"
-          >
+          <canvas baseChart [data]="mexicoPieData" [labels]="pieLabels" [chartType]="'pie'" [options]="pieOptions"
+            [plugins]="[]" [legend]="true" [colors]="pieColors">
           </canvas>
         </div>
       </div>
     </mat-card-content>
   </mat-card>
 
-  <mat-card
-    [class.mat-elevation-z6]="true"
-    class="my-2"
-    fxFlex="0 1 calc(50% - 10px)"
-    fxFlex.lt-md="100%"
-  >
+  <mat-card [class.mat-elevation-z6]="true" class="my-2" fxFlex="0 1 calc(50% - 10px)" fxFlex.lt-md="100%">
     <mat-card-header>
       <fa-icon mat-card-avatar [icon]="world" size="3x"></fa-icon>
       <mat-card-title>Global</mat-card-title>
@@ -121,19 +88,20 @@
           </h1>
         </div>
         <div>
-          <canvas
-            baseChart
-            [data]="globalPieData"
-            [labels]="pieLabels"
-            [chartType]="pieType"
-            [options]="pieOptions"
-            [plugins]="piePlugins"
-            [legend]="pieLegend"
-            [colors]="pieColors"
-          >
+          <canvas baseChart [data]="globalPieData" [labels]="pieLabels" [chartType]="'pie'" [options]="pieOptions"
+            [plugins]="[]" [legend]="true" [colors]="pieColors">
           </canvas>
         </div>
       </div>
     </mat-card-content>
   </mat-card>
+</div>
+<div class="px-5">
+  <!--  <mat-card>
+    <div style="display: block">
+      <canvas baseChart [datasets]="statesBarData" [labels]="barLabels" [options]="{responsive: true}" [plugins]="[]"
+        [legend]="true" [chartType]="'bar'">
+      </canvas>
+    </div>
+  </mat-card> -->
 </div>

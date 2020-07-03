@@ -1,3 +1,4 @@
+import { FirebaseService } from './modules/statistics/services/firebase.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -66,7 +67,7 @@ import { environment } from '../environments/environment';
       },
     }),
   ],
-  providers: [],
+  providers: [FirebaseService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

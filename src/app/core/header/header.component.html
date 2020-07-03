@@ -3,12 +3,7 @@
     <mat-toolbar-row fxLayoutAlign="space-between center">
       <div fxLayout="row">
         <button mat-icon-button [routerLink]="['/']">
-          <mat-icon
-            class="mainlogo"
-            svgIcon="covid"
-            aria-hidden="false"
-            aria-label="covid icon"
-          ></mat-icon>
+          <mat-icon class="mainlogo" svgIcon="covid" aria-hidden="false" aria-label="covid icon"></mat-icon>
         </button>
         <!--buttons disappear on Xs devices-->
         <div *ngIf="!deviceXs">
@@ -25,18 +20,10 @@
         <!---->
       </div>
       <div fxLayout="row">
-        <button
-          mat-icon-button
-          [matMenuTriggerFor]="langs"
-          aria-label="Example icon-button with a menu"
-        >
+        <button mat-icon-button [matMenuTriggerFor]="langs" aria-label="Example icon-button with a menu">
           <fa-icon [icon]="lang" size="lg"></fa-icon>
         </button>
-        <button
-          mat-icon-button
-          [matMenuTriggerFor]="menu"
-          aria-label="Example icon-button with a menu"
-        >
+        <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
           <fa-icon [icon]="dots" size="lg"></fa-icon>
         </button>
       </div>
@@ -56,30 +43,20 @@
   </mat-toolbar>
   <!-- Menu Items -->
   <mat-menu #menu="matMenu" fxLayoutAlign="end">
-    <!--     <button mat-menu-item [routerLink]="['about']">Acerca de</button>
- -->
     <button mat-menu-item [routerLink]="['about']">
       Acerca de
     </button>
     <button mat-menu-item [routerLink]="['under-construction']">
-      Acerca de
+      En construcción
     </button>
   </mat-menu>
   <mat-menu #langs="matMenu" fxLayoutAlign="end">
     <button mat-menu-item (click)="switchLang('es')">
-      <mat-icon
-        svgIcon="es"
-        aria-hidden="false"
-        aria-label="español flag icon"
-      ></mat-icon>
+      <mat-icon svgIcon="es" aria-hidden="false" aria-label="español flag icon"></mat-icon>
       {{ "language-es-name" | translate }}
     </button>
     <button mat-menu-item (click)="switchLang('en')">
-      <mat-icon
-        svgIcon="en"
-        aria-hidden="false"
-        aria-label="english flag icon"
-      ></mat-icon>
+      <mat-icon svgIcon="en" aria-hidden="false" aria-label="english flag icon"></mat-icon>
       {{ "language-en-name" | translate }}
     </button>
   </mat-menu>
