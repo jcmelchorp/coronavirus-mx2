@@ -23,13 +23,31 @@
   <mat-card [class.mat-elevation-z6]="true" class="my-2" fxFlex="100%">
     <mat-card-header>
       <mat-icon mat-card-avatar svgIcon="es" aria-hidden="false" aria-label="mexico flag icon"></mat-icon>
+      <mat-card-title>Resultados de pruebas COVID-19</mat-card-title>
+      <mat-card-subtitle>Fuente:
+        <a mat-button target="_blank" aria-label="Enlase al sitio official de Mexico"
+          href="https://www.gob.mx/salud/documentos/datos-abiertos-bases-historicas-direccion-general-de-epidemiologia">Datos
+          Abiertos
+        </a>
+      </mat-card-subtitle>
+    </mat-card-header>
+    <mat-card-content>
+      <canvas baseChart [datasets]="acumData" [labels]="timeBarLabels" [options]="{ responsive: true }"
+        [colors]="lineChartColors" [legend]="true" [chartType]="'line'" [plugins]="[]">
+      </canvas>
+    </mat-card-content>
+  </mat-card>
+
+  <mat-card [class.mat-elevation-z6]="true" class="my-2" fxFlex="100%">
+    <mat-card-header>
+      <mat-icon mat-card-avatar svgIcon="es" aria-hidden="false" aria-label="mexico flag icon"></mat-icon>
       <mat-card-title>Casos acumulados</mat-card-title>
       <mat-card-subtitle>La cantidad de casos desde los inicios de la
         pandemia.</mat-card-subtitle>
     </mat-card-header>
     <mat-card-content>
-      <canvas baseChart [datasets]="cumulativeData" [labels]="lineChartLabels" [options]="lineChartOptions"
-        [colors]="lineChartColors" [legend]="lineChartLegend" [chartType]="lineChartType" [plugins]="lineChartPlugins">
+      <canvas baseChart [datasets]="cumulativeData" [labels]="lineChartLabels" [options]="{ responsive: true }"
+        [colors]="lineChartColors" [legend]="true" [chartType]="'line'" [plugins]="[]">
       </canvas>
     </mat-card-content>
   </mat-card>
@@ -40,8 +58,8 @@
       <mat-card-subtitle>El numero de casos que se registaron por día.</mat-card-subtitle>
     </mat-card-header>
     <mat-card-content>
-      <canvas baseChart [datasets]="newData" [labels]="lineChartLabels" [options]="lineChartOptions"
-        [colors]="lineChartColors" [legend]="lineChartLegend" [chartType]="lineChartType" [plugins]="lineChartPlugins">
+      <canvas baseChart [datasets]="newData" [labels]="lineChartLabels" [options]="{ responsive: true }"
+        [colors]="lineChartColors" [legend]="true" [chartType]="'line'" [plugins]="[]">
       </canvas>
     </mat-card-content>
   </mat-card>

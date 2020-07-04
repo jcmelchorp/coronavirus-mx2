@@ -1,26 +1,29 @@
+import { StatesService } from './../../services/states.service';
 import { Component, OnInit, OnDestroy } from '@angular/core';
 import { ChartDataSets, ChartOptions, ChartType } from 'chart.js';
 import { Label, Color } from 'ng2-charts';
 import { Oneday } from '../../models/oneday';
 import { ApiService } from '../../services/api.service';
-import { takeUntil } from 'rxjs/operators';
+import { takeUntil, map } from 'rxjs/operators';
 import { Subject } from 'rxjs';
 import { HttpResponse } from '@angular/common/http';
-
+import { Acum } from '../../models/acum';
 @Component({
   selector: 'app-historical',
   templateUrl: './historical.component.html',
   styleUrls: ['./historical.component.scss'],
 })
 export class HistoricalComponent implements OnInit, OnDestroy {
+  public national: any;
   destroy$: Subject<boolean> = new Subject<boolean>();
-  isLoading: boolean = true;
+  isLoading = true;
   public countryData: Oneday[];
   countryName: string;
   public cumulativeData: ChartDataSets[] = [{ data: [], label: '' }];
   public newData: ChartDataSets[] = [{ data: [], label: '' }];
   public lineChartLabels: Label[] = [];
-  public lineChartOptions: ChartOptions = { responsive: true };
+  public acumData: ChartDataSets[] = [{ data: [], label: '' }];
+  public timeBarLabels: Label[] = [];
   public lineChartColors: Color[] = [
     {
       borderColor: 'rgba(0,120,0,1)',
@@ -39,16 +42,44 @@ export class HistoricalComponent implements OnInit, OnDestroy {
       backgroundColor: 'rgba(180,20,0,0.5)',
     },
   ];
-  public lineChartLegend = true;
-  public lineChartType: ChartType = 'line';
-  public lineChartPlugins = [];
 
-  constructor(private apiService: ApiService) {}
+  constructor(
+    private apiService: ApiService,
+    private stateService: StatesService
+  ) {}
 
   diff(A) {
     return A.slice(1).map(function (n, i) {
       return n - A[i];
     });
+  }
+
+  getResults() {
+    this.stateService
+      .getTotals()
+      .pipe(takeUntil(this.destroy$))
+      .subscribe((res: HttpResponse<any>) => {
+        const myObj = res.body;
+        const dates = myObj.map(({ date }) => date);
+        for (let i in dates) {
+          dates[i] = new Date(dates[i]).toDateString();
+        }
+        this.timeBarLabels = dates;
+        //console.log(this.timeBarLabels);
+
+        const national = myObj.map(({ nacional }) => nacional);
+
+        const negative = national.map(({ negativos }) => negativos);
+        const positive = national.map(({ positivos }) => positivos);
+        const suspect = national.map(({ sospechosos }) => sospechosos);
+        console.log(negative);
+        const nationalDataSet: ChartDataSets[] = [
+          { data: negative, label: 'Negativos' },
+          { data: positive, label: 'Positivos' },
+          { data: suspect, label: 'Sospechosos' },
+        ];
+        this.acumData = nationalDataSet;
+      });
   }
 
   ngOnDestroy(): void {
@@ -58,13 +89,13 @@ export class HistoricalComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit() {
+    this.getResults();
     this.countryName = 'mexico';
-    const startDate = '2020-05-01T00:00:00Z';
-    const endDate = '2020-06-26T00:00:00Z';
+    const startDate = '2020-04-12T00:00:00Z';
+    const endDate = '2020-07-03T00:00:00Z';
     const params = '?from=' + startDate + '&to=' + endDate + '';
-    //params = '';
     this.apiService
-      .sendGetRequest('total/country/' + this.countryName)
+      .sendGetRequest('total/country/' + this.countryName + params)
       .pipe(takeUntil(this.destroy$))
       .subscribe((res: HttpResponse<any>) => {
         const myObj = res.body;
