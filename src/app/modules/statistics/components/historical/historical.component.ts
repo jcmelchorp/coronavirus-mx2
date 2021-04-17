@@ -92,7 +92,7 @@ export class HistoricalComponent implements OnInit, OnDestroy {
     this.getResults();
     this.countryName = 'mexico';
     const startDate = '2020-04-12T00:00:00Z';
-    const endDate = '2020-07-03T00:00:00Z';
+    const endDate = new Date().toLocaleString();
     const params = '?from=' + startDate + '&to=' + endDate + '';
     this.apiService
       .sendGetRequest('total/country/' + this.countryName + params)

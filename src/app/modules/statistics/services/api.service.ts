@@ -45,4 +45,8 @@ export class ApiService {
     window.alert(errorMessage);
     return throwError(errorMessage);
   }
+  getCountries(){
+    return this._httpClient.get(this.SERVER_URL+'/countries',{observe:'response'})
+    .pipe(retry(3), catchError(this.handleError));
+  }
 }
